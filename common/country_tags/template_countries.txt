@@ -1,0 +1,2 @@
+TST = "countries/Test.txt"
+NRT = "countries/North.txt"

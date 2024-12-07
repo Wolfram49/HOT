@@ -1,0 +1,13 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		331 423 897 1202 4323 5550 6201 6214 6224 6244 6254 6261 6281 
+	}
+	history = {
+		owner = NRT
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

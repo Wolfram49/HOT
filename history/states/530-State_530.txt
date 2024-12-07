@@ -1,0 +1,10 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		586 1547 1631 2042 2323 3454 4091 4141 6896 6925 7166 7256 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

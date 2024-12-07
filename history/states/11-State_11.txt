@@ -1,0 +1,13 @@
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		6019 6021 
+	}
+	history = {
+		owner = NRT
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}
