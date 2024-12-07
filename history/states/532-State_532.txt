@@ -4,6 +4,9 @@ state={
 	provinces={
 		1351 3350 4762 4931 4981 6983 7013 7035 7055 7082 7102 7127 
 	}
+	history = {
+		owner = WSL
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

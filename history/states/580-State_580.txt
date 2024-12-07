@@ -4,6 +4,9 @@ state={
 	provinces={
 		157 686 2011 2358 2520 2612 3301 3782 3916 4574 4945 5410 5483 5579 5637 7265 7280 7281 7299 7322 7331 7332 7379 7454 7505 7515 
 	}
+	history = {
+		owner = RIL
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

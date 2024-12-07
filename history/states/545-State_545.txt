@@ -4,6 +4,9 @@ state={
 	provinces={
 		361 816 1015 2973 3079 7034 7041 7106 7170 
 	}
+	history = {
+		owner = VAL
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

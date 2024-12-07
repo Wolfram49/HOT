@@ -4,6 +4,9 @@ state={
 	provinces={
 		42 158 1161 1320 1705 2859 5311 6064 6070 6075 6078 6082 6092 6099 
 	}
+	history = {
+		owner = NSW
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

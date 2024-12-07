@@ -4,6 +4,9 @@ state={
 	provinces={
 		246 338 1142 2123 2687 2765 3008 4150 4184 4580 4697 5471 7852 7864 7967 8003 8023 8043 8044 
 	}
+	history = {
+		owner = REA
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

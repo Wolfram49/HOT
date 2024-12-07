@@ -4,6 +4,9 @@ state={
 	provinces={
 		1512 2102 2711 2939 3240 3688 3693 3765 4595 5531 7545 7554 7560 7567 7604 7609 7632 7642 7648 7680 
 	}
+	history = {
+		owner = RIL
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

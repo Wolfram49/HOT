@@ -4,6 +4,51 @@ TST = {
 }
 
 NRT = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 162 161 159 }
+	color_ui = rgb { 162 161 159 }
+}
+
+NSW = {
+	color = rgb { 39 40 35 }
+	color_ui = rgb { 39 40 35 }
+}
+
+VAL = {
+	color = rgb { 112 185 218 }
+	color_ui = rgb { 112 185 218 }
+}
+
+CRL = {
+	color = rgb { 223 51 101 }
+	color_ui = rgb { 223 51 101 }
+}
+
+DOR = {
+	color = rgb { 204 112 6 }
+	color_ui = rgb { 204 112 6 }
+}
+
+WSL = {
+	color = rgb { 194 17 17 }
+	color_ui = rgb { 194 17 17 }
+}
+
+STL = {
+	color = rgb { 240 208 89 }
+	color_ui = rgb { 240 208 89 }
+}
+
+REA = {
+	color = rgb { 41 124 34 }
+	color_ui = rgb { 41 124 34 }
+}
+
+RIL = {
+	color = rgb { 42 42 75 }
+	color_ui = rgb { 42 42 75 }
+}
+
+IRI = {
+	color = rgb { 136 148 164 }
+	color_ui = rgb { 136 148 164 }
 }

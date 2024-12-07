@@ -4,6 +4,9 @@ state={
 	provinces={
 		153 450 1461 2032 2216 2368 3871 4037 4083 4106 4179 4298 5160 5582 5615 8783 8788 8840 8855 8895 8903 8934 8947 8948 8954 8964 8979 8987 8988 8989 8995 8996 9012 9018 
 	}
+	history = {
+		owner = DOR
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
