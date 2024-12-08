@@ -1,1 +1,3 @@
 capital = 688
+
+recruit_character = REA_mace_tyrell#

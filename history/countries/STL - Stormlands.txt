@@ -1,1 +1,3 @@
 capital = 661
+
+recruit_character = STL_renly_baratheon#

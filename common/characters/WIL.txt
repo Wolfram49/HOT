@@ -1,0 +1,15 @@
+characters = {
+	WIL_mans_rayder = {
+		name= WIL_mans_rayder
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WIL_mans_rayder
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

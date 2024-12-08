@@ -1,0 +1,15 @@
+characters = {
+	REA_mace_tyrell = {
+		name= REA_mace_tyrell
+		portraits = {
+			civilian = {
+				large = GFX_portrait_REA_mace_tyrell
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

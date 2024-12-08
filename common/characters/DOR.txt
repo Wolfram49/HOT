@@ -1,0 +1,15 @@
+characters = {
+	DOR_doran_martell = {
+		name= DOR_doran_martell
+		portraits = {
+			civilian = {
+				large = GFX_portrait_DOR_doran_martell
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

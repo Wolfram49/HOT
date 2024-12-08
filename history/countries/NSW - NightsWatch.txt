@@ -1,1 +1,3 @@
 capital = 417
+
+recruit_character = NSW_jeor_mormont#

@@ -1,0 +1,3 @@
+capital = 376
+
+recruit_character = WHW_king_of_night#

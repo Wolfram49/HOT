@@ -1,0 +1,15 @@
+characters = {
+	RIL_hoster_tully = {
+		name= RIL_hoster_tully
+		portraits = {
+			civilian = {
+				large = GFX_portrait_RIL_hoster_tully
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

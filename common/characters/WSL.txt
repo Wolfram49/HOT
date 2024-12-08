@@ -1,0 +1,15 @@
+characters = {
+	WSL_tywin_lannister = {
+		name= WSL_tywin_lannister
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WSL_tywin_lannister
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

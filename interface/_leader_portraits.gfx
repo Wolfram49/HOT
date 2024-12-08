@@ -1,0 +1,50 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_WHW_king_of_night"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_king_of_night.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_mans_rayder"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_mans_rayder.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_jeor_mormont"
+		texturefile = "gfx/leaders/NSW/portrait_NSW_jeor_mormont.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_eddard_stark"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_eddard_stark.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_hoster_tully"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_hoster_tully.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_robin_arryn"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_robin_arryn.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_mace_tyrell"
+		texturefile = "gfx/leaders/REA/portrait_REA_mace_tyrell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_tywin_lannister"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_tywin_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_doran_martell"
+		texturefile = "gfx/leaders/DOR/portrait_DOR_doran_martell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_robert_baratheon"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_robert_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_renly_baratheon"
+		texturefile = "gfx/leaders/STL/portrait_STL_renly_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_balon_greyjoy"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_balon_greyjoy.dds"
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	IRI_balon_greyjoy = {
+		name= IRI_balon_greyjoy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRI_balon_greyjoy
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

@@ -2,12 +2,13 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		date = 298.3.24.16
 		picture = "GFX_select_date_1936"
 		default_country = "NRT"
-	
+		default = yes
 
-	NRT={
+
+		"NRT"={
 			history = "NRT_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -16,6 +17,138 @@ bookmarks = {
 			focuses = {
 
 			}
+		}
+
+		"VAL"={
+			history = "VAL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"REA"={
+			history = "REA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"DOR"={
+			history = "DOR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"WSL"={
+			history = "WSL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"RIL"={
+			history = "RIL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"CRL"={
+			history = "CRL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"STL"={
+			history = "STL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		# minors from DLC ####
+
+		"NSW"={
+			minor = yes
+			history = "NSW_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"WIL"={
+			minor = yes
+			history = "NSW_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"WHW"={
+			minor = yes
+			history = "NSW_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"IRI"={
+			minor = yes
+			history = "IRI_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+			effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
 		}
 	}
 }

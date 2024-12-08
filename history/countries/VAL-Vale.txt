@@ -1,1 +1,3 @@
 capital = 522
+
+recruit_character = VAL_robin_arryn#

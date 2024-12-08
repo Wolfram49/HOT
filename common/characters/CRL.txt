@@ -1,0 +1,15 @@
+characters = {
+	CRL_robert_baratheon = {
+		name= CRL_robert_baratheon
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRL_robert_baratheon
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

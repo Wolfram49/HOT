@@ -1,0 +1,3 @@
+capital = 405
+
+recruit_character = WIL_mans_rayder#

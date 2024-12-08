@@ -1,1 +1,3 @@
 capital = 611
+
+recruit_character = WSL_tywin_lannister#

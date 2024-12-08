@@ -4,6 +4,9 @@ state={
 	provinces={
 		1013 1454 2004 2062 2580 3036 3179 3409 3828 4039 5027 5373 5823 5831 5839 5854 
 	}
+	history = {
+		owner = WHW
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

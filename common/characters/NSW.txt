@@ -1,0 +1,15 @@
+characters = {
+	NSW_jeor_mormont = {
+		name= NSW_jeor_mormont
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NSW_jeor_mormont
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

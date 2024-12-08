@@ -52,3 +52,13 @@ IRI = {
 	color = rgb { 136 148 164 }
 	color_ui = rgb { 136 148 164 }
 }
+
+WIL = {
+	color = rgb { 89 125 78 }
+	color_ui = rgb { 89 125 78 }
+}
+
+WHW = {
+	color = rgb { 173 216 230 }
+	color_ui = rgb { 173 216 230 }
+}

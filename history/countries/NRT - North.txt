@@ -1,1 +1,3 @@
 capital = 442
+
+recruit_character = NRT_eddard_stark#

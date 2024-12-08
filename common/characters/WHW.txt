@@ -1,0 +1,15 @@
+characters = {
+	WHW_king_of_night = {
+		name= WHW_king_of_night
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WHW_king_of_night
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

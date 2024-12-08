@@ -1,1 +1,3 @@
 capital = 621
+
+recruit_character = CRL_robert_baratheon#

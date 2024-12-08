@@ -1,0 +1,15 @@
+characters = {
+	STL_renly_baratheon = {
+		name= STL_renly_baratheon
+		portraits = {
+			civilian = {
+				large = GFX_portrait_STL_renly_baratheon
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

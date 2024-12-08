@@ -1,1 +1,3 @@
 capital = 547
+
+recruit_character = RIL_hoster_tully#

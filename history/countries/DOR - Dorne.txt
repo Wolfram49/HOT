@@ -1,1 +1,3 @@
 capital = 757
+
+recruit_character = DOR_doran_martell#

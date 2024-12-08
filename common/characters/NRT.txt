@@ -1,0 +1,15 @@
+characters = {
+	NRT_eddard_stark = {
+		name= NRT_eddard_stark
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NRT_eddard_stark
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}

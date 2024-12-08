@@ -1,1 +1,3 @@
 capital = 94
+
+recruit_character = IRI_balon_greyjoy#

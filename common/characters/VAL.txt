@@ -1,0 +1,15 @@
+characters = {
+	VAL_robin_arryn = {
+		name= VAL_robin_arryn
+		portraits = {
+			civilian = {
+				large = GFX_portrait_VAL_robin_arryn
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			traits={  }
+			id=-1
+		}
+	}
+}
