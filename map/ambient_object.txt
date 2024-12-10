@@ -51,7 +51,7 @@ type={
 	object={
 		name="greatwall"
 		position={
-			1613.000 -14.450 1488.000 
+			1610.000 -14.450 1493.000 
 		}
 		rotation={
 			0.000 180.000 0.000 
@@ -70,6 +70,21 @@ type={
 		}
 		rotation={
 			15.000 330.000 0.000 
+		}
+	}
+}
+type={
+	type="castle_black"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="castle_black"
+		position={
+			1642.250 11.050 1557.360 
+		}
+		rotation={
+			15.000 360.000 0.000 
 		}
 	}
 }
