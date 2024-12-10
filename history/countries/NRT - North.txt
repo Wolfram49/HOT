@@ -1,3 +1,13 @@
 capital = 442
 
 recruit_character = NRT_eddard_stark#
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 55
+	democratic = 35
+	communism = 10
+	fascism = 0
+}

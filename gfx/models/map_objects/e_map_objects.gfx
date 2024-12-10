@@ -1,0 +1,22 @@
+objectTypes = {
+	pdxmesh = {
+		name = "greatwall_mesh"
+		file = "gfx/models/map_objects/greatwall/mesh_greatwall.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "colossus_mesh"
+		file = "gfx/models/map_objects/colossus/mesh_colossus.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+}

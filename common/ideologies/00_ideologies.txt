@@ -1,0 +1,156 @@
+ideologies = {
+
+	neutrality = {
+
+		types = {
+			white_walkers = {
+
+			}
+
+			wildlings = {
+
+			}
+
+			stark_house = {
+
+			}
+
+			nights_watch = {
+
+			}
+		}
+
+		dynamic_faction_names = {
+
+		}
+
+		color = { 93 173 226 }
+
+		rules = {
+
+		}
+
+
+
+		modifiers = {
+
+		}
+
+		faction_modifiers = {
+
+		}
+
+	}
+
+	democratic = {
+
+		types = {
+			tully_house = {
+
+			}
+
+			arryn_house = {
+
+			}
+
+			baratheon_house = {
+
+			}
+
+			lannister_house = {
+
+			}
+
+			crownlands = {
+
+			}
+
+			tyrell_house = {
+
+			}
+
+			greyjoy_house = {
+
+			}
+		}
+
+		dynamic_faction_names = {
+
+		}
+
+		color = { 255 215 0 }
+
+		rules = {
+
+		}
+
+
+
+		modifiers = {
+
+		}
+
+		faction_modifiers = {
+
+		}
+	}
+
+	communism = {
+
+		types = {
+			targarien_house = {
+
+			}
+		}
+
+		dynamic_faction_names = {
+
+		}
+
+		color = { 231 76 60 }
+
+		rules = {
+
+		}
+
+
+
+		modifiers = {
+
+		}
+
+		faction_modifiers = {
+
+		}
+	}
+
+	fascism = {
+
+		types = {
+			martell_house = {
+				
+			}
+		}
+
+		dynamic_faction_names = {
+
+		}
+
+		color = { 243 156 18 }
+
+		rules = {
+
+		}
+
+
+
+		modifiers = {
+
+		}
+
+		faction_modifiers = {
+
+		}
+
+	}
+}

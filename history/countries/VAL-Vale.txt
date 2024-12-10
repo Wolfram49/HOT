@@ -1,3 +1,13 @@
 capital = 522
 
 recruit_character = VAL_robin_arryn#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 32
+	democratic = 50
+	communism = 8
+	fascism = 10
+}

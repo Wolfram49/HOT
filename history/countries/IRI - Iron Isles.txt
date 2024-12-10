@@ -1,3 +1,13 @@
 capital = 94
 
 recruit_character = IRI_balon_greyjoy#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 40
+	democratic = 60
+	communism = 0
+	fascism = 0
+}

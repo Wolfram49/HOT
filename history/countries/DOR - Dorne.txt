@@ -1,3 +1,13 @@
 capital = 757
 
 recruit_character = DOR_doran_martell#
+
+set_politics = {
+	ruling_party = fascism
+}
+set_popularities = {
+	neutrality = 5
+	democratic = 25
+	communism = 5
+	fascism = 65
+}

@@ -1,3 +1,13 @@
 capital = 611
 
 recruit_character = WSL_tywin_lannister#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 35
+	democratic = 55
+	communism = 0
+	fascism = 10
+}

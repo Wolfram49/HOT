@@ -1,3 +1,13 @@
 capital = 417
 
 recruit_character = NSW_jeor_mormont#
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 70
+	democratic = 30
+	communism = 0
+	fascism = 0
+}

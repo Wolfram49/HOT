@@ -1,3 +1,13 @@
 capital = 661
 
 recruit_character = STL_renly_baratheon#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 25
+	democratic = 55
+	communism = 15
+	fascism = 5
+}

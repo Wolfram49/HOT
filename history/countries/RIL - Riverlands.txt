@@ -1,3 +1,13 @@
 capital = 547
 
 recruit_character = RIL_hoster_tully#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 35
+	democratic = 55
+	communism = 5
+	fascism = 5
+}

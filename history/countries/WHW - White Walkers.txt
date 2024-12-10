@@ -1,3 +1,13 @@
 capital = 376
 
 recruit_character = WHW_king_of_night#
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 100
+	democratic = 0
+	communism = 0
+	fascism = 0
+}

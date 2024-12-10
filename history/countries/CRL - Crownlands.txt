@@ -1,3 +1,13 @@
 capital = 621
 
 recruit_character = CRL_robert_baratheon#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 25
+	democratic = 60
+	communism = 10
+	fascism = 5
+}

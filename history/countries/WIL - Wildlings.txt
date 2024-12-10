@@ -1,3 +1,13 @@
 capital = 405
 
 recruit_character = WIL_mans_rayder#
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 80
+	democratic = 20
+	communism = 0
+	fascism = 0
+}

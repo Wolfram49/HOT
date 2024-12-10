@@ -1,0 +1,10 @@
+entity = {
+	name = "greatwall"
+	pdxmesh = "greatwall_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "colossus"
+	pdxmesh = "colossus_mesh"
+	scale = 1.0
+}

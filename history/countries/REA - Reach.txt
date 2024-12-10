@@ -1,3 +1,13 @@
 capital = 688
 
 recruit_character = REA_mace_tyrell#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 20
+	democratic = 60
+	communism = 5
+	fascism = 15
+}
