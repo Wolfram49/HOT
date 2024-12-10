@@ -1,4 +1,4 @@
-capital = 405
+capital = 409
 
 recruit_character = WIL_mans_rayder#
 

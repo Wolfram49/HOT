@@ -5,6 +5,15 @@ state={
 		255 634 1235 1837 2107 2723 2831 2856 4070 4113 4865 5486 6116 6126 6143 6152 6155 6156 6166 6179 6195 
 	}
 	history = {
+	victory_points = {
+		6179 10
+	}
+	victory_points = {
+		6195 10
+	}
+	victory_points = {
+		2107 10
+	}
 		owner = NRT
         add_core_of = NRT
 	}

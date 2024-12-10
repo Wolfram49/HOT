@@ -5,6 +5,9 @@ state={
 		91 6162 6182 6183 6204 
 	}
 	history = {
+	victory_points = {
+		6204 10
+	}
 		owner = NRT
         add_core_of = NRT
 	}

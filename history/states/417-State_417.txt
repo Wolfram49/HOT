@@ -2,13 +2,39 @@ state={
 	id=417
 	name="STATE_417"
 	provinces={
-		265 645 1072 1274 2080 2998 3587 3670 3701 4235 4976 5594 6065 6069 6071 6076 6077 6079 6081 6083 6096 6100 6103 6104 6110 6112 6114 
+		265 645 1072 1274 2080 2998 3587 3670 3701 4235 4976 5594 6065 6069 6071 6076 6077 6079 6081 6083 6096 6100 6103 6104 6110 6112 6114 13254 13255 13256 13257 13258 13259 
 	}
 	history = {
-		owner = NSW
-        add_core_of = NSW
+	victory_points = {
+		13256 10
 	}
+	victory_points = {
+		6069 10
+	}
+	victory_points = {
+		6100 25
+	}
+	victory_points = {
+		13254 5 
+	}
+	victory_points = {
+		13255 5 
+	}
+	victory_points = {
+		13257 5 
+	}
+	victory_points = {
+		13258 5 
+	}
+	victory_points = {
+		13259 5 
+	}
+	
+		owner = NSW
+		add_core_of = NSW
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	local_supplies=0.000
 }

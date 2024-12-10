@@ -2,13 +2,20 @@ state={
 	id=415
 	name="STATE_415"
 	provinces={
-		968 1754 2907 3591 3786 3848 6090 6091 6093 6095 6102 6106 6108 6109 
+		968 1754 2907 3591 3786 3848 6090 6091 6093 6095 6102 6106 6108 6109 13266 13267 
 	}
 	history = {
-		owner = NSW
-        add_core_of = NSW
+		victory_points = {
+		13267 10
 	}
+	victory_points = {
+		13266 5
+	}
+		owner = NSW
+		add_core_of = NSW
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	local_supplies=0.000
 }

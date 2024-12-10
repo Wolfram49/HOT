@@ -4,7 +4,10 @@ state={
 	provinces={
 		790 3077 3177 3285 3638 4310 4639 6127 6140 6145 
 	}
-		history = {
+	history = {
+	victory_points = {
+		6140 10
+	}
 		owner = NRT
         add_core_of = NRT
 	}
