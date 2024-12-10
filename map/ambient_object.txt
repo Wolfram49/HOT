@@ -51,7 +51,7 @@ type={
 	object={
 		name="greatwall"
 		position={
-			1613.00 -14.450 1488.00
+			1613.000 -14.450 1488.000 
 		}
 		rotation={
 			0.000 180.000 0.000 
@@ -61,15 +61,15 @@ type={
 type={
 	type="colossus"
 	use_animation=no
-	scale=1.150000
+	scale=0.700000
 	always_visible=yes
 	object={
 		name="colossus"
 		position={
-			1613.00 8.450 1488.00
+			2190.380 9.950 1157.150 
 		}
 		rotation={
-			0.000 180.000 0.000 
+			15.000 330.000 0.000 
 		}
 	}
 }

@@ -6,6 +6,7 @@ state={
 	}
 	history = {
 		owner = NRT
+        add_core_of = NRT
 	}
 
 	buildings_max_level_factor=1.000
