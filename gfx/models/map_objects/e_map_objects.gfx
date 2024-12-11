@@ -29,4 +29,34 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+	pdxmesh = {
+		name = "winterfell_mesh"
+		file = "gfx/models/map_objects/winterfell/mesh_winterfell.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "dragonstone_mesh"
+		file = "gfx/models/map_objects/dragonstone/mesh_dragonstone.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "dreadfort_mesh"
+		file = "gfx/models/map_objects/dreadfort/mesh_dreadfort.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }

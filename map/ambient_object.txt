@@ -88,3 +88,48 @@ type={
 		}
 	}
 }
+type={
+	type="winterfell"
+	use_animation=no
+	scale=0.080000
+	always_visible=yes
+	object={
+		name="winterfell"
+		position={
+			1472.260 11.150 1366.670 
+		}
+		rotation={
+			15.000 45.000 0.000 
+		}
+	}
+}
+type={
+	type="dragonstone"
+	use_animation=no
+	scale=0.020000
+	always_visible=yes
+	object={
+		name="dragonstone"
+		position={
+			1884.170 10.150 961.530 
+		}
+		rotation={
+			15.000 45.000 0.000 
+		}
+	}
+}
+type={
+	type="dreadfort"
+	use_animation=no
+	scale=0.200000
+	always_visible=yes
+	object={
+		name="dreadfort"
+		position={
+			1725.540 10.150 1397.750 
+		}
+		rotation={
+			15.000 160.000 0.000 
+		}
+	}
+}

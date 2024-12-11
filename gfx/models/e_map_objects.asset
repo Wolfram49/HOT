@@ -13,3 +13,18 @@ entity = {
 	pdxmesh = "castle_black_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "winterfell"
+	pdxmesh = "winterfell_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "dragonstone"
+	pdxmesh = "dragonstone_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "dreadfort"
+	pdxmesh = "dreadfort_mesh"
+	scale = 1.0
+}

@@ -5,6 +5,15 @@ state={
 		682 863 1054 1089 1242 2084 2509 2671 3732 4065 4118 4347 5276 5285 6691 6706 6734 6750 6818 6901 6971 6972 
 	}
 	history = {
+		victory_points = {
+			5276 10
+		}
+		victory_points = {
+			3732 15
+		}
+		victory_points = {
+			6901 10
+		}
 		owner = VAL
         add_core_of = VAL
 	}
