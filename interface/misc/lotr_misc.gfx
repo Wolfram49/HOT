@@ -7,6 +7,22 @@ spriteTypes = {
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
+	spriteType = {
+		name = "GFX_hasten_supply_action_button"
+		textureFile = "gfx/interface/buildings/hasten_supply_action_button.dds"
+	}
+	spriteType = {
+		name = "GFX_mobilize_action_button"
+		textureFile = "gfx/interface/buildings/mobilize_action_button.dds"
+	}
+	spriteType = {
+		name = "GFX_strategic_value_icon"
+		textureFile = "gfx/interface/strategic_value_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_suppress_action_button"
+		textureFile = "gfx/interface/buildings/suppress_action_button.dds"
+	}
     spriteType = {
 		name = "GFX_state_buildings_bg"
 		texturefile = "gfx/interface/buildings/state_buildings_bg.dds"
@@ -26,6 +42,25 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_build_slot_bg_tiny"
 		texturefile = "gfx/interface/buildings/build_slot_bg_tiny.dds"
+	}
+	spriteType = {
+		name = "GFX_construction_add_button"
+		texturefile = "gfx/interface/buildings/construction_add_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_construction_subtract_button"
+		texturefile = "gfx/interface/buildings/construction_subtract_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_close_button_small"
+		texturefile = "gfx/interface/close_button_small.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_amount_number_underlay"
+		texturefile = "gfx/interface/buildings/amount_number_underlay.dds"
 	}
 
 }
