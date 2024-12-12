@@ -4,7 +4,7 @@ state={
 	provinces={
 		418 2568 5738 5739 5773 
 	}
-	history = {1
+	history = {
 		owner = WHW
         add_core_of = WHW
 	}
