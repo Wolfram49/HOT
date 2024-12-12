@@ -1,0 +1,32 @@
+spriteTypes = {
+    corneredTileSpriteType = {
+		name = "GFX_tiled_invisible"
+		size= { x=512 y=512 }
+		textureFile = "gfx//interface//tiles//tiled_invisible.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+    spriteType = {
+		name = "GFX_state_buildings_bg"
+		texturefile = "gfx/interface/buildings/state_buildings_bg.dds"
+	}
+    spriteType = {
+		name = "GFX_header_bg_large"
+		texturefile = "gfx/interface/header_bg_large.dds"
+	}
+    spriteType = {
+		name = "GFX_construction_bg_2"
+		texturefile = "gfx/interface/buildings/construction_bg_2.dds"
+	}
+    spriteType = {
+		name = "GFX_occupation_policy_container"
+		textureFile = "gfx/interface/buildings/occupation_policy_container.dds"
+	}
+    spriteType = {
+		name = "GFX_build_slot_bg_tiny"
+		texturefile = "gfx/interface/buildings/build_slot_bg_tiny.dds"
+	}
+
+}
+

@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+        name = "GFX_lotr_state_landmark_state_modifier"
+        texturefile = "gfx/interface/state_modifiers/lotr_state_landmark_state_modifier.dds"
+    }
+
+}
