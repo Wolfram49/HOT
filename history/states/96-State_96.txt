@@ -5,6 +5,9 @@ state={
 		2524 6938 
 	}
 	history = {
+		victory_points = {
+			2524 5
+		}
 		owner = IRI
         add_core_of = IRI
 	}
