@@ -5,6 +5,9 @@ state={
 		8028 
 	}
 	history = {
+		victory_points = {
+			8028 5
+		}
 		owner = STL
         add_core_of = STL
 	}

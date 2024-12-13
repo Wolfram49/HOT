@@ -5,6 +5,15 @@ state={
 		117 2273 2385 2925 4006 4957 7849 7859 7865 7881 7885 7894 7919 
 	}
 	history = {
+		victory_points = {
+			117 10
+		}
+		victory_points = {
+			7885 5
+		}
+		victory_points = {
+			2273 10
+		}
 		owner = STL
         add_core_of = STL
 	}
