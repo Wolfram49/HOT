@@ -1,5 +1,20 @@
 capital = 522
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "VAL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "VAL_1936_nsb"
+}
+
 recruit_character = VAL_robin_arryn#
 
 set_politics = {

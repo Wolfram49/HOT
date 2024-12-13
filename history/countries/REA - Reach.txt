@@ -1,5 +1,20 @@
 capital = 688
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "REA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "REA_1936_nsb"
+}
+
 recruit_character = REA_mace_tyrell#
 
 set_politics = {

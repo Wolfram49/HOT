@@ -1,5 +1,21 @@
 capital = 417
 
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "NSW_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "NSW_1936_nsb"
+}
+
 recruit_character = NSW_jeor_mormont#
 
 set_politics = {

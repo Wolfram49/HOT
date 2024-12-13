@@ -1,5 +1,21 @@
 capital = 442
 
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "NRT_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "NRT_1936_nsb"
+}
+
 recruit_character = NRT_eddard_stark#
 
 set_politics = {

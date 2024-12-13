@@ -1,5 +1,20 @@
 capital = 94
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "IRI_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "IRI_1936_nsb"
+}
+
 recruit_character = IRI_balon_greyjoy#
 
 set_politics = {

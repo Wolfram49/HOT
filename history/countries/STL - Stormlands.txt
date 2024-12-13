@@ -1,5 +1,20 @@
 capital = 661
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "STL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "STL_1936_nsb"
+}
+
 recruit_character = STL_renly_baratheon#
 
 set_politics = {

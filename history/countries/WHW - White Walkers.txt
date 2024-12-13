@@ -1,5 +1,20 @@
 capital = 376
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "WHW_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "WHW_1936_nsb"
+}
+
 recruit_character = WHW_king_of_night#
 
 set_politics = {

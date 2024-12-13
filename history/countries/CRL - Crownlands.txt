@@ -1,5 +1,20 @@
 capital = 621
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "CRL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "CRL_1936_nsb"
+}
+
 recruit_character = CRL_robert_baratheon#
 
 set_politics = {

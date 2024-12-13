@@ -1,5 +1,20 @@
 capital = 757
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "DOR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "DOR_1936_nsb"
+}
+
 recruit_character = DOR_doran_martell#
 
 set_politics = {

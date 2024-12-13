@@ -1,5 +1,20 @@
 capital = 611
 
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "WSL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "WSL_1936_nsb"
+}
+
 recruit_character = WSL_tywin_lannister#
 
 set_politics = {
