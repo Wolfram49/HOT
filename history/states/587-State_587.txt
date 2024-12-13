@@ -2,9 +2,15 @@ state={
 	id=587
 	name="STATE_587"
 	provinces={
-		32 2767 2883 5304 5643 7397 7417 7445 7462 7498 7530 7539 7544 
+		32 2767 2482 2883 5304 5643 7397 7417 7445 7462 7498 7530 7539 7544 
 	}
 	history = {
+		victory_points = {
+			7544 10
+		}
+		victory_points = {
+			2883 5
+		}
 		owner = WSL
         add_core_of = WSL
 	}

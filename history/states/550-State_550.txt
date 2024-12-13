@@ -5,6 +5,12 @@ state={
 		1653 3840 4303 4700 5405 7003 7008 7042 7047 7134 7138 7174 7198 7239 7289 
 	}
 	history = {
+		victory_points = {
+			7003 10
+		}
+		victory_points = {
+			7134 10
+		}
 		owner = WSL
         add_core_of = WSL
 	}

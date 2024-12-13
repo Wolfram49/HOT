@@ -2,9 +2,18 @@ state={
 	id=611
 	name="STATE_611"
 	provinces={
-		628 1051 1064 1146 2482 4451 4785 5348 7522 7602 7603 7700 7723 7742 7761 
+		628 1051 1064 1146 4451 4785 4907 5348 7522 7602 7603 7700 7723 7742 7761 
 	}
 	history = {
+		victory_points = {
+			7723 10
+		}
+		victory_points = {
+			7522 20
+		}
+		victory_points = {
+			1146 10
+		}
 		owner = WSL
         add_core_of = WSL
 	}
