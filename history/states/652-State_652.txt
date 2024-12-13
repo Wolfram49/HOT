@@ -5,6 +5,21 @@ state={
 		1009 1195 3228 3270 3304 4208 4851 5419 7747 7839 7872 7873 7940 7969 8011 8017 8046 
 	}
 	history = {
+		victory_points = {
+			7872 10
+		}
+		victory_points = {
+			1195 5
+		}
+		victory_points = {
+			3270 10
+		}
+		victory_points = {
+			8011 5
+		}
+		victory_points = {
+			4851 10
+		}
 		owner = REA
         add_core_of = REA
 	}

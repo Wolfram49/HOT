@@ -5,6 +5,9 @@ state={
 		8099 
 	}
 	history = {
+		victory_points = {
+			8099 5
+		}
 		owner = REA
         add_core_of = REA
 	}

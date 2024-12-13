@@ -4,6 +4,14 @@ state={
 	provinces={
 		9825 
 	}
+	history = {
+		victory_points = {
+			9825 5
+		}
+
+		owner = REA
+		add_core_of = REA
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
