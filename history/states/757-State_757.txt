@@ -2,9 +2,21 @@ state={
 	id=757
 	name="STATE_757"
 	provinces={
-		172 1736 3483 3932 4273 5108 5709 8771 8785 8804 8830 8838 8844 8887 8919 8937 
+		172 1736 3483 3932 4273 5108 5709 8771 8785 8804 8830 8838 8844 8887 8919 
 	}
 	history = {
+		victory_points = {
+			8887 20
+		}
+		victory_points = {
+			3932 5
+		}
+		victory_points = {
+			4273 5
+		}
+		victory_points = {
+			8844 5
+		}
 		owner = DOR
         add_core_of = DOR
 	}
