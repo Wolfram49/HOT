@@ -5,6 +5,15 @@ state={
 		2571 3685 4082 4269 4276 4358 4409 4706 4861 5317 5505 6838 6911 6968 6969 6997 7039 
 	}
 	history = {
+		victory_points = {
+			4706 5
+		}
+		victory_points = {
+			6968 10
+		}
+		victory_points = {
+			5317 5
+		}
 		owner = RIL
         add_core_of = RIL
 	}
