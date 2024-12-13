@@ -1,0 +1,111 @@
+# ID
+defined_text = {
+	name = GetRulingIdeologyId
+	text = {
+		trigger = {
+			has_government = democratic
+		}
+		localization_key = democratic
+	}
+	text = {
+		trigger = {
+			has_government = communism
+		}
+		localization_key = communism
+	}
+	text = {
+		trigger = {
+			has_government = fascism
+		}
+		localization_key = fascism
+	}
+	text = {
+		trigger = {
+			has_government = neutrality
+		}
+		localization_key = neutrality
+	}
+}
+
+# NAME
+defined_text = {
+	name = GetRulingIdeologyFullName
+	text = {
+		trigger = {
+			has_government = democratic
+		}
+		localization_key = "democratic"
+	}
+	text = {
+		trigger = {
+			has_government = communism
+		}
+		localization_key = "communism"
+	}
+	text = {
+		trigger = {
+			has_government = fascism
+		}
+		localization_key = "fascism"
+	}
+	text = {
+		trigger = {
+			has_government = neutrality
+		}
+		localization_key = "neutrality"
+	}
+}
+
+# SUBTYPE ID
+defined_text = {
+	name = GetRulingIdeologySubtype
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = stark_house
+		}
+		localization_key = stark_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tully_house
+		}
+		localization_key = tully_house
+	}
+}
+
+# SUBTYPE ICON
+defined_text = {
+	name = GetRulingIdeologySubtypeIcon
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = stark_house
+		}
+		localization_key = "GFX_subideology_stark_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tully_house
+		}
+		localization_key = "GFX_subideology_tully_house"
+	}
+}
+
+# SUBTYPE ICON
+defined_text = {
+	name = GetRulingIdeologySubtypeModifier
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = stark_house
+		}
+		localization_key = "stark_modifier"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tully_house
+		}
+		localization_key = "tully_modifier"
+	}
+}

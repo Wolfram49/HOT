@@ -1,0 +1,51 @@
+# ID/Name
+defined_text = {
+	name = GetCountryRace
+	text = {
+		trigger = {
+			is_other = yes
+		}
+		localization_key = race_other
+	}
+	text = {
+		trigger = {
+			is_men = yes
+		}
+		localization_key = race_men
+	}
+}
+# ICON
+defined_text = {
+	name = GetCountryRaceIcon
+	
+	text = {
+		trigger = {
+			is_men = yes
+		}
+		localization_key = "GFX_race_men"
+	}
+	text = {
+		trigger = {
+			is_other = yes
+		}
+		localization_key = "GFX_race_other"
+	}
+}
+defined_text = {
+	name = GetCountryRaceModifier
+	
+	text = {
+		trigger = {
+			is_men = yes
+		}
+		localization_key = "race_men_modifier"
+	}
+	text = {
+		trigger = {
+			is_other = yes
+		}
+		localization_key = "race_other_modifier"
+	}
+}
+
+

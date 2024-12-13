@@ -1,0 +1,36 @@
+ideas = {
+
+	hidden_ideas = {
+
+		idea_stark_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = stark_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+				ai_focus_defense_factor = 0.2
+				ai_focus_military_advancements_factor = 0.25
+			}			
+		}
+
+		idea_tully_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = tully_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+				ai_focus_defense_factor = 0.35
+				ai_focus_war_production_factor = 0.15
+				ai_get_ally_desire_factor = 0.15
+			}			
+		}
+	}
+}

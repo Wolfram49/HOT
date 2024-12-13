@@ -1,0 +1,15 @@
+spriteTypes = {
+
+
+    SpriteType = {
+        name = "GFX_race_men"
+        texturefile = "gfx/interface/ideologies/race_icons/race_men.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_race_other"
+        texturefile = "gfx/interface/ideologies/race_icons/race_other.dds"
+    }
+
+
+}

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+    SpriteType = {
+        name = "GFX_subideology_tully_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/tully_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_stark_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/stark_house.dds"
+    }
+
+}

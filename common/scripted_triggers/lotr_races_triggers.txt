@@ -1,0 +1,29 @@
+is_other = {
+	custom_trigger_tooltip = {
+		tooltip = "is Other"
+		OR = {
+		}
+	}
+}
+
+is_other_init = {
+	OR = {
+	}
+}
+
+is_men = {
+	custom_trigger_tooltip = {
+		tooltip = "is Men"
+		OR = {
+			original_tag = NRT
+			original_tag = RIL
+		}
+	}
+}
+
+is_men_init = {
+	OR = {
+		original_tag = NRT
+		original_tag = RIL
+	}
+}

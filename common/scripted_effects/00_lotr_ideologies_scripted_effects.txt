@@ -1,0 +1,14 @@
+
+
+lotr_apply_subideology_modifier = {
+	
+	if = {
+		limit = { has_country_leader_ideology = stark_house }
+		add_ideas = idea_stark_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = tully_house }
+		add_ideas = idea_tully_house_modifier
+	}
+
+}
