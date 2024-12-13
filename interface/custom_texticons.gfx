@@ -4,4 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticons/convert_ic.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_guilds_texticon"
+		texturefile = "gfx/interface/texticons/guilds.dds"
+		legacy_lazy_load = no
+	}
 }

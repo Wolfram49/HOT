@@ -1036,6 +1036,7 @@ guiTypes = {
 			name = "open_roster_button"
 			position = { x = -90 y = -39 }
 			spriteType = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
 			centerposition = yes
 			clicksound = click_default
 		}
