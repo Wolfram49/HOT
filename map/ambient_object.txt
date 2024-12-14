@@ -254,3 +254,18 @@ type={
 		}
 	}
 }
+type={
+	type="highgarden"
+	use_animation=no
+	scale=0.060000
+	always_visible=yes
+	object={
+		name="highgarden"
+		position={
+			1275.670 12.050 769.420 
+		}
+		rotation={
+			15.000 50.000 0.000 
+		}
+	}
+}
