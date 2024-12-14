@@ -185,7 +185,7 @@ type={
 	object={
 		name="castillo"
 		position={
-			1426.440 13.250 728.590 
+			1438.810 12.250 739.470 
 		}
 		rotation={
 			15.000 40.000 0.000 
@@ -292,10 +292,54 @@ type={
 	object={
 		name="pentos"
 		position={
-			2190.150 9.250 916.220 
+			2192.720 9.350 915.500 
 		}
 		rotation={
 			15.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="summerhall"
+	use_animation=no
+	scale=0.035000
+	always_visible=yes
+	object={
+		name="summerhall"
+		position={
+			1630.300 10.750 794.400 
+		}
+		rotation={
+			15.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="myr"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="myr"
+		position={
+			2228.640 13.050 852.940 
+		}
+		rotation={
+			15.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="tower_of_joy"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="tower_of_joy"
+		position={
+			1426.860 12.450 729.430 
+		}
+		rotation={
+			15.000 10.000 0.000 
 		}
 	}
 }
