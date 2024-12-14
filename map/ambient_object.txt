@@ -51,7 +51,7 @@ type={
 	object={
 		name="greatwall"
 		position={
-			1610.000 -14.450 1493.000 
+			1612.000 -14.450 1493.000 
 		}
 		rotation={
 			0.000 180.000 0.000 
@@ -145,6 +145,21 @@ type={
 		}
 		rotation={
 			15.000 160.000 0.000 
+		}
+	}
+}
+type={
+	type="bridge_of_skulls"
+	use_animation=no
+	scale=1.500000
+	always_visible=yes
+	object={
+		name="bridge_of_skulls"
+		position={
+			1498.620 7.950 1540.670 
+		}
+		rotation={
+			15.000 120.000 0.000 
 		}
 	}
 }
