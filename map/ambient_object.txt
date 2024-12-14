@@ -178,3 +178,17 @@ type={
 		}
 	}
 }
+type={
+	type="castillo"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="castillo"
+		position={
+			1426.440 13.250 728.590 
+		}
+		rotation={
+			15.000 40.000 0.000 
+		}
+	}
+}

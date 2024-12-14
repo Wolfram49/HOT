@@ -9,6 +9,9 @@ state={
 			3238 10
 		}
 		victory_points = {
+			8455 5
+		}
+		victory_points = {
 			5080 10
 		}
 		owner = DOR
