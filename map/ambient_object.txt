@@ -284,3 +284,18 @@ type={
 		}
 	}
 }
+type={
+	type="pentos"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="pentos"
+		position={
+			2190.150 9.250 916.220 
+		}
+		rotation={
+			15.000 30.000 0.000 
+		}
+	}
+}
