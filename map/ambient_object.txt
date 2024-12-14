@@ -192,3 +192,47 @@ type={
 		}
 	}
 }
+type={
+	type="gulltown"
+	use_animation=no
+	scale=0.180000
+	always_visible=yes
+	object={
+		name="gulltown"
+		position={
+			1929.160 9.950 1059.210 
+		}
+		rotation={
+			15.000 190.000 0.000 
+		}
+	}
+}
+type={
+	type="hardhome_stage2"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="hardhome_stage2"
+		position={
+			1397.400 12.250 1667.620 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+}
+type={
+	type="hardhome_stage3"
+	use_animation=no
+	scale=0.500000
+	always_visible=yes
+	object={
+		name="hardhome_stage3"
+		position={
+			1766.880 10.050 1618.250 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+}
