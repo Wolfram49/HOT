@@ -133,3 +133,18 @@ type={
 		}
 	}
 }
+type={
+	type="fist_of_first_men"
+	use_animation=no
+	scale=1.500000
+	always_visible=yes
+	object={
+		name="fist_of_first_men"
+		position={
+			1536.200 10.550 1609.240 
+		}
+		rotation={
+			15.000 160.000 0.000 
+		}
+	}
+}

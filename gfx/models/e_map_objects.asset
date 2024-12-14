@@ -28,3 +28,8 @@ entity = {
 	pdxmesh = "dreadfort_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "fist_of_first_men"
+	pdxmesh = "fist_of_first_men_mesh"
+	scale = 1.0
+}

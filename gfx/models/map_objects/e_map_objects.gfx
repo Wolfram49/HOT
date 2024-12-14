@@ -59,4 +59,14 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+		pdxmesh = {
+		name = "fist_of_first_men_mesh"
+		file = "gfx/models/map_objects/fist_of_first_men/mesh_fist_of_first_men.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }
