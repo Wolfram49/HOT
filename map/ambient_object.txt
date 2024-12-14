@@ -332,6 +332,7 @@ type={
 type={
 	type="tower_of_joy"
 	use_animation=no
+	scale=10.000000
 	always_visible=yes
 	object={
 		name="tower_of_joy"
@@ -354,6 +355,21 @@ type={
 		}
 		rotation={
 			15.000 40.000 0.000 
+		}
+	}
+}
+type={
+	type="riverrun"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="riverrun"
+		position={
+			1425.110 12.150 1031.730 
+		}
+		rotation={
+			15.000 350.000 0.000 
 		}
 	}
 }

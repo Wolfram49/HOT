@@ -199,5 +199,14 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
-	
+	pdxmesh = {
+		name = "riverrun_mesh"
+		file = "gfx/models/map_objects/riverrun/mesh_riverrun.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }
