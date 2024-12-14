@@ -108,3 +108,8 @@ entity = {
 	pdxmesh = "pyke_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "old_town"
+	pdxmesh = "old_town_mesh"
+	scale = 1.0
+}

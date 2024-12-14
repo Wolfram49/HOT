@@ -272,12 +272,12 @@ type={
 type={
 	type="lannisport"
 	use_animation=no
-	scale=0.100000
+	scale=0.150000
 	always_visible=yes
 	object={
 		name="lannisport"
 		position={
-			1127.640 9.950 930.570 
+			1124.450 10.050 929.340 
 		}
 		rotation={
 			15.000 340.000 0.000 
@@ -332,7 +332,7 @@ type={
 type={
 	type="tower_of_joy"
 	use_animation=no
-	scale=10.000000
+	scale=0.900000
 	always_visible=yes
 	object={
 		name="tower_of_joy"
@@ -385,6 +385,21 @@ type={
 		}
 		rotation={
 			15.000 210.000 0.000 
+		}
+	}
+}
+type={
+	type="old_town"
+	use_animation=no
+	scale=0.900000
+	always_visible=yes
+	object={
+		name="old_town"
+		position={
+			1137.840 10.650 691.850 
+		}
+		rotation={
+			15.000 340.000 0.000 
 		}
 	}
 }
