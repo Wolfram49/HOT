@@ -79,4 +79,14 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+	pdxmesh = {
+		name = "casterly_rock_mesh"
+		file = "gfx/models/map_objects/casterly_rock/mesh_casterly_rock.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }

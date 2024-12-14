@@ -38,3 +38,8 @@ entity = {
 	pdxmesh = "bridge_of_skulls_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "casterly_rock"
+	pdxmesh = "casterly_rock_mesh"
+	scale = 1.0
+}

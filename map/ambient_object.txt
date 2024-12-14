@@ -163,3 +163,18 @@ type={
 		}
 	}
 }
+type={
+	type="casterly_rock"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="casterly_rock"
+		position={
+			1129.200 9.950 942.650 
+		}
+		rotation={
+			15.000 35.000 0.000 
+		}
+	}
+}
