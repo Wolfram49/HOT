@@ -343,3 +343,17 @@ type={
 		}
 	}
 }
+type={
+	type="twins"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="twins"
+		position={
+			1443.930 10.450 1120.490 
+		}
+		rotation={
+			15.000 40.000 0.000 
+		}
+	}
+}
