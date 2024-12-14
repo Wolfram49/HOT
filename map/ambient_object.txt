@@ -214,6 +214,24 @@ type={
 	object={
 		name="hardhome_stage2"
 		position={
+			1419.430 10.650 1618.060 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+	object={
+		name="hardhome_stage2"
+		position={
+			1397.880 13.550 1720.580 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+	object={
+		name="hardhome_stage2"
+		position={
 			1397.400 12.250 1667.620 
 		}
 		rotation={
