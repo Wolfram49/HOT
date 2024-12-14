@@ -68,3 +68,8 @@ entity = {
 	pdxmesh = "highgarden_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "lannisport"
+	pdxmesh = "lannisport_mesh"
+	scale = 1.0
+}
