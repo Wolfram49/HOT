@@ -143,3 +143,8 @@ entity = {
 	pdxmesh = "stormsend_castle_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "lonely_light"
+	pdxmesh = "lonely_light_mesh"
+	scale = 1.0
+}

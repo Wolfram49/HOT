@@ -492,3 +492,18 @@ type={
 		}
 	}
 }
+type={
+	type="lonely_light"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="lonely_light"
+		position={
+			781.020 7.550 1095.500 
+		}
+		rotation={
+			15.000 190.000 0.000 
+		}
+	}
+}
