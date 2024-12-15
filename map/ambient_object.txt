@@ -507,3 +507,18 @@ type={
 		}
 	}
 }
+type={
+	type="eyrie"
+	use_animation=no
+	scale=3.500000
+	always_visible=yes
+	object={
+		name="eyrie"
+		position={
+			1744.390 13.850 1081.390 
+		}
+		rotation={
+			15.000 360.000 0.000 
+		}
+	}
+}
