@@ -465,7 +465,7 @@ type={
 type={
 	type="moat_callin"
 	use_animation=no
-	scale=0.600000
+	scale=0.500000
 	always_visible=yes
 	object={
 		name="moat_callin"
@@ -474,6 +474,21 @@ type={
 		}
 		rotation={
 			15.000 360.000 0.000 
+		}
+	}
+}
+type={
+	type="stormsend_castle"
+	use_animation=no
+	scale=0.100000
+	always_visible=yes
+	object={
+		name="stormsend_castle"
+		position={
+			1844.430 6.850 814.730 
+		}
+		rotation={
+			15.000 25.000 0.000 
 		}
 	}
 }

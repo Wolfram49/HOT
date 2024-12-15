@@ -279,4 +279,14 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+	pdxmesh = {
+		name = "stormsend_castle_mesh"
+		file = "gfx/models/map_objects/stormsend_castle/mesh_stormsend_castle.mesh"
+		meshsettings = {
+			texture_normal = "building_special_stormsend_castle_normal.dds"
+			texture_specular = "building_special_stormsend_castle_properties.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }
