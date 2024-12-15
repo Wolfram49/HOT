@@ -253,8 +253,8 @@ objectTypes = {
 		name = "harrenhal_mesh"
 		file = "gfx/models/map_objects/harrenhal/mesh_harrenhal.mesh"
 		meshsettings = {
-			texture_normal = "nonormal.dds"
-			texture_specular = "nospec.dds"
+			texture_normal = "building_special_Harrenhal_walls_normal.dds"
+			texture_specular = "building_special_Harrenhal_walls_properties.dds"
 			shader = PdxMeshAdvanced
 		}
 		scale = 1.0
@@ -265,6 +265,16 @@ objectTypes = {
 		meshsettings = {
 			texture_normal = "nonormal.dds"
 			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "moat_callin_mesh"
+		file = "gfx/models/map_objects/moat_callin/mesh_moat_callin.mesh"
+		meshsettings = {
+			texture_normal = "building_special_moat_cailin_02_normal.dds"
+			texture_specular = "building_special_moat_cailin_02_properties.dds"
 			shader = PdxMeshAdvanced
 		}
 		scale = 1.0

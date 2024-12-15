@@ -462,3 +462,18 @@ type={
 		}
 	}
 }
+type={
+	type="moat_callin"
+	use_animation=no
+	scale=0.600000
+	always_visible=yes
+	object={
+		name="moat_callin"
+		position={
+			1484.580 10.850 1223.350 
+		}
+		rotation={
+			15.000 360.000 0.000 
+		}
+	}
+}
