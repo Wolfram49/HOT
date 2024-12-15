@@ -9,7 +9,7 @@ state={
 		2950 20
 	}
 	victory_points = {
-		88 10
+		1127 10
 	}
 		owner = WIL
         add_core_of = WIL

@@ -403,3 +403,18 @@ type={
 		}
 	}
 }
+type={
+	type="kings_landing"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="kings_landing"
+		position={
+			1661.010 10.850 906.730 
+		}
+		rotation={
+			15.000 353.000 0.000 
+		}
+	}
+}
