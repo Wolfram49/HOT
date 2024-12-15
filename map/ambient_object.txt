@@ -418,3 +418,18 @@ type={
 		}
 	}
 }
+type={
+	type="white_harbour"
+	use_animation=no
+	scale=0.120000
+	always_visible=yes
+	object={
+		name="white_harbour"
+		position={
+			1581.390 10.350 1269.500 
+		}
+		rotation={
+			15.000 20.000 0.000 
+		}
+	}
+}
