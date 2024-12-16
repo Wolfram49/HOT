@@ -154,11 +154,6 @@ entity = {
 	scale = 1.0
 }
 entity = {
-	name = "tyrosh"
-	pdxmesh = "tyrosh_mesh"
-	scale = 1.0
-}
-entity = {
 	name = "shadow_tower"
 	pdxmesh = "shadow_tower_mesh"
 	scale = 1.0
