@@ -319,4 +319,24 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+	pdxmesh = {
+		name = "shadow_tower_mesh"
+		file = "gfx/models/map_objects/shadow_tower/mesh_shadow_tower.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "eastwatch_mesh"
+		file = "gfx/models/map_objects/eastwatch/mesh_eastwatch.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }
