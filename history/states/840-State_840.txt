@@ -1,0 +1,18 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		8244 13268 13269 13270 13271 13272 
+	}
+	history = {
+		victory_points = {
+			8244 10
+		}
+		owner = STL
+		add_core_of = STL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+    manpower=1
+    state_category = town
+}
