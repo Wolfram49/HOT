@@ -585,15 +585,15 @@ type={
 type={
 	type="bloody_gate"
 	use_animation=no
-	scale=1.300000
+	scale=1.500000
 	always_visible=yes
 	object={
 		name="bloody_gate"
 		position={
-			1697.140 12.650 1063.650 
+			1693.120 12.250 1063.650 
 		}
 		rotation={
-			0.000 320.000 0.000 
+			0.000 340.000 0.000 
 		}
 	}
 }

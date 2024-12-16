@@ -1,8 +1,8 @@
 state={
 	id=495
 	name="STATE_495"
-	provinces={
-		2472 3354 4027 5244 6630 6680 6698 6705 6739 6760 6776 
+	provinces {
+		4497 6630 
 	}
 	history = {
 		owner = VAL
