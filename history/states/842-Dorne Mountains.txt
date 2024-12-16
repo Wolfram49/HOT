@@ -1,0 +1,15 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		27 29 276 755 808 883 1062 1316 1409 2480 2938 3026 3087 3122 3653 3853 4053 4367 5171 5354 5365 5609 5684 8357 8362 8369 8387 8393 8398 8402 8409 8414 8415 8422 8431 8432 8444 8449 8456 8457 8458 8598 8621 8630 8635 8644 8691 8723 8743 8768 
+	}
+	history = {
+		owner = DOR
+		add_core_of = DOR
+	}
+	impassable = yes
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}
