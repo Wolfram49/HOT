@@ -339,4 +339,24 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+	pdxmesh = {
+		name = "sunspear_mesh"
+		file = "gfx/models/map_objects/sunspear/mesh_sunspear.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "bloody_gate_mesh"
+		file = "gfx/models/map_objects/bloody_gate/mesh_bloody_gate.mesh"
+		meshsettings = {
+			texture_normal = "building_special_the_bloody_gate_1_normal.dds"
+			texture_specular = "building_special_the_bloody_gate_1_properties.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }

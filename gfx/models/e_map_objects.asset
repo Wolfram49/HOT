@@ -168,3 +168,13 @@ entity = {
 	pdxmesh = "eastwatch_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "sunspear"
+	pdxmesh = "sunspear_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "bloody_gate"
+	pdxmesh = "bloody_gate_mesh"
+	scale = 1.0
+}
