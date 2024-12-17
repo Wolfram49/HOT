@@ -60,10 +60,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 2
-		}
-
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			carrack = 1.0
@@ -106,17 +102,7 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -156,25 +142,6 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -221,17 +188,7 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -273,17 +230,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -322,17 +269,6 @@ technologies = {
 			position = { x = -1 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -377,21 +313,6 @@ technologies = {
 			position = { x = -1 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -432,18 +353,6 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -485,26 +394,6 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -542,26 +431,6 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -610,26 +479,6 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -671,9 +520,7 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -714,17 +561,6 @@ technologies = {
 			position = { x = 2 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -765,18 +601,6 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
-
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			longship = 2.0
@@ -808,18 +632,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
 		}
 
 		ai_research_weights = {
@@ -888,17 +700,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -941,19 +742,6 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			longship = 2.0
@@ -991,27 +779,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
 		}
 
 		ai_research_weights = {
@@ -1055,27 +822,6 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
-
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			longship = 2.0
@@ -1113,27 +859,6 @@ technologies = {
 		folder = {
 			name = naval_doctrine_folder
 			position = { x = 2 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
 		}
 
 		ai_research_weights = {
@@ -1186,27 +911,6 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
-
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			cruiser = 1.5
@@ -1253,9 +957,7 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1304,17 +1006,6 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1360,17 +1051,6 @@ technologies = {
 			position = { x = -2 y =6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1409,17 +1089,6 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1453,17 +1122,7 @@ technologies = {
 			position = { x = -1 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1505,16 +1164,7 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_navy_size = {
-					type = carrier
-					size < 1
-				}
-				factor = 0
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1556,9 +1206,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1598,9 +1246,7 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1642,9 +1288,7 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1698,17 +1342,7 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1751,18 +1385,7 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1.25
 
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1806,22 +1429,6 @@ technologies = {
 			position = { x = 2 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1862,26 +1469,7 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
 
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 4
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1926,26 +1514,6 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 4
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -1985,17 +1553,6 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2034,26 +1591,6 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 4
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2094,17 +1631,7 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2142,25 +1669,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2200,25 +1709,7 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2251,25 +1742,7 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2309,17 +1782,6 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2365,25 +1827,6 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2424,25 +1867,6 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2485,9 +1909,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
@@ -2495,5 +1917,4 @@ technologies = {
 			carrack = 1.0
 		}
 	}
-
 }

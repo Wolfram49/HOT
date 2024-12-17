@@ -61,13 +61,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 				
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = { ai_has_completed_army_doctrine = yes }
-			}
-		}
 		
 		ai_research_weights = {
 			#air_doctrine = -1.0
@@ -112,9 +105,7 @@ technologies = {
 			position = { x = -1 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -157,9 +148,7 @@ technologies = {
 			position = { x = 1 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -203,9 +192,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -247,9 +234,7 @@ technologies = {
 			position = { x = -1 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -298,9 +283,7 @@ technologies = {
 			position = { x = 1 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -342,9 +325,7 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -381,9 +362,7 @@ technologies = {
 			position = { x = -1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -419,9 +398,7 @@ technologies = {
 			position = { x = 1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -487,9 +464,7 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -533,9 +508,7 @@ technologies = {
 			position = { x = -1 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -579,9 +552,7 @@ technologies = {
 			position = { x = 1 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -626,9 +597,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -675,9 +644,7 @@ technologies = {
 			position = { x = -1 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -718,9 +685,7 @@ technologies = {
 			position = { x = 1 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -766,9 +731,7 @@ technologies = {
 			position = { x = -1 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -815,9 +778,7 @@ technologies = {
 			position = { x = 1 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -842,7 +803,7 @@ technologies = {
 		
 		
 		on_research_complete = {
-			add_ideas = GEN_cheaper_amphib
+
 		}
 		
 		doctrine = yes	
@@ -860,9 +821,7 @@ technologies = {
 			position = { x = -1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -894,9 +853,7 @@ technologies = {
 			position = { x = -1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -949,9 +906,7 @@ technologies = {
 			position = { x = 1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -1011,14 +966,7 @@ technologies = {
 			name = special_forces_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				factor = 0
-				NOT = { ai_has_completed_air_doctrine = yes }
-			}
-		}
+	
 		
 		ai_research_weights = {
 			#infantry_weapons = 1.5
@@ -1060,9 +1008,7 @@ technologies = {
 			position = { x = -1 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -1103,9 +1049,7 @@ technologies = {
 			position = { x = 1 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -1151,9 +1095,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#armor = 3.0
@@ -1196,9 +1138,7 @@ technologies = {
 			position = { x = -1 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -1241,9 +1181,7 @@ technologies = {
 			position = { x = 1 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -1285,9 +1223,7 @@ technologies = {
 			position = { x = -1 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -1324,9 +1260,7 @@ technologies = {
 			position = { x = 1 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -1362,9 +1296,7 @@ technologies = {
 			position = { x = -1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0
@@ -1397,9 +1329,7 @@ technologies = {
 			position = { x = 1 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
+		
 		
 		ai_research_weights = {
 			#artillery = 4.0

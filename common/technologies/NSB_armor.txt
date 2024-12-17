@@ -65,9 +65,7 @@ technologies = {
 			heavy_armor
 		}
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_cavalry }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = heavy_cavalry }
+
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -112,30 +110,6 @@ technologies = {
 			position = { x = 2 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-		}
-
 		categories = {
 			armor
 			cat_light_cavalry
@@ -155,9 +129,7 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_cavalry }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = heavy_cavalry }
+
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -197,30 +169,6 @@ technologies = {
 			position = { x = -4 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
-
 		categories = {
 			armor
 			cat_light_cavalry
@@ -247,25 +195,6 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = -4 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
 		}
 
 		categories = {
@@ -303,18 +232,6 @@ technologies = {
 			position = { x = -1 y = 5 }
 		}
 
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
 
 		categories = {
 			armor
@@ -352,23 +269,6 @@ technologies = {
 			position = { x = -1 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
-
 		categories = {
 			armor
 			tp_tech
@@ -392,28 +292,6 @@ technologies = {
 			position = { x = -4 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				is_major = no
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1943.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1944.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -435,9 +313,7 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_cavalry }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = heavy_cavalry }
+
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -478,10 +354,6 @@ technologies = {
 			position = { x = 2 y = @1936 }
 		}
 
-		ai_will_do = {
-			factor = 2
-		}
-
 		categories = {
 			armor
 			cat_heavy_cavalry
@@ -512,29 +384,6 @@ technologies = {
 			position = { x = 2 y = @1940 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = {
-				date < "1941.1.1"
-				factor = 0.3
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1943.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1944.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -564,24 +413,6 @@ technologies = {
 			position = { x = 2 y = @1943 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "1944.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1945.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -609,25 +440,6 @@ technologies = {
 			position = { x = 2 y = @1945 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1946.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "1947.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "1948.1.1"
-			}
-		}
-
 		categories = {
 			armor
 			cat_heavy_cavalry
@@ -649,9 +461,7 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = light_cavalry }
-			NOT = {	has_template_containing_unit = heavy_armor }
-			NOT = {	has_template_containing_unit = heavy_cavalry }
+
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -687,25 +497,6 @@ technologies = {
 			position = { x = 5 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 0.8
-
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-		}
-
 		categories = {
 			armor
 			cat_heavy_armor
@@ -739,9 +530,7 @@ technologies = {
 			position = { x = 5 y = @1940 }
 		}
 
-		ai_will_do = {
-			factor = 0.8
-		}
+		
 
 		categories = {
 			armor
@@ -770,25 +559,6 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 5 y = @1943 }
-		}
-
-		ai_will_do = {
-			factor = 0.8
-
-			modifier = {
-				factor = 1.2
-				date > "1944.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1945.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
 		}
 
 		categories = {
@@ -821,9 +591,6 @@ technologies = {
 			position = { x = 8 y = @1943 }
 		}
 
-		ai_will_do = {
-			factor = 0 # Hitler cries on the inside
-		}
 
 		categories = {
 			armor
@@ -853,33 +620,6 @@ technologies = {
 			position = { x = 3 y = @1936 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -908,33 +648,6 @@ technologies = {
 			position = { x = 3 y = @1938 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -961,33 +674,7 @@ technologies = {
 			position = { x = 3 y = @1941 }
 		}
 
-		ai_will_do = {
-			factor = 1
 
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -1008,33 +695,7 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
-		ai_will_do = {
-			factor = 1
 
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -1059,33 +720,7 @@ technologies = {
 			position = { x = 2 y = @1936 }
 		}
 
-		ai_will_do = {
-			factor = 1
 
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -1112,33 +747,6 @@ technologies = {
 			position = { x = 2 y = @1938 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor
@@ -1163,34 +771,6 @@ technologies = {
 			position = { x = 2 y = @1941 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
-
 		categories = {
 			armor
 		}
@@ -1208,33 +788,6 @@ technologies = {
 			custom_effect_tooltip = engine_tech_4_tt
 		}
 		show_effect_as_desc = yes
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.1
-				date > "1939.1.1"
-			}
-		}
 
 		categories = {
 			armor

@@ -33,12 +33,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 		}
-
-		ai_will_do = {
-			factor = 1000
-			# Not having infantry equipment would mean not being able to play the game.
-			# So set this to 0 if you want the ai to go touch some grass I guess.
-		}
 	}
 
 	infantry_weapons1 = {
@@ -73,20 +67,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 		}
-
-		ai_will_do = {
-			factor = 35
-
-			modifier = {
-				factor = 2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3020.1.1"
-			}
-		}
 	}
 
 	infantry_weapons1_bonus = {
@@ -117,10 +97,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 		}
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	infantry_weapons1_bonus2 = {
@@ -144,10 +120,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
@@ -181,20 +153,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 			lotr_infantry_weapons_sword
-		}
-
-		ai_will_do = {
-			factor = 20
-
-			modifier = {
-				factor = 5
-				date > "3018.1.3"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3019.1.1"
-			}
 		}
 	}
 
@@ -230,25 +188,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_sword
 		}
-
-		ai_will_do = {
-			factor = 15
-
-			modifier = {
-				factor = 2
-				date > "3019.6.1"
-			}
-
-			modifier = {
-				factor = 3
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3021.1.1"
-			}
-		}
 	}
 
 	# ExpensiveExpensive
@@ -275,10 +214,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_sword
 		}
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	highly_sophisticated_infantry_weapons2 = {
@@ -301,9 +236,6 @@ technologies = {
 			lotr_infantry_weapons_sword
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	# Expensive bonus
@@ -330,25 +262,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 			lotr_infantry_weapons_sword
-		}
-
-		ai_will_do = {
-			factor = 12
-
-			modifier = {
-				factor = 2
-				date > "3021.6.1"
-			}
-
-			modifier = {
-				factor = 3
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3023.1.1"
-			}
 		}
 	}
 
@@ -378,25 +291,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 			lotr_infantry_weapons_sword
-		}
-
-		ai_will_do = {
-			factor = 5
-
-			modifier = {
-				factor = 3
-				date > "3022.6.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3024.1.1"
-			}
 		}
 	}
 
@@ -430,20 +324,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
-		}
-
-		ai_will_do = {
-			factor = 20
-
-			modifier = {
-				factor = 5
-				date > "3018.1.3"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3019.1.1"
-			}
 		}
 	}
 
@@ -479,25 +359,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
 		}
-
-		ai_will_do = {
-			factor = 15
-
-			modifier = {
-				factor = 2
-				date > "3019.6.1"
-			}
-
-			modifier = {
-				factor = 3
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3021.1.1"
-			}
-		}
 	}
 
 	# Cheap Cheap
@@ -524,10 +385,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
 		}
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	cheap_highly_sophisticated_infantry_weapons2 = {
@@ -538,7 +395,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			add_ideas = TECH_ie_cost
+
 		}
 
 		research_cost = 2
@@ -553,10 +410,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
 		}
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 
 	cheap_highly_sophisticated_infantry_weapons3 = {
@@ -564,7 +417,7 @@ technologies = {
 		supply_consumption_factor = -0.05
 
 		on_research_complete = {
-			add_ideas = TECH_ie_cost2
+
 		}
 
 		research_cost = 2
@@ -578,10 +431,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
-		}
-
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
@@ -613,25 +462,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
 		}
-
-		ai_will_do = {
-			factor = 12
-
-			modifier = {
-				factor = 2
-				date > "3021.6.1"
-			}
-
-			modifier = {
-				factor = 3
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3023.1.1"
-			}
-		}
 	}
 
 	# Cheap 3
@@ -661,25 +491,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
 		}
-
-		ai_will_do = {
-			factor = 5
-
-			modifier = {
-				factor = 3
-				date > "3022.6.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	# Cheap 4
@@ -706,25 +517,6 @@ technologies = {
 			lotr_infantry_weapons
 			lotr_infantry_weapons_spear
 		}
-
-		ai_will_do = {
-			factor = 5
-
-			modifier = {
-				factor = 3
-				date > "3023.6.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3024.1.1"
-			}
-
-			modifier = {
-				factor = 10
-				date > "3025.1.1"
-			}
-		}
 	}
 
 	# Universal
@@ -749,14 +541,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 10
-				date > "3025.1.1"
-			}
 		}
 	}
 
@@ -783,14 +567,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_weapons
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
-		}
 	}
 
 	infantry_at2 = {
@@ -810,14 +586,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
 		}
 	}
 
@@ -842,9 +610,7 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = heavy_infantry
-			}
+	
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -857,27 +623,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_heavy_infantry
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				target_heavy_infantry_strat = yes
-				factor = 20
-			}
-			modifier = {
-				target_heavy_infantry_strat = yes
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				target_heavy_infantry_strat = yes
-				amount_research_slots > 2
-				num_of_military_factories > 5
-				date > "3020.1.1"
-
-				factor = 3
-			}
 		}
 	}
 
@@ -907,28 +652,6 @@ technologies = {
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_heavy_infantry
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				target_heavy_infantry_strat = yes
-				date > "3018.8.1"
-				factor = 20
-			}
-			modifier = {
-				target_heavy_infantry_strat = yes
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				target_heavy_infantry_strat = yes
-				amount_research_slots > 2
-				num_of_military_factories > 5
-				date > "3021.1.1"
-
-				factor = 3
-			}
-		}
 	}
 
 	paratroopers3 = {
@@ -952,28 +675,6 @@ technologies = {
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_heavy_infantry
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				target_heavy_infantry_strat = yes
-				date > "3022.6.1"
-				factor = 20
-			}
-			modifier = {
-				target_heavy_infantry_strat = yes
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				target_heavy_infantry_strat = yes
-				amount_research_slots > 2
-				num_of_military_factories > 5
-				date > "3024.1.1"
-
-				factor = 3
-			}
-		}
 	}
 
 	marines = {
@@ -983,9 +684,7 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = marine
-			}
+	
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -1010,10 +709,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_marines
-		}
-
-		ai_will_do = {
-			factor = 0.7
 		}
 	}
 
@@ -1041,10 +736,6 @@ technologies = {
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_marines
 		}
-
-		ai_will_do = {
-			factor = 0.7
-		}
 	}
 
 	marines3 = {
@@ -1065,10 +756,6 @@ technologies = {
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_marines
 		}
-
-		ai_will_do = {
-			factor = 0.7
-		}
 	}
 
 	tech_mountaineers = {
@@ -1078,9 +765,7 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
-			NOT = {
-				has_template_containing_unit = mountaineers
-			}
+
 		}
 		on_research_complete = {
 			hidden_effect = {
@@ -1105,10 +790,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_mountaineers
-		}
-
-		ai_will_do = {
-			factor = 0.7
 		}
 	}
 
@@ -1136,10 +817,6 @@ technologies = {
 			lotr_infantry_specialforces
 			lotr_infantry_specialforces_mountaineers
 		}
-
-		ai_will_do = {
-			factor = 0.7
-		}
 	}
 
 	tech_mountaineers3 = {
@@ -1160,9 +837,7 @@ technologies = {
 			lotr_infantry_specialforces_mountaineers
 		}
 
-		ai_will_do = {
-			factor = 0.7
-		}
+		
 	}
 
 	tech_special_forces = {
@@ -1201,9 +876,7 @@ technologies = {
 			lotr_infantry_specialforces
 		}
 
-		ai_will_do = {
-			factor = 0.7
-		}
+		
 	}
 
 	advanced_special_forces = {
@@ -1235,9 +908,7 @@ technologies = {
 			lotr_infantry_specialforces
 		}
 
-		ai_will_do = {
-			factor = 0.7
-		}
+		
 	}
 
 	improved_special_forces = {
@@ -1263,20 +934,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_specialforces
-		}
-
-		ai_will_do = {
-			factor = 0.7
-			modifier = {
-				factor = 10
-				target_heavy_infantry_strat = yes
-				date > "3019.6.1"
-			}
-			modifier = {
-				factor = 2
-				target_heavy_infantry_strat = yes
-				date > "3021.1.1"
-			}
 		}
 	}
 
@@ -1306,21 +963,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_specialforces
 		}
-
-		ai_will_do = {
-			factor = 0.7
-			modifier = {
-				factor = 10
-				target_heavy_infantry_strat = yes
-				amount_research_slots > 2
-				date > "3023.6.1"
-			}
-			modifier = {
-				factor = 2
-				target_heavy_infantry_strat = yes
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	survival_training = {
@@ -1348,21 +990,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_specialforces
 		}
-
-		ai_will_do = {
-			factor = 0.7
-			modifier = {
-				factor = 10
-				target_heavy_infantry_strat = yes
-				amount_research_slots > 2
-				date > "3023.6.1"
-			}
-			modifier = {
-				factor = 2
-				target_heavy_infantry_strat = yes
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	elite_forces = {
@@ -1385,21 +1012,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_specialforces
-		}
-
-		ai_will_do = {
-			factor = 0.7
-			modifier = {
-				factor = 10
-				target_heavy_infantry_strat = yes
-				amount_research_slots > 2
-				date > "3024.6.1"
-			}
-			modifier = {
-				factor = 2
-				target_heavy_infantry_strat = yes
-				date > "3025.1.1"
-			}
 		}
 	}
 
@@ -1533,30 +1145,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_supportweapons
 		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 2
-				date > "3024.1.9"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3025.1.6"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3028.1.1"
-			}
-		}
 	}
 
 	night_vision2 = {
@@ -1578,25 +1166,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_supportweapons
-		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 2
-				date > "3027.1.9"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3028.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3028.1.6"
-			}
 		}
 	}
 
@@ -1626,30 +1195,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_supportweapons
 		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 2
-				date > "3024.1.9"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3025.1.6"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3028.1.1"
-			}
-		}
 	}
 
 	support_bonus2 = {
@@ -1671,25 +1216,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_supportweapons
-		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 2
-				date > "3027.1.9"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3028.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3028.1.6"
-			}
 		}
 	}
 
@@ -1741,28 +1267,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_supportweapons
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3021.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-		}
 	}
 
 	support_weapons2 = {
@@ -1811,33 +1315,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_supportweapons
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "3020.1.6"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3021.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-		}
 	}
 
 	support_weapons3 = {
@@ -1882,34 +1359,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_supportweapons
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "3022.1.6"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3024.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3025.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
 		}
 	}
 
@@ -1965,34 +1414,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_supportweapons
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "3024.1.6"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3027.1.1"
-			}
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-		}
 	}
 
 	partisan_suppresion = {
@@ -2020,9 +1441,7 @@ technologies = {
 			lotr_infantry_supportweapons
 		}
 
-		ai_will_do = {
-			factor = 0.1
-		}
+		
 	}
 
 	partisan_suppresion2 = {
@@ -2040,9 +1459,7 @@ technologies = {
 			lotr_infantry_supportweapons
 		}
 
-		ai_will_do = {
-			factor = 0.1
-		}
+		
 	}
 
 	partisan_support = {
@@ -2069,10 +1486,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_supportweapons
 		}
-
-		ai_will_do = {
-			factor = 0
-		}
 	}
 
 	partisan_support2 = {
@@ -2089,10 +1502,6 @@ technologies = {
 		categories = {
 			lotr_infantry
 			lotr_infantry_supportweapons
-		}
-
-		ai_will_do = {
-			factor = 0
 		}
 	}
 
@@ -2131,30 +1540,6 @@ technologies = {
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
 		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 2
-				num_of_military_factories > 7
-			}
-
-			modifier = {
-				factor = 2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3021.1.1"
-			}
-		}
 	}
 
 	interwar_artillery = {
@@ -2192,40 +1577,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				num_of_military_factories > 7
-			}
-
-			modifier = {
-				factor = 2
-				OR = {
-					target_heavy_infantry_strat = yes
-					target_siege_machines_strat = yes
-					is_elves = yes
-				}
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3021.1.1"
-			}
 		}
 	}
 
@@ -2269,41 +1620,6 @@ technologies = {
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
 		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				num_of_military_factories > 7
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				OR = {
-					target_heavy_infantry_strat = yes
-					target_siege_machines_strat = yes
-					is_elves = yes
-				}
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3020.1.9"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3021.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3021.1.6"
-			}
-		}
 	}
 
 	artillery2 = {
@@ -2336,35 +1652,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				OR = {
-					target_heavy_infantry_strat = yes
-					target_siege_machines_strat = yes
-					is_elves = yes
-				}
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3022.1.6"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3024.1.1"
-			}
 		}
 	}
 
@@ -2399,30 +1686,6 @@ technologies = {
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
 		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				OR = {
-					target_heavy_infantry_strat = yes
-					target_siege_machines_strat = yes
-					is_elves = yes
-				}
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.6"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	# bow
@@ -2455,35 +1718,6 @@ technologies = {
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
 		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				OR = {
-					target_heavy_infantry_strat = yes
-					target_siege_machines_strat = yes
-					is_elves = yes
-				}
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.9"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3024.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3024.1.6"
-			}
-		}
 	}
 
 	artillery5 = {
@@ -2511,35 +1745,6 @@ technologies = {
 			lotr_infantry
 			lotr_infantry_archery
 			lotr_infantry_archery_bow
-		}
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				OR = {
-					target_heavy_infantry_strat = yes
-					target_siege_machines_strat = yes
-					is_elves = yes
-				}
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3025.1.6"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3027.1.1"
-			}
 		}
 	}
 
@@ -2570,10 +1775,6 @@ technologies = {
 			position = { x = 4 y = 6 }
 		}
 
-		ai_will_do = {
-			#factor = 1
-			factor = 0
-		}
 
 		categories = {
 			lotr_infantry
@@ -2611,9 +1812,6 @@ technologies = {
 			position = { x = 4 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
 
 		categories = {
 			lotr_infantry
@@ -2651,10 +1849,6 @@ technologies = {
 			position = { x = 4 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
-
 		categories = {
 			lotr_infantry
 			lotr_infantry_archery
@@ -2681,10 +1875,6 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = 18 }
-		}
-
-		ai_will_do = {
-			factor = 1
 		}
 
 		categories = {

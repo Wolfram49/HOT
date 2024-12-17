@@ -61,9 +61,7 @@ technologies = {
 			lotr_support_tech
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 
 	tech_engineers = {
@@ -87,34 +85,6 @@ technologies = {
 		categories = {
 			lotr_support_tech
 			engineers_tech
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3021.1.1"
-			}
-			modifier = {
-				factor = 10
-				date > "3022.1.1"
-			}
 		}
 	}
 
@@ -150,25 +120,6 @@ technologies = {
 			lotr_support_tech
 			engineers_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	tech_engineers3 = {
@@ -196,25 +147,6 @@ technologies = {
 			lotr_support_tech
 			engineers_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3027.1.1"
-			}
-		}
 	}
 
 	tech_engineers4 = {
@@ -237,25 +169,6 @@ technologies = {
 		categories = {
 			lotr_support_tech
 			engineers_tech
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3028.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3029.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3030.1.1"
-			}
 		}
 	}
 
@@ -283,34 +196,6 @@ technologies = {
 			lotr_support_tech
 			recon_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3021.1.1"
-			}
-			modifier = {
-				factor = 10
-				date > "3022.1.1"
-			}
-		}
 	}
 
 	tech_recon2 = {
@@ -335,25 +220,6 @@ technologies = {
 			lotr_support_tech
 			recon_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	tech_recon3 = {
@@ -377,25 +243,6 @@ technologies = {
 			lotr_support_tech
 			recon_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3027.1.1"
-			}
-		}
 	}
 
 	tech_recon4 = {
@@ -414,25 +261,6 @@ technologies = {
 		categories = {
 			lotr_support_tech
 			recon_tech
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3028.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3029.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3030.1.1"
-			}
 		}
 	}
 
@@ -459,9 +287,7 @@ technologies = {
 			military_police_tech
 		}
 
-		ai_will_do = {
-			factor = 0.5
-		}
+		
 	}
 
 	tech_military_police2 = {
@@ -488,9 +314,7 @@ technologies = {
 			military_police_tech
 		}
 
-		ai_will_do = {
-			factor = 0.5
-		}
+		
 	}
 
 	tech_military_police3 = {
@@ -515,9 +339,7 @@ technologies = {
 			military_police_tech
 		}
 
-		ai_will_do = {
-			factor = 0.5
-		}
+		
 	}
 
 	tech_military_police4 = {
@@ -538,9 +360,7 @@ technologies = {
 			military_police_tech
 		}
 
-		ai_will_do = {
-			factor = 0.5
-		}
+		
 	}
 
 	tech_maintenance_company = {
@@ -564,25 +384,6 @@ technologies = {
 		categories = {
 			lotr_support_tech
 			maintenance_company_tech
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3021.1.1"
-			}
 		}
 	}
 
@@ -610,25 +411,6 @@ technologies = {
 			lotr_support_tech
 			maintenance_company_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	tech_maintenance_company3 = {
@@ -653,25 +435,6 @@ technologies = {
 			lotr_support_tech
 			maintenance_company_tech
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3027.1.1"
-			}
-		}
 	}
 
 	tech_maintenance_company4 = {
@@ -691,25 +454,6 @@ technologies = {
 		categories = {
 			lotr_support_tech
 			maintenance_company_tech
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				date > "3028.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3029.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3030.1.1"
-			}
 		}
 	}
 
@@ -741,9 +485,7 @@ technologies = {
 			motorized_equipment
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_field_hospital2 = {
@@ -771,9 +513,7 @@ technologies = {
 			motorized_equipment
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_field_hospital3 = {
@@ -800,9 +540,7 @@ technologies = {
 			motorized_equipment
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_field_hospital4 = {
@@ -825,9 +563,7 @@ technologies = {
 			motorized_equipment
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_logistics_company = {
@@ -857,37 +593,6 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				factor = 3
-				OR = {
-					target_heavy_cav_strat = yes
-					target_heavy_cav_chariots_strat = yes
-				}
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3019.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3020.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3021.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "3022.1.1"
-			}
-		}
 	}
 
 	tech_logistics_company2 = {
@@ -915,33 +620,6 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 3
-				OR = {
-					target_heavy_cav_strat = yes
-					target_heavy_cav_chariots_strat = yes
-				}
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3023.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3024.1.1"
-			}
-		}
 	}
 
 	tech_logistics_company3 = {
@@ -967,33 +645,6 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 3
-				OR = {
-					target_heavy_cav_strat = yes
-					target_heavy_cav_chariots_strat = yes
-				}
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3025.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3026.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3027.1.1"
-			}
-		}
 	}
 
 	tech_logistics_company4 = {
@@ -1014,33 +665,6 @@ technologies = {
 			lotr_support_tech
 			logistics_tech
 			motorized_equipment
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 3
-				OR = {
-					target_heavy_cav_strat = yes
-					target_heavy_cav_chariots_strat = yes
-				}
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3028.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3029.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "3030.1.1"
-			}
 		}
 	}
 
@@ -1073,9 +697,7 @@ technologies = {
 			electronics
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_signal_company2 = {
@@ -1103,9 +725,7 @@ technologies = {
 			electronics
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_signal_company3 = {
@@ -1131,9 +751,7 @@ technologies = {
 			electronics
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 
 	tech_signal_company4 = {
@@ -1155,8 +773,6 @@ technologies = {
 			electronics
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 }

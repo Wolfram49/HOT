@@ -28,11 +28,6 @@ technologies = {
 			position = { x = 16 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3020.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -62,11 +57,6 @@ technologies = {
 			position = { x = 12 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 25
-
-			modifier = { factor = 2 date > "3018.1.1" } modifier = { factor = 3 date > "3019.1.1" } modifier = { factor = 5 date > "3020.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -93,11 +83,6 @@ technologies = {
 			position = { x = 12 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 2 date > "3020.1.1" } modifier = { factor = 3 date > "3021.1.1" } modifier = { factor = 5 date > "3022.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -129,12 +114,6 @@ technologies = {
 			position = { x = 12 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3021.1.1" } modifier = { factor = 10 date > "3022.1.1" }
-			modifier = { factor = 25 date > "3023.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -154,11 +133,6 @@ technologies = {
 			position = { x = 12 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 5 date > "3022.1.1" } modifier = { factor = 10 date > "3023.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -182,9 +156,6 @@ technologies = {
 			position = { x = 14 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 3
-		}
 
 		categories = {
 			lotr_knowledge
@@ -208,9 +179,7 @@ technologies = {
 			position = { x = 14 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 0.1
-		}
+		
 
 		categories = {
 			lotr_knowledge
@@ -236,12 +205,6 @@ technologies = {
 			position = { x = 16 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 2 date > "3023.1.1" }
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_scriptorium
@@ -265,12 +228,6 @@ technologies = {
 			ignore_for_layout = yes
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 2 date > "3025.1.1" }
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_scriptorium
@@ -291,12 +248,6 @@ technologies = {
 
 		path = {
 			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 2 date > "3028.1.1" }
 		}
 
 		categories = {
@@ -326,9 +277,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_knowledge
@@ -353,9 +302,7 @@ technologies = {
 			position = { x = 10 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_knowledge
@@ -374,9 +321,7 @@ technologies = {
 			position = { x = 10 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_knowledge
@@ -410,10 +355,6 @@ technologies = {
 			position = { x = 5 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 10
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_alchemy
@@ -433,10 +374,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 10 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 10
 		}
 
 		categories = {
@@ -462,9 +399,7 @@ technologies = {
 			position = { x = 4 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 
 		categories = {
 			lotr_knowledge
@@ -495,11 +430,6 @@ technologies = {
 			position = { x = 4 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 25 date > "3019.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -528,11 +458,6 @@ technologies = {
 			position = { x = 6 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3020.1.1" } modifier = { factor = 3 date > "3021.1.1" } modifier = { factor = 5 date > "3022.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -559,12 +484,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 6 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3023.1.1" } modifier = { factor = 3 date > "3024.1.1" } modifier = { factor = 5 date > "3025.1.1" }
 		}
 
 		categories = {
@@ -597,12 +516,6 @@ technologies = {
 			position = { x = 6 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3024.1.1" } modifier = { factor = 3 date > "3025.1.1" } modifier = { factor = 5 date > "3026.1.1" }
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_alchemy
@@ -624,11 +537,6 @@ technologies = {
 			position = { x = 6 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3026.1.1" } modifier = { factor = 3 date > "3027.1.1" } modifier = { factor = 5 date > "3028.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -669,12 +577,6 @@ technologies = {
 			position = { x = 4 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3021.1.1" } modifier = { factor = 3 date > "3022.1.1" } modifier = { factor = 5 date > "3023.1.1" }
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_alchemy
@@ -710,11 +612,6 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3023.1.1" } modifier = { factor = 3 date > "3024.1.1" } modifier = { factor = 5 date > "3025.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -748,9 +645,6 @@ technologies = {
 			position = { x = 1 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 10
-		}
 
 		categories = {
 			lotr_knowledge
@@ -778,9 +672,7 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 
 		categories = {
 			lotr_knowledge
@@ -813,9 +705,7 @@ technologies = {
 			custom_effect_tooltip = JET_ENGINES_RESEARCHED
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 
 		categories = {
 			lotr_knowledge
@@ -839,25 +729,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 0.3
-
-			modifier = {
-				factor = 1.2
-				date > "3021.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3022.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3023.1.1"
-			}
 		}
 
 		categories = {
@@ -893,14 +764,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				is_major = yes
-				date > "3023.1.1"
-			}
-		}
 
 		allow = { ROOT = { amount_research_slots > 3 } }
 
@@ -924,10 +787,6 @@ technologies = {
 
 		on_research_complete = {
 			add_nuclear_bombs = 2
-			unlock_decision_tooltip = focus_explosives_production_on
-			hidden_effect = {
-				add_ideas = TECH_continuous_explosives_production
-			}
 		}
 
 		nuclear_production_factor = 0.25
@@ -944,21 +803,6 @@ technologies = {
 		path = {
 			leads_to_tech = rocket_engines
 			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "3025.1.1"
-			}
-			modifier = {
-				factor = 2
-				is_major = yes
-				date > "3025.1.1"
-				amount_research_slots > 4
-			}
 		}
 
 		allow = { }
@@ -978,10 +822,6 @@ technologies = {
 
 		on_research_complete = {
 			add_nuclear_bombs = 1
-			unlock_decision_tooltip = focus_explosives_production_on
-			hidden_effect = {
-				add_ideas = TECH_continuous_explosives_production
-			}
 		}
 
 		XOR = {
@@ -999,21 +839,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 14 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "3025.1.1"
-			}
-			modifier = {
-				factor = 2
-				is_major = yes
-				date > "3025.1.1"
-				amount_research_slots > 4
-			}
 		}
 
 		#allow = { ROOT = { is_major = yes } }
@@ -1038,9 +863,7 @@ technologies = {
 		}
 
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 
 		#allow = { ROOT = { num_of_factories > 40 } }
 
@@ -1074,11 +897,6 @@ technologies = {
 			position = { x = 22 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = { factor = 3 date > "3019.1.1" } modifier = { factor = 5 date > "3020.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1109,11 +927,6 @@ technologies = {
 			position = { x = 22 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 2 date > "3021.1.1" } modifier = { factor = 3 date > "3022.1.1" } modifier = { factor = 5 date > "3023.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1147,11 +960,6 @@ technologies = {
 			position = { x = 11 y = 9 } # x = 12 y = 0
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 2 date > "3018.1.1" } modifier = { factor = 3 date > "3019.1.1" } modifier = { factor = 5 date > "3020.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1183,11 +991,6 @@ technologies = {
 			position = { x = 24 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 4
-
-			modifier = { factor = 2 date > "3019.1.1" } modifier = { factor = 3 date > "3020.1.1" } modifier = { factor = 5 date > "3021.1.1" }
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1216,18 +1019,6 @@ technologies = {
 		path = {
 			leads_to_tech = improved_encryption
 			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1.5 # not a major
-			}
 		}
 
 		categories = {
@@ -1260,18 +1051,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1.5 # not a major
-			}
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_intrigue_encryption
@@ -1295,18 +1074,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 26 y = 16 }
-		}
-
-		ai_will_do = {
-			factor = 1.75
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1.5 # not a major
-			}
 		}
 
 		categories = {
@@ -1341,13 +1108,6 @@ technologies = {
 			position = { x = 22 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1.5 # not a major
-			}
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1377,13 +1137,6 @@ technologies = {
 			position = { x = 22 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1.5 # not a major
-			}
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1410,13 +1163,6 @@ technologies = {
 			position = { x = 22 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				num_of_military_factories < 50
-				factor = 1.5 # not a major
-			}
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1449,14 +1195,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 24 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				date < "3021.1.1"
-				factor = 0.5
-			}
 		}
 
 		categories = {
@@ -1492,14 +1230,6 @@ technologies = {
 			position = { x = 24 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				date < "3022.1.1"
-				factor = 0.5
-			}
-		}
-
 		categories = {
 			lotr_knowledge
 			lotr_knowledge_intrigue_network
@@ -1523,14 +1253,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 24 y = 14 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				date < "3025.1.1"
-				factor = 0.5
-			}
 		}
 
 		categories = {
@@ -1560,13 +1282,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				date < "3022.1.1"
-				factor = 0.5
-			}
-		}
 
 		categories = {
 			lotr_knowledge
@@ -1588,14 +1303,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 20 y = 14 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				date < "3025.1.1"
-				factor = 0.5
-			}
 		}
 
 		categories = {

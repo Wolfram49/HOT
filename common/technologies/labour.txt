@@ -27,10 +27,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 50
-		}
-
 		categories = {
 			lotr_labour
 			lotr_labour_metalworking
@@ -46,29 +42,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				num_of_naval_factories < 2
-			}
-			modifier = {
-				factor = 2
-				num_of_naval_factories > 5
-				date > "3021.1.1"
-			}
-			modifier = {
-				factor = 2
-				num_of_naval_factories > 10
-				date > "3021.1.1"
-			}
-			modifier = {
-				factor = 10
-				num_of_naval_factories > 20
-				date > "3021.1.1"
-			}
 		}
 
 		categories = {
@@ -92,18 +65,6 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				steel < 5
-			}
-			modifier = {
-				factor = 3
-				steel < 1
-			}
-		}
-
 		categories = {
 			lotr_labour
 			lotr_labour_metalworking
@@ -125,9 +86,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 30
-		}
 
 		categories = {
 			lotr_labour
@@ -159,15 +117,6 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 30
-
-			modifier = {
-				factor = 10
-				date > "3020.1.1"
-			}
-		}
-
 		categories = {
 			lotr_labour
 			lotr_labour_metalworking
@@ -190,13 +139,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 7 }
-		}
-
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3020.1.1" } modifier = { factor = 10 date > "3021.1.1" }
-			modifier = { factor = 25 date > "3022.1.1" }
 		}
 
 		categories = {
@@ -234,12 +176,6 @@ technologies = {
 			position = { x = 0 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3022.1.1" } modifier = { factor = 10 date > "3023.1.1" }
-			modifier = { factor = 25 date > "3024.1.1" }
-		}
 
 		categories = {
 			lotr_labour
@@ -265,12 +201,6 @@ technologies = {
 			position = { x = -1 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3024.1.1" } modifier = { factor = 10 date > "3025.1.1" }
-			modifier = { factor = 25 date > "3026.1.1" }
-		}
 
 		categories = {
 			lotr_labour
@@ -294,13 +224,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = 14 }
-		}
-
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3024.1.1" } modifier = { factor = 10 date > "3025.1.1" }
-			modifier = { factor = 25 date > "3026.1.1" }
 		}
 
 		categories = {
@@ -331,9 +254,7 @@ technologies = {
 			position = { x = 2 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 
 		categories = {
 			industry
@@ -355,9 +276,7 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 
 		categories = {
 			industry
@@ -388,12 +307,6 @@ technologies = {
 			name = industry_folder
 			position = { x = -2 y = 2 }
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 5.0 OR = { rubber > 0 tungsten > 0 steel > 0 chromium > 0 } }
-		}
 	}
 
 	excavation2 = {
@@ -418,12 +331,6 @@ technologies = {
 			name = industry_folder
 			position = { x = -2 y = 4 }
 		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 5.0 OR = { rubber > 0 tungsten > 0 steel > 0 chromium > 0 } }
-		}
 	}
 
 	excavation3 = {
@@ -447,12 +354,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = 7 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 5.0 OR = { rubber > 0 tungsten > 0 steel > 0 chromium > 0 } }
 		}
 	}
 
@@ -479,11 +380,6 @@ technologies = {
 			position = { x = -2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 5.0 OR = { rubber > 0 tungsten > 0 steel > 0 chromium > 0 } }
-		}
 	}
 
 	excavation5 = {
@@ -506,12 +402,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = -2 y = 12 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 5.0 OR = { rubber > 0 tungsten > 0 steel > 0 chromium > 0 } }
 		}
 	}
 
@@ -538,24 +428,6 @@ technologies = {
 			position = { x = 3 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 25
-
-			modifier = {
-				factor = 0
-				has_tech = dispersed_industry
-			}
-
-			modifier = {
-				factor = 0
-				is_researching_technology = dispersed_industry
-			}
-
-			modifier = {
-				factor = 5
-				date > "3019.1.1"
-			}
-		}
 
 		categories = {
 			lotr_labour
@@ -588,15 +460,6 @@ technologies = {
 			position = { x = 3 y = 5 }
 		}
 
-		ai_will_do = {
-			factor = 20
-
-			modifier = {
-				factor = 10
-				date > "3019.1.1"
-			}
-
-		}
 
 		categories = {
 			lotr_labour
@@ -631,12 +494,6 @@ technologies = {
 			position = { x = 3 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3019.1.1" } modifier = { factor = 10 date > "3020.1.1" }
-			modifier = { factor = 25 date > "3021.1.1" }
-		}
 
 		categories = {
 			lotr_labour
@@ -669,12 +526,6 @@ technologies = {
 			position = { x = 3 y = 11 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 25 date > "3023.1.1" }
-		}
-
 		categories = {
 			lotr_labour
 			lotr_labour_construction
@@ -701,11 +552,6 @@ technologies = {
 			position = { x = 3 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 25 date > "3025.1.1" }
-		}
 
 		categories = {
 			lotr_labour
@@ -736,9 +582,7 @@ technologies = {
 			position = { x = -4 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_labour
@@ -765,9 +609,7 @@ technologies = {
 			position = { x = -4 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_labour
@@ -805,25 +647,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 5 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 25
-
-			modifier = {
-				factor = 0
-				has_tech = concentrated_industry
-			}
-
-			modifier = {
-				factor = 0
-				is_researching_technology = concentrated_industry
-			}
-
-			modifier = {
-				factor = 5
-				date > "3019.1.1"
-			}
 		}
 
 		categories = {
@@ -864,14 +687,6 @@ technologies = {
 			position = { x = 5 y = 5 }
 		}
 
-		ai_will_do = {
-			factor = 20
-
-			modifier = {
-				factor = 10
-				date > "3019.1.1"
-			}
-		}
 
 		categories = {
 			lotr_labour
@@ -907,14 +722,6 @@ technologies = {
 			position = { x = 5 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 15
-
-			modifier = {
-				factor = 10
-				date > "3021.1.1"
-			}
-		}
 
 		categories = {
 			lotr_labour
@@ -950,12 +757,6 @@ technologies = {
 			position = { x = 5 y = 11 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 5 date > "3021.1.1" } modifier = { factor = 10 date > "3022.1.1" }
-			modifier = { factor = 25 date > "3023.1.1" }
-		}
 
 		categories = {
 			lotr_labour
@@ -987,11 +788,6 @@ technologies = {
 			position = { x = 5 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 25 date > "3025.1.1" }
-		}
 
 		categories = {
 			lotr_labour
@@ -1023,73 +819,6 @@ technologies = {
 			lotr_labour
 			lotr_labour_farming
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				oil > 10
-			}
-			modifier = {
-				factor = 3
-				oil > 20
-			}
-			modifier = {
-				factor = 4
-				oil > 30
-			}
-
-			modifier = {
-				factor = 2
-				num_of_military_factories > 10
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 20
-			}
-			modifier = {
-				factor = 4
-				num_of_military_factories > 30
-			}
-			modifier = {
-				factor = 4
-				num_of_military_factories > 40
-			}
-			modifier = {
-				factor = 4
-				num_of_military_factories > 50
-			}
-
-			modifier = {
-				factor = 2
-				num_of_naval_factories > 10
-			}
-			modifier = {
-				factor = 3
-				num_of_naval_factories > 20
-			}
-			modifier = {
-				factor = 4
-				num_of_naval_factories > 30
-			}
-			modifier = {
-				factor = 4
-				num_of_naval_factories > 40
-			}
-			modifier = {
-				factor = 4
-				num_of_naval_factories > 50
-			}
-
-			modifier = {
-				factor = 0.2
-				date < "3020.1.1"
-			}
-			modifier = {
-				factor = 0.4
-				date < "3021.1.1"
-			}
-		}
 	}
 
 	fuel_refining = {
@@ -1112,43 +841,6 @@ technologies = {
 		categories = {
 			lotr_labour
 			lotr_labour_farming
-		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 10
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 20
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 10
-			}
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 20
-			}
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}
 		}
 	}
 
@@ -1173,35 +865,6 @@ technologies = {
 			lotr_labour
 			lotr_labour_farming
 		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 20
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 20
-			}
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}
-		}
 	}
 
 	fuel_refining3 = {
@@ -1224,27 +887,6 @@ technologies = {
 			lotr_labour
 			lotr_labour_farming
 		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}
-		}
 	}
 
 	fuel_refining4 = {
@@ -1262,27 +904,6 @@ technologies = {
 		categories = {
 			lotr_labour
 			lotr_labour_farming
-		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 30
-			}
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 30
-			}
 		}
 	}
 
@@ -1307,27 +928,6 @@ technologies = {
 			lotr_labour
 			lotr_labour_farming
 		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 40
-			}
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 40
-			}
-		}
 	}
 
 	fuel_refining6 = {
@@ -1345,27 +945,6 @@ technologies = {
 		categories = {
 			lotr_labour
 			lotr_labour_farming
-		}
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				is_major = no
-				factor = 0.25
-			}
-			modifier = {
-				factor = 1.5
-				num_of_military_factories > 40
-			}
-
-			modifier = {
-				factor = 1.5
-				num_of_naval_factories > 40
-			}
 		}
 	}
 
@@ -1406,21 +985,6 @@ technologies = {
 			lotr_labour_farming
 		}
 
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 0.5
-				oil > 10
-			}
-			modifier = {
-				factor = 0.5
-				oil > 20
-			}
-			modifier = {
-				factor = 0.5
-				oil > 30
-			}
-		}
 
 		ai_research_weights = {
 			oil = -2.0
@@ -1463,13 +1027,6 @@ technologies = {
 			lotr_labour_farming
 		}
 
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 10
-				date > "3020.1.1"
-			}
-		}
 
 		ai_research_weights = {
 			oil = -2.0
@@ -1515,30 +1072,6 @@ technologies = {
 			lotr_labour_farming
 		}
 
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0.5
-				rubber > 10
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 20
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 30
-			}
-			modifier = {
-				factor = 2
-				tungsten < 5
-			}
-			modifier = {
-				factor = 2
-				tungsten < 10
-			}
-		}
-
 		ai_research_weights = {
 			rubber = -2.0
 		}
@@ -1578,22 +1111,6 @@ technologies = {
 			lotr_labour_farming
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-				rubber > 10
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 20
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 30
-			}
-		}
-
 		ai_research_weights = {
 			rubber = -2.0
 		}
@@ -1622,22 +1139,6 @@ technologies = {
 		categories = {
 			lotr_labour
 			lotr_labour_farming
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-				rubber > 10
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 20
-			}
-			modifier = {
-				factor = 0.5
-				rubber > 30
-			}
 		}
 
 		ai_research_weights = {
@@ -1674,22 +1175,6 @@ technologies = {
 			lotr_labour_farming_leather
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-				oil > 10
-			}
-			modifier = {
-				factor = 0.5
-				oil > 20
-			}
-			modifier = {
-				factor = 0.5
-				oil > 30
-			}
-		}
-
 		ai_research_weights = {
 			oil = -2.0
 		}
@@ -1724,22 +1209,6 @@ technologies = {
 			lotr_labour
 			lotr_labour_farming
 			lotr_labour_farming_leather
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.5
-				oil > 10
-			}
-			modifier = {
-				factor = 0.5
-				oil > 20
-			}
-			modifier = {
-				factor = 0.5
-				oil > 30
-			}
 		}
 
 		ai_research_weights = {
@@ -1782,22 +1251,6 @@ technologies = {
 			lotr_labour_farming_leather
 		}
 
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0.5
-				tungsten > 10
-			}
-			modifier = {
-				factor = 0.5
-				tungsten > 20
-			}
-			modifier = {
-				factor = 0.5
-				tungsten > 30
-			}
-		}
-
 		ai_research_weights = {
 			tungsten = -2.0
 		}
@@ -1827,22 +1280,6 @@ technologies = {
 			lotr_labour
 			lotr_labour_farming
 			lotr_labour_farming_leather
-		}
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0.5
-				tungsten > 10
-			}
-			modifier = {
-				factor = 0.5
-				tungsten > 20
-			}
-			modifier = {
-				factor = 0.5
-				tungsten > 30
-			}
 		}
 
 		ai_research_weights = {
@@ -1882,15 +1319,6 @@ technologies = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
 		}
-
-		ai_will_do = {
-			factor = 50
-
-			modifier = {
-				factor = 5
-				date > "3019.1.1"
-			}
-		}
 	}
 
 	construction2 = {
@@ -1914,15 +1342,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 10
-				date > "3018.1.1"
-			}
 		}
 	}
 
@@ -1949,11 +1368,6 @@ technologies = {
 			position = { x = 0 y = 5 }
 		}
 
-		ai_will_do = {
-			factor = 10
-
-			modifier = { factor = 25 date > "3020.1.1" }
-		}
 	}
 
 	construction4 = {
@@ -1972,12 +1386,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 25 date > "3023.1.1" }
 		}
 	}
 
@@ -2003,10 +1411,5 @@ technologies = {
 			position = { x = 0 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 3
-
-			modifier = { factor = 25 date > "3025.1.1" }
-		}
 	}
 }

@@ -36,34 +36,6 @@ technologies = {
 			cat_mobile_warfare
 		}
 
-		ai_will_do = {
-			factor = 15
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					target_catapults_strat = yes
-					target_siege_machines_strat = yes
-					target_heavy_infantry_strat = yes
-				}
-			}
-			modifier = {
-				factor = 2
-				has_army_experience > 120
-				is_poor_country = no
-				OR = {
-					target_light_cav_strat = yes
-					target_chariots_strat = yes
-					target_heavy_cav_chariots_strat = yes
-				}
-			}
-		}
-
 		ai_research_weights = {
 			armor = 4.0
 		}
@@ -100,15 +72,6 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
 
 		ai_research_weights = {
 			armor = 3.0
@@ -156,15 +119,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
+
 
 		ai_research_weights = {
 			armor = 2.0
@@ -220,23 +175,6 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			armor = 1.0
@@ -273,23 +211,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			armor = 2.0
@@ -337,23 +259,6 @@ technologies = {
 			position = { x = -2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.0
@@ -398,23 +303,6 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			armor = 16.0
@@ -454,23 +342,6 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.5
@@ -520,23 +391,6 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.5
@@ -581,23 +435,6 @@ technologies = {
 			position = { x = 0 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			armor = 3.0
@@ -639,23 +476,6 @@ technologies = {
 			position = { x = 2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.0
@@ -688,17 +508,6 @@ technologies = {
 			position = { x = 2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.0
@@ -731,23 +540,6 @@ technologies = {
 			position = { x = 2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.0
@@ -784,23 +576,6 @@ technologies = {
 			position = { x = -2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			armor = 2.0
@@ -832,17 +607,7 @@ technologies = {
 			position = { x = -2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			armor = 2.0
@@ -872,17 +637,7 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			armor = 2.0
@@ -922,15 +677,6 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
 
 		ai_research_weights = {
 			artillery = 4.0
@@ -964,15 +710,6 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-		}
 
 		ai_research_weights = {
 			artillery = 3.0
@@ -1013,15 +750,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-		}
+
 
 		ai_research_weights = {
 			artillery = 2.0
@@ -1061,23 +790,6 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-			factor = 20
-		}
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1113,23 +825,6 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1174,23 +869,6 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1227,23 +905,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1285,23 +947,7 @@ technologies = {
 			position = { x = 0 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.25
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1339,23 +985,7 @@ technologies = {
 			position = { x = -2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.25
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1393,23 +1023,7 @@ technologies = {
 			position = { x = -2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1445,23 +1059,7 @@ technologies = {
 			position = { x = -2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1506,23 +1104,7 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1562,23 +1144,6 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.25
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1614,23 +1179,6 @@ technologies = {
 			position = { x = 2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1677,23 +1225,7 @@ technologies = {
 			position = { x = 2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1732,23 +1264,6 @@ technologies = {
 			position = { x = 2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			artillery = 1.0
@@ -1787,15 +1302,7 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1830,15 +1337,7 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 2.5
@@ -1875,15 +1374,6 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1924,23 +1414,7 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -1987,23 +1461,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.35
-			}
-			modifier = {
-				
-				factor = 0.65
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2038,23 +1496,7 @@ technologies = {
 			position = { x = -2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.3
-			}
-			modifier = {
-				
-				factor = 0.6
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2093,23 +1535,7 @@ technologies = {
 			position = { x = -2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.25
-			}
-			modifier = {
-				
-				factor = 0.55
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2146,23 +1572,7 @@ technologies = {
 			position = { x = -2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2196,23 +1606,7 @@ technologies = {
 			position = { x = -2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.45
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2245,23 +1639,7 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.1
-			}
-			modifier = {
-				
-				factor = 0.4
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2303,23 +1681,6 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.35
-			}
-			modifier = {
-				
-				factor = 0.65
-			}
-		}
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2360,23 +1721,7 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.3
-			}
-			modifier = {
-				
-				factor = 0.6
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2417,23 +1762,7 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.25
-			}
-			modifier = {
-				
-				factor = 0.55
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2469,23 +1798,7 @@ technologies = {
 			position = { x = 2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.2
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2522,23 +1835,7 @@ technologies = {
 			position = { x = 2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.45
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2569,23 +1866,7 @@ technologies = {
 			position = { x = 2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.1
-			}
-			modifier = {
-				
-				factor = 0.4
-			}
-		}
+
 
 		ai_research_weights = {
 			infantry_weapons = 1.5
@@ -2623,15 +1904,7 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2665,15 +1938,7 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2713,15 +1978,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2760,23 +2017,6 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2812,23 +2052,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2862,23 +2086,7 @@ technologies = {
 			position = { x = -2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.35
-			}
-			modifier = {
-				
-				factor = 0.65
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2916,23 +2124,7 @@ technologies = {
 			position = { x = -2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.35
-			}
-			modifier = {
-				
-				factor = 0.65
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -2972,23 +2164,7 @@ technologies = {
 			position = { x = -2 y = 14 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.25
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -3033,23 +2209,6 @@ technologies = {
 			position = { x = -2 y = 16 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.15
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-		}
 
 		ai_research_weights = {
 			industry = 2.0
@@ -3079,23 +2238,7 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.1
-			}
-			modifier = {
-				
-				factor = 0.35
-			}
-		}
+
 
 		ai_research_weights = {
 			industry = 2.0
@@ -3140,25 +2283,6 @@ technologies = {
 			position = { x = 2 y = 6 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			modifier = {
-				
-				factor = 0.5
-			}
-			modifier = {
-				
-				factor = 0.75
-			}
-
-		}
-
 		ai_research_weights = {
 			industry = 2.0
 		}
@@ -3189,16 +2313,6 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
 		}
 
 		ai_research_weights = {
@@ -3236,15 +2350,6 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
 
 		ai_research_weights = {
 			industry = 2.0
@@ -3281,15 +2386,6 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
 
 		ai_research_weights = {
 			infantry_weapons = 1.0
@@ -3322,15 +2418,6 @@ technologies = {
 			position = { x = 2 y = 14 }
 		}
 
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-		}
 
 		ai_research_weights = {
 			industry = 2.0

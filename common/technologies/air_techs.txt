@@ -39,14 +39,7 @@ technologies = {
 			cv_early_fighter
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
+		
 	}
 
 	cv_early_fighter = {
@@ -64,24 +57,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = fighter1
-					is_researching_technology = fighter1
-				}
-			}
-			modifier = {
-				factor = 3
-				has_navy_size = { type = carrier size > 3 }# if nation has several carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+	
 	}
 
 	fighter1 = {
@@ -113,35 +89,6 @@ technologies = {
 		sub_technologies = {
 			cv_fighter1
 		}
-
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3022.1.1"
-			}
-		}
 	}
 
 	cv_fighter1 = {
@@ -157,27 +104,6 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = fighter2
-					is_researching_technology = fighter2
-				}
-			}
-
-			modifier = {
-				factor = 2.5
-				has_navy_size = { type = carrier size > 3 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
 		}
 	}
 
@@ -211,34 +137,7 @@ technologies = {
 			cv_fighter2
 		}
 
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 4
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3021.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "3026.1.1"
-			}
-		}
+	
 	}
 
 	cv_fighter2 = {
@@ -256,30 +155,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.5
-				date > "3021.6.1"
-			}
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = fighter3
-					is_researching_technology = fighter3
-				}
-			}
-			modifier = {
-				factor = 2.5
-				has_navy_size = { type = carrier size > 3 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+		
 	}
 
 	fighter3 = {
@@ -312,34 +188,6 @@ technologies = {
 			cv_fighter3
 		}
 
-		ai_will_do = {
-			factor = 4
-
-			modifier = {
-				factor = 4
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "3027.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1947.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1948.1.1"
-			}
-		}
 	}
 
 	cv_fighter3 = {
@@ -357,22 +205,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.5
-				date > "3027.1.1"
-			}
-			modifier = {
-				factor = 2.5
-				has_navy_size = { type = carrier size > 3 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+		
 	}
 
 	jet_fighter1 = {
@@ -404,13 +237,7 @@ technologies = {
 			jet_technology
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-		}
+		
 	}
 
 	jet_fighter2 = {
@@ -433,9 +260,7 @@ technologies = {
 			jet_technology
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 
@@ -469,9 +294,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	cv_CAS1 = {
@@ -487,31 +310,6 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = CAS2
-					is_researching_technology = CAS2
-				}
-			}
-			modifier = {
-				factor = 2
-			}
-			modifier = {
-				factor = 1.5
-			}
-			modifier = {
-				factor = 2
-				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
 		}
 	}
 
@@ -545,21 +343,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 400
-					type = cas
-				}
-				factor = 3
-			}
-
-			modifier = {
-				factor = 2
-			}
-		}
+		
 	}
 
 	cv_CAS2 = {
@@ -577,30 +361,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = CAS3
-					is_researching_technology = CAS3
-				}
-			}
-			modifier = {
-				factor = 2
-			}
-			modifier = {
-				factor = 1.5
-			}
-			modifier = {
-				factor = 2
-				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+		
 	}
 
 	CAS3 = {
@@ -632,17 +393,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = cas
-				}
-				factor = 3
-			}
-		}
+		
 	}
 
 	cv_CAS3 = {
@@ -660,23 +411,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-			}
-			modifier = {
-				factor = 1.5
-			}
-			modifier = {
-				factor = 2
-				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+		
 	}
 
 	naval_bomber1 = {
@@ -708,9 +443,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	cv_naval_bomber1 = {
@@ -728,25 +461,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = naval_bomber2
-					is_researching_technology = naval_bomber2
-				}
-			}
-			modifier = {
-				factor = 2
-				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+		
 	}
 
 	naval_bomber2 = {
@@ -778,16 +493,7 @@ technologies = {
 			naval_bomber
 		}
 
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = naval_bomber
-				}
-				factor = 1.5
-			}
-		}
+		
 	}
 
 	cv_naval_bomber2 = {
@@ -803,26 +509,6 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
-		}
-
-		ai_will_do = {
-			factor = 5 #if you have carriers, you definitely want these!
-
-		modifier = {
-				factor = 0
-				OR = {
-					has_tech = naval_bomber3
-					is_researching_technology = naval_bomber3
-				}
-			}
-			modifier = {
-				factor = 2
-				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
 		}
 	}
 
@@ -855,16 +541,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1.5
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = naval_bomber
-				}
-				factor = 1.5
-			}
-		}
+		
 	}
 
 	cv_naval_bomber3 = {
@@ -882,17 +559,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
-			}
-			modifier = {
-				factor = 0
-				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
-			}
-		}
+		
 	}
 
 	early_bomber = {
@@ -929,9 +596,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	heavy_fighter1 = {
@@ -959,9 +624,7 @@ technologies = {
 			cat_heavy_fighter
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	heavy_fighter2 = {
@@ -989,9 +652,7 @@ technologies = {
 			cat_heavy_fighter
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	heavy_fighter3 = {
@@ -1019,9 +680,7 @@ technologies = {
 			cat_heavy_fighter
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	scout_plane1 = {
@@ -1049,23 +708,7 @@ technologies = {
 			cat_scout_plane
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				has_war = yes
-				factor = 1.5
-			}
-			modifier = {
-				has_tech = fighter1
-				has_tech = tactical_bomber1
-				has_tech = CAS1
-				factor = 3
-			}
-		}
+		
 	}
 
 	scout_plane2 = {
@@ -1088,23 +731,7 @@ technologies = {
 			cat_scout_plane
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				has_war = yes
-				factor = 1.5
-			}
-			modifier = {
-				has_tech = fighter2
-				has_tech = tactical_bomber2
-				has_tech = CAS2
-				factor = 3
-			}
-		}
+		
 	}
 
 	tactical_bomber1 = {
@@ -1131,34 +758,6 @@ technologies = {
 			medium_air
 			tactical_bomber
 			air_equipment
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "3018.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "3022.1.1"
-			}
 		}
 	}
 
@@ -1187,33 +786,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "3022.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "3021.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "3026.1.1"
-			}
-		}
+		
 	}
 
 	tactical_bomber3 = {
@@ -1241,27 +814,7 @@ technologies = {
 			air_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "3026.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "3027.1.1"
-			}
-		}
+		
 	}
 
 	jet_tactical_bomber1 = {
@@ -1294,13 +847,7 @@ technologies = {
 			tactical_bomber
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 4
-			}
-		}
+		
 	}
 
 	jet_tactical_bomber2 = {
@@ -1323,9 +870,7 @@ technologies = {
 			tactical_bomber
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 
@@ -1354,9 +899,7 @@ technologies = {
 			cat_strategic_bomber
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	strategic_bomber2 = {
@@ -1384,9 +927,7 @@ technologies = {
 			cat_strategic_bomber
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	strategic_bomber3 = {
@@ -1414,9 +955,7 @@ technologies = {
 			cat_strategic_bomber
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 
 	jet_strategic_bomber1 = {
@@ -1444,16 +983,7 @@ technologies = {
 			cat_strategic_bomber
 		}
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = strategic_bomber
-				}
-				factor = 4.5
-			}
-		}
+		
 	}
 
 	suicide_craft = {
@@ -1476,9 +1006,7 @@ technologies = {
 		#	position = { x = -2 y = 8 }
 		#}
 
-		ai_will_do = {
-			factor = 0
-		}
+		
 		################
 	}
 }

@@ -75,18 +75,6 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 100
-				any_state = {
-			        is_owned_by = ROOT
-			        is_coastal = yes
-			    }
-			}
-		}
-
 		categories = {
 			lotr_sailing
 			lotr_sailing_transport
@@ -120,15 +108,6 @@ technologies = {
 			position = {  x = -2 y = 4  }
 		}
 		
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 5
-				num_of_naval_factories > 3
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -165,15 +144,6 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 3
-				num_of_naval_factories > 5
-			}
-		}
-
 		categories = {
 			lotr_sailing
 			lotr_sailing_longship
@@ -201,15 +171,6 @@ technologies = {
 			position = {  x = -2 y = 12  }
 		}
 		
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 5
-				num_of_naval_factories > 10
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -245,14 +206,6 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 5
-				num_of_naval_factories > 10
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -282,14 +235,6 @@ technologies = {
 			position = {  x = -2 y = 22  }
 		}
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				num_of_naval_factories > 10
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -325,9 +270,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -357,9 +300,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -398,22 +339,6 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = HAR
-			}
-			modifier = {
-				factor = 2
-				tag = GON
-			}
-			modifier = {
-				factor = 2
-				tag = LIN
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -443,22 +368,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
 
-			modifier = {
-				factor = 2
-				tag = HAR
-			}
-			modifier = {
-				factor = 2
-				tag = GON
-			}
-			modifier = {
-				factor = 2
-				tag = LIN
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -494,22 +404,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
 
-			modifier = {
-				factor = 2
-				tag = HAR
-			}
-			modifier = {
-				factor = 2
-				tag = GON
-			}
-			modifier = {
-				factor = 2
-				tag = LIN
-			}
-		}
 
 		categories = {
 			lotr_sailing
@@ -545,9 +440,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -577,9 +470,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -610,9 +501,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -653,9 +542,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -695,9 +582,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -733,9 +618,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -766,9 +649,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -803,9 +684,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -835,9 +714,7 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		categories = {
 			lotr_sailing
@@ -869,30 +746,6 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 0.5
-				NOT = { has_war = yes }
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-		}
-
 		categories = {
 			naval_equipment
 			tp_tech
@@ -919,43 +772,6 @@ technologies = {
 		}
 		
 
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 0.5
-				NOT = { has_war = yes }
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-
-			modifier = {
-				factor = 5
-				OR = {
-					tag = NEP
-					tag = NEP
-				}
-				has_war_with = NEP
-			}
-
-			modifier = {
-				factor = 10
-				OR = {
-					tag = NEP
-					tag = NEP
-				}
-				has_war_with = NEP
-			}
-		}
-
 		categories = {
 			naval_equipment
 			tp_tech
@@ -975,30 +791,6 @@ technologies = {
 			position = {  x = -4 y = 22  }
 		}
 		
-
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 0.5
-				NOT = { has_war = yes }
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-
-			modifier = {
-				factor = 2
-				tag = NEP
-			}
-		}
 
 		categories = {
 			naval_equipment
