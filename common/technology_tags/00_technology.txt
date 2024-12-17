@@ -155,7 +155,6 @@ technology_categories = {
 
 	lotr_eagles
 	lotr_fellbeasts
-
 }
 
 technology_folders = {

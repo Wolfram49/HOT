@@ -1931,21 +1931,6 @@ lifeboats_module_desc:0 ""
  lotr_eagles:0 "Eagles"
  lotr_fellbeasts:0 "Fellbeasts"
 
- lotr_elven_secrets:0 "Elven Secrets"
- lotr_elven_secrets_bow:0 "Elven Bows"
-
- lotr_dwarven_secrets:0 "Dwarven Secrets"
- lotr_dwarven_secrets_mithril:0 "Mithril Armor"
- lotr_dwarven_secrets_battlewagon:0 "Dwarven Battlewagon"
- lotr_dwarven_secrets_mining:0 "Dwarven mining"
-
- lotr_men_secrets:0 "Secrets of Men"
- lotr_men_secrets_rangers:0 "Rangers"
- lotr_men_secrets_mumakil:0 "Mûmakil"
-
- lotr_orcs_secrets:0 "Orc Secrets"
- lotr_orcs_secrets_trolls:0 "Trolls"
- lotr_orcs_secrets_grond:0 "GROND"
 
  lotr_infantry_research:0 "Infantry Research"
  lotr_infantry_weapons_research:0 "Infantry Equipment Research"
@@ -1999,20 +1984,6 @@ lifeboats_module_desc:0 ""
  lotr_eagles_research:0 "Eagles Research"
  lotr_fellbeasts_research:0 "Fellbeasts Research"
 
- lotr_elven_secrets_research:0 "Elven Secrets Research"
- lotr_elven_secrets_bow_research:0 "Elven Bows Research"
-
- lotr_dwarven_secrets_research:0 "Dwarven Secrets Research"
- lotr_dwarven_secrets_mithril_research:0 "Mithril Armor Research"
- lotr_dwarven_secrets_battlewagon_research:0 "Dwarven Battlewagon Research"
-
- lotr_men_secrets_research:0 "Secrets of Men Research"
- lotr_men_secrets_rangers_research:0 "Rangers Research"
- lotr_men_secrets_mumakil_research:0 "Mûmakil Research"
-
- lotr_orcs_secrets_research:0 "Orc Secrets Research"
- lotr_orcs_secrets_trolls_research:0 "Trolls Research"
- lotr_orcs_secrets_grond_research:0 "GROND Research"
 
 
 lotr_equipment_infantry_equipment:0 "Infantry Equipment"
