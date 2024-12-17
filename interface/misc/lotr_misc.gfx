@@ -43,10 +43,45 @@ spriteTypes = {
 		name = "GFX_build_slot_bg_tiny"
 		texturefile = "gfx/interface/buildings/build_slot_bg_tiny.dds"
 	}
+
+	SpriteType = {
+        name = "GFX_generic_division_designer_background"
+        texturefile = "gfx/interface/equipmentdesigner/tanks/generic_division_designer_background.dds"
+    }
+
 	spriteType = {
 		name = "GFX_construction_add_button"
 		texturefile = "gfx/interface/buildings/construction_add_button.dds"
 	}
+
+	spriteType = {
+		name = "GFX_generic_button_research_line"
+		texturefile = "gfx/interface/generic_button_research_line.dds"
+	}
+	 
+	corneredTileSpriteType = {
+		name = "GFX_perg_tiled_bg_1_scrollbar"
+		size= { x=512 y=512 }
+		textureFile = "gfx//interface//tiles//perg_tiled_bg_1_scrollbar.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_decisions_bg_frame"
+		texturefile = "gfx/interface/decisionview/decisions_bg_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decisions_bg_img"
+		texturefile = "gfx/interface/decisionview/decisions_bg_img.dds"
+	}
+
+	SpriteType = {
+        name = "GFX_generic_ship_blueprint_background"
+        texturefile = "gfx/interface/equipmentdesigner/naval/generic_ship_blueprint_background.dds"
+    } 
 
 	spriteType = {
 		name = "GFX_construction_subtract_button"
@@ -83,6 +118,25 @@ spriteTypes = {
 		textureFile = "gfx/interface/lotr_diplo_filter_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_research_slots_tab"
+		textureFile = "gfx/interface/research_slots_tab.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_experimental_facilities_tab"
+		textureFile = "gfx/interface/experimental_facilities_tab.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_production_bg_subpanel"
+		textureFile = "gfx//interface//researchview//production_bg_subpanel.dds"
 	}
 
 }
