@@ -1,0 +1,81 @@
+
+bitmapfonts = {
+
+	bitmapfont = {
+		name = "got_20header"
+		path = "gfx/fonts/got_20header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+	bitmapfont = {
+		name = "got_18header"
+		path = "gfx/fonts/got_18header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+	bitmapfont = {
+		name = "got_16header"
+		path = "gfx/fonts/got_16header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+	bitmapfont = {
+		name = "got_24header"
+		path = "gfx/fonts/got_24header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+	bitmapfont = {
+		name = "got_8header"
+		path = "gfx/fonts/got_8header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+	bitmapfont = {
+		name = "got_10header"
+		path = "gfx/fonts/got_10header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+	bitmapfont = {
+		name = "got_12header"
+		path = "gfx/fonts/got_12header"
+		color = 0xddeeeeee
+
+		textcolors = {
+			G = { 86 172 91 }
+			H = { 215 160 0 }
+			T = { 211 211 211 }
+		}
+	}
+}

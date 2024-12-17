@@ -1,0 +1,56 @@
+ideas = {
+
+	# IMPORTANT NOTE: THE LOCALIZATION OF THESE MODIFIERS IS *HARD-CODED* (There was no other way to get the tooltip to work :<)
+	# This means that even if you change the modifiers in here, the old values will still be displayed.
+	# When making changes, please be sure to update the localization in parties_l_english.yml respectively!
+
+	# IMPORTANT NOTE 2: IF YOU ADD/REMOVE THESE, ADJUST lotr_apply_subideology_modifier (IN scripted_effects/00_lotr_ideologies_scripted_effects.txt)
+
+	hidden_ideas = {
+
+		idea_race_men_modifier = {
+			cancel = {
+			    NOT = { is_men = yes }
+			}
+
+			on_remove = {
+                lotr_apply_race_modifier = yes
+            }
+
+			modifier = {
+				initiative_factor = 0.1
+				drift_defence_factor = -0.15
+
+				# These are hidden, and based on availabilty of generic portraits (see portraits.txt)
+				female_random_country_leader_chance = -0.8	# base chance 0.5 -> 0.1
+				female_random_operative_chance = 0.0 		# base chance 0.5 -> 0.5
+				female_random_admiral_chance = -1.0 		# base chance 0.5 -> 0.0
+				female_random_army_leader_chance = -1.0		# irrelevant
+				female_divisional_commander_chance = -1.0
+			}			
+		}
+
+
+		idea_race_other_modifier = {
+			cancel = {
+			    NOT = { is_other = yes }
+			}
+
+			on_remove = {
+                lotr_apply_race_modifier = yes
+            }
+
+			modifier = {
+				# no modifiers here
+
+				# These are hidden, and based on availabilty of generic portraits (see portraits.txt)
+				female_random_country_leader_chance = -1.0	# base chance 0.5 -> 0.0
+				female_random_operative_chance = -1.0 		# base chance 0.5 -> 0.0
+				female_random_admiral_chance = -1.0 		# base chance 0.5 -> 0.0
+				female_random_army_leader_chance = -1.0		# irrelevant
+				female_divisional_commander_chance = -1.0
+				female_random_scientist_chance = -1.0
+			}			
+		}
+	}
+}

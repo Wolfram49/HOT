@@ -28,3 +28,148 @@ entity = {
 	pdxmesh = "dreadfort_mesh"
 	scale = 1.0
 }
+entity = {
+	name = "fist_of_first_men"
+	pdxmesh = "fist_of_first_men_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "bridge_of_skulls"
+	pdxmesh = "bridge_of_skulls_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "casterly_rock"
+	pdxmesh = "casterly_rock_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "castillo"
+	pdxmesh = "castillo_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "gulltown"
+	pdxmesh = "gulltown_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "hardhome_stage2"
+	pdxmesh = "hardhome_stage2_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "hardhome_stage3"
+	pdxmesh = "hardhome_stage3_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "highgarden"
+	pdxmesh = "highgarden_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "lannisport"
+	pdxmesh = "lannisport_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "pentos"
+	pdxmesh = "pentos_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "summerhall"
+	pdxmesh = "summerhall_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "myr"
+	pdxmesh = "myr_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "tower_of_joy"
+	pdxmesh = "tower_of_joy_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "twins"
+	pdxmesh = "twins_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "riverrun"
+	pdxmesh = "riverrun_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "pyke"
+	pdxmesh = "pyke_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "old_town"
+	pdxmesh = "old_town_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "kings_landing"
+	pdxmesh = "kings_landing_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "white_harbour"
+	pdxmesh = "white_harbour_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "harrenhal"
+	pdxmesh = "harrenhal_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "inn_at_crossroads"
+	pdxmesh = "inn_at_crossroads_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "moat_callin"
+	pdxmesh = "moat_callin_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "stormsend_castle"
+	pdxmesh = "stormsend_castle_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "lonely_light"
+	pdxmesh = "lonely_light_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "eyrie"
+	pdxmesh = "eyrie_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "shadow_tower"
+	pdxmesh = "shadow_tower_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "eastwatch"
+	pdxmesh = "eastwatch_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "sunspear"
+	pdxmesh = "sunspear_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "bloody_gate"
+	pdxmesh = "bloody_gate_mesh"
+	scale = 1.0
+}

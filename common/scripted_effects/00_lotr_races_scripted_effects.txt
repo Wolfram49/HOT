@@ -1,0 +1,13 @@
+
+
+
+lotr_apply_race_modifier = {
+	if = {
+		limit = { is_men = yes }
+		add_ideas = idea_race_men_modifier
+	}
+	else_if = {
+		limit = { is_other = yes }
+		add_ideas = idea_race_other_modifier
+	}
+}

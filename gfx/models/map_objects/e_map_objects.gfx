@@ -59,4 +59,294 @@ objectTypes = {
 		}
 		scale = 1.0
 	}
+	pdxmesh = {
+		name = "fist_of_first_men_mesh"
+		file = "gfx/models/map_objects/fist_of_first_men/mesh_fist_of_first_men.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "bridge_of_skulls_mesh"
+		file = "gfx/models/map_objects/bridge_of_skulls/mesh_bridge_of_skulls.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "casterly_rock_mesh"
+		file = "gfx/models/map_objects/casterly_rock/mesh_casterly_rock.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "castillo_mesh"
+		file = "gfx/models/map_objects/castillo/mesh_castillo.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "gulltown_mesh"
+		file = "gfx/models/map_objects/gulltown/mesh_gulltown.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "hardhome_stage2_mesh"
+		file = "gfx/models/map_objects/hardhome_stage2/mesh_hardhome_stage2.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "hardhome_stage3_mesh"
+		file = "gfx/models/map_objects/hardhome_stage3/mesh_hardhome_stage3.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "highgarden_mesh"
+		file = "gfx/models/map_objects/highgarden/mesh_highgarden.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "lannisport_mesh"
+		file = "gfx/models/map_objects/lannisport/mesh_lannisport.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "pentos_mesh"
+		file = "gfx/models/map_objects/pentos/mesh_pentos.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "summerhall_mesh"
+		file = "gfx/models/map_objects/summerhall/mesh_summerhall.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "myr_mesh"
+		file = "gfx/models/map_objects/myr/mesh_myr.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "tower_of_joy_mesh"
+		file = "gfx/models/map_objects/tower_of_joy/mesh_tower_of_joy.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "twins_mesh"
+		file = "gfx/models/map_objects/twins/mesh_twins.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "riverrun_mesh"
+		file = "gfx/models/map_objects/riverrun/mesh_riverrun.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "pyke_mesh"
+		file = "gfx/models/map_objects/pyke/mesh_pyke.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "old_town_mesh"
+		file = "gfx/models/map_objects/old_town/mesh_old_town.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "kings_landing_mesh"
+		file = "gfx/models/map_objects/kings_landing/mesh_kings_landing.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "white_harbour_mesh"
+		file = "gfx/models/map_objects/white_harbour/mesh_white_harbour.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "harrenhal_mesh"
+		file = "gfx/models/map_objects/harrenhal/mesh_harrenhal.mesh"
+		meshsettings = {
+			texture_normal = "building_special_Harrenhal_walls_normal.dds"
+			texture_specular = "building_special_Harrenhal_walls_properties.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "inn_at_crossroads_mesh"
+		file = "gfx/models/map_objects/inn_at_crossroads/mesh_inn_at_crossroads.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "moat_callin_mesh"
+		file = "gfx/models/map_objects/moat_callin/mesh_moat_callin.mesh"
+		meshsettings = {
+			texture_normal = "building_special_moat_cailin_02_normal.dds"
+			texture_specular = "building_special_moat_cailin_02_properties.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "stormsend_castle_mesh"
+		file = "gfx/models/map_objects/stormsend_castle/mesh_stormsend_castle.mesh"
+		meshsettings = {
+			texture_normal = "building_special_stormsend_castle_normal.dds"
+			texture_specular = "building_special_stormsend_castle_properties.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "lonely_light_mesh"
+		file = "gfx/models/map_objects/lonely_light/mesh_lonely_light.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "eyrie_mesh"
+		file = "gfx/models/map_objects/eyrie/mesh_eyrie.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "shadow_tower_mesh"
+		file = "gfx/models/map_objects/shadow_tower/mesh_shadow_tower.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "eastwatch_mesh"
+		file = "gfx/models/map_objects/eastwatch/mesh_eastwatch.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "sunspear_mesh"
+		file = "gfx/models/map_objects/sunspear/mesh_sunspear.mesh"
+		meshsettings = {
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
+	pdxmesh = {
+		name = "bloody_gate_mesh"
+		file = "gfx/models/map_objects/bloody_gate/mesh_bloody_gate.mesh"
+		meshsettings = {
+			texture_normal = "building_special_the_bloody_gate_1_normal.dds"
+			texture_specular = "building_special_the_bloody_gate_1_properties.dds"
+			shader = PdxMeshAdvanced
+		}
+		scale = 1.0
+	}
 }

@@ -51,7 +51,7 @@ type={
 	object={
 		name="greatwall"
 		position={
-			1610.000 -14.450 1493.000 
+			1612.000 -14.450 1493.000 
 		}
 		rotation={
 			0.000 180.000 0.000 
@@ -130,6 +130,455 @@ type={
 		}
 		rotation={
 			15.000 160.000 0.000 
+		}
+	}
+}
+type={
+	type="fist_of_first_men"
+	use_animation=no
+	scale=1.500000
+	always_visible=yes
+	object={
+		name="fist_of_first_men"
+		position={
+			1536.200 10.550 1609.240 
+		}
+		rotation={
+			15.000 160.000 0.000 
+		}
+	}
+}
+type={
+	type="bridge_of_skulls"
+	use_animation=no
+	scale=1.500000
+	always_visible=yes
+	object={
+		name="bridge_of_skulls"
+		position={
+			1498.620 7.950 1540.670 
+		}
+		rotation={
+			15.000 120.000 0.000 
+		}
+	}
+}
+type={
+	type="casterly_rock"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="casterly_rock"
+		position={
+			1129.720 9.950 943.160 
+		}
+		rotation={
+			15.000 55.000 0.000 
+		}
+	}
+}
+type={
+	type="castillo"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="castillo"
+		position={
+			1438.810 12.250 739.470 
+		}
+		rotation={
+			15.000 40.000 0.000 
+		}
+	}
+}
+type={
+	type="gulltown"
+	use_animation=no
+	scale=0.180000
+	always_visible=yes
+	object={
+		name="gulltown"
+		position={
+			1929.160 9.950 1059.210 
+		}
+		rotation={
+			15.000 190.000 0.000 
+		}
+	}
+}
+type={
+	type="hardhome_stage2"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="hardhome_stage2"
+		position={
+			1419.430 10.650 1618.060 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+	object={
+		name="hardhome_stage2"
+		position={
+			1397.880 13.550 1720.580 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+	object={
+		name="hardhome_stage2"
+		position={
+			1397.400 12.250 1667.620 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+}
+type={
+	type="hardhome_stage3"
+	use_animation=no
+	scale=0.500000
+	always_visible=yes
+	object={
+		name="hardhome_stage3"
+		position={
+			1766.880 10.050 1618.250 
+		}
+		rotation={
+			15.000 90.000 0.000 
+		}
+	}
+}
+type={
+	type="highgarden"
+	use_animation=no
+	scale=0.060000
+	always_visible=yes
+	object={
+		name="highgarden"
+		position={
+			1275.670 12.050 769.420 
+		}
+		rotation={
+			15.000 50.000 0.000 
+		}
+	}
+}
+type={
+	type="lannisport"
+	use_animation=no
+	scale=0.150000
+	always_visible=yes
+	object={
+		name="lannisport"
+		position={
+			1124.450 10.050 929.340 
+		}
+		rotation={
+			15.000 340.000 0.000 
+		}
+	}
+}
+type={
+	type="pentos"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="pentos"
+		position={
+			2192.720 9.350 915.500 
+		}
+		rotation={
+			15.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="summerhall"
+	use_animation=no
+	scale=0.035000
+	always_visible=yes
+	object={
+		name="summerhall"
+		position={
+			1630.300 10.750 794.400 
+		}
+		rotation={
+			15.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="myr"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="myr"
+		position={
+			2228.640 13.050 852.940 
+		}
+		rotation={
+			15.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="tower_of_joy"
+	use_animation=no
+	scale=0.900000
+	always_visible=yes
+	object={
+		name="tower_of_joy"
+		position={
+			1426.860 12.450 729.430 
+		}
+		rotation={
+			15.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="twins"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="twins"
+		position={
+			1443.930 10.450 1120.490 
+		}
+		rotation={
+			15.000 40.000 0.000 
+		}
+	}
+}
+type={
+	type="riverrun"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="riverrun"
+		position={
+			1425.110 12.150 1031.730 
+		}
+		rotation={
+			15.000 350.000 0.000 
+		}
+	}
+}
+type={
+	type="pyke"
+	use_animation=no
+	scale=0.200000
+	always_visible=yes
+	object={
+		name="pyke"
+		position={
+			1146.050 10.550 1061.790 
+		}
+		rotation={
+			15.000 210.000 0.000 
+		}
+	}
+}
+type={
+	type="old_town"
+	use_animation=no
+	scale=0.900000
+	always_visible=yes
+	object={
+		name="old_town"
+		position={
+			1137.840 10.650 691.850 
+		}
+		rotation={
+			15.000 340.000 0.000 
+		}
+	}
+}
+type={
+	type="kings_landing"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="kings_landing"
+		position={
+			1661.010 10.850 906.730 
+		}
+		rotation={
+			15.000 353.000 0.000 
+		}
+	}
+}
+type={
+	type="white_harbour"
+	use_animation=no
+	scale=0.120000
+	always_visible=yes
+	object={
+		name="white_harbour"
+		position={
+			1581.390 10.350 1269.500 
+		}
+		rotation={
+			15.000 20.000 0.000 
+		}
+	}
+}
+type={
+	type="harrenhal"
+	use_animation=no
+	scale=0.150000
+	always_visible=yes
+	object={
+		name="harrenhal"
+		position={
+			1590.780 10.350 995.180 
+		}
+		rotation={
+			15.000 360.000 0.000 
+		}
+	}
+}
+type={
+	type="inn_at_crossroads"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="inn_at_crossroads"
+		position={
+			1587.110 10.850 1031.200 
+		}
+		rotation={
+			15.000 360.000 0.000 
+		}
+	}
+}
+type={
+	type="moat_callin"
+	use_animation=no
+	scale=0.500000
+	always_visible=yes
+	object={
+		name="moat_callin"
+		position={
+			1484.580 10.850 1223.350 
+		}
+		rotation={
+			15.000 360.000 0.000 
+		}
+	}
+}
+type={
+	type="stormsend_castle"
+	use_animation=no
+	scale=0.100000
+	always_visible=yes
+	object={
+		name="stormsend_castle"
+		position={
+			1844.430 6.850 814.730 
+		}
+		rotation={
+			15.000 25.000 0.000 
+		}
+	}
+}
+type={
+	type="lonely_light"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="lonely_light"
+		position={
+			781.020 7.550 1095.500 
+		}
+		rotation={
+			15.000 190.000 0.000 
+		}
+	}
+}
+type={
+	type="eyrie"
+	use_animation=no
+	scale=3.500000
+	always_visible=yes
+	object={
+		name="eyrie"
+		position={
+			1744.280 14.150 1087.480 
+		}
+		rotation={
+			15.000 150.000 0.000 
+		}
+	}
+}
+type={
+	type="shadow_tower"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="shadow_tower"
+		position={
+			1507.670 10.350 1535.780 
+		}
+		rotation={
+			15.000 150.000 5.000 
+		}
+	}
+}
+type={
+	type="eastwatch"
+	use_animation=no
+	scale=0.470000
+	always_visible=yes
+	object={
+		name="eastwatch"
+		position={
+			1727.790 10.350 1548.530 
+		}
+		rotation={
+			0.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="sunspear"
+	use_animation=no
+	scale=0.450000
+	always_visible=yes
+	object={
+		name="sunspear"
+		position={
+			1914.490 10.350 627.580 
+		}
+		rotation={
+			0.000 200.000 0.000 
+		}
+	}
+}
+type={
+	type="bloody_gate"
+	use_animation=no
+	scale=1.500000
+	always_visible=yes
+	object={
+		name="bloody_gate"
+		position={
+			1693.120 12.250 1063.650 
+		}
+		rotation={
+			0.000 340.000 0.000 
 		}
 	}
 }
