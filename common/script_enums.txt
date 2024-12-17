@@ -7,6 +7,10 @@ script_enum_operative_mission_type = {
 }
 
 script_enum_advisor_slot_type = {
+	chief_advisor
+	spymaster
+	treasurer
+	cavalry_chief
 	theorist
 	high_command
 	army_chief
@@ -15,7 +19,9 @@ script_enum_advisor_slot_type = {
 	political_advisor
 }
 
-script_enum_equipment_stat = {	
+script_enum_equipment_stat = {
+								#Viktors note for modders and future CDs: If you want to use a stat in the MIOs it has to be in the equipment category itself, not on the battalion level. So stuff like defense works because its contained within the equipment, but stuff like recon will not work because its owned by the battalion. Adding stuff like recon will not throw an error, but it will _not_ work. Moving stats to the equipment level from the bat-level might fix this if you are brave enough, but it is very risk and might break other stuff. Ive commented what is currently on the battalion level below and should not be used with MIOs.
+
 	default_morale 					#Cannot be used with MIOS
 	defense
 	breakthrough
@@ -75,7 +81,7 @@ script_enum_equipment_stat = {
 	railway_gun_hours_between_redistribution
 	max_organisation			#Cannot be used with MIOS
 	max_strength				##Cannot be used with MIOS
-	maximum_speed	
+	maximum_speed
 	armor_value
 	ap_attack
 	reliability
@@ -140,50 +146,420 @@ script_enum_equipment_category = {
 	anti_tank
 	rocket
 	flame
+	#armored_recovery_vehicle
+	#clearance_vehicle
+	#crossing_support_vehicle
 	land_cruiser
 }
 
 script_enum_equipment_bonus_type = {
-    land_cruiser
-    emplacement_gun_ammo
-    ballistic_missile
-    nuclear_missile
-    sam_missile
-    infantry
-    artillery
-    flame
-    missile_launcher
-    convoy 
-    amphibious 
-    armor 
-    anti_air 
-    anti_tank 
-    rocket 
-    mechanized 
-    motorized 
-    capital_ship 
-    submarine 
-    carrier 
-    support 
-    maritime_patrol_plane 
-    fighter 
-    cas 
-    naval_bomber 
-    interceptor 
-    tactical_bomber 
-    strategic_bomber 
-    screen_ship 
-    heavy_fighter 
-    air_transport 
-    missile 
-    suicide 
-    scout_plane
-    train  
-    floating_harbor 
-    railway_gun 
+	## This script enum contains all equipment types that can be used in equipment_bonus
+	## or in game/common/military_industrial_organization scripts.
+
+	## This list contains either equipment category (see script_enum_equipment_category above)
+	## or equipment archetypes & types defined in game/common/units/equipments
+
+	## This enum should be updated every time either of those is updated
+	## (there will be a log error at startup as a reminder)
+
+	# Equipment categories
+	convoy
+	train
+	floating_harbor
+	railway_gun
+	armor
+	motorized
+	mechanized
+	infantry
+	capital_ship
+	submarine
+	screen_ship
+	fighter
+	heavy_fighter
+	interceptor
+	tactical_bomber
+	strategic_bomber
+	cas
+	naval_bomber
+	missile
+	emplacement_gun_ammo
+	ballistic_missile
+	nuclear_missile
+	sam_missile
+	suicide
+	scout_plane
+	maritime_patrol_plane
+	air_transport
+	carrier
+	missile_launcher
+	support
+	amphibious
+	anti_air
+	artillery
+	anti_tank
+	rocket
+	flame
+	#armored_recovery_vehicle
+	#clearance_vehicle
+	#crossing_support_vehicle
+	land_cruiser
+
+	# Equipment archetypes & types
 	infantry_equipment
-    infantry_equipment_0 
-    infantry_equipment_1
-    infantry_equipment_2
-    infantry_equipment_3
+	artillery_equipment
+	anti_tank_equipment
+	anti_air_equipment
+	anti_air_equipment_1
+	anti_air_equipment_2
+	anti_air_equipment_3
+	anti_tank_equipment_1
+	anti_tank_equipment_2
+	anti_tank_equipment_3
+	artillery_equipment_1
+	artillery_equipment_2
+	artillery_equipment_3
+	rocket_artillery_equipment
+	rocket_artillery_equipment_1
+	rocket_artillery_equipment_2
+	motorized_rocket_equipment
+	convoy_1
+	guided_missile_equipment
+	guided_missile_equipment_1
+	guided_missile_equipment_2
+	guided_missile_equipment_3
+	infantry_equipment_0
+	infantry_equipment_1
+	infantry_equipment_2
+	infantry_equipment_3
+	motorized_equipment
+	motorized_equipment_1
+	small_plane_airframe
+	cv_small_plane_airframe
+	small_plane_airframe_0
+	small_plane_airframe_1
+	small_plane_airframe_2
+	small_plane_airframe_3
+	small_plane_airframe_4
+	cv_small_plane_airframe_0
+	cv_small_plane_airframe_1
+	cv_small_plane_airframe_2
+	cv_small_plane_airframe_3
+	cv_small_plane_airframe_4
+	medium_plane_airframe
+	medium_plane_airframe_0
+	medium_plane_airframe_1
+	medium_plane_airframe_2
+	medium_plane_airframe_3
+	medium_plane_airframe_4
+	large_plane_airframe
+	large_plane_airframe_0
+	large_plane_airframe_1
+	large_plane_airframe_2
+	large_plane_airframe_3
+	large_plane_airframe_4
+	transport_plane_equipment
+	transport_plane_equipment_1
+	railway_gun_equipment
+	railway_gun_equipment_1
+	support_equipment
+	support_equipment_1
+	light_cavalry_chassis
+	light_cavalry_chassis_0
+	light_cavalry_chassis_1
+	light_cavalry_chassis_2
+	light_cavalry_chassis_3
+	medium_tank_chassis
+	medium_tank_chassis_0
+	medium_tank_chassis_1
+	medium_tank_chassis_2
+	medium_tank_chassis_3
+	modern_tank_chassis
+	modern_tank_chassis_1
+	amphibious_tank_chassis
+	amphibious_tank_chassis_1
+	train_equipment
+	train_equipment_1
+	train_equipment_2
+	train_equipment_3
+	small_plane_cas_airframe
+	cv_small_plane_cas_airframe
+	small_plane_naval_bomber_airframe
+	cv_small_plane_naval_bomber_airframe
+	small_plane_suicide_airframe
+	cv_small_plane_suicide_airframe
+	medium_plane_fighter_airframe
+	medium_plane_scout_plane_airframe
+	large_plane_maritime_patrol_plane_airframe
+	jet_fighter_equipment
+	rocket_interceptor_equipment
+	jet_tac_bomber_equipment
+	jet_strat_bomber_equipment
+	small_plane_cas_airframe_0
+	small_plane_cas_airframe_1
+	small_plane_cas_airframe_2
+	small_plane_cas_airframe_3
+	small_plane_cas_airframe_4
+	cv_small_plane_cas_airframe_0
+	cv_small_plane_cas_airframe_1
+	cv_small_plane_cas_airframe_2
+	cv_small_plane_cas_airframe_3
+	cv_small_plane_cas_airframe_4
+	small_plane_naval_bomber_airframe_0
+	small_plane_naval_bomber_airframe_1
+	small_plane_naval_bomber_airframe_2
+	small_plane_naval_bomber_airframe_3
+	small_plane_naval_bomber_airframe_4
+	cv_small_plane_naval_bomber_airframe_0
+	cv_small_plane_naval_bomber_airframe_1
+	cv_small_plane_naval_bomber_airframe_2
+	cv_small_plane_naval_bomber_airframe_3
+	cv_small_plane_naval_bomber_airframe_4
+	small_plane_suicide_airframe_0
+	small_plane_suicide_airframe_1
+	small_plane_suicide_airframe_2
+	small_plane_suicide_airframe_3
+	small_plane_suicide_airframe_4
+	cv_small_plane_suicide_airframe_0
+	cv_small_plane_suicide_airframe_1
+	cv_small_plane_suicide_airframe_2
+	cv_small_plane_suicide_airframe_3
+	cv_small_plane_suicide_airframe_4
+	medium_plane_fighter_airframe_0
+	medium_plane_fighter_airframe_1
+	medium_plane_fighter_airframe_2
+	medium_plane_fighter_airframe_3
+	medium_plane_fighter_airframe_4
+	medium_plane_scout_plane_airframe_0
+	medium_plane_scout_plane_airframe_1
+	medium_plane_scout_plane_airframe_2
+	medium_plane_scout_plane_airframe_3
+	medium_plane_scout_plane_airframe_4
+	large_plane_maritime_patrol_plane_airframe_0
+	large_plane_maritime_patrol_plane_airframe_1
+	large_plane_maritime_patrol_plane_airframe_2
+	large_plane_maritime_patrol_plane_airframe_3
+	large_plane_maritime_patrol_plane_airframe_4
+	fighter_equipment_0
+	fighter_equipment_1
+	fighter_equipment_2
+	fighter_equipment_3
+	jet_fighter_equipment_1
+	jet_fighter_equipment_2
+	cv_fighter_equipment_0
+	cv_fighter_equipment_1
+	cv_fighter_equipment_2
+	cv_fighter_equipment_3
+	CAS_equipment_1
+	CAS_equipment_2
+	CAS_equipment_3
+	cv_CAS_equipment_1
+	cv_CAS_equipment_2
+	cv_CAS_equipment_3
+	nav_bomber_equipment_1
+	nav_bomber_equipment_2
+	nav_bomber_equipment_3
+	cv_nav_bomber_equipment_1
+	cv_nav_bomber_equipment_2
+	cv_nav_bomber_equipment_3
+	rocket_interceptor_equipment_1
+	rocket_interceptor_equipment_2
+	rocket_interceptor_equipment_3
+	rocket_suicide_equipment_1
+	tac_bomber_equipment_0
+	tac_bomber_equipment_1
+	tac_bomber_equipment_2
+	tac_bomber_equipment_3
+	jet_tac_bomber_equipment_1
+	jet_tac_bomber_equipment_2
+	heavy_fighter_equipment_1
+	heavy_fighter_equipment_2
+	heavy_fighter_equipment_3
+	scout_plane_equipment_1
+	scout_plane_equipment_2
+	strat_bomber_equipment_1
+	strat_bomber_equipment_2
+	strat_bomber_equipment_3
+	jet_strat_bomber_equipment_1
+	light_tank_aa_chassis
+	light_tank_artillery_chassis
+	light_tank_destroyer_chassis
+	light_tank_amphibious_chassis
+	light_tank_flame_chassis
+	medium_tank_aa_chassis
+	medium_tank_artillery_chassis
+	medium_tank_destroyer_chassis
+	medium_tank_amphibious_chassis
+	medium_tank_flame_chassis
+	heavy_tank_aa_chassis
+	heavy_tank_artillery_chassis
+	heavy_tank_destroyer_chassis
+	heavy_tank_amphibious_chassis
+	heavy_tank_flame_chassis
+	super_heavy_tank_aa_chassis
+	super_heavy_tank_artillery_chassis
+	super_heavy_tank_destroyer_chassis
+	modern_tank_aa_chassis
+	modern_tank_artillery_chassis
+	modern_tank_destroyer_chassis
+	light_tank_chassis
+	#light_tank_aa_chassis_0
+	#light_tank_aa_chassis_1
+	#light_tank_aa_chassis_2
+	#light_tank_aa_chassis_3
+	#light_tank_artillery_chassis_0
+	#light_tank_artillery_chassis_1
+	#light_tank_artillery_chassis_2
+	#light_tank_artillery_chassis_3
+	#light_tank_destroyer_chassis_0
+	#light_tank_destroyer_chassis_1
+	#light_tank_destroyer_chassis_2
+	#light_tank_destroyer_chassis_3
+	#light_tank_amphibious_chassis_0
+	#light_tank_amphibious_chassis_1
+	#light_tank_amphibious_chassis_2
+	#light_tank_amphibious_chassis_3
+	#light_tank_flame_chassis_0
+	#light_tank_flame_chassis_1
+	#light_tank_flame_chassis_2
+	#light_tank_flame_chassis_3
+	medium_tank_aa_chassis_0
+	medium_tank_aa_chassis_1
+	medium_tank_aa_chassis_2
+	medium_tank_aa_chassis_3
+	medium_tank_artillery_chassis_0
+	medium_tank_artillery_chassis_1
+	medium_tank_artillery_chassis_2
+	medium_tank_artillery_chassis_3
+	medium_tank_destroyer_chassis_0
+	medium_tank_destroyer_chassis_1
+	medium_tank_destroyer_chassis_2
+	medium_tank_destroyer_chassis_3
+	medium_tank_amphibious_chassis_0
+	medium_tank_amphibious_chassis_1
+	medium_tank_amphibious_chassis_2
+	medium_tank_amphibious_chassis_3
+	medium_tank_flame_chassis_0
+	medium_tank_flame_chassis_1
+	medium_tank_flame_chassis_2
+	medium_tank_flame_chassis_3
+	modern_tank_aa_chassis_1
+	modern_tank_artillery_chassis_1
+	modern_tank_destroyer_chassis_1
+	heavy_tank_chassis
+	super_heavy_tank_chassis
+
+	# LOTR stuff
+	infantry_equipment_4
+	infantry_equipment_5
+	infantry_equipment_6
+	dwarven_chariot_equipment_1
+	dwarven_chariot_equipment_2
+	ent_catapult_equipment_1
+	ent_catapult_equipment_2
+	orc_siege_equipment_1
+	orc_siege_equipment_2
+	infantry_equipment_7
+	infantry_equipment_8
+	infantry_equipment_9
+	infantry_equipment_10
+	elven_artillery_equipment_1
+	elven_artillery_equipment_2
+
+	light_cavalry_chassis
+	light_cavalry_chassis_0
+	light_cavalry_chassis_1
+	light_cavalry_chassis_2
+	light_cavalry_chassis_3
+
+	lancer_cavalry_chassis
+	lancer_cavalry_chassis_0
+	lancer_cavalry_chassis_1
+	lancer_cavalry_chassis_2
+
+	heavy_cavalry_chassis
+	heavy_cavalry_chassis_0
+	heavy_cavalry_chassis_1
+	heavy_cavalry_chassis_2
+	goat_rider_equipment_1
+	goat_rider_equipment_2
+
+	chariot_chassis
+	chariot_chassis_0
+	chariot_chassis_1
+	chariot_chassis_2
+
+	archer_chariot_chassis
+	archer_chariot_chassis_0
+	archer_chariot_chassis_1
+
+	archer_cavalry_chassis
+	archer_cavalry_chassis_0
+	archer_cavalry_chassis_1
+	archer_cavalry_chassis_2
+
+	siege_machine_chassis
+	siege_machine_chassis_0
+	siege_machine_chassis_1
+	siege_machine_chassis_2
+
+	catapult_chassis
+	catapult_chassis_0
+	catapult_chassis_1
+
+	longship_hull
+	longship_hull_0
+	longship_hull_1
+	longship_hull_2
+	longship_hull_3
+
+	galley_hull
+	galley_hull_0
+	galley_hull_1
+	galley_hull_2
+	galley_hull_3
+
+	caravel_hull
+	caravel_hull_0
+	caravel_hull_1
+	caravel_hull_2
+	caravel_hull_3
+
+	carrack_hull
+	carrack_hull_0
+	carrack_hull_1
+
+	archetype_generic_airframe
+
+	scout_eagle_airframe
+	scout_eagle_airframe_0
+
+	fighter_eagle_airframe
+	fighter_eagle_airframe_0
+	fighter_eagle_airframe_1
+
+	bomber_eagle_airframe
+	bomber_eagle_airframe_0
+	bomber_eagle_airframe_1
+
+	scout_fellbeast_airframe
+	scout_fellbeast_airframe_0
+
+	fighter_fellbeast_airframe
+	fighter_fellbeast_airframe_0
+	fighter_fellbeast_airframe_1
+
+	bomber_fellbeast_airframe
+	bomber_fellbeast_airframe_0
+	bomber_fellbeast_airframe_1
+
+	siege_trebuchet_equipment_0
+	trebuchet_equipment
+	trebuchet_equipment_0
+
+	caravel
+	carrack
+	longship
+	galley
 }
+
+
