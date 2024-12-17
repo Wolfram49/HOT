@@ -1,0 +1,1009 @@
+technologies = {
+
+
+	# Merchant ship
+	merchant_ship = {
+
+		enable_equipment_modules = {
+			shield_wall
+			high_freeboard
+			flatblade_oars_small_module
+			flatblade_oars_large_module
+			spoonblade_oars_small_module
+			spoonblade_oars_large_module
+			maconblade_oars_small_module
+			maconblade_oars_large_module
+			mainsail_small_module
+			mainsail_large_module
+			lugsail_small_module
+			lugsail_large_module
+			lateensail_small_module
+			lateensail_large_module
+			jibsail_small_module
+			jibsail_large_module
+			small_boarding_ramp_module
+			boarding_ramp_module
+			expanded_food_stores_module
+			crows_nest_module
+			naval_ram_module
+			reinforced_rudder_module
+
+			basic_ballista_module
+			basic_mangonel_module
+
+			scouting_bird
+			ship_camoflague
+
+			reinforced_hull_structure
+			boarding_defense_vanguard
+			cranked_fire_hose
+
+			capstan_system_module
+			optical_range_finders_module
+			drinking_water_casks_module
+		}
+
+		enable_equipments = {
+			convoy
+		}
+
+		path = {
+			leads_to_tech = war_galley_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = longship_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = transport
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = boarding_party_bonus
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 3004
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 0  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 100
+				any_state = {
+			        is_owned_by = ROOT
+			        is_coastal = yes
+			    }
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_transport
+		}
+	}
+
+	# Longship I
+	longship_0 = {
+
+		enable_equipments = {
+			longship_hull_0
+		}
+
+		enable_equipment_modules = {
+			hull_longship_1_module
+			improved_hull_longship_1_module
+			reinforced_hull_longship_1_module
+		}
+
+		path = {
+			leads_to_tech = longship_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = -2 y = 4  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				num_of_naval_factories > 3
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_longship
+		}
+	}
+
+	# Longship II
+	longship_1 = {
+
+		enable_equipments = {
+			longship_hull_1
+		}
+
+		enable_equipment_modules = {
+			hull_longship_2_module
+			improved_hull_longship_2_module
+			reinforced_hull_longship_2_module
+		}
+
+
+		path = {
+			leads_to_tech = longship_1_bonus
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3020
+
+		folder = {
+			name = naval_folder
+			position = {  x = -2 y = 8  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				num_of_naval_factories > 5
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_longship
+		}
+	}
+
+	# Longship bonus
+	longship_1_bonus = {
+		longship = {
+			surface_detection = 0.10
+			naval_range = 0.2
+		}
+
+		path = {
+			leads_to_tech = longship_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = -2 y = 12  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				num_of_naval_factories > 10
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_longship
+		}
+	}
+
+	# Longship III
+	longship_2 = {
+
+		enable_equipments = {
+			longship_hull_2
+		}
+
+		enable_equipment_modules = {
+			hull_longship_3_module
+			improved_hull_longship_3_module
+			reinforced_hull_longship_3_module
+		}
+
+		path = {
+			leads_to_tech = longship_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3025
+
+		folder = {
+			name = naval_folder
+			position = {  x = -2 y = 18  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 5
+				num_of_naval_factories > 10
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_longship
+		}
+	}
+
+	# Longship IV
+	longship_3 = {
+
+		enable_equipments = {
+			longship_hull_3
+		}
+
+		enable_equipment_modules = {
+			hull_longship_4_module
+			improved_hull_longship_4_module
+			reinforced_hull_longship_4_module
+		}
+
+		research_cost = 2
+
+		start_year = 3028
+
+		folder = {
+			name = naval_folder
+			position = {  x = -2 y = 22  }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 10
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_longship
+		}
+	}
+
+	# boarding bonus
+	boarding_party_bonus = {
+		galley = {
+			lg_attack = 0.1
+		}
+		longship = {
+			lg_attack = 0.1
+		}
+
+		enable_equipment_modules = {
+			boarding_crew_2_module
+		}
+
+		path = {
+			leads_to_tech = boarding_party_bonus2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 3020
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 8 }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+		}
+	}
+
+	# boarding II
+	boarding_party_bonus2 = {
+		galley = {
+			lg_attack = 0.1
+		}
+		longship = {
+			lg_attack = 0.1
+		}
+
+		enable_equipment_modules = {
+			boarding_crew_3_module
+		}
+
+		research_cost = 1
+
+		start_year = 3024
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 16  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+		}
+	}
+
+	# War Galley I
+	war_galley_0 = {
+
+		enable_equipments = {
+			galley_hull_0
+		}
+
+		enable_equipment_modules = {
+			hull_galley_1_module
+			improved_hull_galley_1_module
+			reinforced_hull_galley_1_module
+		}
+
+		path = {
+			leads_to_tech = war_galley_0_bonus
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = caravel_0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = 2 y = 4  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = HAR
+			}
+			modifier = {
+				factor = 2
+				tag = GON
+			}
+			modifier = {
+				factor = 2
+				tag = LIN
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_galley
+		}
+	}
+
+	# Galley bonus (Ramming batteries)
+	war_galley_0_bonus = {
+		galley = {
+			search_and_destroy_coordination = 0.1
+			lg_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = war_galley_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 3020
+
+		folder = {
+			name = naval_folder
+			position = {  x = 2 y = 8  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = HAR
+			}
+			modifier = {
+				factor = 2
+				tag = GON
+			}
+			modifier = {
+				factor = 2
+				tag = LIN
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_galley
+		}
+	}
+
+	# War Galley II
+	war_galley_1 = {
+
+		enable_equipments = {
+			galley_hull_1
+		}
+
+		enable_equipment_modules = {
+			hull_galley_2_module
+			improved_hull_galley_2_module
+			reinforced_hull_galley_2_module
+		}
+
+		path = {
+			leads_to_tech = war_galley_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = 2 y = 12  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = HAR
+			}
+			modifier = {
+				factor = 2
+				tag = GON
+			}
+			modifier = {
+				factor = 2
+				tag = LIN
+			}
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_galley
+		}
+	}
+
+	# War Galley III
+	war_galley_2 = {
+
+		enable_equipments = {
+			galley_hull_2
+		}
+
+		enable_equipment_modules = {
+			hull_galley_3_module
+			improved_hull_galley_3_module
+			reinforced_hull_galley_3_module
+		}
+
+		path = {
+			leads_to_tech = war_galley_2_bonus
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3024
+
+		folder = {
+			name = naval_folder
+			position = {  x = 2 y = 16  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_galley
+		}
+	}
+
+	# Galley bonus (Boarding bridges)
+	war_galley_2_bonus = {
+		galley = {
+			search_and_destroy_coordination = 0.1
+			lg_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = war_galley_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3025
+
+		folder = {
+			name = naval_folder
+			position = {  x = 2 y = 18  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_galley
+		}
+	}
+
+	# War Galley IV
+	war_galley_3 = {
+
+		enable_equipments = {
+			galley_hull_3
+		}
+
+		enable_equipment_modules = {
+			hull_galley_4_module
+			improved_hull_galley_4_module
+			reinforced_hull_galley_4_module
+		}
+
+		research_cost = 2
+
+		start_year = 3028
+
+		folder = {
+			name = naval_folder
+			position = {  x = 2 y = 22  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_galley
+		}
+	}
+
+	# Sailing Ship I
+	caravel_0 = {
+
+		enable_equipments = {
+			caravel_hull_0
+		}
+
+		enable_equipment_modules = {
+			hull_caravel_1_module
+			improved_hull_caravel_1_module
+			reinforced_hull_caravel_1_module
+		}
+
+		path = {
+			leads_to_tech = caravel_1
+			research_cost_coeff = 1
+		}
+
+		#path = {
+		#	leads_to_tech = war_galley_0
+		#	research_cost_coeff = 0.75
+		#}
+
+		research_cost = 1.5
+
+		start_year = 3020
+
+		folder = {
+			name = naval_folder
+			position = {  x = 4 y = 8  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_sailingship
+		}
+	}
+
+	# Sailing Ship II
+	caravel_1 = {
+
+		enable_equipments = {
+			caravel_hull_1
+		}
+
+		enable_equipment_modules = {
+			hull_caravel_2_module
+			improved_hull_caravel_2_module
+			reinforced_hull_caravel_2_module
+		}
+
+		path = {
+			leads_to_tech = caravel_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = carrack_0
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = 4 y = 12  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_sailingship
+		}
+	}
+
+	# Sailing Ship III
+	caravel_2 = {
+
+		enable_equipments = {
+			caravel_hull_2
+		}
+
+		enable_equipment_modules = {
+			hull_caravel_3_module
+			improved_hull_caravel_3_module
+			reinforced_hull_caravel_3_module
+		}
+
+		path = {
+			leads_to_tech = caravel_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3024
+
+		folder = {
+			name = naval_folder
+			position = {  x = 4 y = 16  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_sailingship
+		}
+	}
+
+	# Sailing Ship IV
+	caravel_3 = {
+
+		enable_equipments = {
+			caravel_hull_3
+		}
+
+		enable_equipment_modules = {
+			hull_caravel_4_module
+			improved_hull_caravel_4_module
+			reinforced_hull_caravel_4_module
+		}
+
+		research_cost = 2
+
+		start_year = 3028
+
+		folder = {
+			name = naval_folder
+			position = {  x = 4 y = 22  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_sailingship
+		}
+	}
+
+	# Frigate
+	carrack_0 = {
+
+		enable_equipments = {
+			carrack_hull_0
+		}
+
+		enable_equipment_modules = {
+			hull_carrack_1_module
+			improved_hull_carrack_1_module
+			reinforced_hull_carrack_1_module
+		}
+
+		path = {
+			leads_to_tech = carrack_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3024
+
+		folder = {
+			name = naval_folder
+			position = {  x = 6 y = 16  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_sailingship
+		}
+	}
+
+	# Ship of the Line
+	carrack_1 = {
+
+		enable_equipments = {
+			carrack_hull_1
+		}
+
+		enable_equipment_modules = {
+			hull_carrack_2_module
+			improved_hull_carrack_2_module
+			reinforced_hull_carrack_2_module
+		}
+
+		research_cost = 2
+		start_year = 3028
+
+		folder = {
+			name = naval_folder
+			position = {  x = 6 y = 22  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_sailing
+			lotr_sailing_sailingship
+		}
+	}
+
+	transport = {
+
+		transport_capacity = -0.5
+		naval_invasion_capacity = 10
+
+		enable_equipment_modules = {
+			portages_module
+			lifeboats_module
+		}
+
+		path = {
+			leads_to_tech = landing_craft
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = -4 y = 4  }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+
+	landing_craft = {
+
+		invasion_preparation = -0.5
+		amphibious_invasion_defence = 0.15
+		naval_invasion_capacity = 40
+
+		path = {
+			leads_to_tech = landing_craft_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = -4 y = 12  }
+		}
+		
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+
+			modifier = {
+				factor = 5
+				OR = {
+					tag = NEP
+					tag = NEP
+				}
+				has_war_with = NEP
+			}
+
+			modifier = {
+				factor = 10
+				OR = {
+					tag = NEP
+					tag = NEP
+				}
+				has_war_with = NEP
+			}
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+
+	landing_craft_2 = {
+
+		amphibious_invasion = 0.25
+		amphibious_invasion_defence = 0.5
+		naval_invasion_capacity = 100
+
+		research_cost = 2
+		start_year = 3028
+		folder = {
+			name = naval_folder
+			position = {  x = -4 y = 22  }
+		}
+		
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+
+			modifier = {
+				factor = 2
+				tag = NEP
+			}
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+
+}

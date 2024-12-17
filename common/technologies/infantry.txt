@@ -1,0 +1,2727 @@
+technologies = {
+
+	### INFANTRY WEAPONS
+
+	# Basic
+	infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+
+		enable_subunits = {
+			infantry
+		}
+
+		enable_equipment_modules = {
+			boarding_crew_1_module
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3016
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1000
+			# Not having infantry equipment would mean not being able to play the game.
+			# So set this to 0 if you want the ai to go touch some grass I guess.
+		}
+	}
+
+	infantry_weapons1 = {
+
+		category_all_infantry = {
+			soft_attack = 0.06
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cheap_infantry_weapons2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons1_bonus
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3017
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 35
+
+			modifier = {
+				factor = 2
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3020.1.1"
+			}
+		}
+	}
+
+	infantry_weapons1_bonus = {
+
+		enable_subunits = {
+			standard_bearer
+			standard_bearer_support
+		}
+		enable_equipment_modules = {
+			banner_special_module
+			mach_signal_flags
+			ship_signal_flags
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons1_bonus2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3019
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_weapons1_bonus2 = {
+
+		category_front_line = {
+			max_organisation = 2
+		}
+
+		standard_bearer = {
+			defense = 0.1
+			max_organisation = 10
+		}
+
+		research_cost = 1.5
+		start_year = 3021
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Expensive 1
+	infantry_weapons2 = {
+
+		enable_equipments = {
+			infantry_equipment_2
+		}
+		enable_equipment_modules = {
+			sword_armament_1_module
+		}
+
+		XOR = {
+			cheap_infantry_weapons2
+		}
+
+		path = {
+			leads_to_tech = improved_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3018
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 4 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_sword
+		}
+
+		ai_will_do = {
+			factor = 20
+
+			modifier = {
+				factor = 5
+				date > "3018.1.3"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3019.1.1"
+			}
+		}
+	}
+
+	# Expensive 2
+	improved_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_4
+		}
+		enable_equipment_modules = {
+			sword_armament_2_module
+		}
+
+		path = {
+			leads_to_tech = highly_sophisticated_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = improved_infantry_weapons_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3020
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 8 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_sword
+		}
+
+		ai_will_do = {
+			factor = 15
+
+			modifier = {
+				factor = 2
+				date > "3019.6.1"
+			}
+
+			modifier = {
+				factor = 3
+				date > "3020.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3021.1.1"
+			}
+		}
+	}
+
+	# ExpensiveExpensive
+	highly_sophisticated_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_6
+		}
+
+		path = {
+			leads_to_tech = highly_sophisticated_infantry_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3021
+		folder = {
+			name = infantry_folder
+			position = { x = -5 y = 10 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_sword
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	highly_sophisticated_infantry_weapons2 = {
+
+		category_light_infantry = {
+			reliability = 0.05
+			soft_attack = 0.1
+		}
+
+		research_cost = 2
+		start_year = 3021
+		folder = {
+			name = infantry_folder
+			position = { x = -5 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_sword
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Expensive bonus
+	improved_infantry_weapons_2 = {
+
+		category_light_infantry = {
+			breakthrough = 0.15
+			hard_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = advanced_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3022
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_sword
+		}
+
+		ai_will_do = {
+			factor = 12
+
+			modifier = {
+				factor = 2
+				date > "3021.6.1"
+			}
+
+			modifier = {
+				factor = 3
+				date > "3022.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3023.1.1"
+			}
+		}
+	}
+
+	# Expensive 3
+	advanced_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_8
+		}
+		enable_equipment_modules = {
+			sword_armament_3_module
+		}
+
+		path = {
+			leads_to_tech = universal_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_sword
+		}
+
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 3
+				date > "3022.6.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3024.1.1"
+			}
+		}
+	}
+
+	# Cheap 1
+	cheap_infantry_weapons2 = {
+
+		enable_equipments = {
+			infantry_equipment_1
+		}
+		enable_equipment_modules = {
+			spear_armament_1_module
+		}
+
+		XOR = {
+			infantry_weapons2
+		}
+
+		path = {
+			leads_to_tech = cheap_improved_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3018
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 4 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 20
+
+			modifier = {
+				factor = 5
+				date > "3018.1.3"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3019.1.1"
+			}
+		}
+	}
+
+	# Cheap 2
+	cheap_improved_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_3
+		}
+		enable_equipment_modules = {
+			spear_armament_2_module
+		}
+
+		path = {
+			leads_to_tech = cheap_highly_sophisticated_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cheap_improved_infantry_weapons_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3020
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 8 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 15
+
+			modifier = {
+				factor = 2
+				date > "3019.6.1"
+			}
+
+			modifier = {
+				factor = 3
+				date > "3020.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3021.1.1"
+			}
+		}
+	}
+
+	# Cheap Cheap
+	cheap_highly_sophisticated_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_5
+		}
+
+		path = {
+			leads_to_tech = cheap_highly_sophisticated_infantry_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3021
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 10 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cheap_highly_sophisticated_infantry_weapons2 = {
+
+		path = {
+			leads_to_tech = cheap_highly_sophisticated_infantry_weapons3
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			add_ideas = TECH_ie_cost
+		}
+
+		research_cost = 2
+		start_year = 3022
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cheap_highly_sophisticated_infantry_weapons3 = {
+
+		supply_consumption_factor = -0.05
+
+		on_research_complete = {
+			add_ideas = TECH_ie_cost2
+		}
+
+		research_cost = 2
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Cheap bonus
+	cheap_improved_infantry_weapons_2 = {
+
+		supply_consumption_factor = -0.05
+		equipment_capture_factor = 0.1
+
+		category_light_infantry = {
+			maximum_speed = 0.15
+			weight = -0.15
+		}
+
+		path = {
+			leads_to_tech = cheap_advanced_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3022
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 12
+
+			modifier = {
+				factor = 2
+				date > "3021.6.1"
+			}
+
+			modifier = {
+				factor = 3
+				date > "3022.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3023.1.1"
+			}
+		}
+	}
+
+	# Cheap 3
+	cheap_advanced_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_7
+		}
+		enable_equipment_modules = {
+			spear_armament_3_module
+		}
+
+		path = {
+			leads_to_tech = cheap_advanced_infantry_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 3
+				date > "3022.6.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3024.1.1"
+			}
+		}
+	}
+
+	# Cheap 4
+	cheap_advanced_infantry_weapons2 = {
+
+		enable_equipments = {
+			infantry_equipment_9
+		}
+
+		path = {
+			leads_to_tech = universal_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3024
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 16 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+			lotr_infantry_weapons_spear
+		}
+
+		ai_will_do = {
+			factor = 5
+
+			modifier = {
+				factor = 3
+				date > "3023.6.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3024.1.1"
+			}
+
+			modifier = {
+				factor = 10
+				date > "3025.1.1"
+			}
+		}
+	}
+
+	# Universal
+	universal_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_10
+		}
+
+		path = {
+			leads_to_tech = infantry_at
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3025
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 18 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 10
+				date > "3025.1.1"
+			}
+		}
+	}
+
+	infantry_at = {
+
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 0.5
+		}
+
+		path = {
+			leads_to_tech = infantry_at2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3026
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = 18 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				date > "3026.1.1"
+			}
+		}
+	}
+
+	infantry_at2 = {
+
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 0.75
+		}
+
+		research_cost = 1.5
+		start_year = 3026
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 18 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				date > "3026.1.1"
+			}
+		}
+	}
+
+	### SPECIAL FORCES
+
+	paratroopers = {
+
+		enable_subunits = {
+			heavy_infantry
+		}
+
+		path = {
+			leads_to_tech = paratroopers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3017
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 2 }
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = heavy_infantry
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_heavy_infantry"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_heavy_infantry
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				target_heavy_infantry_strat = yes
+				factor = 20
+			}
+			modifier = {
+				target_heavy_infantry_strat = yes
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				target_heavy_infantry_strat = yes
+				amount_research_slots > 2
+				num_of_military_factories > 5
+				date > "3020.1.1"
+
+				factor = 3
+			}
+		}
+	}
+
+	paratroopers2 = {
+
+		heavy_infantry = {
+			max_organisation = 5
+			soft_attack = 0.05
+			armor_value = 0.1
+			hardness = 0.05
+		}
+
+		path = {
+			leads_to_tech = paratroopers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3019
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_heavy_infantry
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				target_heavy_infantry_strat = yes
+				date > "3018.8.1"
+				factor = 20
+			}
+			modifier = {
+				target_heavy_infantry_strat = yes
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				target_heavy_infantry_strat = yes
+				amount_research_slots > 2
+				num_of_military_factories > 5
+				date > "3021.1.1"
+
+				factor = 3
+			}
+		}
+	}
+
+	paratroopers3 = {
+
+		heavy_infantry = {
+			max_organisation = 5
+			armor_value = 0.1
+			hardness = 0.05
+		}
+
+
+		research_cost = 2.0
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_heavy_infantry
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				target_heavy_infantry_strat = yes
+				date > "3022.6.1"
+				factor = 20
+			}
+			modifier = {
+				target_heavy_infantry_strat = yes
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				target_heavy_infantry_strat = yes
+				amount_research_slots > 2
+				num_of_military_factories > 5
+				date > "3024.1.1"
+
+				factor = 3
+			}
+		}
+	}
+
+	marines = {
+
+		enable_subunits = {
+			marine
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = marine
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_marines"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = marines2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3017
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 2 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_marines
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	marines2 = {
+
+		marine = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = marines3
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 3019
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 6 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_marines
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	marines3 = {
+
+		marine = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_marines
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	tech_mountaineers = {
+
+		enable_subunits = {
+			mountaineers
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = mountaineers
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_mountineers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = tech_mountaineers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3017
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 2 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_mountaineers
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	tech_mountaineers2 = {
+
+		mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = tech_mountaineers3
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 3019
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 6 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_mountaineers
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	tech_mountaineers3 = {
+		mountaineers = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+			lotr_infantry_specialforces_mountaineers
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	tech_special_forces = {
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+
+		#dependencies = {
+		#	OR = {
+		#		marines = 1
+		#		paratrooper = 1
+		#		mountaineer = 1
+		#	}
+		#}
+
+		path = {
+			leads_to_tech = advanced_special_forces
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = improved_special_forces
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3017
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 2 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	advanced_special_forces = {
+		xor={
+			improved_special_forces
+		}
+
+		category_special_forces = {
+			max_organisation = 5
+			defense = 0.05
+		}
+
+		special_forces_training_time_factor = 0.1
+
+		path = {
+			leads_to_tech = extreme_environment_training
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3019
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 6 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	improved_special_forces = {
+		xor={
+			advanced_special_forces
+		}
+
+		special_forces_cap = 0.05
+		special_forces_training_time_factor = -0.1
+
+		path = {
+			leads_to_tech = survival_training
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3019
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 6 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 10
+				target_heavy_infantry_strat = yes
+				date > "3019.6.1"
+			}
+			modifier = {
+				factor = 2
+				target_heavy_infantry_strat = yes
+				date > "3021.1.1"
+			}
+		}
+	}
+
+	extreme_environment_training = {
+
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.50
+			acclimatization_cold_climate_gain_factor = 0.50
+		}
+
+		special_forces_no_supply_grace = 48
+		special_forces_training_time_factor = 0.1
+
+		path = {
+			leads_to_tech = elite_forces
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 10
+				target_heavy_infantry_strat = yes
+				amount_research_slots > 2
+				date > "3023.6.1"
+			}
+			modifier = {
+				factor = 2
+				target_heavy_infantry_strat = yes
+				date > "3024.1.1"
+			}
+		}
+	}
+
+	survival_training = {
+
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.20
+			acclimatization_cold_climate_gain_factor = 0.20
+		}
+
+		special_forces_out_of_supply_factor = -0.1
+
+		path = {
+			leads_to_tech = elite_forces
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 10
+				target_heavy_infantry_strat = yes
+				amount_research_slots > 2
+				date > "3023.6.1"
+			}
+			modifier = {
+				factor = 2
+				target_heavy_infantry_strat = yes
+				date > "3024.1.1"
+			}
+		}
+	}
+
+	elite_forces = {
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.20
+			acclimatization_cold_climate_gain_factor = 0.20
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+
+		special_forces_no_supply_grace = 48
+
+		research_cost = 2
+		start_year = 3024
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 16 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_specialforces
+		}
+
+		ai_will_do = {
+			factor = 0.7
+			modifier = {
+				factor = 10
+				target_heavy_infantry_strat = yes
+				amount_research_slots > 2
+				date > "3024.6.1"
+			}
+			modifier = {
+				factor = 2
+				target_heavy_infantry_strat = yes
+				date > "3025.1.1"
+			}
+		}
+	}
+
+	jungle_warfare = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+
+		#If you change these
+		#Change the custom tooltip too: RAJ_jungle_training_effect
+		marine = {
+			jungle = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+		mountaineers = {
+			jungle = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+		heavy_infantry = {
+			jungle = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+	}
+
+	HUN_light_infantry_tech = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+
+		#If you change these
+		#Change the custom tooltip too: HUN_light_infantry_divisions_doctrine_effect
+		infantry = {
+			forest = {
+				attack = 0.02
+				movement = 0.05
+			}
+
+			urban = {
+				attack = 0.05
+				movement = 0.05
+			}
+		}
+	}
+
+	mountain_warfare = {
+
+		research_cost = 1
+
+		# only from focus!
+		allow = {
+			always = no
+		}
+
+
+		#If you change these
+		#Change the custom tooltip too: GRE_mountain_training_effect
+		infantry = {
+			mountain = {
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+
+		marine = {
+			mountain = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+		mountaineers = {
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+
+		paratrooper = {
+			mountain = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+	}
+
+	### SUPPORT WEAPONS
+
+	night_vision = {
+
+		land_night_attack = 0.1
+
+		enable_equipment_modules = {
+			mach_torches
+			ship_torches
+		}
+
+		path = {
+			leads_to_tech = night_vision2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 3018
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 2
+				date > "3024.1.9"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3025.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3025.1.6"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3028.1.1"
+			}
+		}
+	}
+
+	night_vision2 = {
+
+		enable_equipment_modules = {
+			mach_torches_2
+			ship_torches_2
+		}
+
+		land_night_attack = 0.15
+
+		research_cost = 2
+		start_year = 3022
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 2
+				date > "3027.1.9"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3028.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3028.1.6"
+			}
+		}
+	}
+
+	support_bonus = {
+
+		infantry = {
+			defense = 0.1
+		}
+		enable_equipment_modules = {
+			cav_leather_padding
+			eag_leather_padding
+		}
+
+		path = {
+			leads_to_tech = support_bonus2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 3018
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 2
+				date > "3024.1.9"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3025.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3025.1.6"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3028.1.1"
+			}
+		}
+	}
+
+	support_bonus2 = {
+		enable_equipment_modules = {
+			cav_leather_padding_2
+			eag_leather_padding_2
+		}
+		infantry = {
+			defense = 0.1
+		}
+
+		research_cost = 2
+		start_year = 3022
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 2
+				date > "3027.1.9"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3028.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3028.1.6"
+			}
+		}
+	}
+
+	support_weapons = {
+
+		enable_equipment_modules = {
+			shield_special_module
+			side_arm_special_module
+		}
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		chariot = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = support_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3016
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3020.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3021.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+		}
+	}
+
+	support_weapons2 = {
+		enable_equipment_modules = {
+			defensive_guard_module
+		}
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		chariot = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = support_weapons3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3018
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				date > "3020.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3021.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3022.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+		}
+	}
+
+	support_weapons3 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		chariot = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = support_weapons4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 3020
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "3022.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3024.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3025.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	support_weapons4 = {
+
+		enable_equipment_modules = {
+			horn_special_module
+		}
+
+		path = {
+			leads_to_tech = partisan_suppresion
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = partisan_support
+			research_cost_coeff = 1
+		}
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		chariot = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 3022
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "3024.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3025.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3026.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3027.1.1"
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+	}
+
+	partisan_suppresion = {
+
+		path = {
+			leads_to_tech = partisan_suppresion2
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			partisan_support
+		}
+
+		resistance_growth_on_our_occupied_states = 0.15
+
+		research_cost = 1.5
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	partisan_suppresion2 = {
+		resistance_growth_on_our_occupied_states = 0.15
+
+		research_cost = 1.5
+		start_year = 3026
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 18 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	partisan_support = {
+
+		path = {
+			leads_to_tech = partisan_support2
+			research_cost_coeff = 1
+		}
+
+		XOR = {
+			partisan_suppresion
+		}
+
+		resistance_damage_to_garrison_on_our_occupied_states = 0.1
+
+		research_cost = 1.5
+		start_year = 3023
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	partisan_support2 = {
+
+		resistance_damage_to_garrison_on_our_occupied_states = 0.1
+
+		research_cost = 1.5
+		start_year = 3026
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 18 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_supportweapons
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	### ARTY
+
+	gw_artillery = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		enable_equipment_modules = {
+			longbow_armament_1_module
+			crossbow_armament_1_module
+
+			archers_1_module
+
+			archers_storey_module
+		}
+
+		path = {
+			leads_to_tech = interwar_artillery
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 3016
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 0 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 2
+				num_of_military_factories > 7
+			}
+
+			modifier = {
+				factor = 2
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3020.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3021.1.1"
+			}
+		}
+	}
+
+	interwar_artillery = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		archer_cavalry = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = artillery1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 3018
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 4 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				num_of_military_factories > 7
+			}
+
+			modifier = {
+				factor = 2
+				OR = {
+					target_heavy_infantry_strat = yes
+					target_siege_machines_strat = yes
+					is_elves = yes
+				}
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3020.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3021.1.1"
+			}
+		}
+	}
+
+	# bow
+	artillery1 = {
+
+		enable_equipments = {
+			artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			longbow_armament_2_module
+			archers_2_module
+		}
+
+		path = {
+			leads_to_tech = artillery2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 3019
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 4 }
+		}
+
+		folder = {
+			name = elves_special_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				num_of_military_factories > 7
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				OR = {
+					target_heavy_infantry_strat = yes
+					target_siege_machines_strat = yes
+					is_elves = yes
+				}
+				date > "3019.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3020.1.9"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3021.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3021.1.6"
+			}
+		}
+	}
+
+	artillery2 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		archer_cavalry = {
+			soft_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = artillery3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 3020
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				OR = {
+					target_heavy_infantry_strat = yes
+					target_siege_machines_strat = yes
+					is_elves = yes
+				}
+				date > "3020.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3022.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3024.1.1"
+			}
+		}
+	}
+
+	artillery3 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		archer_cavalry = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = artillery4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 3022
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				OR = {
+					target_heavy_infantry_strat = yes
+					target_siege_machines_strat = yes
+					is_elves = yes
+				}
+				date > "3022.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.6"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3024.1.1"
+			}
+		}
+	}
+
+	# bow
+	artillery4 = {
+
+		enable_equipments = {
+			artillery_equipment_3
+		}
+		enable_equipment_modules = {
+			longbow_armament_3_module
+			archers_3_module
+		}
+
+		path = {
+			leads_to_tech = artillery5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3023
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 14 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				OR = {
+					target_heavy_infantry_strat = yes
+					target_siege_machines_strat = yes
+					is_elves = yes
+				}
+				date > "3023.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3023.1.9"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3024.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3024.1.6"
+			}
+		}
+	}
+
+	artillery5 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		archer_cavalry = {
+			soft_attack = 0.05
+		}
+
+		research_cost = 1
+
+		start_year = 3026
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 18 }
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_bow
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				OR = {
+					target_heavy_infantry_strat = yes
+					target_siege_machines_strat = yes
+					is_elves = yes
+				}
+				date > "3026.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3025.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "3026.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "3027.1.1"
+			}
+		}
+	}
+
+	# xbow
+	rocket_artillery = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_1
+		}
+		enable_equipment_modules = {
+			crossbow_armament_2_module
+		}
+		#enable_subunits = {
+		#	rocket_artillery_brigade
+		#}
+
+		path = {
+			leads_to_tech = rocket_artillery2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 3019
+
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 6 }
+		}
+
+		ai_will_do = {
+			#factor = 1
+			factor = 0
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_crossbow
+		}
+	}
+
+	rocket_artillery2 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		archer_chariot = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 3021
+
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 10 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_crossbow
+		}
+	}
+
+	rocket_artillery3 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		archer_chariot = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 3023
+
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 14 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_crossbow
+		}
+	}
+
+	# xbow
+	rocket_artillery4 = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			crossbow_armament_3_module
+		}
+		archer_chariot = {
+			soft_attack = 0.3
+		}
+		research_cost = 1
+
+		start_year = 3026
+
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			lotr_infantry
+			lotr_infantry_archery
+			lotr_infantry_archery_crossbow
+		}
+	}
+
+	### MISC
+
+	######### FROM JAPANESE FOCUS ##########
+	bicycle_infantry = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 3018
+
+		enable_subunits = {
+			bicycle_battalion
+		}
+	}
+
+	camelry = {
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 3018
+
+		enable_subunits = {
+			camelry
+		}
+	}
+}
