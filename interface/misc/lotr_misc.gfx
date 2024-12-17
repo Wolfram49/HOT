@@ -220,5 +220,169 @@ spriteTypes = {
 		textureFile = "gfx//interface//adjusters//river_icon.dds"
 	}
 
+		progressbartype = {
+		name = "GFX_softness_ratio"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/softness_ratio_armour.dds"
+		textureFile2 = "gfx/interface/softness_ratio_infantry.dds"
+		size = {x=11 y=194}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+
+	spriteType = {
+		name = "GFX_deploy_entry_bg"
+		textureFile = "gfx//interface//deployview//deploy_entry_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_division_container_square"
+		textureFile = "gfx//interface//deployview//division_container_square.dds"
+	}
+
+	spriteType = {
+		name = "GFX_deploy_area_bg"
+		textureFile = "gfx//interface//deployview//deploy_area_bg.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_deploy_line_bg"
+		textureFile = "gfx//interface//deployview//deploy_line_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_deploy_line_bg_end"
+		textureFile = "gfx//interface//deployview//deploy_line_bg_end.dds"
+	}
+
+	spriteType = {
+		name = "GFX_production_bg_subpanel"
+		textureFile = "gfx//interface//researchview//production_bg_subpanel.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_deployment_entry_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/deployment_entry_progressbar.dds"
+		textureFile2 = "gfx/interface/deployment_entry_progressbar_bg.dds"
+		size = { x = 115 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_deployment_entry_stalled_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/deployment_entry_stalled_progressbar.dds"
+		textureFile2 = "gfx/interface/deployment_entry_progressbar_bg.dds"
+		size = { x = 115 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_deployment_entry_stalled_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/deployment_entry_stalled_progressbar.dds"
+		textureFile2 = "gfx/interface/deployment_entry_progressbar_bg.dds"
+		size = { x = 115 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_deployment_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/deployment_entry_progressbar.dds"
+		textureFile2 = "gfx/interface/deployment_entry_progressbar_bg.dds"
+		size = { x = 115 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	spriteType = {
+		name = "GFX_deploy_line_cancel"
+		textureFile = "gfx//interface//deployview//deploy_line_cancel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_deploy_line_deploy"
+		textureFile = "gfx//interface//deployview//deploy_line_deploy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_deploy_add_button"
+		textureFile = "gfx//interface//deployview//deploy_add_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_deploy_subtract_button"
+		textureFile = "gfx//interface//deployview//deploy_subtract_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mio_ribbon_blank"
+		textureFile = "gfx//interface//military_industrial_organization//mio_ribbon_blank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_checkbox_small4_inv"
+		texturefile = "gfx/interface/decisionview/checkbox_small4_inv.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "unit_longship_icon_small"
+		texturefile = "gfx/texticons/ship_destroyer_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_galley_icon_small"
+		texturefile = "gfx/texticons/ship_light_cruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_galley_icon_small"
+		texturefile = "gfx/texticons/ship_light_cruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_caravel_icon_small"
+		texturefile = "gfx/texticons/ship_battlecruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_caravel_icon_small"
+		texturefile = "gfx/texticons/ship_battlecruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_carrack_icon_small"
+		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_carrack_icon_small"
+		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ability_valiant_charge"
+		texturefile = "gfx/interface/abilitylist/ability_chi_force_attack.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_longship_icon_small"
+		texturefile = "gfx/texticons/ship_destroyer_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
 }
 
