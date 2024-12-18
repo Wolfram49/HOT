@@ -68,24 +68,7 @@ technologies = {
 
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = horse_drawn_infantry
-					}
 
-					load_oob = "unlock_cav2"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = horse_drawn_infantry }
-					}
-
-					load_oob = "unlock_cav"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -132,24 +115,7 @@ technologies = {
 
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = horse_drawn_infantry
-					}
 
-					load_oob = "unlock_cav2"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = horse_drawn_infantry }
-					}
-
-					load_oob = "unlock_cav"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -316,24 +282,7 @@ technologies = {
 
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = horse_drawn_infantry
-					}
 
-					load_oob = "unlock_cav2"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = horse_drawn_infantry }
-					}
-
-					load_oob = "unlock_cav"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -464,24 +413,7 @@ technologies = {
 
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = horse_drawn_infantry
-					}
 
-					load_oob = "unlock_cav2"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = horse_drawn_infantry }
-					}
-
-					load_oob = "unlock_cav"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {

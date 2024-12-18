@@ -613,10 +613,7 @@ technologies = {
 	
 		}
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_heavy_infantry"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+
 		}
 
 		categories = {
@@ -687,10 +684,7 @@ technologies = {
 	
 		}
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_marines"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+
 		}
 
 		path = {
@@ -768,10 +762,7 @@ technologies = {
 
 		}
 		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_mountineers"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+
 		}
 
 		path = {
