@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_whw_dead_army"
+		texturefile = "gfx/interface/ideas/WHW/idea_whw_dead_army.dds"
+		noOfFrames = 18
+	}
+
+
+}

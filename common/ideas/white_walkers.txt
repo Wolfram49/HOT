@@ -1,0 +1,25 @@
+ideas = {
+    country = {
+        whw_dead_army = {
+			picture = GFX_idea_whw_dead_army
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = no
+                can_send_volunteers = no
+                can_access_market = no
+			}
+		}
+    }
+}

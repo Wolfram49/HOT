@@ -26,3 +26,7 @@ set_popularities = {
 	communism = 0
 	fascism = 0
 }
+
+add_ideas = {
+	whw_dead_army
+}
