@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = crownlands
+			ideology = baratheon_house
 			traits={  }
 			id=-1
 		}

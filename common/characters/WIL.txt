@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = wildlings
+			ideology = unity_tribes
 			traits={  }
 			id=-1
 		}

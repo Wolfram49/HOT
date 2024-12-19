@@ -12,8 +12,49 @@ ideas = {
             }
 
 			modifier = {
-				ai_focus_defense_factor = 0.2
-				ai_focus_military_advancements_factor = 0.25
+
+			}			
+		}
+
+		idea_white_walker_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = white_walkers }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_unity_tribes_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = unity_tribes }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_mormont_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = mormont_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
 			}			
 		}
 
@@ -27,9 +68,105 @@ ideas = {
             }
 
 			modifier = {
-				ai_focus_defense_factor = 0.35
-				ai_focus_war_production_factor = 0.15
-				ai_get_ally_desire_factor = 0.15
+
+			}			
+		}
+
+		idea_arryn_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = arryn_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_baratheon_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = baratheon_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_lannister_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = lannister_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_tyrell_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = tyrell_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_greyjoy_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = greyjoy_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_targarien_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = targarien_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_martell_house_modifier = {
+			cancel = {
+			    NOT = { has_country_leader_ideology = martell_house }
+			}
+
+			on_remove = {
+                lotr_apply_subideology_modifier = yes
+            }
+
+			modifier = {
+
 			}			
 		}
 	}

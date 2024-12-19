@@ -72,6 +72,78 @@ defined_text = {
 		}
 		localization_key = tully_house
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = martell_house
+		}
+		localization_key = martell_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = white_walkers
+		}
+		localization_key = white_walkers
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = unity_tribes
+		}
+		localization_key = unity_tribes
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = mormont_house
+		}
+		localization_key = mormont_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tully_house
+		}
+		localization_key = tully_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = arryn_house
+		}
+		localization_key = arryn_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = baratheon_house
+		}
+		localization_key = baratheon_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = lannister_house
+		}
+		localization_key = lannister_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tyrell_house
+		}
+		localization_key = tyrell_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = greyjoy_house
+		}
+		localization_key = greyjoy_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = targarien_house
+		}
+		localization_key = targarien_house
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = martell_house
+		}
+		localization_key = martell_house
+	}
 }
 
 # SUBTYPE ICON
@@ -90,6 +162,78 @@ defined_text = {
 		}
 		localization_key = "GFX_subideology_tully_house"
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = martell_house
+		}
+		localization_key = "GFX_subideology_martell_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = white_walkers
+		}
+		localization_key = "GFX_subideology_white_walkers"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = unity_tribes
+		}
+		localization_key = "GFX_subideology_unity_tribes"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = mormont_house
+		}
+		localization_key = "GFX_subideology_mormont_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tully_house
+		}
+		localization_key = "GFX_subideology_tully_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = arryn_house
+		}
+		localization_key = "GFX_subideology_arryn_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = baratheon_house
+		}
+		localization_key = "GFX_subideology_baratheon_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = lannister_house
+		}
+		localization_key = "GFX_subideology_lannister_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tyrell_house
+		}
+		localization_key = "GFX_subideology_tyrell_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = greyjoy_house
+		}
+		localization_key = "GFX_subideology_greyjoy_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = targarien_house
+		}
+		localization_key = "GFX_subideology_targarien_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = martell_house
+		}
+		localization_key = "GFX_subideology_martell_house"
+	}
 }
 
 # SUBTYPE ICON
@@ -107,5 +251,77 @@ defined_text = {
 			has_country_leader_ideology = tully_house
 		}
 		localization_key = "tully_modifier"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = martell_house
+		}
+		localization_key = "martell_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = white_walkers
+		}
+		localization_key = "white_walkers"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = unity_tribes
+		}
+		localization_key = "unity_tribes"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = mormont_house
+		}
+		localization_key = "mormont_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tully_house
+		}
+		localization_key = "tully_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = arryn_house
+		}
+		localization_key = "arryn_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = baratheon_house
+		}
+		localization_key = "baratheon_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = lannister_house
+		}
+		localization_key = "lannister_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = tyrell_house
+		}
+		localization_key = "tyrell_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = greyjoy_house
+		}
+		localization_key = "greyjoy_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = targarien_house
+		}
+		localization_key = "targarien_house"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = martell_house
+		}
+		localization_key = "targarien_house"
 	}
 }
