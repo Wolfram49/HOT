@@ -2,8 +2,19 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_whw_dead_army"
-		texturefile = "gfx/interface/ideas/WHW/idea_whw_dead_army.dds"
-		noOfFrames = 18
+		texturefile = "gfx/interface/ideas/idea_whw_dead_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_whw_ice_terror"
+		texturefile = "gfx/interface/ideas/idea_whw_ice_terror.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_whw_night_king"
+		texturefile = "gfx/interface/ideas/idea_whw_night_king.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_whw_perpetual_threat"
+		texturefile = "gfx/interface/ideas/idea_whw_perpetual_threat.dds"
 	}
 
 

@@ -29,4 +29,7 @@ set_popularities = {
 
 add_ideas = {
 	whw_dead_army
+	whw_ice_terror
+	whw_night_king
+	whw_perpetual_threat
 }
