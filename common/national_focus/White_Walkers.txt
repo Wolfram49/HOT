@@ -7,6 +7,7 @@ focus_tree = {
 			tag = WHW
 		}
 	}
+	continuous_focus_position = { x = 6400 y = 2000 }
 	default = no
 	focus = {
 		id = WHW_the_rise_of_ice

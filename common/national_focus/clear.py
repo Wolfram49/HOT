@@ -12,8 +12,8 @@ def increment_x_values(file_content, increment):
     return updated_content
 
 
-input_file = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/common/national_focus/White_Walkers.txt"
-output_file = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/common/national_focus/White_Walkers_updated.txt"
+input_file = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/common/national_focus/Wildlings.txt"
+output_file = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/common/national_focus/Wildlings_updated.txt"
 
 increment_amount = 20
 

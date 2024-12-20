@@ -76,5 +76,24 @@ ideas = {
 
 			}
 		}
+		whw_absolute_cold = {
+			picture = GFX_idea_whw_absolute_cold
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+
+			}
+		}
     }
 }

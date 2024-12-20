@@ -32,4 +32,5 @@ add_ideas = {
 	whw_ice_terror
 	whw_night_king
 	whw_perpetual_threat
+	whw_absolute_cold
 }
