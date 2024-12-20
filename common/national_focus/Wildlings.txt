@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = WHW_unite_the_free
+		id = WIL_unite_the_free
 		icon = GFX_goal_unknown
 		cost = 0
 		x = 55
@@ -17,7 +17,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = WHW_storming_the_southern_reaches
+		id = WIL_storming_the_southern_reaches
 		icon = GFX_goal_unknown
 		cost = 0
 		x = 90
@@ -25,1600 +25,1600 @@ focus_tree = {
 
 	}
 	focus = {
-		id = WHW_voice_of_the_tribes
+		id = WIL_voice_of_the_tribes
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unite_the_free
+			focus = WIL_unite_the_free
 		}
 		x = 38
 		y = 1
 
 	}
 	focus = {
-		id = WHW_blood_ties_and_frost_fealty
+		id = WIL_blood_ties_and_frost_fealty
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		x = 12
 		y = 2
 
 	}
 	focus = {
-		id = WHW_wandering_warrior_kin
+		id = WIL_wandering_warrior_kin
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_ties_and_frost_fealty
+			focus = WIL_blood_ties_and_frost_fealty
 		}
 		x = 6
 		y = 3
 
 	}
 	focus = {
-		id = WHW_froststeel_forge
+		id = WIL_froststeel_forge
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_ties_and_frost_fealty
+			focus = WIL_blood_ties_and_frost_fealty
 		}
 		x = 8
 		y = 3
 
 	}
 	focus = {
-		id = WHW_drumbeats_of_freedom
+		id = WIL_drumbeats_of_freedom
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_ties_and_frost_fealty
+			focus = WIL_blood_ties_and_frost_fealty
 		}
 		mutually_exclusive = {
-			focus = WHW_honor_in_the_wild
+			focus = WIL_honor_in_the_wild
 		}
 		x = 10
 		y = 4
 
 	}
 	focus = {
-		id = WHW_honor_in_the_wild
+		id = WIL_honor_in_the_wild
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_ties_and_frost_fealty
+			focus = WIL_blood_ties_and_frost_fealty
 		}
 		mutually_exclusive = {
-			focus = WHW_drumbeats_of_freedom
+			focus = WIL_drumbeats_of_freedom
 		}
 		x = 14
 		y = 4
 
 	}
 	focus = {
-		id = WHW_mysteries_of_the_frost_gods
+		id = WIL_mysteries_of_the_frost_gods
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_honor_in_the_wild
+			focus = WIL_honor_in_the_wild
 		}
 		x = 14
 		y = 5
 
 	}
 	focus = {
-		id = WHW_seize_the_northern_lights
+		id = WIL_seize_the_northern_lights
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_ties_and_frost_fealty
+			focus = WIL_blood_ties_and_frost_fealty
 		}
 		x = 16
 		y = 3
 
 	}
 	focus = {
-		id = WHW_windborne_legends
+		id = WIL_windborne_legends
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_honor_in_the_wild
+			focus = WIL_honor_in_the_wild
 		}
 		x = 16
 		y = 5
 
 	}
 	focus = {
-		id = WHW_tides_of_ice_and_fire
+		id = WIL_tides_of_ice_and_fire
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_ties_and_frost_fealty
+			focus = WIL_blood_ties_and_frost_fealty
 		}
 		x = 18
 		y = 3
 
 	}
 	focus = {
-		id = WHW_fangs_of_the_wild_beasts
+		id = WIL_fangs_of_the_wild_beasts
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_honor_in_the_wild
+			focus = WIL_honor_in_the_wild
 		}
 		x = 18
 		y = 5
 
 	}
 	focus = {
-		id = WHW_echoes_of_the_ancients
+		id = WIL_echoes_of_the_ancients
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		x = 28
 		y = 2
 
 	}
 	focus = {
-		id = WHW_stand_as_one_tribe
+		id = WIL_stand_as_one_tribe
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_echoes_of_the_ancients
+			focus = WIL_echoes_of_the_ancients
 		}
 		x = 27
 		y = 3
 
 	}
 	focus = {
-		id = WHW_guardians_of_the_frozen_frontier
+		id = WIL_guardians_of_the_frozen_frontier
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_stand_as_one_tribe
+			focus = WIL_stand_as_one_tribe
 		}
 		mutually_exclusive = {
-			focus = WHW_fury_of_the_northwind
+			focus = WIL_fury_of_the_northwind
 		}
 		x = 26
 		y = 4
 
 	}
 	focus = {
-		id = WHW_fury_of_the_northwind
+		id = WIL_fury_of_the_northwind
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_stand_as_one_tribe
+			focus = WIL_stand_as_one_tribe
 		}
 		mutually_exclusive = {
-			focus = WHW_guardians_of_the_frozen_frontier
+			focus = WIL_guardians_of_the_frozen_frontier
 		}
 		x = 28
 		y = 4
 
 	}
 	focus = {
-		id = WHW_lorekeepers_of_the_free_folk
+		id = WIL_lorekeepers_of_the_free_folk
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_guardians_of_the_frozen_frontier
-			focus = WHW_fury_of_the_northwind
+			focus = WIL_guardians_of_the_frozen_frontier
+			focus = WIL_fury_of_the_northwind
 		}
 		mutually_exclusive = {
-			focus = WHW_bring_down_the_wall
+			focus = WIL_bring_down_the_wall
 		}
 		x = 28
 		y = 5
 
 	}
 	focus = {
-		id = WHW_call_of_the_untamed
+		id = WIL_call_of_the_untamed
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		x = 31
 		y = 2
 
 	}
 	focus = {
-		id = WHW_last_fire_of_survival
+		id = WIL_last_fire_of_survival
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		x = 33
 		y = 2
 
 	}
 	focus = {
-		id = WHW_winter_is_our_home
+		id = WIL_winter_is_our_home
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_call_of_the_untamed
+			focus = WIL_call_of_the_untamed
 		}
 		prerequisite = {
-			focus = WHW_last_fire_of_survival
+			focus = WIL_last_fire_of_survival
 		}
 		prerequisite = {
-			focus = WHW_echoes_of_the_ancients
+			focus = WIL_echoes_of_the_ancients
 		}
 		x = 31
 		y = 3
 
 	}
 	focus = {
-		id = WHW_banish_the_white_walkers
+		id = WIL_banish_the_white_walkers
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		x = 35
 		y = 2
 
 	}
 	focus = {
-		id = WHW_roots_in_the_permafrost
+		id = WIL_roots_in_the_permafrost
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_last_fire_of_survival
+			focus = WIL_last_fire_of_survival
 		}
 		prerequisite = {
-			focus = WHW_banish_the_white_walkers
+			focus = WIL_banish_the_white_walkers
 		}
 		x = 33
 		y = 3
 
 	}
 	focus = {
-		id = WHW_gather_the_shattered
+		id = WIL_gather_the_shattered
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_banish_the_white_walkers
+			focus = WIL_banish_the_white_walkers
 		}
 		prerequisite = {
-			focus = WHW_last_fire_of_survival
+			focus = WIL_last_fire_of_survival
 		}
 		x = 35
 		y = 3
 
 	}
 	focus = {
-		id = WHW_beyond_the_edge_of_the_world
+		id = WIL_beyond_the_edge_of_the_world
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_roots_in_the_permafrost
+			focus = WIL_roots_in_the_permafrost
 		}
 		prerequisite = {
-			focus = WHW_gather_the_shattered
+			focus = WIL_gather_the_shattered
 		}
 		x = 33
 		y = 4
 
 	}
 	focus = {
-		id = WHW_power_of_the_bloodrunes
+		id = WIL_power_of_the_bloodrunes
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_gather_the_shattered
+			focus = WIL_gather_the_shattered
 		}
 		prerequisite = {
-			focus = WHW_roots_in_the_permafrost
+			focus = WIL_roots_in_the_permafrost
 		}
 		x = 35
 		y = 4
 
 	}
 	focus = {
-		id = WHW_dance_of_the_stormborn
+		id = WIL_dance_of_the_stormborn
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_power_of_the_bloodrunes
-			focus = WHW_beyond_the_edge_of_the_world
+			focus = WIL_power_of_the_bloodrunes
+			focus = WIL_beyond_the_edge_of_the_world
 		}
 		mutually_exclusive = {
-			focus = WHW_shield_of_the_north
+			focus = WIL_shield_of_the_north
 		}
 		x = 33
 		y = 5
 
 	}
 	focus = {
-		id = WHW_shield_of_the_north
+		id = WIL_shield_of_the_north
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_beyond_the_edge_of_the_world
-			focus = WHW_power_of_the_bloodrunes
+			focus = WIL_beyond_the_edge_of_the_world
+			focus = WIL_power_of_the_bloodrunes
 		}
 		mutually_exclusive = {
-			focus = WHW_dance_of_the_stormborn
+			focus = WIL_dance_of_the_stormborn
 		}
 		x = 35
 		y = 5
 
 	}
 	focus = {
-		id = WHW_northern_expeditions
+		id = WIL_northern_expeditions
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		mutually_exclusive = {
-			focus = WHW_secret_paths_beyond_the_wall
+			focus = WIL_secret_paths_beyond_the_wall
 		}
 		x = 38
 		y = 2
 
 	}
 	focus = {
-		id = WHW_secret_paths_beyond_the_wall
+		id = WIL_secret_paths_beyond_the_wall
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voice_of_the_tribes
+			focus = WIL_voice_of_the_tribes
 		}
 		mutually_exclusive = {
-			focus = WHW_northern_expeditions
+			focus = WIL_northern_expeditions
 		}
 		x = 42
 		y = 2
 
 	}
 	focus = {
-		id = WHW_preparing_for_winter
+		id = WIL_preparing_for_winter
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_secret_paths_beyond_the_wall
-			focus = WHW_northern_expeditions
+			focus = WIL_secret_paths_beyond_the_wall
+			focus = WIL_northern_expeditions
 		}
 		x = 40
 		y = 3
 
 	}
 	focus = {
-		id = WHW_claim_the_giant’s_legacy
+		id = WIL_claim_the_giant’s_legacy
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_preparing_for_winter
+			focus = WIL_preparing_for_winter
 		}
 		mutually_exclusive = {
-			focus = WHW_free_folk_rising
+			focus = WIL_free_folk_rising
 		}
 		x = 38
 		y = 4
 
 	}
 	focus = {
-		id = WHW_free_folk_rising
+		id = WIL_free_folk_rising
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_preparing_for_winter
+			focus = WIL_preparing_for_winter
 		}
 		mutually_exclusive = {
-			focus = WHW_claim_the_giant’s_legacy
+			focus = WIL_claim_the_giant’s_legacy
 		}
 		x = 42
 		y = 4
 
 	}
 	focus = {
-		id = WHW_tribal_blood_pact
+		id = WIL_tribal_blood_pact
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_free_folk_rising
-			focus = WHW_claim_the_giant’s_legacy
+			focus = WIL_free_folk_rising
+			focus = WIL_claim_the_giant’s_legacy
 		}
 		x = 40
 		y = 5
 
 	}
 	focus = {
-		id = WHW_guardians_of_the_ancient_woods
+		id = WIL_guardians_of_the_ancient_woods
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_free_folk_rising
+			focus = WIL_free_folk_rising
 		}
 		x = 42
 		y = 5
 
 	}
 	focus = {
-		id = WHW_frozen_shields
+		id = WIL_frozen_shields
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_claim_the_giant’s_legacy
+			focus = WIL_claim_the_giant’s_legacy
 		}
 		x = 38
 		y = 5
 
 	}
 	focus = {
-		id = WHW_whispering_through_the_snow
+		id = WIL_whispering_through_the_snow
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_guardians_of_the_ancient_woods
-			focus = WHW_frozen_shields
+			focus = WIL_guardians_of_the_ancient_woods
+			focus = WIL_frozen_shields
 		}
 		x = 40
 		y = 6
 
 	}
 	focus = {
-		id = WHW_honor_the_old_gods
+		id = WIL_honor_the_old_gods
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_guardians_of_the_ancient_woods
+			focus = WIL_guardians_of_the_ancient_woods
 		}
 		x = 42
 		y = 6
 
 	}
 	focus = {
-		id = WHW_wolf_brothers_alliance
+		id = WIL_wolf_brothers_alliance
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_frozen_shields
+			focus = WIL_frozen_shields
 		}
 		x = 38
 		y = 6
 
 	}
 	focus = {
-		id = WHW_paths_of_the_shadowed_vale
+		id = WIL_paths_of_the_shadowed_vale
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_honor_the_old_gods
-			focus = WHW_wolf_brothers_alliance
+			focus = WIL_honor_the_old_gods
+			focus = WIL_wolf_brothers_alliance
 		}
 		x = 40
 		y = 7
 
 	}
 	focus = {
-		id = WHW_secrets_of_the_frostfangs
+		id = WIL_secrets_of_the_frostfangs
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_paths_of_the_shadowed_vale
+			focus = WIL_paths_of_the_shadowed_vale
 		}
 		x = 40
 		y = 8
 
 	}
 	focus = {
-		id = WHW_bond_of_the_clans
+		id = WIL_bond_of_the_clans
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_honor_the_old_gods
+			focus = WIL_honor_the_old_gods
 		}
 		x = 42
 		y = 7
 
 	}
 	focus = {
-		id = WHW_mastery_of_the_wilderness
+		id = WIL_mastery_of_the_wilderness
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unite_the_free
+			focus = WIL_unite_the_free
 		}
 		mutually_exclusive = {
-			focus = WHW_taming_the_mammoths
+			focus = WIL_taming_the_mammoths
 		}
 		x = 47
 		y = 7
 
 	}
 	focus = {
-		id = WHW_leaders_of_the_north
+		id = WIL_leaders_of_the_north
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unite_the_free
+			focus = WIL_unite_the_free
 		}
 		x = 55
 		y = 1
 
 	}
 	focus = {
-		id = WHW_warriors_of_the_frozen_wastes
+		id = WIL_warriors_of_the_frozen_wastes
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_leaders_of_the_north
+			focus = WIL_leaders_of_the_north
 		}
 		x = 53
 		y = 2
 
 	}
 	focus = {
-		id = WHW_beyond_the_wall_unity
+		id = WIL_beyond_the_wall_unity
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_leaders_of_the_north
+			focus = WIL_leaders_of_the_north
 		}
 		x = 55
 		y = 2
 
 	}
 	focus = {
-		id = WHW_secrets_of_ambushes
+		id = WIL_secrets_of_ambushes
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_warriors_of_the_frozen_wastes
+			focus = WIL_warriors_of_the_frozen_wastes
 		}
 		prerequisite = {
-			focus = WHW_beyond_the_wall_unity
+			focus = WIL_beyond_the_wall_unity
 		}
 		mutually_exclusive = {
-			focus = WHW_blood_and_ice
+			focus = WIL_blood_and_ice
 		}
 		x = 53
 		y = 3
 
 	}
 	focus = {
-		id = WHW_sustaining_on_scant_resources
+		id = WIL_sustaining_on_scant_resources
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_secrets_of_ambushes
+			focus = WIL_secrets_of_ambushes
 		}
 		x = 51
 		y = 4
 
 	}
 	focus = {
-		id = WHW_break_the_chains
+		id = WIL_break_the_chains
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_leaders_of_the_north
+			focus = WIL_leaders_of_the_north
 		}
 		x = 57
 		y = 2
 
 	}
 	focus = {
-		id = WHW_blood_and_ice
+		id = WIL_blood_and_ice
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_break_the_chains
+			focus = WIL_break_the_chains
 		}
 		prerequisite = {
-			focus = WHW_beyond_the_wall_unity
+			focus = WIL_beyond_the_wall_unity
 		}
 		mutually_exclusive = {
-			focus = WHW_secrets_of_ambushes
+			focus = WIL_secrets_of_ambushes
 		}
 		x = 57
 		y = 3
 
 	}
 	focus = {
-		id = WHW_battle_hardened_tribes
+		id = WIL_battle_hardened_tribes
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_and_ice
-			focus = WHW_secrets_of_ambushes
+			focus = WIL_blood_and_ice
+			focus = WIL_secrets_of_ambushes
 		}
 		mutually_exclusive = {
-			focus = WHW_warhorns_of_the_free
+			focus = WIL_warhorns_of_the_free
 		}
 		x = 53
 		y = 4
 
 	}
 	focus = {
-		id = WHW_warhorns_of_the_free
+		id = WIL_warhorns_of_the_free
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_and_ice
-			focus = WHW_secrets_of_ambushes
+			focus = WIL_blood_and_ice
+			focus = WIL_secrets_of_ambushes
 		}
 		mutually_exclusive = {
-			focus = WHW_battle_hardened_tribes
+			focus = WIL_battle_hardened_tribes
 		}
 		x = 57
 		y = 4
 
 	}
 	focus = {
-		id = WHW_crafting_to_survive
+		id = WIL_crafting_to_survive
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_battle_hardened_tribes
-			focus = WHW_warhorns_of_the_free
+			focus = WIL_battle_hardened_tribes
+			focus = WIL_warhorns_of_the_free
 		}
 		mutually_exclusive = {
-			focus = WHW_trade_with_the_crows
+			focus = WIL_trade_with_the_crows
 		}
 		x = 57
 		y = 5
 
 	}
 	focus = {
-		id = WHW_trade_with_the_crows
+		id = WIL_trade_with_the_crows
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_warhorns_of_the_free
-			focus = WHW_battle_hardened_tribes
+			focus = WIL_warhorns_of_the_free
+			focus = WIL_battle_hardened_tribes
 		}
 		mutually_exclusive = {
-			focus = WHW_crafting_to_survive
+			focus = WIL_crafting_to_survive
 		}
 		x = 53
 		y = 5
 
 	}
 	focus = {
-		id = WHW_legends_of_the_ancestors
+		id = WIL_legends_of_the_ancestors
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_trade_with_the_crows
-			focus = WHW_crafting_to_survive
+			focus = WIL_trade_with_the_crows
+			focus = WIL_crafting_to_survive
 		}
 		x = 57
 		y = 6
 
 	}
 	focus = {
-		id = WHW_songs_of_the_free_folk
+		id = WIL_songs_of_the_free_folk
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_crafting_to_survive
-			focus = WHW_trade_with_the_crows
+			focus = WIL_crafting_to_survive
+			focus = WIL_trade_with_the_crows
 		}
 		x = 55
 		y = 6
 
 	}
 	focus = {
-		id = WHW_taming_the_mammoths
+		id = WIL_taming_the_mammoths
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unite_the_free
+			focus = WIL_unite_the_free
 		}
 		mutually_exclusive = {
-			focus = WHW_mastery_of_the_wilderness
+			focus = WIL_mastery_of_the_wilderness
 		}
 		x = 63
 		y = 7
 
 	}
 	focus = {
-		id = WHW_forge_the_frost_peace
+		id = WIL_forge_the_frost_peace
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_taming_the_mammoths
-			focus = WHW_mastery_of_the_wilderness
+			focus = WIL_taming_the_mammoths
+			focus = WIL_mastery_of_the_wilderness
 		}
 		mutually_exclusive = {
-			focus = WHW_defiance_in_the_ice
+			focus = WIL_defiance_in_the_ice
 		}
 		x = 57
 		y = 8
 
 	}
 	focus = {
-		id = WHW_hunting_and_gathering
+		id = WIL_hunting_and_gathering
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_blood_and_ice
+			focus = WIL_blood_and_ice
 		}
 		x = 59
 		y = 4
 
 	}
 	focus = {
-		id = WHW_spirit_of_the_wilds
+		id = WIL_spirit_of_the_wilds
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_crafting_to_survive
+			focus = WIL_crafting_to_survive
 		}
 		x = 59
 		y = 6
 
 	}
 	focus = {
-		id = WHW_unyielding_spirit
+		id = WIL_unyielding_spirit
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_storming_the_southern_reaches
+			focus = WIL_storming_the_southern_reaches
 		}
 		x = 81
 		y = 1
 
 	}
 	focus = {
-		id = WHW_voices_of_the_untamed_land
+		id = WIL_voices_of_the_untamed_land
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unyielding_spirit
+			focus = WIL_unyielding_spirit
 		}
 		x = 72
 		y = 2
 
 	}
 	focus = {
-		id = WHW_snowbound_loyalty
+		id = WIL_snowbound_loyalty
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_voices_of_the_untamed_land
+			focus = WIL_voices_of_the_untamed_land
 		}
 		x = 71
 		y = 3
 
 	}
 	focus = {
-		id = WHW_binding_of_the_clanlords
+		id = WIL_binding_of_the_clanlords
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_snowbound_loyalty
+			focus = WIL_snowbound_loyalty
 		}
 		x = 72
 		y = 4
 
 	}
 	focus = {
-		id = WHW_free_folk_congress
+		id = WIL_free_folk_congress
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_binding_of_the_clanlords
+			focus = WIL_binding_of_the_clanlords
 		}
 		mutually_exclusive = {
-			focus = WHW_banners_in_the_wind
+			focus = WIL_banners_in_the_wind
 		}
 		x = 73
 		y = 5
 
 	}
 	focus = {
-		id = WHW_banners_in_the_wind
+		id = WIL_banners_in_the_wind
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_binding_of_the_clanlords
+			focus = WIL_binding_of_the_clanlords
 		}
 		mutually_exclusive = {
-			focus = WHW_free_folk_congress
+			focus = WIL_free_folk_congress
 		}
 		x = 71
 		y = 5
 
 	}
 	focus = {
-		id = WHW_sentinel_of_the_ice_gates
+		id = WIL_sentinel_of_the_ice_gates
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_free_folk_congress
-			focus = WHW_banners_in_the_wind
+			focus = WIL_free_folk_congress
+			focus = WIL_banners_in_the_wind
 		}
 		mutually_exclusive = {
-			focus = WHW_vengeance_from_the_north
+			focus = WIL_vengeance_from_the_north
 		}
 		x = 72
 		y = 6
 
 	}
 	focus = {
-		id = WHW_hunters_of_the_last_horizon
+		id = WIL_hunters_of_the_last_horizon
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unyielding_spirit
+			focus = WIL_unyielding_spirit
 		}
 		x = 78
 		y = 2
 
 	}
 	focus = {
-		id = WHW_rage_of_the_frostborn
+		id = WIL_rage_of_the_frostborn
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_hunters_of_the_last_horizon
+			focus = WIL_hunters_of_the_last_horizon
 		}
 		prerequisite = {
-			focus = WHW_voices_of_the_untamed_land
+			focus = WIL_voices_of_the_untamed_land
 		}
 		x = 74
 		y = 3
 
 	}
 	focus = {
-		id = WHW_vengeance_from_the_north
+		id = WIL_vengeance_from_the_north
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_rage_of_the_frostborn
+			focus = WIL_rage_of_the_frostborn
 		}
 		mutually_exclusive = {
-			focus = WHW_sentinel_of_the_ice_gates
-			focus = WHW_reclaim_the_cold_vales
+			focus = WIL_sentinel_of_the_ice_gates
+			focus = WIL_reclaim_the_cold_vales
 		}
 		x = 74
 		y = 6
 
 	}
 	focus = {
-		id = WHW_sacred_runes_of_power
+		id = WIL_sacred_runes_of_power
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_hunters_of_the_last_horizon
+			focus = WIL_hunters_of_the_last_horizon
 		}
 		x = 78
 		y = 3
 
 	}
 	focus = {
-		id = WHW_songs_of_frost_and_freedom
+		id = WIL_songs_of_frost_and_freedom
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_sacred_runes_of_power
+			focus = WIL_sacred_runes_of_power
 		}
 		mutually_exclusive = {
-			focus = WHW_crafting_frostfire_blades
+			focus = WIL_crafting_frostfire_blades
 		}
 		x = 76
 		y = 4
 
 	}
 	focus = {
-		id = WHW_crafting_frostfire_blades
+		id = WIL_crafting_frostfire_blades
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_sacred_runes_of_power
+			focus = WIL_sacred_runes_of_power
 		}
 		mutually_exclusive = {
-			focus = WHW_path_to_the_ice_throne
-			focus = WHW_songs_of_frost_and_freedom
+			focus = WIL_path_to_the_ice_throne
+			focus = WIL_songs_of_frost_and_freedom
 		}
 		x = 78
 		y = 4
 
 	}
 	focus = {
-		id = WHW_path_to_the_ice_throne
+		id = WIL_path_to_the_ice_throne
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_sacred_runes_of_power
+			focus = WIL_sacred_runes_of_power
 		}
 		mutually_exclusive = {
-			focus = WHW_crafting_frostfire_blades
+			focus = WIL_crafting_frostfire_blades
 		}
 		x = 80
 		y = 4
 
 	}
 	focus = {
-		id = WHW_last_guard_of_the_wall
+		id = WIL_last_guard_of_the_wall
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_path_to_the_ice_throne
-			focus = WHW_crafting_frostfire_blades
-			focus = WHW_songs_of_frost_and_freedom
+			focus = WIL_path_to_the_ice_throne
+			focus = WIL_crafting_frostfire_blades
+			focus = WIL_songs_of_frost_and_freedom
 		}
 		x = 78
 		y = 5
 
 	}
 	focus = {
-		id = WHW_reclaim_the_cold_vales
+		id = WIL_reclaim_the_cold_vales
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_last_guard_of_the_wall
+			focus = WIL_last_guard_of_the_wall
 		}
 		mutually_exclusive = {
-			focus = WHW_vengeance_from_the_north
-			focus = WHW_eternal_spirit_of_winter
+			focus = WIL_vengeance_from_the_north
+			focus = WIL_eternal_spirit_of_winter
 		}
 		x = 78
 		y = 6
 
 	}
 	focus = {
-		id = WHW_fury_of_the_mountain_clans
+		id = WIL_fury_of_the_mountain_clans
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_hunters_of_the_last_horizon
+			focus = WIL_hunters_of_the_last_horizon
 		}
 		x = 81
 		y = 3
 
 	}
 	focus = {
-		id = WHW_eternal_spirit_of_winter
+		id = WIL_eternal_spirit_of_winter
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_fury_of_the_mountain_clans
+			focus = WIL_fury_of_the_mountain_clans
 		}
 		mutually_exclusive = {
-			focus = WHW_reclaim_the_cold_vales
-			focus = WHW_throne_of_ice_and_stone
+			focus = WIL_reclaim_the_cold_vales
+			focus = WIL_throne_of_ice_and_stone
 		}
 		x = 81
 		y = 6
 
 	}
 	focus = {
-		id = WHW_keepers_of_the_northern_heart
+		id = WIL_keepers_of_the_northern_heart
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unyielding_spirit
+			focus = WIL_unyielding_spirit
 		}
 		x = 83
 		y = 2
 
 	}
 	focus = {
-		id = WHW_bane_of_the_white_walkers
+		id = WIL_bane_of_the_white_walkers
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_keepers_of_the_northern_heart
+			focus = WIL_keepers_of_the_northern_heart
 		}
 		x = 83
 		y = 3
 
 	}
 	focus = {
-		id = WHW_ancestral_frost_legion
+		id = WIL_ancestral_frost_legion
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_bane_of_the_white_walkers
+			focus = WIL_bane_of_the_white_walkers
 		}
 		x = 83
 		y = 4
 
 	}
 	focus = {
-		id = WHW_call_of_the_winter_wolves
+		id = WIL_call_of_the_winter_wolves
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_ancestral_frost_legion
+			focus = WIL_ancestral_frost_legion
 		}
 		mutually_exclusive = {
-			focus = WHW_whispers_of_the_old_spirits
+			focus = WIL_whispers_of_the_old_spirits
 		}
 		x = 82
 		y = 5
 
 	}
 	focus = {
-		id = WHW_whispers_of_the_old_spirits
+		id = WIL_whispers_of_the_old_spirits
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_ancestral_frost_legion
+			focus = WIL_ancestral_frost_legion
 		}
 		mutually_exclusive = {
-			focus = WHW_call_of_the_winter_wolves
+			focus = WIL_call_of_the_winter_wolves
 		}
 		x = 84
 		y = 5
 
 	}
 	focus = {
-		id = WHW_throne_of_ice_and_stone
+		id = WIL_throne_of_ice_and_stone
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_whispers_of_the_old_spirits
-			focus = WHW_call_of_the_winter_wolves
+			focus = WIL_whispers_of_the_old_spirits
+			focus = WIL_call_of_the_winter_wolves
 		}
 		mutually_exclusive = {
-			focus = WHW_eternal_spirit_of_winter
+			focus = WIL_eternal_spirit_of_winter
 		}
 		x = 83
 		y = 6
 
 	}
 	focus = {
-		id = WHW_keepers_of_the_hidden_paths
+		id = WIL_keepers_of_the_hidden_paths
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_storming_the_southern_reaches
+			focus = WIL_storming_the_southern_reaches
 		}
 		x = 90
 		y = 1
 
 	}
 	focus = {
-		id = WHW_blizzardborne_strength
+		id = WIL_blizzardborne_strength
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_keepers_of_the_hidden_paths
+			focus = WIL_keepers_of_the_hidden_paths
 		}
 		x = 89
 		y = 2
 
 	}
 	focus = {
-		id = WHW_whispers_of_the_long_night
+		id = WIL_whispers_of_the_long_night
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_keepers_of_the_hidden_paths
+			focus = WIL_keepers_of_the_hidden_paths
 		}
 		x = 91
 		y = 2
 
 	}
 	focus = {
-		id = WHW_unforgotten_oaths
+		id = WIL_unforgotten_oaths
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_whispers_of_the_long_night
+			focus = WIL_whispers_of_the_long_night
 		}
 		prerequisite = {
-			focus = WHW_blizzardborne_strength
+			focus = WIL_blizzardborne_strength
 		}
 		x = 90
 		y = 3
 
 	}
 	focus = {
-		id = WHW_courage_in_the_iceveil
+		id = WIL_courage_in_the_iceveil
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unforgotten_oaths
+			focus = WIL_unforgotten_oaths
 		}
 		x = 90
 		y = 4
 
 	}
 	focus = {
-		id = WHW_savage_resilience
+		id = WIL_savage_resilience
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_courage_in_the_iceveil
+			focus = WIL_courage_in_the_iceveil
 		}
 		x = 90
 		y = 5
 
 	}
 	focus = {
-		id = WHW_council_of_the_chieftains
+		id = WIL_council_of_the_chieftains
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_storming_the_southern_reaches
+			focus = WIL_storming_the_southern_reaches
 		}
 		x = 102
 		y = 1
 
 	}
 	focus = {
-		id = WHW_forgotten_paths_of_power
+		id = WIL_forgotten_paths_of_power
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_council_of_the_chieftains
+			focus = WIL_council_of_the_chieftains
 		}
 		x = 101
 		y = 2
 
 	}
 	focus = {
-		id = WHW_flame_in_the_frost
+		id = WIL_flame_in_the_frost
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_forgotten_paths_of_power
+			focus = WIL_forgotten_paths_of_power
 		}
 		x = 99
 		y = 3
 
 	}
 	focus = {
-		id = WHW_watchers_beyond_the_wall
+		id = WIL_watchers_beyond_the_wall
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_forgotten_paths_of_power
+			focus = WIL_forgotten_paths_of_power
 		}
 		x = 101
 		y = 3
 
 	}
 	focus = {
-		id = WHW_free_folk_in_exodus
+		id = WIL_free_folk_in_exodus
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_watchers_beyond_the_wall
+			focus = WIL_watchers_beyond_the_wall
 		}
 		mutually_exclusive = {
-			focus = WHW_secrets_of_the_winterborn
+			focus = WIL_secrets_of_the_winterborn
 		}
 		x = 101
 		y = 4
 
 	}
 	focus = {
-		id = WHW_embers_in_the_snow
+		id = WIL_embers_in_the_snow
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_council_of_the_chieftains
+			focus = WIL_council_of_the_chieftains
 		}
 		x = 103
 		y = 2
 
 	}
 	focus = {
-		id = WHW_unbroken_by_the_long_night
+		id = WIL_unbroken_by_the_long_night
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_embers_in_the_snow
+			focus = WIL_embers_in_the_snow
 		}
 		x = 103
 		y = 3
 
 	}
 	focus = {
-		id = WHW_secrets_of_the_winterborn
+		id = WIL_secrets_of_the_winterborn
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_unbroken_by_the_long_night
+			focus = WIL_unbroken_by_the_long_night
 		}
 		mutually_exclusive = {
-			focus = WHW_free_folk_in_exodus
+			focus = WIL_free_folk_in_exodus
 		}
 		x = 103
 		y = 4
 
 	}
 	focus = {
-		id = WHW_winds_of_the_untamed_realm
+		id = WIL_winds_of_the_untamed_realm
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_embers_in_the_snow
+			focus = WIL_embers_in_the_snow
 		}
 		x = 105
 		y = 3
 
 	}
 	focus = {
-		id = WHW_march_of_the_mammoth_riders
+		id = WIL_march_of_the_mammoth_riders
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_winds_of_the_untamed_realm
+			focus = WIL_winds_of_the_untamed_realm
 		}
 		prerequisite = {
-			focus = WHW_unbroken_by_the_long_night
+			focus = WIL_unbroken_by_the_long_night
 		}
 		x = 105
 		y = 4
 
 	}
 	focus = {
-		id = WHW_wrath_of_the_snowbound_clans
+		id = WIL_wrath_of_the_snowbound_clans
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_march_of_the_mammoth_riders
+			focus = WIL_march_of_the_mammoth_riders
 		}
 		mutually_exclusive = {
-			focus = WHW_hunt_of_the_frostfangs
+			focus = WIL_hunt_of_the_frostfangs
 		}
 		x = 104
 		y = 5
 
 	}
 	focus = {
-		id = WHW_last_bastion_of_the_free
+		id = WIL_last_bastion_of_the_free
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_secrets_of_the_winterborn
+			focus = WIL_secrets_of_the_winterborn
 		}
 		prerequisite = {
-			focus = WHW_wrath_of_the_snowbound_clans
+			focus = WIL_wrath_of_the_snowbound_clans
 		}
 		x = 103
 		y = 6
 
 	}
 	focus = {
-		id = WHW_hunt_of_the_frostfangs
+		id = WIL_hunt_of_the_frostfangs
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_march_of_the_mammoth_riders
+			focus = WIL_march_of_the_mammoth_riders
 		}
 		mutually_exclusive = {
-			focus = WHW_wrath_of_the_snowbound_clans
+			focus = WIL_wrath_of_the_snowbound_clans
 		}
 		x = 106
 		y = 5
 
 	}
 	focus = {
-		id = WHW_frostforged_alliance
+		id = WIL_frostforged_alliance
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_hunt_of_the_frostfangs
-			focus = WHW_wrath_of_the_snowbound_clans
+			focus = WIL_hunt_of_the_frostfangs
+			focus = WIL_wrath_of_the_snowbound_clans
 		}
 		x = 105
 		y = 6
 
 	}
 	focus = {
-		id = WHW_stone_and_ice
+		id = WIL_stone_and_ice
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_crafting_to_survive
-			focus = WHW_trade_with_the_crows
+			focus = WIL_crafting_to_survive
+			focus = WIL_trade_with_the_crows
 		}
 		x = 53
 		y = 6
 
 	}
 	focus = {
-		id = WHW_tales_by_the_fire
+		id = WIL_tales_by_the_fire
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_trade_with_the_crows
+			focus = WIL_trade_with_the_crows
 		}
 		x = 51
 		y = 6
 
 	}
 	focus = {
-		id = WHW_call_to_the_hunt
+		id = WIL_call_to_the_hunt
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_wolf_brothers_alliance
+			focus = WIL_wolf_brothers_alliance
 		}
 		x = 38
 		y = 7
 
 	}
 	focus = {
-		id = WHW_protectors_of_the_wall
+		id = WIL_protectors_of_the_wall
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_taming_the_mammoths
-			focus = WHW_mastery_of_the_wilderness
+			focus = WIL_taming_the_mammoths
+			focus = WIL_mastery_of_the_wilderness
 		}
 		mutually_exclusive = {
-			focus = WHW_defiance_in_the_ice
+			focus = WIL_defiance_in_the_ice
 		}
 		x = 53
 		y = 8
 
 	}
 	focus = {
-		id = WHW_defiance_in_the_ice
+		id = WIL_defiance_in_the_ice
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_taming_the_mammoths
-			focus = WHW_mastery_of_the_wilderness
+			focus = WIL_taming_the_mammoths
+			focus = WIL_mastery_of_the_wilderness
 		}
 		mutually_exclusive = {
-			focus = WHW_protectors_of_the_wall
-			focus = WHW_forge_the_frost_peace
+			focus = WIL_protectors_of_the_wall
+			focus = WIL_forge_the_frost_peace
 		}
 		x = 55
 		y = 8
 
 	}
 	focus = {
-		id = WHW_bring_down_the_wall
+		id = WIL_bring_down_the_wall
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_fury_of_the_northwind
-			focus = WHW_guardians_of_the_frozen_frontier
+			focus = WIL_fury_of_the_northwind
+			focus = WIL_guardians_of_the_frozen_frontier
 		}
 		mutually_exclusive = {
-			focus = WHW_lorekeepers_of_the_free_folk
+			focus = WIL_lorekeepers_of_the_free_folk
 		}
 		x = 26
 		y = 5
 
 	}
 	focus = {
-		id = WHW_harness_the_ice_dragon
+		id = WIL_harness_the_ice_dragon
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_lorekeepers_of_the_free_folk
-			focus = WHW_bring_down_the_wall
+			focus = WIL_lorekeepers_of_the_free_folk
+			focus = WIL_bring_down_the_wall
 		}
 		x = 27
 		y = 6
 
 	}
 	focus = {
-		id = WHW_reclaim_the_lands_of_legend
+		id = WIL_reclaim_the_lands_of_legend
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_harness_the_ice_dragon
+			focus = WIL_harness_the_ice_dragon
 		}
 		mutually_exclusive = {
-			focus = WHW_frozen_fury_rising
+			focus = WIL_frozen_fury_rising
 		}
 		x = 28
 		y = 7
 
 	}
 	focus = {
-		id = WHW_frozen_fury_rising
+		id = WIL_frozen_fury_rising
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_harness_the_ice_dragon
+			focus = WIL_harness_the_ice_dragon
 		}
 		mutually_exclusive = {
-			focus = WHW_reclaim_the_lands_of_legend
+			focus = WIL_reclaim_the_lands_of_legend
 		}
 		x = 26
 		y = 7
 
 	}
 	focus = {
-		id = WHW_defenders_of_the_last_hearth
+		id = WIL_defenders_of_the_last_hearth
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_drumbeats_of_freedom
+			focus = WIL_drumbeats_of_freedom
 		}
 		x = 10
 		y = 5
 
 	}
 	focus = {
-		id = WHW_sons_and_daughters_of_the_frost
+		id = WIL_sons_and_daughters_of_the_frost
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_drumbeats_of_freedom
+			focus = WIL_drumbeats_of_freedom
 		}
 		x = 8
 		y = 5
 
 	}
 	focus = {
-		id = WHW_blight_on_the_lands_of_winter
+		id = WIL_blight_on_the_lands_of_winter
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_drumbeats_of_freedom
+			focus = WIL_drumbeats_of_freedom
 		}
 		x = 6
 		y = 5
 
 	}
 	focus = {
-		id = WHW_bloodlines_of_the_giants
+		id = WIL_bloodlines_of_the_giants
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_flame_in_the_frost
+			focus = WIL_flame_in_the_frost
 		}
 		prerequisite = {
-			focus = WHW_watchers_beyond_the_wall
+			focus = WIL_watchers_beyond_the_wall
 		}
 		x = 99
 		y = 4
 
 	}
 	focus = {
-		id = WHW_chants_of_ancestral_glory
+		id = WIL_chants_of_ancestral_glory
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_free_folk_in_exodus
+			focus = WIL_free_folk_in_exodus
 		}
 		prerequisite = {
-			focus = WHW_fury_of_the_untamed_spirits
+			focus = WIL_fury_of_the_untamed_spirits
 		}
 		mutually_exclusive = {
-			focus = WHW_seizing_the_frozen_future
+			focus = WIL_seizing_the_frozen_future
 		}
 		x = 101
 		y = 6
 
 	}
 	focus = {
-		id = WHW_brothers_of_the_eternal_ice
+		id = WIL_brothers_of_the_eternal_ice
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_bloodlines_of_the_giants
+			focus = WIL_bloodlines_of_the_giants
 		}
 		mutually_exclusive = {
-			focus = WHW_fury_of_the_untamed_spirits
+			focus = WIL_fury_of_the_untamed_spirits
 		}
 		x = 98
 		y = 5
 
 	}
 	focus = {
-		id = WHW_fury_of_the_untamed_spirits
+		id = WIL_fury_of_the_untamed_spirits
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_bloodlines_of_the_giants
+			focus = WIL_bloodlines_of_the_giants
 		}
 		mutually_exclusive = {
-			focus = WHW_brothers_of_the_eternal_ice
+			focus = WIL_brothers_of_the_eternal_ice
 		}
 		x = 100
 		y = 5
 
 	}
 	focus = {
-		id = WHW_seizing_the_frozen_future
+		id = WIL_seizing_the_frozen_future
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_fury_of_the_untamed_spirits
-			focus = WHW_brothers_of_the_eternal_ice
+			focus = WIL_fury_of_the_untamed_spirits
+			focus = WIL_brothers_of_the_eternal_ice
 		}
 		mutually_exclusive = {
-			focus = WHW_spirits_of_the_long_winter
-			focus = WHW_chants_of_ancestral_glory
+			focus = WIL_spirits_of_the_long_winter
+			focus = WIL_chants_of_ancestral_glory
 		}
 		x = 99
 		y = 6
 
 	}
 	focus = {
-		id = WHW_spirits_of_the_long_winter
+		id = WIL_spirits_of_the_long_winter
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_fury_of_the_untamed_spirits
-			focus = WHW_brothers_of_the_eternal_ice
+			focus = WIL_fury_of_the_untamed_spirits
+			focus = WIL_brothers_of_the_eternal_ice
 		}
 		mutually_exclusive = {
-			focus = WHW_seizing_the_frozen_future
+			focus = WIL_seizing_the_frozen_future
 		}
 		x = 97
 		y = 6
 
 	}
 	focus = {
-		id = WHW_echoes_of_the_icebound_heroes
+		id = WIL_echoes_of_the_icebound_heroes
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_hunt_of_the_frostfangs
-			focus = WHW_wrath_of_the_snowbound_clans
+			focus = WIL_hunt_of_the_frostfangs
+			focus = WIL_wrath_of_the_snowbound_clans
 		}
 		x = 107
 		y = 6
 
 	}
 	focus = {
-		id = WHW_council_of_the_iceborn
+		id = WIL_council_of_the_iceborn
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_taming_the_mammoths
+			focus = WIL_taming_the_mammoths
 		}
 		mutually_exclusive = {
-			focus = WHW_seize_the_northwind_power
+			focus = WIL_seize_the_northwind_power
 		}
 		x = 67
 		y = 9
 
 	}
 	focus = {
-		id = WHW_seize_the_northwind_power
+		id = WIL_seize_the_northwind_power
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_taming_the_mammoths
+			focus = WIL_taming_the_mammoths
 		}
 		mutually_exclusive = {
-			focus = WHW_council_of_the_iceborn
+			focus = WIL_council_of_the_iceborn
 		}
 		x = 60
 		y = 9
 
 	}
 	focus = {
-		id = WHW_beyond_the_edge_of_night
+		id = WIL_beyond_the_edge_of_night
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_mastery_of_the_wilderness
+			focus = WIL_mastery_of_the_wilderness
 		}
 		mutually_exclusive = {
-			focus = WHW_guardians_of_the_frozen_veil
+			focus = WIL_guardians_of_the_frozen_veil
 		}
 		x = 51
 		y = 9
 
 	}
 	focus = {
-		id = WHW_guardians_of_the_frozen_veil
+		id = WIL_guardians_of_the_frozen_veil
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_mastery_of_the_wilderness
+			focus = WIL_mastery_of_the_wilderness
 		}
 		mutually_exclusive = {
-			focus = WHW_beyond_the_edge_of_night
+			focus = WIL_beyond_the_edge_of_night
 		}
 		x = 44
 		y = 9
