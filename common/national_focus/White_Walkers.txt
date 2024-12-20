@@ -1100,7 +1100,7 @@ focus_tree = {
 		cost = 0
 		prerequisite = {
 			focus = WHW_the_night_king's_mark
-			focus = WHW_soulforge_of_permafrost
+			focus = WHW_echoes_of_the_first_men
 		}
 		mutually_exclusive = {
 			focus = WHW_sovereignty_of_ice
