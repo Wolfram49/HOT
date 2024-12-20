@@ -732,9 +732,6 @@ focus_tree = {
 			focus = WIL_taming_the_mammoths
 			focus = WIL_mastery_of_the_wilderness
 		}
-		mutually_exclusive = {
-			focus = WIL_defiance_in_the_ice
-		}
 		x = 57
 		y = 8
 
@@ -921,8 +918,8 @@ focus_tree = {
 			focus = WIL_sacred_runes_of_power
 		}
 		mutually_exclusive = {
-			focus = WIL_path_to_the_ice_throne
 			focus = WIL_songs_of_frost_and_freedom
+			focus = WIL_path_to_the_ice_throne
 		}
 		x = 78
 		y = 4
@@ -1200,6 +1197,20 @@ focus_tree = {
 
 	}
 	focus = {
+		id = WIL_chants_of_ancestral_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_free_folk_in_exodus
+		}
+		mutually_exclusive = {
+			focus = WIL_seizing_the_frozen_future
+		}
+		x = 101
+		y = 6
+
+	}
+	focus = {
 		id = WIL_embers_in_the_snow
 		icon = GFX_goal_unknown
 		cost = 0
@@ -1284,6 +1295,9 @@ focus_tree = {
 		prerequisite = {
 			focus = WIL_wrath_of_the_snowbound_clans
 		}
+		mutually_exclusive = {
+			focus = WIL_frostforged_alliance
+		}
 		x = 103
 		y = 6
 
@@ -1309,6 +1323,10 @@ focus_tree = {
 		prerequisite = {
 			focus = WIL_hunt_of_the_frostfangs
 			focus = WIL_wrath_of_the_snowbound_clans
+		}
+		mutually_exclusive = {
+			focus = WIL_echoes_of_the_icebound_heroes
+			focus = WIL_last_bastion_of_the_free
 		}
 		x = 105
 		y = 6
@@ -1356,9 +1374,6 @@ focus_tree = {
 			focus = WIL_taming_the_mammoths
 			focus = WIL_mastery_of_the_wilderness
 		}
-		mutually_exclusive = {
-			focus = WIL_defiance_in_the_ice
-		}
 		x = 53
 		y = 8
 
@@ -1370,10 +1385,6 @@ focus_tree = {
 		prerequisite = {
 			focus = WIL_taming_the_mammoths
 			focus = WIL_mastery_of_the_wilderness
-		}
-		mutually_exclusive = {
-			focus = WIL_protectors_of_the_wall
-			focus = WIL_forge_the_frost_peace
 		}
 		x = 55
 		y = 8
@@ -1482,23 +1493,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = WIL_chants_of_ancestral_glory
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = WIL_free_folk_in_exodus
-		}
-		prerequisite = {
-			focus = WIL_fury_of_the_untamed_spirits
-		}
-		mutually_exclusive = {
-			focus = WIL_seizing_the_frozen_future
-		}
-		x = 101
-		y = 6
-
-	}
-	focus = {
 		id = WIL_brothers_of_the_eternal_ice
 		icon = GFX_goal_unknown
 		cost = 0
@@ -1535,8 +1529,8 @@ focus_tree = {
 			focus = WIL_brothers_of_the_eternal_ice
 		}
 		mutually_exclusive = {
-			focus = WIL_spirits_of_the_long_winter
 			focus = WIL_chants_of_ancestral_glory
+			focus = WIL_spirits_of_the_long_winter
 		}
 		x = 99
 		y = 6
@@ -1564,6 +1558,9 @@ focus_tree = {
 		prerequisite = {
 			focus = WIL_hunt_of_the_frostfangs
 			focus = WIL_wrath_of_the_snowbound_clans
+		}
+		mutually_exclusive = {
+			focus = WIL_frostforged_alliance
 		}
 		x = 107
 		y = 6

@@ -1,0 +1,1159 @@
+focus_tree = {
+	id = Night's_Watch
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NSW
+		}
+	}
+	continuous_focus_position = { x = 6400 y = 950 }
+	default = no
+	focus = {
+		id = NSW_defenders_of_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 62
+		y = 0
+
+	}
+	focus = {
+		id = NSW_forge_the_iron_bond
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 80
+		y = 0
+
+	}
+	focus = {
+		id = NSW_the_long_night_prepares
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_defenders_of_the_wall
+		}
+		x = 55
+		y = 1
+
+	}
+	focus = {
+		id = NSW_legacy_of_the_first_men
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_the_long_night_prepares
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = NSW_unyielding_wall_of_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_legacy_of_the_first_men
+		}
+		x = 53
+		y = 4
+
+	}
+	focus = {
+		id = NSW_ravens_to_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_unyielding_wall_of_ice
+		}
+		mutually_exclusive = {
+			focus = NSW_preparations_for_the_night
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = NSW_preparations_for_the_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_unyielding_wall_of_ice
+		}
+		mutually_exclusive = {
+			focus = NSW_ravens_to_the_realm
+		}
+		x = 54
+		y = 5
+
+	}
+	focus = {
+		id = NSW_bastions_of_the_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_the_long_night_prepares
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = NSW_echoes_in_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_the_long_night_prepares
+		}
+		x = 57
+		y = 2
+
+	}
+	focus = {
+		id = NSW_blood_and_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_echoes_in_the_frost
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = NSW_for_the_realm_of_men
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_blood_and_snow
+		}
+		x = 56
+		y = 4
+
+	}
+	focus = {
+		id = NSW_vows_in_the_ice_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_echoes_in_the_frost
+		}
+		x = 58
+		y = 3
+
+	}
+	focus = {
+		id = NSW_swords_in_the_darkness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_vows_in_the_ice_wind
+		}
+		x = 58
+		y = 4
+
+	}
+	focus = {
+		id = NSW_secrets_of_the_frostfangs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_swords_in_the_darkness
+		}
+		prerequisite = {
+			focus = NSW_for_the_realm_of_men
+		}
+		x = 57
+		y = 5
+
+	}
+	focus = {
+		id = NSW_allies_among_the_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_secrets_of_the_frostfangs
+		}
+		mutually_exclusive = {
+			focus = NSW_warnings_from_the_past
+		}
+		x = 56
+		y = 6
+
+	}
+	focus = {
+		id = NSW_warnings_from_the_past
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_secrets_of_the_frostfangs
+		}
+		mutually_exclusive = {
+			focus = NSW_allies_among_the_clans
+		}
+		x = 58
+		y = 6
+
+	}
+	focus = {
+		id = NSW_oathbound_brotherhood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_defenders_of_the_wall
+		}
+		mutually_exclusive = {
+			focus = NSW_winds_beyond_the_wall
+		}
+		x = 63
+		y = 1
+
+	}
+	focus = {
+		id = NSW_last_barrier_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_oathbound_brotherhood
+		}
+		x = 61
+		y = 2
+
+	}
+	focus = {
+		id = NSW_sentinels_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_last_barrier_of_the_realm
+		}
+		x = 61
+		y = 3
+
+	}
+	focus = {
+		id = NSW_guardians_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_sentinels_of_the_north
+		}
+		x = 61
+		y = 4
+
+	}
+	focus = {
+		id = NSW_reclaim_the_fallen_castles
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_guardians_of_the_realm
+		}
+		x = 61
+		y = 5
+
+	}
+	focus = {
+		id = NSW_recruitment_in_the_reach
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_oathbound_brotherhood
+		}
+		x = 63
+		y = 2
+
+	}
+	focus = {
+		id = NSW_lore_of_the_first_rangers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_recruitment_in_the_reach
+		}
+		x = 63
+		y = 3
+
+	}
+	focus = {
+		id = NSW_tales_of_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_lore_of_the_first_rangers
+		}
+		x = 63
+		y = 4
+
+	}
+	focus = {
+		id = NSW_winds_beyond_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_defenders_of_the_wall
+		}
+		mutually_exclusive = {
+			focus = NSW_oathbound_brotherhood
+		}
+		x = 65
+		y = 1
+
+	}
+	focus = {
+		id = NSW_watchers_of_the_frozen_frontier
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_winds_beyond_the_wall
+		}
+		x = 65
+		y = 2
+
+	}
+	focus = {
+		id = NSW_patrols_in_the_icy_wastes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_watchers_of_the_frozen_frontier
+		}
+		x = 65
+		y = 3
+
+	}
+	focus = {
+		id = NSW_supplies_from_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_patrols_in_the_icy_wastes
+		}
+		x = 65
+		y = 4
+
+	}
+	focus = {
+		id = NSW_call_of_the_black_ravens
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_winds_beyond_the_wall
+		}
+		x = 67
+		y = 2
+
+	}
+	focus = {
+		id = NSW_fortify_the_northern_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_call_of_the_black_ravens
+		}
+		x = 67
+		y = 3
+
+	}
+	focus = {
+		id = NSW_duty_until_death
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fortify_the_northern_watch
+		}
+		x = 67
+		y = 4
+
+	}
+	focus = {
+		id = NSW_shields_against_the_cold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_duty_until_death
+		}
+		mutually_exclusive = {
+			focus = NSW_alliance_with_the_wildlings
+		}
+		x = 67
+		y = 5
+
+	}
+	focus = {
+		id = NSW_watchful_eyes_in_the_dark
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_forge_the_iron_bond
+		}
+		mutually_exclusive = {
+			focus = NSW_sanctuary_in_the_storm
+		}
+		x = 79
+		y = 1
+
+	}
+	focus = {
+		id = NSW_resist_the_tide_of_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_watchful_eyes_in_the_dark
+		}
+		x = 73
+		y = 2
+
+	}
+	focus = {
+		id = NSW_alliance_with_the_wildlings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_resist_the_tide_of_ice
+		}
+		mutually_exclusive = {
+			focus = NSW_shields_against_the_cold
+		}
+		x = 69
+		y = 5
+
+	}
+	focus = {
+		id = NSW_banners_of_the_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_resist_the_tide_of_ice
+		}
+		x = 74
+		y = 3
+
+	}
+	focus = {
+		id = NSW_sanctuary_in_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_forge_the_iron_bond
+		}
+		mutually_exclusive = {
+			focus = NSW_watchful_eyes_in_the_dark
+		}
+		x = 81
+		y = 1
+
+	}
+	focus = {
+		id = NSW_iron_oaths_unbroken
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_sanctuary_in_the_storm
+			focus = NSW_watchful_eyes_in_the_dark
+		}
+		x = 80
+		y = 2
+
+	}
+	focus = {
+		id = NSW_steel_against_the_darkness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_iron_oaths_unbroken
+		}
+		mutually_exclusive = {
+			focus = NSW_defy_the_chill_of_death
+		}
+		x = 77
+		y = 3
+
+	}
+	focus = {
+		id = NSW_defy_the_chill_of_death
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_iron_oaths_unbroken
+		}
+		mutually_exclusive = {
+			focus = NSW_steel_against_the_darkness
+		}
+		x = 79
+		y = 3
+
+	}
+	focus = {
+		id = NSW_bonds_forged_in_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_iron_oaths_unbroken
+		}
+		x = 81
+		y = 3
+
+	}
+	focus = {
+		id = NSW_echoes_of_the_watchers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_bonds_forged_in_snow
+		}
+		x = 81
+		y = 4
+
+	}
+	focus = {
+		id = NSW_legends_of_the_night_fort
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_echoes_of_the_watchers
+		}
+		mutually_exclusive = {
+			focus = NSW_renew_the_wall’s_strength
+			focus = NSW_brethren_of_the_black
+		}
+		x = 80
+		y = 5
+
+	}
+	focus = {
+		id = NSW_brethren_of_the_black
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_echoes_of_the_watchers
+		}
+		mutually_exclusive = {
+			focus = NSW_legends_of_the_night_fort
+		}
+		x = 82
+		y = 5
+
+	}
+	focus = {
+		id = NSW_call_to_the_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_brethren_of_the_black
+			focus = NSW_legends_of_the_night_fort
+		}
+		x = 81
+		y = 6
+
+	}
+	focus = {
+		id = NSW_oathkeepers_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_brethren_of_the_black
+		}
+		x = 82
+		y = 7
+
+	}
+	focus = {
+		id = NSW_standing_against_the_abyss
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_oathkeepers_of_the_north
+		}
+		x = 82
+		y = 8
+
+	}
+	focus = {
+		id = NSW_last_beacon_in_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_forge_the_iron_bond
+		}
+		mutually_exclusive = {
+			focus = NSW_fortify_the_last_defense
+		}
+		x = 84
+		y = 1
+
+	}
+	focus = {
+		id = NSW_iron_in_the_black
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_last_beacon_in_the_north
+		}
+		x = 83
+		y = 3
+
+	}
+	focus = {
+		id = NSW_rangers_of_the_frozen_veil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_iron_in_the_black
+		}
+		mutually_exclusive = {
+			focus = NSW_allies_of_the_dark_frontier
+		}
+		x = 83
+		y = 4
+
+	}
+	focus = {
+		id = NSW_blood_of_the_watchmen
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_last_beacon_in_the_north
+		}
+		x = 85
+		y = 2
+
+	}
+	focus = {
+		id = NSW_allies_of_the_dark_frontier
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_blood_of_the_watchmen
+		}
+		mutually_exclusive = {
+			focus = NSW_rangers_of_the_frozen_veil
+		}
+		x = 85
+		y = 4
+
+	}
+	focus = {
+		id = NSW_eternal_vigilance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_blood_of_the_watchmen
+		}
+		x = 86
+		y = 3
+
+	}
+	focus = {
+		id = NSW_fortify_the_last_defense
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_forge_the_iron_bond
+		}
+		mutually_exclusive = {
+			focus = NSW_last_beacon_in_the_north
+		}
+		x = 89
+		y = 1
+
+	}
+	focus = {
+		id = NSW_champions_of_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fortify_the_last_defense
+		}
+		mutually_exclusive = {
+			focus = NSW_torch_in_the_darkness
+		}
+		x = 88
+		y = 3
+
+	}
+	focus = {
+		id = NSW_keepers_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_champions_of_the_wall
+		}
+		x = 87
+		y = 4
+
+	}
+	focus = {
+		id = NSW_torch_in_the_darkness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fortify_the_last_defense
+		}
+		mutually_exclusive = {
+			focus = NSW_champions_of_the_wall
+		}
+		x = 90
+		y = 3
+
+	}
+	focus = {
+		id = NSW_defy_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_torch_in_the_darkness
+			focus = NSW_champions_of_the_wall
+		}
+		x = 89
+		y = 4
+
+	}
+	focus = {
+		id = NSW_flame_in_the_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_champions_of_the_wall
+		}
+		prerequisite = {
+			focus = NSW_defy_the_long_night
+		}
+		x = 88
+		y = 5
+
+	}
+	focus = {
+		id = NSW_beyond_the_gates_of_fear
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_torch_in_the_darkness
+		}
+		prerequisite = {
+			focus = NSW_defy_the_long_night
+		}
+		x = 90
+		y = 5
+
+	}
+	focus = {
+		id = NSW_ravens_of_the_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_rangers_of_the_frozen_veil
+			focus = NSW_flame_in_the_night
+			focus = NSW_beyond_the_gates_of_fear
+		}
+		x = 86
+		y = 6
+
+	}
+	focus = {
+		id = NSW_honor_in_exile
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_ravens_of_the_watch
+		}
+		mutually_exclusive = {
+			focus = NSW_iron_shields_in_snow
+		}
+		x = 85
+		y = 7
+
+	}
+	focus = {
+		id = NSW_fangs_of_the_rangers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_honor_in_exile
+		}
+		mutually_exclusive = {
+			focus = NSW_reclaim_the_night_fort
+		}
+		x = 84
+		y = 8
+
+	}
+	focus = {
+		id = NSW_strength_in_brotherhood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fangs_of_the_rangers
+		}
+		x = 83
+		y = 9
+
+	}
+	focus = {
+		id = NSW_honor_in_the_black
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_steel_against_the_darkness
+		}
+		x = 77
+		y = 4
+
+	}
+	focus = {
+		id = NSW_guardians_of_the_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_defy_the_chill_of_death
+		}
+		x = 79
+		y = 4
+
+	}
+	focus = {
+		id = NSW_renew_the_wall’s_strength
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_guardians_of_the_night
+			focus = NSW_honor_in_the_black
+		}
+		mutually_exclusive = {
+			focus = NSW_legends_of_the_night_fort
+		}
+		x = 78
+		y = 5
+
+	}
+	focus = {
+		id = NSW_last_hope_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_renew_the_wall’s_strength
+		}
+		x = 78
+		y = 6
+
+	}
+	focus = {
+		id = NSW_flames_in_the_frozen_dark
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_last_hope_of_the_realm
+		}
+		x = 78
+		y = 7
+
+	}
+	focus = {
+		id = NSW_rangers_beyond_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_flames_in_the_frozen_dark
+		}
+		x = 78
+		y = 8
+
+	}
+	focus = {
+		id = NSW_vigil_in_the_frozen_shadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_legends_of_the_night_fort
+		}
+		x = 80
+		y = 7
+
+	}
+	focus = {
+		id = NSW_unbroken_chain_of_duty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_vigil_in_the_frozen_shadows
+		}
+		x = 80
+		y = 8
+
+	}
+	focus = {
+		id = NSW_fortress_of_the_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_standing_against_the_abyss
+			focus = NSW_unbroken_chain_of_duty
+		}
+		x = 81
+		y = 9
+
+	}
+	focus = {
+		id = NSW_men_in_the_shadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fortress_of_the_watch
+		}
+		mutually_exclusive = {
+			focus = NSW_whispers_in_the_frost
+		}
+		x = 82
+		y = 10
+
+	}
+	focus = {
+		id = NSW_whispers_in_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fortress_of_the_watch
+		}
+		mutually_exclusive = {
+			focus = NSW_men_in_the_shadows
+		}
+		x = 80
+		y = 10
+
+	}
+	focus = {
+		id = NSW_ancient_duty_restored
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_men_in_the_shadows
+			focus = NSW_whispers_in_the_frost
+		}
+		x = 81
+		y = 11
+
+	}
+	focus = {
+		id = NSW_strength_in_the_darkest_hours
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_ancient_duty_restored
+		}
+		x = 81
+		y = 12
+
+	}
+	focus = {
+		id = NSW_defenders_of_the_realm’s_edge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_strength_in_the_darkest_hours
+		}
+		x = 78
+		y = 13
+
+	}
+	focus = {
+		id = NSW_stormborn_rangers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_strength_in_the_darkest_hours
+		}
+		x = 80
+		y = 13
+
+	}
+	focus = {
+		id = NSW_shields_of_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_strength_in_the_darkest_hours
+		}
+		x = 84
+		y = 13
+
+	}
+	focus = {
+		id = NSW_secrets_of_the_dark_fortress
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_defenders_of_the_realm’s_edge
+		}
+		x = 78
+		y = 14
+
+	}
+	focus = {
+		id = NSW_bastion_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_strength_in_the_darkest_hours
+		}
+		x = 82
+		y = 14
+
+	}
+	focus = {
+		id = NSW_frost_veiled_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_shields_of_the_wall
+		}
+		x = 84
+		y = 14
+
+	}
+	focus = {
+		id = NSW_securing_the_winter_passes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_bastion_of_the_north
+		}
+		x = 83
+		y = 15
+
+	}
+	focus = {
+		id = NSW_march_of_the_watchmen
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_bastion_of_the_north
+		}
+		x = 81
+		y = 15
+
+	}
+	focus = {
+		id = NSW_voice_of_the_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_march_of_the_watchmen
+		}
+		x = 81
+		y = 16
+
+	}
+	focus = {
+		id = NSW_guardians_till_the_end
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_torch_in_the_darkness
+		}
+		x = 91
+		y = 4
+
+	}
+	focus = {
+		id = NSW_iron_shields_in_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_ravens_of_the_watch
+		}
+		mutually_exclusive = {
+			focus = NSW_honor_in_exile
+		}
+		x = 87
+		y = 7
+
+	}
+	focus = {
+		id = NSW_winds_of_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_iron_shields_in_snow
+		}
+		mutually_exclusive = {
+			focus = NSW_reclaim_the_night_fort
+		}
+		x = 88
+		y = 8
+
+	}
+	focus = {
+		id = NSW_reclaim_the_night_fort
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_iron_shields_in_snow
+			focus = NSW_honor_in_exile
+		}
+		mutually_exclusive = {
+			focus = NSW_fangs_of_the_rangers
+			focus = NSW_winds_of_the_long_night
+		}
+		x = 86
+		y = 8
+
+	}
+	focus = {
+		id = NSW_bulwark_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_fangs_of_the_rangers
+			focus = NSW_reclaim_the_night_fort
+			focus = NSW_winds_of_the_long_night
+		}
+		x = 85
+		y = 9
+
+	}
+	focus = {
+		id = NSW_oaths_in_the_dark
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_reclaim_the_night_fort
+			focus = NSW_fangs_of_the_rangers
+			focus = NSW_winds_of_the_long_night
+		}
+		x = 86
+		y = 10
+
+	}
+	focus = {
+		id = NSW_frostfire_battle_plan
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_winds_of_the_long_night
+		}
+		x = 88
+		y = 9
+
+	}
+	focus = {
+		id = NSW_blood_and_iron
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_frostfire_battle_plan
+		}
+		x = 88
+		y = 10
+
+	}
+	focus = {
+		id = NSW_wisdom_from_the_first_men
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NSW_winds_of_the_long_night
+		}
+		x = 90
+		y = 9
+
+	}
+}
