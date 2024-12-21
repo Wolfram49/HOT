@@ -1,0 +1,2370 @@
+focus_tree = {
+	id = The_North
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NRT
+		}
+	}
+	default = no
+	focus = {
+		id = NRT_winter_is_coming
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 60
+		y = 0
+
+	}
+	focus = {
+		id = NRT_tales_of_the_frozen_frontier
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 77
+		y = 0
+
+	}
+	focus = {
+		id = NRT_watchers_of_the_winter_border
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 93
+		y = 0
+
+	}
+	focus = {
+		id = NRT_echoes_of_the_winter_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 113
+		y = 0
+
+	}
+	focus = {
+		id = NRT_ironclad_defenders_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 111
+		y = 0
+
+	}
+	focus = {
+		id = NRT_winter_clans_united
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 118
+		y = 0
+
+	}
+	focus = {
+		id = NRT_lords_of_winterfell
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_winter_is_coming
+		}
+		x = 59
+		y = 1
+
+	}
+	focus = {
+		id = NRT_unite_the_northern_houses
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_winter_is_coming
+		}
+		x = 61
+		y = 1
+
+	}
+	focus = {
+		id = NRT_defenders_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unite_the_northern_houses
+		}
+		prerequisite = {
+			focus = NRT_lords_of_winterfell
+		}
+		x = 60
+		y = 2
+
+	}
+	focus = {
+		id = NRT_honor_and_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_defenders_of_the_realm
+		}
+		mutually_exclusive = {
+			focus = NRT_call_of_the_winter_wolves
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = NRT_alliance_with_the_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_and_loyalty
+		}
+		x = 47
+		y = 4
+
+	}
+	focus = {
+		id = NRT_stand_against_the_darkness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_and_loyalty
+		}
+		mutually_exclusive = {
+			focus = NRT_wolves_of_the_north
+		}
+		x = 49
+		y = 4
+
+	}
+	focus = {
+		id = NRT_wolves_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_and_loyalty
+		}
+		mutually_exclusive = {
+			focus = NRT_stand_against_the_darkness
+		}
+		x = 57
+		y = 4
+
+	}
+	focus = {
+		id = NRT_howl_of_the_northern_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolves_of_the_north
+		}
+		x = 59
+		y = 5
+
+	}
+	focus = {
+		id = NRT_call_of_the_winter_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_defenders_of_the_realm
+		}
+		mutually_exclusive = {
+			focus = NRT_honor_and_loyalty
+		}
+		x = 67
+		y = 3
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_old_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_winter_wolves
+		}
+		mutually_exclusive = {
+			focus = NRT_the_starks_legacy
+		}
+		x = 63
+		y = 4
+
+	}
+	focus = {
+		id = NRT_wolf_clans_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_guardians_of_the_old_gods
+		}
+		x = 63
+		y = 5
+
+	}
+	focus = {
+		id = NRT_masters_of_the_cold_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolf_clans_rising
+		}
+		x = 62
+		y = 6
+
+	}
+	focus = {
+		id = NRT_alliance_of_the_ironborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_masters_of_the_cold_realm
+		}
+		mutually_exclusive = {
+			focus = NRT_last_wolf_of_winterfell
+		}
+		x = 62
+		y = 7
+
+	}
+	focus = {
+		id = NRT_secrets_of_the_winter_woods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolf_clans_rising
+		}
+		x = 64
+		y = 6
+
+	}
+	focus = {
+		id = NRT_last_wolf_of_winterfell
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_secrets_of_the_winter_woods
+		}
+		mutually_exclusive = {
+			focus = NRT_alliance_of_the_ironborn
+		}
+		x = 64
+		y = 7
+
+	}
+	focus = {
+		id = NRT_standing_tall_in_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_last_wolf_of_winterfell
+			focus = NRT_alliance_of_the_ironborn
+		}
+		x = 63
+		y = 8
+
+	}
+	focus = {
+		id = NRT_path_of_the_stark_wolf
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_standing_tall_in_snow
+		}
+		x = 63
+		y = 9
+
+	}
+	focus = {
+		id = NRT_blood_and_frost_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_path_of_the_stark_wolf
+		}
+		x = 64
+		y = 10
+
+	}
+	focus = {
+		id = NRT_the_starks_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_winter_wolves
+		}
+		mutually_exclusive = {
+			focus = NRT_blood_of_the_first_men
+			focus = NRT_guardians_of_the_old_gods
+		}
+		x = 67
+		y = 4
+
+	}
+	focus = {
+		id = NRT_frost_and_iron_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_guardians_of_the_old_gods
+			focus = NRT_the_starks_legacy
+		}
+		x = 65
+		y = 5
+
+	}
+	focus = {
+		id = NRT_ancient_northern_strength
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_standing_tall_in_snow
+		}
+		x = 65
+		y = 9
+
+	}
+	focus = {
+		id = NRT_defenders_of_the_old_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_the_starks_legacy
+		}
+		x = 67
+		y = 5
+
+	}
+	focus = {
+		id = NRT_beyond_the_frozen_hills
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_defenders_of_the_old_gods
+		}
+		x = 67
+		y = 6
+
+	}
+	focus = {
+		id = NRT_howl_of_the_winter_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_beyond_the_frozen_hills
+		}
+		mutually_exclusive = {
+			focus = NRT_frozen_legacies
+		}
+		x = 66
+		y = 7
+
+	}
+	focus = {
+		id = NRT_frozen_legacies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_beyond_the_frozen_hills
+		}
+		mutually_exclusive = {
+			focus = NRT_howl_of_the_winter_storm
+		}
+		x = 68
+		y = 7
+
+	}
+	focus = {
+		id = NRT_swords_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frozen_legacies
+			focus = NRT_howl_of_the_winter_storm
+		}
+		x = 67
+		y = 9
+
+	}
+	focus = {
+		id = NRT_guardians_of_winterfell
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_the_starks_legacy
+		}
+		x = 69
+		y = 5
+
+	}
+	focus = {
+		id = NRT_blood_of_the_first_men
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_winter_wolves
+		}
+		mutually_exclusive = {
+			focus = NRT_the_starks_legacy
+		}
+		x = 71
+		y = 4
+
+	}
+	focus = {
+		id = NRT_honor_in_the_freezing_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_blood_of_the_first_men
+		}
+		x = 71
+		y = 5
+
+	}
+	focus = {
+		id = NRT_wrath_of_the_winterborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_tales_of_the_frozen_frontier
+		}
+		mutually_exclusive = {
+			focus = NRT_the_old_blood_rising
+		}
+		x = 75
+		y = 1
+
+	}
+	focus = {
+		id = NRT_keepers_of_the_northern_flame
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wrath_of_the_winterborn
+		}
+		x = 74
+		y = 2
+
+	}
+	focus = {
+		id = NRT_fortress_of_the_starks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_keepers_of_the_northern_flame
+		}
+		x = 73
+		y = 3
+
+	}
+	focus = {
+		id = NRT_roots_in_the_permafrost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_fortress_of_the_starks
+		}
+		x = 73
+		y = 4
+
+	}
+	focus = {
+		id = NRT_winter_wolves_united
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_roots_in_the_permafrost
+			focus = NRT_blood_of_the_first_men
+		}
+		x = 72
+		y = 6
+
+	}
+	focus = {
+		id = NRT_watchers_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_keepers_of_the_northern_flame
+		}
+		x = 75
+		y = 3
+
+	}
+	focus = {
+		id = NRT_glory_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_watchers_in_the_snow
+		}
+		x = 75
+		y = 4
+
+	}
+	focus = {
+		id = NRT_honor_in_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_glory_of_the_north
+			focus = NRT_roots_in_the_permafrost
+		}
+		x = 74
+		y = 6
+
+	}
+	focus = {
+		id = NRT_last_haven_of_the_old_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wrath_of_the_winterborn
+		}
+		x = 76
+		y = 2
+
+	}
+	focus = {
+		id = NRT_unbroken_frozen_oaths
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_glory_of_the_north
+			focus = NRT_roots_in_the_permafrost
+		}
+		x = 76
+		y = 5
+
+	}
+	focus = {
+		id = NRT_the_old_blood_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_tales_of_the_frozen_frontier
+		}
+		mutually_exclusive = {
+			focus = NRT_wrath_of_the_winterborn
+		}
+		x = 79
+		y = 1
+
+	}
+	focus = {
+		id = NRT_sons_and_daughters_of_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_the_old_blood_rising
+			focus = NRT_wrath_of_the_winterborn
+		}
+		x = 77
+		y = 3
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_frozen_front
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_the_old_blood_rising
+		}
+		x = 78
+		y = 2
+
+	}
+	focus = {
+		id = NRT_clash_of_the_northern_banners
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_the_old_blood_rising
+		}
+		x = 80
+		y = 2
+
+	}
+	focus = {
+		id = NRT_strength_in_the_icy_gale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_clash_of_the_northern_banners
+		}
+		prerequisite = {
+			focus = NRT_guardians_of_the_frozen_front
+		}
+		x = 79
+		y = 3
+
+	}
+	focus = {
+		id = NRT_call_of_the_white_wolf
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_strength_in_the_icy_gale
+		}
+		x = 79
+		y = 4
+
+	}
+	focus = {
+		id = NRT_stand_as_one_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_white_wolf
+		}
+		x = 79
+		y = 5
+
+	}
+	focus = {
+		id = NRT_whispers_of_the_ancestors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unbroken_frozen_oaths
+			focus = NRT_stand_as_one_north
+		}
+		x = 76
+		y = 7
+
+	}
+	focus = {
+		id = NRT_fury_of_the_northern_legions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_stand_as_one_north
+		}
+		prerequisite = {
+			focus = NRT_unbroken_frozen_oaths
+		}
+		x = 78
+		y = 6
+
+	}
+	focus = {
+		id = NRT_protectors_of_the_true_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_white_wolf
+		}
+		x = 82
+		y = 5
+
+	}
+	focus = {
+		id = NRT_pact_of_the_old_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_protectors_of_the_true_north
+			focus = NRT_stand_as_one_north
+		}
+		x = 80
+		y = 6
+
+	}
+	focus = {
+		id = NRT_frosted_shields_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_pact_of_the_old_gods
+			focus = NRT_fury_of_the_northern_legions
+		}
+		x = 79
+		y = 7
+
+	}
+	focus = {
+		id = NRT_united_under_the_wolf_banner
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_protectors_of_the_true_north
+		}
+		x = 82
+		y = 7
+
+	}
+	focus = {
+		id = NRT_alliance_with_the_mountain_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_protectors_of_the_true_north
+		}
+		x = 83
+		y = 6
+
+	}
+	focus = {
+		id = NRT_flames_in_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_watchers_of_the_winter_border
+		}
+		x = 93
+		y = 1
+
+	}
+	focus = {
+		id = NRT_clash_of_the_winter_bloodlines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_flames_in_the_frost
+		}
+		x = 91
+		y = 2
+
+	}
+	focus = {
+		id = NRT_wolves_of_the_winter_pack
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_flames_in_the_frost
+		}
+		x = 93
+		y = 2
+
+	}
+	focus = {
+		id = NRT_banners_rising_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_flames_in_the_frost
+		}
+		x = 95
+		y = 2
+
+	}
+	focus = {
+		id = NRT_swords_in_the_icy_shadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_banners_rising_in_the_snow
+			focus = NRT_wolves_of_the_winter_pack
+			focus = NRT_clash_of_the_winter_bloodlines
+		}
+		x = 93
+		y = 3
+
+	}
+	focus = {
+		id = NRT_sentinels_of_the_winter_pass
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_swords_in_the_icy_shadows
+		}
+		x = 93
+		y = 4
+
+	}
+	focus = {
+		id = NRT_wrath_of_the_ancestral_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_sentinels_of_the_winter_pass
+		}
+		mutually_exclusive = {
+			focus = NRT_lords_of_the_icy_reaches
+		}
+		x = 86
+		y = 5
+
+	}
+	focus = {
+		id = NRT_ancient_frostbound_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wrath_of_the_ancestral_wolves
+		}
+		x = 85
+		y = 6
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_frozen_halls
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wrath_of_the_ancestral_wolves
+		}
+		x = 87
+		y = 6
+
+	}
+	focus = {
+		id = NRT_lords_of_the_icy_reaches
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_sentinels_of_the_winter_pass
+		}
+		mutually_exclusive = {
+			focus = NRT_frost_forged_alliance
+			focus = NRT_wrath_of_the_ancestral_wolves
+		}
+		x = 93
+		y = 5
+
+	}
+	focus = {
+		id = NRT_snowborn_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_lords_of_the_icy_reaches
+		}
+		x = 91
+		y = 7
+
+	}
+	focus = {
+		id = NRT_united_under_the_winter_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_lords_of_the_icy_reaches
+		}
+		x = 93
+		y = 6
+
+	}
+	focus = {
+		id = NRT_whispers_of_the_frozen_veil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_united_under_the_winter_wind
+		}
+		x = 93
+		y = 8
+
+	}
+	focus = {
+		id = NRT_stormborn_warriors_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_swords_in_the_icy_shadows
+		}
+		x = 95
+		y = 4
+
+	}
+	focus = {
+		id = NRT_frost_forged_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_sentinels_of_the_winter_pass
+		}
+		mutually_exclusive = {
+			focus = NRT_lords_of_the_icy_reaches
+		}
+		x = 101
+		y = 5
+
+	}
+	focus = {
+		id = NRT_eternal_warriors_of_winterfell
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frost_forged_alliance
+			focus = NRT_lords_of_the_icy_reaches
+		}
+		x = 97
+		y = 6
+
+	}
+	focus = {
+		id = NRT_blood_of_the_frost_giants
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_lords_of_the_icy_reaches
+		}
+		prerequisite = {
+			focus = NRT_eternal_warriors_of_winterfell
+		}
+		x = 96
+		y = 7
+
+	}
+	focus = {
+		id = NRT_keepers_of_the_stone_and_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_blood_of_the_frost_giants
+		}
+		prerequisite = {
+			focus = NRT_whispers_of_the_frozen_veil
+		}
+		x = 94
+		y = 9
+
+	}
+	focus = {
+		id = NRT_echoes_in_the_whispering_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_keepers_of_the_stone_and_ice
+		}
+		x = 93
+		y = 10
+
+	}
+	focus = {
+		id = NRT_frozen_sentinels_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_keepers_of_the_stone_and_ice
+		}
+		x = 95
+		y = 10
+
+	}
+	focus = {
+		id = NRT_iron_claws_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_eternal_warriors_of_winterfell
+		}
+		x = 97
+		y = 8
+
+	}
+	focus = {
+		id = NRT_defiance_in_the_frozen_dark
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_eternal_warriors_of_winterfell
+		}
+		x = 98
+		y = 7
+
+	}
+	focus = {
+		id = NRT_ancient_guardians_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frost_forged_alliance
+		}
+		x = 101
+		y = 6
+
+	}
+	focus = {
+		id = NRT_alliance_with_the_frozen_vales
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_ancient_guardians_of_the_north
+		}
+		x = 101
+		y = 8
+
+	}
+	focus = {
+		id = NRT_march_of_the_white_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_with_the_frozen_vales
+		}
+		x = 101
+		y = 9
+
+	}
+	focus = {
+		id = NRT_vengeful_fangs_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frost_forged_alliance
+		}
+		x = 103
+		y = 6
+
+	}
+	focus = {
+		id = NRT_ancient_roots_unbroken
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_vengeful_fangs_of_the_north
+		}
+		x = 102
+		y = 7
+
+	}
+	focus = {
+		id = NRT_wardens_of_the_frozen_keep
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_vengeful_fangs_of_the_north
+		}
+		x = 104
+		y = 7
+
+	}
+	focus = {
+		id = NRT_last_watch_of_the_winter_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wardens_of_the_frozen_keep
+			focus = NRT_ancient_roots_unbroken
+		}
+		x = 103
+		y = 8
+
+	}
+	focus = {
+		id = NRT_wrath_of_the_frozen_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_last_watch_of_the_winter_kings
+		}
+		x = 103
+		y = 9
+
+	}
+	focus = {
+		id = NRT_frostwolf_ascendancy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wrath_of_the_frozen_clans
+		}
+		x = 103
+		y = 10
+
+	}
+	focus = {
+		id = NRT_whispers_in_the_ancient_woods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_echoes_of_the_winter_kings
+			focus = NRT_ironclad_defenders_of_honor
+		}
+		x = 112
+		y = 1
+
+	}
+	focus = {
+		id = NRT_council_of_the_frostlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_whispers_in_the_ancient_woods
+		}
+		x = 110
+		y = 3
+
+	}
+	focus = {
+		id = NRT_strength_of_the_winterborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_council_of_the_frostlords
+		}
+		mutually_exclusive = {
+			focus = NRT_bloodlines_of_the_old_gods
+		}
+		x = 110
+		y = 5
+
+	}
+	focus = {
+		id = NRT_clash_beyond_the_frozen_hills
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_whispers_in_the_ancient_woods
+		}
+		x = 111
+		y = 2
+
+	}
+	focus = {
+		id = NRT_vengeance_of_the_wolf_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_clash_beyond_the_frozen_hills
+		}
+		x = 111
+		y = 4
+
+	}
+	focus = {
+		id = NRT_battleborn_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_whispers_in_the_ancient_woods
+		}
+		x = 113
+		y = 2
+
+	}
+	focus = {
+		id = NRT_wolf_pact_of_the_true_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_battleborn_in_the_snow
+			focus = NRT_clash_beyond_the_frozen_hills
+		}
+		x = 112
+		y = 3
+
+	}
+	focus = {
+		id = NRT_bloodlines_of_the_old_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolf_pact_of_the_true_north
+		}
+		mutually_exclusive = {
+			focus = NRT_strength_of_the_winterborn
+		}
+		x = 112
+		y = 5
+
+	}
+	focus = {
+		id = NRT_unity_in_the_winter_gale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_bloodlines_of_the_old_gods
+			focus = NRT_strength_of_the_winterborn
+		}
+		x = 111
+		y = 6
+
+	}
+	focus = {
+		id = NRT_fangs_of_the_winter_legions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unity_in_the_winter_gale
+		}
+		x = 109
+		y = 8
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_icy_frontier
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unity_in_the_winter_gale
+		}
+		mutually_exclusive = {
+			focus = NRT_unyielding_banners_of_the_north
+		}
+		x = 110
+		y = 7
+
+	}
+	focus = {
+		id = NRT_unyielding_banners_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unity_in_the_winter_gale
+		}
+		mutually_exclusive = {
+			focus = NRT_guardians_of_the_icy_frontier
+		}
+		x = 112
+		y = 7
+
+	}
+	focus = {
+		id = NRT_oaths_carved_in_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unity_in_the_winter_gale
+		}
+		x = 113
+		y = 8
+
+	}
+	focus = {
+		id = NRT_honor_of_the_frosted_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_echoes_of_the_winter_kings
+		}
+		x = 114
+		y = 1
+
+	}
+	focus = {
+		id = NRT_call_of_the_ancestral_howl
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_winter_clans_united
+		}
+		x = 117
+		y = 1
+
+	}
+	focus = {
+		id = NRT_fury_of_the_white_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_winter_clans_united
+		}
+		x = 119
+		y = 1
+
+	}
+	focus = {
+		id = NRT_sentinels_of_the_snowdrifts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_fury_of_the_white_frost
+			focus = NRT_call_of_the_ancestral_howl
+		}
+		x = 118
+		y = 2
+
+	}
+	focus = {
+		id = NRT_blood_pact_of_the_starks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_sentinels_of_the_snowdrifts
+		}
+		prerequisite = {
+			focus = NRT_wolf_pact_of_the_true_north
+		}
+		x = 116
+		y = 4
+
+	}
+	focus = {
+		id = NRT_path_of_the_eternal_wolf
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_sentinels_of_the_snowdrifts
+		}
+		x = 118
+		y = 4
+
+	}
+	focus = {
+		id = NRT_honor_in_the_winter_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_sentinels_of_the_snowdrifts
+		}
+		x = 121
+		y = 4
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_frozen_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_the_winter_wind
+		}
+		x = 120
+		y = 6
+
+	}
+	focus = {
+		id = NRT_shields_of_the_frozen_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_the_winter_wind
+		}
+		x = 115
+		y = 6
+
+	}
+	focus = {
+		id = NRT_glory_in_the_winter_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_the_winter_wind
+		}
+		x = 117
+		y = 6
+
+	}
+	focus = {
+		id = NRT_pact_of_the_wolf_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_guardians_of_the_frozen_realm
+		}
+		mutually_exclusive = {
+			focus = NRT_claws_of_the_iron_wolf
+		}
+		x = 120
+		y = 7
+
+	}
+	focus = {
+		id = NRT_blood_and_ice_united
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_the_winter_wind
+		}
+		mutually_exclusive = {
+			focus = NRT_frostbound_alliance
+		}
+		x = 122
+		y = 6
+
+	}
+	focus = {
+		id = NRT_claws_of_the_iron_wolf
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_blood_and_ice_united
+		}
+		mutually_exclusive = {
+			focus = NRT_pact_of_the_wolf_lords
+		}
+		x = 122
+		y = 7
+
+	}
+	focus = {
+		id = NRT_frostbound_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_the_winter_wind
+		}
+		mutually_exclusive = {
+			focus = NRT_blood_and_ice_united
+		}
+		x = 125
+		y = 6
+
+	}
+	focus = {
+		id = NRT_echoes_of_the_wolf_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frostbound_alliance
+		}
+		x = 124
+		y = 7
+
+	}
+	focus = {
+		id = NRT_unyielding_northern_bastion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frostbound_alliance
+		}
+		x = 125
+		y = 8
+
+	}
+	focus = {
+		id = NRT_strength_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_stand_against_the_darkness
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = NRT_bastions_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_strength_of_the_north
+		}
+		x = 49
+		y = 6
+
+	}
+	focus = {
+		id = NRT_oaths_of_the_winter_houses
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolves_of_the_north
+		}
+		x = 57
+		y = 5
+
+	}
+	focus = {
+		id = NRT_honor_in_ice_and_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_oaths_of_the_winter_houses
+		}
+		x = 57
+		y = 6
+
+	}
+	focus = {
+		id = NRT_wolf_blood_unbroken
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_howl_of_the_northern_wind
+		}
+		x = 59
+		y = 7
+
+	}
+	focus = {
+		id = NRT_for_the_glory_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_ice_and_fire
+		}
+		x = 56
+		y = 7
+
+	}
+	focus = {
+		id = NRT_battle_hardened_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolf_blood_unbroken
+		}
+		x = 59
+		y = 8
+
+	}
+	focus = {
+		id = NRT_wrath_of_the_starks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_honor_in_ice_and_fire
+		}
+		x = 57
+		y = 9
+
+	}
+	focus = {
+		id = NRT_ancestral_roots
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolves_of_the_north
+			focus = NRT_stand_against_the_darkness
+		}
+		x = 53
+		y = 5
+
+	}
+	focus = {
+		id = NRT_march_of_the_winter_army
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_ancestral_roots
+		}
+		x = 53
+		y = 6
+
+	}
+	focus = {
+		id = NRT_defy_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_march_of_the_winter_army
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = NRT_alliance_of_the_winter_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_bastions_in_the_snow
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = NRT_watchers_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_of_the_winter_clans
+		}
+		x = 50
+		y = 8
+
+	}
+	focus = {
+		id = NRT_ancient_bonds_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_of_the_winter_clans
+		}
+		x = 48
+		y = 8
+
+	}
+	focus = {
+		id = NRT_storms_of_the_winter_keep
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_watchers_of_the_north
+		}
+		x = 50
+		y = 10
+
+	}
+	focus = {
+		id = NRT_protectors_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_ancient_bonds_of_honor
+		}
+		x = 48
+		y = 9
+
+	}
+	focus = {
+		id = NRT_courage_in_the_frozen_wastes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_protectors_of_the_realm
+		}
+		x = 48
+		y = 10
+
+	}
+	focus = {
+		id = NRT_legacy_of_winterfell
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_protectors_of_the_realm
+		}
+		x = 46
+		y = 10
+
+	}
+	focus = {
+		id = NRT_swords_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_courage_in_the_frozen_wastes
+		}
+		x = 47
+		y = 11
+
+	}
+	focus = {
+		id = NRT_banners_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_courage_in_the_frozen_wastes
+			focus = NRT_storms_of_the_winter_keep
+		}
+		x = 49
+		y = 11
+
+	}
+	focus = {
+		id = NRT_roar_of_the_winter_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_storms_of_the_winter_keep
+		}
+		x = 51
+		y = 11
+
+	}
+	focus = {
+		id = NRT_unyielding_guardians
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_roar_of_the_winter_wolves
+			focus = NRT_swords_in_the_snow
+		}
+		prerequisite = {
+			focus = NRT_banners_of_the_north
+		}
+		x = 49
+		y = 12
+
+	}
+	focus = {
+		id = NRT_iron_in_the_cold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_of_the_winter_clans
+		}
+		x = 52
+		y = 9
+
+	}
+	focus = {
+		id = NRT_strength_in_the_frozen_shadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_of_the_winter_clans
+		}
+		x = 53
+		y = 10
+
+	}
+	focus = {
+		id = NRT_council_of_the_northern_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_bastions_in_the_snow
+		}
+		mutually_exclusive = {
+			focus = NRT_frostborn_warriors
+		}
+		x = 41
+		y = 7
+
+	}
+	focus = {
+		id = NRT_frostborn_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_bastions_in_the_snow
+		}
+		mutually_exclusive = {
+			focus = NRT_council_of_the_northern_lords
+			focus = NRT_echoes_of_the_first_men
+		}
+		x = 39
+		y = 7
+
+	}
+	focus = {
+		id = NRT_echoes_of_the_first_men
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_bastions_in_the_snow
+		}
+		mutually_exclusive = {
+			focus = NRT_frostborn_warriors
+		}
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = NRT_lords_of_the_frozen_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frostborn_warriors
+			focus = NRT_council_of_the_northern_lords
+		}
+		x = 40
+		y = 8
+
+	}
+	focus = {
+		id = NRT_shield_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frostborn_warriors
+			focus = NRT_echoes_of_the_first_men
+		}
+		x = 38
+		y = 8
+
+	}
+	focus = {
+		id = NRT_unbroken_wolf_pact
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_echoes_of_the_first_men
+		}
+		x = 36
+		y = 8
+
+	}
+	focus = {
+		id = NRT_vengeance_of_the_starks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frostborn_warriors
+		}
+		x = 39
+		y = 9
+
+	}
+	focus = {
+		id = NRT_voice_of_the_northern_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unbroken_wolf_pact
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = NRT_unite_the_old_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_vengeance_of_the_starks
+		}
+		x = 39
+		y = 10
+
+	}
+	focus = {
+		id = NRT_oathkeepers_of_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unite_the_old_blood
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = NRT_beyond_the_northern_mists
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wrath_of_the_starks
+			focus = NRT_path_of_the_stark_wolf
+		}
+		x = 61
+		y = 11
+
+	}
+	focus = {
+		id = NRT_banners_in_the_winter_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_beyond_the_northern_mists
+		}
+		x = 61
+		y = 12
+
+	}
+	focus = {
+		id = NRT_wolves_of_the_eternal_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_beyond_the_northern_mists
+		}
+		x = 63
+		y = 12
+
+	}
+	focus = {
+		id = NRT_wrath_of_the_northern_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_beyond_the_northern_mists
+		}
+		x = 59
+		y = 12
+
+	}
+	focus = {
+		id = NRT_honor_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolves_of_the_eternal_north
+			focus = NRT_banners_in_the_winter_wind
+			focus = NRT_wrath_of_the_northern_clans
+		}
+		mutually_exclusive = {
+			focus = NRT_sentinels_in_the_frost
+		}
+		x = 62
+		y = 13
+
+	}
+	focus = {
+		id = NRT_sentinels_in_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_banners_in_the_winter_wind
+			focus = NRT_wrath_of_the_northern_clans
+			focus = NRT_wolves_of_the_eternal_north
+		}
+		mutually_exclusive = {
+			focus = NRT_honor_and_steel
+		}
+		x = 60
+		y = 13
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_last_homestead
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_howl_of_the_winter_storm
+		}
+		x = 66
+		y = 8
+
+	}
+	focus = {
+		id = NRT_legacy_of_the_winter_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_winter_wolves_united
+		}
+		prerequisite = {
+			focus = NRT_honor_in_the_frost
+		}
+		x = 74
+		y = 7
+
+	}
+	focus = {
+		id = NRT_battlecry_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_whispers_of_the_ancestors
+			focus = NRT_legacy_of_the_winter_kings
+			focus = NRT_frosted_shields_rising
+		}
+		x = 76
+		y = 8
+
+	}
+	focus = {
+		id = NRT_snowbound_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_whispers_of_the_ancestors
+			focus = NRT_legacy_of_the_winter_kings
+			focus = NRT_frosted_shields_rising
+		}
+		x = 72
+		y = 8
+
+	}
+	focus = {
+		id = NRT_echoes_of_winter’s_wrath
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_legacy_of_the_winter_kings
+			focus = NRT_whispers_of_the_ancestors
+			focus = NRT_frosted_shields_rising
+		}
+		x = 70
+		y = 8
+
+	}
+	focus = {
+		id = NRT_vows_of_the_stark_bloodline
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_snowbound_warriors
+		}
+		mutually_exclusive = {
+			focus = NRT_guardians_of_the_white_peaks
+		}
+		x = 72
+		y = 9
+
+	}
+	focus = {
+		id = NRT_guardians_of_the_white_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_echoes_of_winter’s_wrath
+		}
+		mutually_exclusive = {
+			focus = NRT_vows_of_the_stark_bloodline
+		}
+		x = 70
+		y = 9
+
+	}
+	focus = {
+		id = NRT_wolves_of_eternal_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_vows_of_the_stark_bloodline
+		}
+		x = 72
+		y = 10
+
+	}
+	focus = {
+		id = NRT_for_the_realm_of_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_wolves_of_eternal_ice
+		}
+		x = 72
+		y = 11
+
+	}
+	focus = {
+		id = NRT_bloodbound_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_guardians_of_the_white_peaks
+		}
+		x = 70
+		y = 10
+
+	}
+	focus = {
+		id = NRT_frostborn_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_bloodbound_loyalty
+		}
+		x = 70
+		y = 11
+
+	}
+	focus = {
+		id = NRT_oathsworn_brothers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_battlecry_of_the_north
+		}
+		x = 77
+		y = 9
+
+	}
+	focus = {
+		id = NRT_iron_in_the_biting_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_battlecry_of_the_north
+		}
+		x = 76
+		y = 10
+
+	}
+	focus = {
+		id = NRT_soul_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_iron_in_the_biting_wind
+		}
+		x = 76
+		y = 11
+
+	}
+	focus = {
+		id = NRT_eternal_wolves_of_the_stark_line
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_iron_in_the_biting_wind
+		}
+		x = 74
+		y = 11
+
+	}
+	focus = {
+		id = NRT_unbowed_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_iron_in_the_biting_wind
+		}
+		x = 78
+		y = 11
+
+	}
+	focus = {
+		id = NRT_vengeance_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unbowed_in_the_snow
+		}
+		mutually_exclusive = {
+			focus = NRT_keepers_of_the_frozen_peaks
+		}
+		x = 79
+		y = 12
+
+	}
+	focus = {
+		id = NRT_keepers_of_the_frozen_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unbowed_in_the_snow
+		}
+		mutually_exclusive = {
+			focus = NRT_vengeance_of_the_north
+		}
+		x = 77
+		y = 12
+
+	}
+	focus = {
+		id = NRT_path_of_the_old_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_eternal_wolves_of_the_stark_line
+		}
+		mutually_exclusive = {
+			focus = NRT_council_of_the_iron_wolf
+		}
+		x = 75
+		y = 12
+
+	}
+	focus = {
+		id = NRT_council_of_the_iron_wolf
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_eternal_wolves_of_the_stark_line
+		}
+		mutually_exclusive = {
+			focus = NRT_path_of_the_old_wolves
+		}
+		x = 73
+		y = 12
+
+	}
+	focus = {
+		id = NRT_whispers_in_the_winter_winds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_keepers_of_the_frozen_peaks
+			focus = NRT_vengeance_of_the_north
+			focus = NRT_path_of_the_old_wolves
+		}
+		prerequisite = {
+			focus = NRT_soul_of_the_north
+		}
+		x = 76
+		y = 13
+
+	}
+	focus = {
+		id = NRT_heart_of_the_winter_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frosted_shields_rising
+		}
+		prerequisite = {
+			focus = NRT_iron_in_the_biting_wind
+		}
+		x = 82
+		y = 11
+
+	}
+	focus = {
+		id = NRT_roots_in_the_frozen_earth
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_frozen_tundra
+		}
+		x = 84
+		y = 10
+
+	}
+	focus = {
+		id = NRT_honorbound_by_ice_and_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_call_of_the_frozen_tundra
+		}
+		x = 85
+		y = 9
+
+	}
+	focus = {
+		id = NRT_united_frostborn_front
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_under_the_wolf’s_gaze
+		}
+		x = 87
+		y = 9
+
+	}
+	focus = {
+		id = NRT_howl_of_the_frostwolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_united_frostborn_front
+			focus = NRT_honorbound_by_ice_and_blood
+		}
+		x = 86
+		y = 11
+
+	}
+	focus = {
+		id = NRT_watchers_of_the_frozen_wilds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_howl_of_the_frostwolves
+		}
+		x = 86
+		y = 12
+
+	}
+	focus = {
+		id = NRT_bastion_of_the_true_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_alliance_under_the_wolf’s_gaze
+		}
+		x = 88
+		y = 10
+
+	}
+	focus = {
+		id = NRT_alliance_under_the_wolf’s_gaze
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_blood_oaths_of_the_winterborn
+		}
+		mutually_exclusive = {
+			focus = NRT_call_of_the_frozen_tundra
+		}
+		x = 87
+		y = 8
+
+	}
+	focus = {
+		id = NRT_call_of_the_frozen_tundra
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_fury_of_the_iron_clans
+		}
+		mutually_exclusive = {
+			focus = NRT_alliance_under_the_wolf’s_gaze
+		}
+		x = 85
+		y = 8
+
+	}
+	focus = {
+		id = NRT_blood_oaths_of_the_winterborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_guardians_of_the_frozen_halls
+			focus = NRT_ancient_frostbound_legends
+		}
+		x = 87
+		y = 7
+
+	}
+	focus = {
+		id = NRT_fury_of_the_iron_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_guardians_of_the_frozen_halls
+			focus = NRT_ancient_frostbound_legends
+		}
+		x = 85
+		y = 7
+
+	}
+	focus = {
+		id = NRT_pact_of_iron_and_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frozen_sentinels_of_honor
+			focus = NRT_echoes_in_the_whispering_snow
+		}
+		x = 94
+		y = 11
+
+	}
+	focus = {
+		id = NRT_honor_of_the_stark_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_march_of_the_winter_clans
+		}
+		x = 91
+		y = 11
+
+	}
+	focus = {
+		id = NRT_march_of_the_winter_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_snowborn_defenders
+		}
+		x = 91
+		y = 9
+
+	}
+	focus = {
+		id = NRT_frozen_iron_bond
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_unyielding_banners_of_the_north
+			focus = NRT_guardians_of_the_icy_frontier
+		}
+		x = 111
+		y = 8
+
+	}
+	focus = {
+		id = NRT_defenders_of_the_ancient_vales
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_oaths_carved_in_frost
+			focus = NRT_frozen_iron_bond
+			focus = NRT_fangs_of_the_winter_legions
+		}
+		x = 111
+		y = 9
+
+	}
+	focus = {
+		id = NRT_last_defense_of_the_true_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_glory_in_the_winter_storm
+			focus = NRT_shields_of_the_frozen_wolves
+		}
+		x = 116
+		y = 7
+
+	}
+	focus = {
+		id = NRT_unbroken_souls_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_glory_in_the_winter_storm
+		}
+		x = 117
+		y = 8
+
+	}
+	focus = {
+		id = NRT_wrath_of_the_northern_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = NRT_frostbound_alliance
+		}
+		x = 126
+		y = 7
+
+	}
+}
