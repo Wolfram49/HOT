@@ -7,6 +7,7 @@ focus_tree = {
 			tag = NRT
 		}
 	}
+	continuous_focus_position = { x = 10000 y = 1600 }
 	default = no
 	focus = {
 		id = NRT_winter_is_coming
