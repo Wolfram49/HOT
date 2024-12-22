@@ -2,7 +2,7 @@ state={
 	id=360
 	name="STATE_360"
 	provinces={
-		435 1205 1386 1440 3487 5737 5765 
+		435 1205 1386 1440 3487 3551 5737 5765 
 	}
 	history = {
 		owner = WHW
