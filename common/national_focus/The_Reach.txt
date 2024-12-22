@@ -7,7 +7,7 @@ focus_tree = {
 			tag = REA
 		}
 	}
-    continuous_focus_position = { x = 700 y = 1000 }
+	continuous_focus_position = { x = 700 y = 1000 }
 	default = no
 	focus = {
 		id = REA_heart_of_the_realm
@@ -23,14 +23,6 @@ focus_tree = {
 		cost = 0
 		x = 26
 		y = 0
-
-	}
-	focus = {
-		id = REA_watchers_of_the_gardens
-		icon = GFX_goal_unknown
-		cost = 0
-		x = 26
-		y = 8
 
 	}
 	focus = {
@@ -536,17 +528,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = REA_vine_and_steel
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = REA_watchers_of_the_gardens
-		}
-		x = 28
-		y = 10
-
-	}
-	focus = {
 		id = REA_warriors_of_the_reach
 		icon = GFX_goal_unknown
 		cost = 0
@@ -799,6 +780,28 @@ focus_tree = {
 
 	}
 	focus = {
+		id = REA_watchers_of_the_gardens
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_warriors_of_the_reach
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = REA_vine_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_watchers_of_the_gardens
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
 		id = REA_banners_of_the_flower
 		icon = GFX_goal_unknown
 		cost = 0
@@ -835,7 +838,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = REA_blossoms_of_victory
+		id = REA_legacy_of_the_fields
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
@@ -865,9 +868,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = REA_vine_and_steel
-		}
-		prerequisite = {
-			focus = REA_frost_and_flower
 		}
 		x = 26
 		y = 11

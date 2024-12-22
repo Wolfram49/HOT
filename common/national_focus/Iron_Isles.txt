@@ -18,14 +18,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = IRI_forge_the_iron_throne
-		icon = GFX_goal_unknown
-		cost = 0
-		x = 23
-		y = 2
-
-	}
-	focus = {
 		id = IRI_beyond_the_horizon
 		icon = GFX_goal_unknown
 		cost = 0
@@ -277,6 +269,18 @@ focus_tree = {
 
 	}
 	focus = {
+		id = IRI_forge_the_iron_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reclaim_our_dominion
+			focus = IRI_unyielding_tide
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
 		id = IRI_burning_of_the_shores
 		icon = GFX_goal_unknown
 		cost = 0
@@ -322,18 +326,6 @@ focus_tree = {
 		}
 		x = 22
 		y = 5
-
-	}
-	focus = {
-		id = IRI_unchallenged_sea_power
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = IRI_stormborn_ironborn
-			focus = IRI_seas_red_with_blood
-		}
-		x = 21
-		y = 6
 
 	}
 	focus = {
@@ -729,6 +721,18 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+
+	}
+	focus = {
+		id = IRI_unchallenged_sea_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_stormborn_ironborn
+			focus = IRI_seas_red_with_blood
+		}
+		x = 21
+		y = 6
 
 	}
 	focus = {
