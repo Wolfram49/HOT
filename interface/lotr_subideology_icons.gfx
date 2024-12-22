@@ -10,4 +10,64 @@ spriteTypes = {
         texturefile = "gfx/interface/ideologies/subideology_icons/stark_house.dds"
     }
 
+    SpriteType = {
+        name = "GFX_subideology_martell_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/martell_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_white_walkers"
+        texturefile = "gfx/interface/ideologies/subideology_icons/white_walkers.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_unity_tribes"
+        texturefile = "gfx/interface/ideologies/subideology_icons/unity_tribes.dds"
+    }
+
+     SpriteType = {
+        name = "GFX_subideology_mormont_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/mormont_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_tully_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/tully_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_arryn_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/arryn_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_baratheon_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/baratheon_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_lannister_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/lannister_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_tyrell_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/tyrell_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_greyjoy_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/greyjoy_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_targarien_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/targarien_house.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_subideology_martell_house"
+        texturefile = "gfx/interface/ideologies/subideology_icons/martell_house.dds"
+    }
+
 }

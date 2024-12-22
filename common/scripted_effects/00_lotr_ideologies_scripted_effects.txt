@@ -10,5 +10,53 @@ lotr_apply_subideology_modifier = {
 		limit = { has_country_leader_ideology = tully_house }
 		add_ideas = idea_tully_house_modifier
 	}
+	else_if = {
+		limit = { has_country_leader_ideology = martell_house }
+		add_ideas = idea_martell_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = white_walkers }
+		add_ideas = idea_white_walker_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = unity_tribes }
+		add_ideas = idea_unity_tribes_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = mormont_house }
+		add_ideas = idea_mormont_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = tully_house }
+		add_ideas = idea_tully_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = arryn_house }
+		add_ideas = idea_arryn_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = baratheon_house }
+		add_ideas = idea_baratheon_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = lannister_house }
+		add_ideas = idea_lannister_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = tyrell_house }
+		add_ideas = idea_tyrell_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = greyjoy_house }
+		add_ideas = idea_greyjoy_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = targarien_house }
+		add_ideas = idea_targarien_house_modifier
+	}
+	else_if = {
+		limit = { has_country_leader_ideology = martell_house }
+		add_ideas = idea_martell_house_modifier
+	}
 
 }

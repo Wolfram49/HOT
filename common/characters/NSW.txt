@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = nights_watch
+			ideology = mormont_house
 			traits={  }
 			id=-1
 		}

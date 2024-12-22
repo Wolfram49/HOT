@@ -1,0 +1,844 @@
+focus_tree = {
+	id = Iron_Isles
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IRI
+		}
+	}
+	continuous_focus_position = { x = 2400 y = 1200 }
+	default = no
+	focus = {
+		id = IRI_iron_fleet_supremacy_initiative
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = IRI_beyond_the_horizon
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 30
+		y = 0
+
+	}
+	focus = {
+		id = IRI_tide_of_wrath
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 34
+		y = 0
+
+	}
+	focus = {
+		id = IRI_raiding_the_softlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_iron_fleet_supremacy_initiative
+		}
+		mutually_exclusive = {
+			focus = IRI_wrath_of_the_ironborn
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = IRI_wrath_of_the_ironborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_iron_fleet_supremacy_initiative
+		}
+		mutually_exclusive = {
+			focus = IRI_raiding_the_softlands
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = IRI_reign_of_salt_and_iron
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_wrath_of_the_ironborn
+			focus = IRI_raiding_the_softlands
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = IRI_call_of_the_drowned_god
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reign_of_salt_and_iron
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = IRI_conquer_the_greenlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_call_of_the_drowned_god
+		}
+		mutually_exclusive = {
+			focus = IRI_throne_of_the_salt_king
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = IRI_mastery_of_the_seas
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_raiding_the_softlands
+			focus = IRI_wrath_of_the_ironborn
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = IRI_embrace_the_old_way
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_mastery_of_the_seas
+			focus = IRI_reign_of_salt_and_iron
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = IRI_honor_the_iron_price
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_embrace_the_old_way
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = IRI_sacrifice_to_the_sea
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_honor_the_iron_price
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = IRI_forged_by_salt_and_stone
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_mastery_of_the_seas
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = IRI_throne_of_the_salt_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_forged_by_salt_and_stone
+		}
+		mutually_exclusive = {
+			focus = IRI_conquer_the_greenlands
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = IRI_unyielding_tide
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_iron_fleet_supremacy_initiative
+		}
+		mutually_exclusive = {
+			focus = IRI_reclaim_our_dominion
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = IRI_pillars_of_salt_and_rock
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_unyielding_tide
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = IRI_drowned_gods_wrath
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_pillars_of_salt_and_rock
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = IRI_reclaim_our_dominion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_iron_fleet_supremacy_initiative
+		}
+		mutually_exclusive = {
+			focus = IRI_unyielding_tide
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = IRI_legacy_of_pyre_and_wave
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_unyielding_tide
+			focus = IRI_reclaim_our_dominion
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = IRI_blood_on_the_tides
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_legacy_of_pyre_and_wave
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = IRI_stormborn_ironborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_blood_on_the_tides
+		}
+		prerequisite = {
+			focus = IRI_drowned_gods_wrath
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = IRI_reavers_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_throne_of_the_salt_king
+			focus = IRI_stormborn_ironborn
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = IRI_forge_the_iron_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reclaim_our_dominion
+			focus = IRI_unyielding_tide
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = IRI_burning_of_the_shores
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_forge_the_iron_throne
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = IRI_salt_lords_united
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_burning_of_the_shores
+			focus = IRI_blood_on_the_tides
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = IRI_eternal_tide_of_conquest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_forge_the_iron_throne
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = IRI_seas_red_with_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_eternal_tide_of_conquest
+		}
+		mutually_exclusive = {
+			focus = IRI_gathering_of_the_fleet
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = IRI_gathering_of_the_fleet
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_eternal_tide_of_conquest
+		}
+		mutually_exclusive = {
+			focus = IRI_seas_red_with_blood
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = IRI_purge_the_greenlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_gathering_of_the_fleet
+			focus = IRI_seas_red_with_blood
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = IRI_rise_of_the_ironborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_purge_the_greenlands
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = IRI_tide_of_destruction
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reclaim_our_dominion
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = IRI_throne_of_salt_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_tide_of_destruction
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = IRI_reclaim_the_old_dominion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reclaim_our_dominion
+		}
+		mutually_exclusive = {
+			focus = IRI_saltborn_legends
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = IRI_rule_through_fear
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reclaim_the_old_dominion
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = IRI_wavebreakers_will
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_reclaim_the_old_dominion
+		}
+		mutually_exclusive = {
+			focus = IRI_drowned_gods_favor
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = IRI_dark_sea_covenant
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_wavebreakers_will
+		}
+		prerequisite = {
+			focus = IRI_tide_of_destruction
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = IRI_claiming_the_sunset_seas
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_gathering_of_the_fleet
+			focus = IRI_dark_sea_covenant
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = IRI_sea_wolf_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_dark_sea_covenant
+			focus = IRI_gathering_of_the_fleet
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = IRI_saltborn_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_beyond_the_horizon
+		}
+		mutually_exclusive = {
+			focus = IRI_reclaim_the_old_dominion
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = IRI_drowned_gods_favor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_saltborn_legends
+		}
+		mutually_exclusive = {
+			focus = IRI_wavebreakers_will
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = IRI_wrath_of_the_tides
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_drowned_gods_favor
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = IRI_reavers_of_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_tide_of_wrath
+		}
+		mutually_exclusive = {
+			focus = IRI_legacy_of_the_drowned
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = IRI_legacy_of_the_drowned
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_tide_of_wrath
+		}
+		mutually_exclusive = {
+			focus = IRI_reavers_of_glory
+		}
+		x = 34
+		y = 1
+
+	}
+	focus = {
+		id = IRI_shores_in_flames
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_legacy_of_the_drowned
+			focus = IRI_reavers_of_glory
+		}
+		mutually_exclusive = {
+			focus = IRI_dominance_of_the_deep
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = IRI_echoes_of_the_old_way
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_dark_sea_covenant
+			focus = IRI_shores_in_flames
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = IRI_dominance_of_the_deep
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_legacy_of_the_drowned
+		}
+		mutually_exclusive = {
+			focus = IRI_shores_in_flames
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = IRI_sea_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_dominance_of_the_deep
+			focus = IRI_shores_in_flames
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = IRI_sea_reapers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_tide_of_wrath
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = IRI_tideborn_conquerors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_sea_reapers
+		}
+		mutually_exclusive = {
+			focus = IRI_warriors_of_the_depths
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = IRI_fleetmasters_command
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_tideborn_conquerors
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = IRI_bond_of_salt_and_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_sea_and_steel
+			focus = IRI_fleetmasters_command
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = IRI_warriors_of_the_depths
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_sea_reapers
+		}
+		mutually_exclusive = {
+			focus = IRI_tideborn_conquerors
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = IRI_bringing_the_iron_price
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_warriors_of_the_depths
+			focus = IRI_tideborn_conquerors
+		}
+		x = 39
+		y = 5
+
+	}
+	focus = {
+		id = IRI_salt_throne_hegemony
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_warriors_of_the_depths
+			focus = IRI_tideborn_conquerors
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = IRI_drowned_gods_wrath_unleashed
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_warriors_of_the_depths
+			focus = IRI_tideborn_conquerors
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = IRI_reclaim_the_lost_shores
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_drowned_gods_wrath_unleashed
+		}
+		prerequisite = {
+			focus = IRI_bringing_the_iron_price
+		}
+		x = 40
+		y = 6
+
+	}
+	focus = {
+		id = IRI_unstoppable_fleet
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_echoes_of_the_old_way
+			focus = IRI_reclaim_the_lost_shores
+		}
+		mutually_exclusive = {
+			focus = IRI_drowned_legacies
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = IRI_iron_heritage
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_warriors_of_the_depths
+			focus = IRI_tideborn_conquerors
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = IRI_unchallenged_sea_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_stormborn_ironborn
+			focus = IRI_seas_red_with_blood
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = IRI_banners_of_the_fleet
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_stormborn_ironborn
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = IRI_sea_reign_supremacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_banners_of_the_fleet
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = IRI_warriors_of_salt_and_iron
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_claiming_the_sunset_seas
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = IRI_crown_of_the_drowned
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_sea_reign_supremacy
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = IRI_ironborn_supremacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_banners_of_the_fleet
+			focus = IRI_rise_of_the_ironborn
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = IRI_drowned_legacies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_echoes_of_the_old_way
+			focus = IRI_reclaim_the_lost_shores
+		}
+		mutually_exclusive = {
+			focus = IRI_unstoppable_fleet
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = IRI_rule_the_storms
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_drowned_legacies
+			focus = IRI_unstoppable_fleet
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = IRI_price_of_conquest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_unstoppable_fleet
+			focus = IRI_drowned_legacies
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = IRI_shattering_the_greenlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = IRI_warriors_of_the_depths
+		}
+		x = 45
+		y = 4
+
+	}
+}

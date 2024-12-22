@@ -1,0 +1,1423 @@
+focus_tree = {
+	id = Westerland
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WSL
+		}
+	}
+	continuous_focus_position = { x = 1100 y = 1000 }
+	default = no
+	focus = {
+		id = WSL_light_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 21
+		y = 0
+
+	}
+	focus = {
+		id = WSL_unyielding_guardians
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 35
+		y = 0
+
+	}
+	focus = {
+		id = WSL_sentinels_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		mutually_exclusive = {
+			focus = WSL_heart_of_the_pride
+		}
+		x = 48
+		y = 1
+
+	}
+	focus = {
+		id = WSL_guardians_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_light_of_the_west
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = WSL_noble_hearts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_guardians_of_the_realm
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = WSL_steadfast_in_stone
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_guardians_of_the_realm
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = WSL_courage_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_steadfast_in_stone
+		}
+		prerequisite = {
+			focus = WSL_noble_hearts
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = WSL_shining_helm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_courage_of_the_realm
+		}
+		mutually_exclusive = {
+			focus = WSL_victory_in_unity
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = WSL_victory_in_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_courage_of_the_realm
+		}
+		mutually_exclusive = {
+			focus = WSL_shining_helm
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = WSL_glory_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_guardians_of_the_realm
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = WSL_warriors_of_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_glory_of_the_westerlands
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = WSL_lion’s_proclamation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_warriors_of_the_lion
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = WSL_throne_of_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_glory_of_the_westerlands
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = WSL_sons_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_throne_of_gold
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = WSL_pride_and_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_the_west
+		}
+		prerequisite = {
+			focus = WSL_lion’s_proclamation
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = WSL_fortress_of_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pride_and_honor
+		}
+		mutually_exclusive = {
+			focus = WSL_duty_to_the_realm
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = WSL_duty_to_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pride_and_honor
+		}
+		mutually_exclusive = {
+			focus = WSL_fortress_of_the_lion
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = WSL_bastion_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_light_of_the_west
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = WSL_fortress_of_stone
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_bastion_of_honor
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = WSL_march_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fortress_of_stone
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = WSL_honor_and_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_march_of_the_lions
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = WSL_wrath_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_and_loyalty
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = WSL_pride_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_bastion_of_honor
+		}
+		mutually_exclusive = {
+			focus = WSL_lions_roar
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = WSL_code_of_chivalry
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pride_of_the_westerlands
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = WSL_defenders_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_code_of_chivalry
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = WSL_shield_of_the_crown
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_light_of_the_west
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = WSL_lions_roar
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shield_of_the_crown
+		}
+		mutually_exclusive = {
+			focus = WSL_pride_of_the_westerlands
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = WSL_knights_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_lions_roar
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = WSL_strength_in_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_knights_of_the_realm
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = WSL_sword_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_strength_in_unity
+		}
+		prerequisite = {
+			focus = WSL_defenders_of_the_west
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = WSL_vow_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sword_of_the_west
+		}
+		mutually_exclusive = {
+			focus = WSL_honor_bound
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = WSL_honor_bound
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sword_of_the_west
+		}
+		mutually_exclusive = {
+			focus = WSL_vow_of_the_west
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = WSL_pillars_of_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_bound
+		}
+		mutually_exclusive = {
+			focus = WSL_shield_of_the_westerlands
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = WSL_call_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pillars_of_gold
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = WSL_fury_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_call_of_the_lions
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = WSL_gold_and_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shield_of_the_crown
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = WSL_legacy_of_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_gold_and_glory
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = WSL_banner_of_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_legacy_of_gold
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = WSL_blood_and_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_banner_of_the_lion
+		}
+		mutually_exclusive = {
+			focus = WSL_forge_of_heroes
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = WSL_shield_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_bound
+		}
+		mutually_exclusive = {
+			focus = WSL_pillars_of_gold
+			focus = WSL_blood_of_the_west
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = WSL_path_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shield_of_the_westerlands
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = WSL_warrior_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_guardians
+		}
+		mutually_exclusive = {
+			focus = WSL_spirit_of_the_west
+		}
+		x = 34
+		y = 1
+
+	}
+	focus = {
+		id = WSL_strength_of_the_mountains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_warrior_kings
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = WSL_forge_of_heroes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_strength_of_the_mountains
+		}
+		mutually_exclusive = {
+			focus = WSL_blood_and_gold
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = WSL_blood_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_bound
+		}
+		mutually_exclusive = {
+			focus = WSL_shield_of_the_westerlands
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = WSL_roar_of_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_blood_of_the_west
+		}
+		x = 29
+		y = 9
+
+	}
+	focus = {
+		id = WSL_forge_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_strength_of_the_mountains
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = WSL_enduring_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sword_of_the_west
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = WSL_spirit_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_guardians
+		}
+		mutually_exclusive = {
+			focus = WSL_warrior_kings
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = WSL_wrath_of_the_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_spirit_of_the_west
+			focus = WSL_warrior_kings
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = WSL_shield_and_scepter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_wrath_of_the_pride
+		}
+		mutually_exclusive = {
+			focus = WSL_keepers_of_the_realm
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = WSL_keepers_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_wrath_of_the_pride
+		}
+		mutually_exclusive = {
+			focus = WSL_shield_and_scepter
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = WSL_sons_of_the_mountain
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_keepers_of_the_realm
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = WSL_pillars_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_wrath_of_the_pride
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = WSL_pride_unbroken
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pillars_of_the_west
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = WSL_fangs_of_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_the_mountain
+			focus = WSL_pride_unbroken
+		}
+		mutually_exclusive = {
+			focus = WSL_duty_and_steel
+			focus = WSL_goldborn_destiny
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = WSL_legacy_of_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_wrath_of_the_pride
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = WSL_blades_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_legacy_of_the_lion
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = WSL_duty_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_blades_of_the_lions
+			focus = WSL_pride_unbroken
+		}
+		mutually_exclusive = {
+			focus = WSL_fangs_of_the_lion
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = WSL_rising_sun_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_duty_and_steel
+			focus = WSL_fangs_of_the_lion
+		}
+		x = 36
+		y = 6
+
+	}
+	focus = {
+		id = WSL_heart_of_the_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_guardians
+		}
+		mutually_exclusive = {
+			focus = WSL_sentinels_of_the_westerlands
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = WSL_claws_of_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_heart_of_the_pride
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = WSL_legacy_of_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_claws_of_the_lion
+		}
+		mutually_exclusive = {
+			focus = WSL_eternal_guardians
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = WSL_pride_of_the_mountain
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_heart_of_the_pride
+			focus = WSL_sentinels_of_the_westerlands
+		}
+		x = 43
+		y = 2
+
+	}
+	focus = {
+		id = WSL_eternal_guardians
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pride_of_the_mountain
+		}
+		mutually_exclusive = {
+			focus = WSL_legacy_of_steel
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = WSL_oath_to_the_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_pride_of_the_mountain
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = WSL_fury_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sentinels_of_the_westerlands
+		}
+		mutually_exclusive = {
+			focus = WSL_sons_of_honor
+		}
+		x = 47
+		y = 3
+
+	}
+	focus = {
+		id = WSL_eternal_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fury_and_steel
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = WSL_iron_in_the_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fury_and_steel
+		}
+		x = 47
+		y = 5
+
+	}
+	focus = {
+		id = WSL_sons_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sentinels_of_the_westerlands
+		}
+		mutually_exclusive = {
+			focus = WSL_fury_and_steel
+		}
+		x = 49
+		y = 3
+
+	}
+	focus = {
+		id = WSL_pillars_of_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_honor
+			focus = WSL_fury_and_steel
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = WSL_shieldbearers_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_honor
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = WSL_stalwart_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_eternal_guardians
+			focus = WSL_legacy_of_steel
+			focus = WSL_iron_in_the_blood
+			focus = WSL_shieldbearers_of_the_realm
+		}
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = WSL_honor_of_the_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_stalwart_defenders
+		}
+		mutually_exclusive = {
+			focus = WSL_path_to_glory
+		}
+		x = 43
+		y = 7
+
+	}
+	focus = {
+		id = WSL_golden_fortress
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_of_the_pride
+		}
+		mutually_exclusive = {
+			focus = WSL_glory_in_unity
+		}
+		x = 42
+		y = 8
+
+	}
+	focus = {
+		id = WSL_defenders_of_the_crown
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_golden_fortress
+		}
+		x = 41
+		y = 9
+
+	}
+	focus = {
+		id = WSL_path_to_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_stalwart_defenders
+		}
+		mutually_exclusive = {
+			focus = WSL_honor_of_the_pride
+		}
+		x = 45
+		y = 7
+
+	}
+	focus = {
+		id = WSL_lion’s_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_path_to_glory
+		}
+		mutually_exclusive = {
+			focus = WSL_glory_in_unity
+		}
+		x = 46
+		y = 8
+
+	}
+	focus = {
+		id = WSL_guardians_of_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_lion’s_justice
+		}
+		x = 48
+		y = 9
+
+	}
+	focus = {
+		id = WSL_throne_of_iron_and_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_enduring_legacy
+			focus = WSL_lords_of_the_ridge
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = WSL_roar_of_the_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_throne_of_iron_and_gold
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = WSL_watchers_on_the_ridge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_bound
+			focus = WSL_vow_of_the_west
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = WSL_tale_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_stone_and_steel
+		}
+		x = 21
+		y = 9
+
+	}
+	focus = {
+		id = WSL_crown_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_watchers_on_the_ridge
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = WSL_valor_and_strength
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_tale_of_the_west
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = WSL_warriors_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fury_of_the_lions
+			focus = WSL_valor_and_strength
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = WSL_stone_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_vow_of_the_west
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = WSL_swords_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_roar_of_victory
+			focus = WSL_path_of_the_lions
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
+		id = WSL_iron_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shield_and_scepter
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = WSL_goldborn_destiny
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_the_mountain
+			focus = WSL_iron_defenders
+		}
+		mutually_exclusive = {
+			focus = WSL_fangs_of_the_lion
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = WSL_lords_of_the_ridge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_goldborn_destiny
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = WSL_unbreakable_vow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_lords_of_the_ridge
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = WSL_westward_march
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unbreakable_vow
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = WSL_champions_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_duty_and_steel
+		}
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = WSL_banners_of_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fangs_of_the_lion
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = WSL_shining_fortress
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_champions_of_the_realm
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = WSL_protectors_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_banners_of_glory
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = WSL_crown_of_the_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unbending_line
+		}
+		mutually_exclusive = {
+			focus = WSL_knights_of_the_west
+		}
+		x = 37
+		y = 10
+
+	}
+	focus = {
+		id = WSL_unbending_line
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shining_fortress
+			focus = WSL_protectors_of_honor
+		}
+		x = 36
+		y = 9
+
+	}
+	focus = {
+		id = WSL_knights_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unbending_line
+		}
+		mutually_exclusive = {
+			focus = WSL_crown_of_the_pride
+		}
+		x = 35
+		y = 10
+
+	}
+	focus = {
+		id = WSL_fortitude_and_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_crown_of_the_pride
+			focus = WSL_knights_of_the_west
+			focus = WSL_swords_of_the_realm
+			focus = WSL_might_of_the_mountains
+		}
+		x = 36
+		y = 11
+
+	}
+	focus = {
+		id = WSL_unyielding_will
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fortitude_and_gold
+		}
+		x = 36
+		y = 12
+
+	}
+	focus = {
+		id = WSL_roar_of_resolve
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_will
+		}
+		x = 34
+		y = 13
+
+	}
+	focus = {
+		id = WSL_glory_in_battle
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_will
+		}
+		x = 36
+		y = 13
+
+	}
+	focus = {
+		id = WSL_path_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_will
+		}
+		x = 39
+		y = 13
+
+	}
+	focus = {
+		id = WSL_dominion_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_will
+		}
+		x = 37
+		y = 15
+
+	}
+	focus = {
+		id = WSL_faith_in_the_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_roar_of_resolve
+		}
+		x = 34
+		y = 14
+
+	}
+	focus = {
+		id = WSL_shieldwall_of_the_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_dominion_of_the_west
+		}
+		x = 36
+		y = 16
+
+	}
+	focus = {
+		id = WSL_foundations_of_the_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_dominion_of_the_west
+		}
+		x = 38
+		y = 16
+
+	}
+	focus = {
+		id = WSL_light_in_the_darkness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shieldwall_of_the_pride
+		}
+		x = 36
+		y = 17
+
+	}
+	focus = {
+		id = WSL_watchers_of_the_gold_hills
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_path_of_honor
+		}
+		x = 39
+		y = 14
+
+	}
+	focus = {
+		id = WSL_glory_in_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_path_to_glory
+			focus = WSL_honor_of_the_pride
+		}
+		mutually_exclusive = {
+			focus = WSL_lion’s_justice
+			focus = WSL_golden_fortress
+		}
+		x = 44
+		y = 8
+
+	}
+	focus = {
+		id = WSL_blades_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_glory_in_unity
+			focus = WSL_golden_fortress
+		}
+		x = 43
+		y = 9
+
+	}
+	focus = {
+		id = WSL_rising_roar
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_lion’s_justice
+		}
+		x = 46
+		y = 9
+
+	}
+	focus = {
+		id = WSL_might_of_the_mountains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_lion’s_justice
+			focus = WSL_glory_in_unity
+			focus = WSL_golden_fortress
+		}
+		x = 44
+		y = 10
+
+	}
+	focus = {
+		id = WSL_spear_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_rising_roar
+		}
+		x = 46
+		y = 10
+
+	}
+	focus = {
+		id = WSL_path_of_the_shining_lion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_honor
+		}
+		x = 50
+		y = 4
+
+	}
+}

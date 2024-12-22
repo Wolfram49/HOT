@@ -1,0 +1,305 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_horse_drawn_infantry_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chariot_unit_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chariot_unit2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chariot_unit3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archer_chariot_unit_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archer_chariot_unit2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+    SpriteType = {
+        name = "GFX_archer_cav1_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_archer_cav2_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_archer_cav3_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_archer_chariot_unit3_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+	SpriteType = {
+		name = "GFX_basic_cav_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_cav2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_cav3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_cav4_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lancer_cav1_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+    SpriteType = {
+        name = "GFX_lancer_cav1_bonus_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment_small/cav3.dds"
+    }
+
+	SpriteType = {
+		name = "GFX_lancer_cav2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lancer_cav3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_cav1_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+    SpriteType = {
+        name = "GFX_heavy_cav1_bonus_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment_small/cav5.dds"
+    }
+
+	SpriteType = {
+		name = "GFX_heavy_cav2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_cav3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_trade_caravan_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_trade_caravan2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_cav2_bonus_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_small/cav.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_cav2_bonus2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_small/cav4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_horse_drawn_infantry_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_chariot_chassis_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_chariot_unit_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_chariot_unit2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_chariot_unit3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_archer_chariot_unit_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_archer_chariot_unit2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+	}
+
+	SpriteType = {
+        name = "GFX_archer_chariot_chassis_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav5.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_designer_archer_cav1_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_designer_archer_cav2_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+	SpriteType = {
+        name = "GFX_designer_archer_cav3_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_designer_archer_chariot_unit3_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment/cav4.dds"
+    }
+
+	SpriteType = {
+		name = "GFX_designer_basic_cav_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_cavalry_chassis_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_light_cav2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_light_cav3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_light_cav4_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_lancer_cav1_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_lancer_cavalry_chassis_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+    SpriteType = {
+        name = "GFX_designer_lancer_cav1_bonus_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment_small/cav3.dds"
+    }
+
+	SpriteType = {
+		name = "GFX_designer_lancer_cav2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_lancer_cav3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_cavalry_chassis_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_heavy_cav1_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+    SpriteType = {
+        name = "GFX_designer_heavy_cav1_bonus_medium"
+        texturefile = "gfx/interface/technologies/infantry_equipment_small/cav5.dds"
+    }
+
+	SpriteType = {
+		name = "GFX_designer_heavy_cav2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_heavy_cav3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_trade_caravan_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_trade_caravan2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/cav6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_light_cav2_bonus_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_small/cav.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_designer_light_cav2_bonus2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_small/cav4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goat_rider_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/goat_rider.dds"
+	}
+	SpriteType = {
+		name = "GFX_goat_rider_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/goat_rider.dds"
+	}
+	SpriteType = {
+		name = "GFX_goat_riders_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/goat_rider.dds"
+	}
+	SpriteType = {
+		name = "GFX_goat_riders_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment/goat_rider.dds"
+	}
+
+}

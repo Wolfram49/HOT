@@ -1,0 +1,1420 @@
+focus_tree = {
+	id = White_Walkers
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WHW
+		}
+	}
+	continuous_focus_position = { x = 6400 y = 2000 }
+	default = no
+	focus = {
+		id = WHW_the_rise_of_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 31
+		y = 1
+
+	}
+	focus = {
+		id = WHW_legions_of_the_frozen_dead
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 65
+		y = 1
+
+	}
+	focus = {
+		id = WHW_glacial_phalanx
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 79
+		y = 1
+
+	}
+	focus = {
+		id = WHW_frozen_trade_routes
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 64
+		y = 9
+
+	}
+	focus = {
+		id = WHW_coldforged_economy
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 69
+		y = 9
+
+	}
+	focus = {
+		id = WHW_icy_mint_of_oblivion
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 75
+		y = 9
+
+	}
+	focus = {
+		id = WHW_army_of_the_dead
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_rise_of_ice
+		}
+		mutually_exclusive = {
+			focus = WHW_the_frozen_throne
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = WHW_the_frozen_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_rise_of_ice
+		}
+		mutually_exclusive = {
+			focus = WHW_army_of_the_dead
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = WHW_call_of_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_frozen_throne
+			focus = WHW_army_of_the_dead
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = WHW_the_long_night_rises
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_army_of_the_dead
+		}
+		prerequisite = {
+			focus = WHW_call_of_winter
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = WHW_heirs_of_the_first_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_call_of_winter
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = WHW_eternal_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_call_of_winter
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = WHW_chill_of_the_void
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_eternal_night
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = WHW_conquest_of_life
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_chill_of_the_void
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = WHW_wrath_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_conquest_of_life
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = WHW_the_rising_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_call_of_winter
+		}
+		mutually_exclusive = {
+			focus = WHW_birth_of_the_night_king
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = WHW_ancient_alliance_with_the_children
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_rising_long_night
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = WHW_creation_of_the_white_walkers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_ancient_alliance_with_the_children
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = WHW_undead_horde_advance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_creation_of_the_white_walkers
+		}
+		x = 34
+		y = 9
+
+	}
+	focus = {
+		id = WHW_birth_of_the_night_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_call_of_winter
+		}
+		prerequisite = {
+			focus = WHW_the_frozen_throne
+		}
+		mutually_exclusive = {
+			focus = WHW_the_rising_long_night
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = WHW_vengeance_of_the_forest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_birth_of_the_night_king
+		}
+		mutually_exclusive = {
+			focus = WHW_the_awakening_in_the_crypts
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = WHW_first_assault_on_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_vengeance_of_the_forest
+			focus = WHW_ancient_alliance_with_the_children
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = WHW_battle_of_hardhome
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_vengeance_of_the_forest
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = WHW_massacre_at_the_fist
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_battle_of_hardhome
+		}
+		x = 40
+		y = 9
+
+	}
+	focus = {
+		id = WHW_the_night_king's_mark
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_massacre_at_the_fist
+		}
+		x = 40
+		y = 11
+
+	}
+	focus = {
+		id = WHW_whispers_of_the_children
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_vengeance_of_the_forest
+		}
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = WHW_the_fall_of_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_whispers_of_the_children
+		}
+		x = 42
+		y = 7
+
+	}
+	focus = {
+		id = WHW_night_king's_ascension
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_fall_of_the_wall
+		}
+		x = 42
+		y = 8
+
+	}
+	focus = {
+		id = WHW_the_awakening_in_the_crypts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_birth_of_the_night_king
+		}
+		mutually_exclusive = {
+			focus = WHW_vengeance_of_the_forest
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = WHW_shadows_in_the_godswood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_awakening_in_the_crypts
+		}
+		mutually_exclusive = {
+			focus = WHW_blight_upon_the_wildlings
+		}
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = WHW_call_of_the_dead
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_shadows_in_the_godswood
+		}
+		x = 44
+		y = 7
+
+	}
+	focus = {
+		id = WHW_invasion_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_call_of_the_dead
+			focus = WHW_night_king's_ascension
+		}
+		x = 44
+		y = 9
+
+	}
+	focus = {
+		id = WHW_frostmourne_at_hardhome
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_call_of_the_dead
+		}
+		x = 47
+		y = 8
+
+	}
+	focus = {
+		id = WHW_eternal_fog_of_the_night_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frostmourne_at_hardhome
+		}
+		prerequisite = {
+			focus = WHW_invasion_of_the_north
+		}
+		x = 47
+		y = 10
+
+	}
+	focus = {
+		id = WHW_blight_upon_the_wildlings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_awakening_in_the_crypts
+		}
+		mutually_exclusive = {
+			focus = WHW_shadows_in_the_godswood
+		}
+		x = 54
+		y = 6
+
+	}
+	focus = {
+		id = WHW_the_chilling_touch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_blight_upon_the_wildlings
+			focus = WHW_shadows_in_the_godswood
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = WHW_curse_of_craster's_keep
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_chilling_touch
+		}
+		x = 49
+		y = 8
+
+	}
+	focus = {
+		id = WHW_secrets_of_the_three-eyed_raven
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_curse_of_craster's_keep
+		}
+		x = 49
+		y = 9
+
+	}
+	focus = {
+		id = WHW_the_last_watch_of_the_night's_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_blight_upon_the_wildlings
+		}
+		x = 54
+		y = 7
+
+	}
+	focus = {
+		id = WHW_legends_of_the_last_hero
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_last_watch_of_the_night's_watch
+		}
+		x = 54
+		y = 8
+
+	}
+	focus = {
+		id = WHW_collapse_of_the_free_folk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_legends_of_the_last_hero
+		}
+		x = 54
+		y = 9
+
+	}
+	focus = {
+		id = WHW_silent_march_of_the_dead
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_collapse_of_the_free_folk
+		}
+		x = 51
+		y = 10
+
+	}
+	focus = {
+		id = WHW_echoes_of_the_first_men
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_silent_march_of_the_dead
+			focus = WHW_eternal_fog_of_the_night_king
+		}
+		prerequisite = {
+			focus = WHW_secrets_of_the_three-eyed_raven
+		}
+		x = 49
+		y = 11
+
+	}
+	focus = {
+		id = WHW_the_frozen_lands_beyond
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_collapse_of_the_free_folk
+		}
+		x = 54
+		y = 10
+
+	}
+	focus = {
+		id = WHW_vanguard_of_the_night_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_legions_of_the_frozen_dead
+		}
+		x = 65
+		y = 2
+
+	}
+	focus = {
+		id = WHW_army_of_eternal_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_vanguard_of_the_night_king
+		}
+		mutually_exclusive = {
+			focus = WHW_frostbound_legion
+		}
+		x = 63
+		y = 3
+
+	}
+	focus = {
+		id = WHW_battlecry_of_the_frozen
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_army_of_eternal_winter
+		}
+		x = 62
+		y = 4
+
+	}
+	focus = {
+		id = WHW_harvest_of_the_dead
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frozen_trade_routes
+		}
+		x = 63
+		y = 10
+
+	}
+	focus = {
+		id = WHW_icy_tithe_of_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frozen_trade_routes
+		}
+		x = 65
+		y = 10
+
+	}
+	focus = {
+		id = WHW_the_frozen_silk_road
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_tithe_of_war
+			focus = WHW_harvest_of_the_dead
+		}
+		x = 64
+		y = 11
+
+	}
+	focus = {
+		id = WHW_frostbound_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_vanguard_of_the_night_king
+		}
+		mutually_exclusive = {
+			focus = WHW_army_of_eternal_winter
+		}
+		x = 67
+		y = 3
+
+	}
+	focus = {
+		id = WHW_the_dead_march
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frostbound_legion
+			focus = WHW_army_of_eternal_winter
+		}
+		x = 65
+		y = 4
+
+	}
+	focus = {
+		id = WHW_white_horde_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_dead_march
+		}
+		x = 65
+		y = 5
+
+	}
+	focus = {
+		id = WHW_economy_of_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_tithe_of_war
+		}
+		x = 66
+		y = 11
+
+	}
+	focus = {
+		id = WHW_cavalry_of_the_icy_void
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frostbound_legion
+		}
+		x = 68
+		y = 4
+
+	}
+	focus = {
+		id = WHW_hoarfrost_labor_force
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_coldforged_economy
+		}
+		x = 68
+		y = 10
+
+	}
+	focus = {
+		id = WHW_winterbound_smithies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_hoarfrost_labor_force
+		}
+		mutually_exclusive = {
+			focus = WHW_wintery_harvest
+		}
+		x = 68
+		y = 11
+
+	}
+	focus = {
+		id = WHW_gold_of_the_ancient_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_economy_of_the_long_night
+		}
+		prerequisite = {
+			focus = WHW_winterbound_smithies
+		}
+		x = 67
+		y = 12
+
+	}
+	focus = {
+		id = WHW_glacierborn_supply_chains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_coldforged_economy
+		}
+		x = 70
+		y = 10
+
+	}
+	focus = {
+		id = WHW_wintery_harvest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_glacierborn_supply_chains
+		}
+		mutually_exclusive = {
+			focus = WHW_winterbound_smithies
+		}
+		x = 70
+		y = 11
+
+	}
+	focus = {
+		id = WHW_wraithlords_of_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_glacial_phalanx
+		}
+		x = 79
+		y = 2
+
+	}
+	focus = {
+		id = WHW_rimebound_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_wraithlords_of_the_frost
+		}
+		prerequisite = {
+			focus = WHW_vanguard_of_the_night_king
+		}
+		x = 73
+		y = 3
+
+	}
+	focus = {
+		id = WHW_dead_of_the_icefields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_rimebound_warriors
+		}
+		x = 73
+		y = 4
+
+	}
+	focus = {
+		id = WHW_chilling_wave_of_death
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_dead_of_the_icefields
+		}
+		mutually_exclusive = {
+			focus = WHW_frostbane_infantry
+		}
+		x = 71
+		y = 5
+
+	}
+	focus = {
+		id = WHW_frostbane_infantry
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_dead_of_the_icefields
+		}
+		mutually_exclusive = {
+			focus = WHW_chilling_wave_of_death
+		}
+		x = 75
+		y = 5
+
+	}
+	focus = {
+		id = WHW_pale_forges_of_doom
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_mint_of_oblivion
+		}
+		mutually_exclusive = {
+			focus = WHW_war_for_the_frozen_treasures
+		}
+		x = 74
+		y = 10
+
+	}
+	focus = {
+		id = WHW_war_for_the_frozen_treasures
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_mint_of_oblivion
+		}
+		mutually_exclusive = {
+			focus = WHW_pale_forges_of_doom
+		}
+		x = 76
+		y = 10
+
+	}
+	focus = {
+		id = WHW_industry_of_ice_and_bone
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_war_for_the_frozen_treasures
+		}
+		prerequisite = {
+			focus = WHW_pale_forges_of_doom
+		}
+		x = 75
+		y = 11
+
+	}
+	focus = {
+		id = WHW_bitter_fruits_of_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_wintery_harvest
+		}
+		prerequisite = {
+			focus = WHW_industry_of_ice_and_bone
+		}
+		x = 72
+		y = 12
+
+	}
+	focus = {
+		id = WHW_tribute_to_the_night_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_industry_of_ice_and_bone
+		}
+		mutually_exclusive = {
+			focus = WHW_snowbound_resources
+		}
+		x = 74
+		y = 12
+
+	}
+	focus = {
+		id = WHW_snowbound_resources
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_industry_of_ice_and_bone
+		}
+		mutually_exclusive = {
+			focus = WHW_tribute_to_the_night_king
+		}
+		x = 76
+		y = 12
+
+	}
+	focus = {
+		id = WHW_blizzardborn_vanguard
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_vanguard_of_the_night_king
+		}
+		prerequisite = {
+			focus = WHW_wraithlords_of_the_frost
+		}
+		x = 79
+		y = 3
+
+	}
+	focus = {
+		id = WHW_pale_marchers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_blizzardborn_vanguard
+		}
+		x = 77
+		y = 4
+
+	}
+	focus = {
+		id = WHW_silent_legions_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_blizzardborn_vanguard
+		}
+		x = 81
+		y = 4
+
+	}
+	focus = {
+		id = WHW_chariots_of_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_silent_legions_of_the_north
+			focus = WHW_pale_marchers
+		}
+		x = 79
+		y = 5
+
+	}
+	focus = {
+		id = WHW_undying_cold_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frostbane_infantry
+			focus = WHW_chilling_wave_of_death
+		}
+		prerequisite = {
+			focus = WHW_white_horde_rising
+		}
+		prerequisite = {
+			focus = WHW_chariots_of_the_long_night
+		}
+		x = 73
+		y = 6
+
+	}
+	focus = {
+		id = WHW_frozen_wisdom_of_the_ancients
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_heirs_of_the_first_winter
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = WHW_curse_of_the_immortal_cold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_long_night_rises
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = WHW_legacy_of_the_ice_seers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frozen_wisdom_of_the_ancients
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = WHW_symphony_of_frost_and_shadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_curse_of_the_immortal_cold
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = WHW_veil_of_winter's_embrace
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_legacy_of_the_ice_seers
+		}
+		prerequisite = {
+			focus = WHW_symphony_of_frost_and_shadows
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = WHW_the_pale_king's_command
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_veil_of_winter's_embrace
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = WHW_frostbound_prophecy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_veil_of_winter's_embrace
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = WHW_bitter_wrath_of_the_void
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_pale_king's_command
+		}
+		prerequisite = {
+			focus = WHW_frostbound_prophecy
+		}
+		x = 26
+		y = 9
+
+	}
+	focus = {
+		id = WHW_soulforge_of_permafrost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_bitter_wrath_of_the_void
+		}
+		prerequisite = {
+			focus = WHW_wrath_of_the_north
+		}
+		x = 26
+		y = 11
+
+	}
+	focus = {
+		id = WHW_lost_legends_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_battle_of_hardhome
+			focus = WHW_creation_of_the_white_walkers
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = WHW_icy_lancers_of_doom
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_undying_cold_legion
+		}
+		x = 73
+		y = 7
+
+	}
+	focus = {
+		id = WHW_winter's_industrial_revolution
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_harvest_of_the_dead
+		}
+		x = 62
+		y = 11
+
+	}
+	focus = {
+		id = WHW_united_front_of_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_soulforge_of_permafrost
+		}
+		mutually_exclusive = {
+			focus = WHW_sovereignty_of_ice
+		}
+		x = 20
+		y = 13
+
+	}
+	focus = {
+		id = WHW_sovereignty_of_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_soulforge_of_permafrost
+			focus = WHW_the_night_king's_mark
+		}
+		mutually_exclusive = {
+			focus = WHW_frozen_diplomacy
+			focus = WHW_united_front_of_frost
+		}
+		x = 34
+		y = 13
+
+	}
+	focus = {
+		id = WHW_frozen_diplomacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_the_night_king's_mark
+			focus = WHW_echoes_of_the_first_men
+		}
+		mutually_exclusive = {
+			focus = WHW_sovereignty_of_ice
+		}
+		x = 46
+		y = 13
+
+	}
+	focus = {
+		id = WHW_icy_manifesto
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_sovereignty_of_ice
+		}
+		x = 34
+		y = 14
+
+	}
+	focus = {
+		id = WHW_cold_embrace_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_united_front_of_frost
+		}
+		x = 20
+		y = 14
+
+	}
+	focus = {
+		id = WHW_winter_parliament
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frozen_diplomacy
+		}
+		x = 46
+		y = 14
+
+	}
+	focus = {
+		id = WHW_frigid_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_winter_parliament
+		}
+		x = 47
+		y = 15
+
+	}
+	focus = {
+		id = WHW_chill_of_democracy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_winter_parliament
+		}
+		x = 45
+		y = 15
+
+	}
+	focus = {
+		id = WHW_blizzard_autocracy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_cold_embrace_of_power
+		}
+		x = 21
+		y = 15
+
+	}
+	focus = {
+		id = WHW_glacial_revolution
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_cold_embrace_of_power
+		}
+		x = 19
+		y = 15
+
+	}
+	focus = {
+		id = WHW_political_tundra
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_blizzard_autocracy
+		}
+		prerequisite = {
+			focus = WHW_glacial_revolution
+		}
+		x = 20
+		y = 16
+
+	}
+	focus = {
+		id = WHW_white_citadel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frigid_unity
+		}
+		x = 48
+		y = 16
+
+	}
+	focus = {
+		id = WHW_cryopolitical_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_chill_of_democracy
+		}
+		x = 44
+		y = 16
+
+	}
+	focus = {
+		id = WHW_icy_sovereigns
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frigid_unity
+		}
+		prerequisite = {
+			focus = WHW_chill_of_democracy
+		}
+		x = 46
+		y = 16
+
+	}
+	focus = {
+		id = WHW_permafrost_party
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_sovereigns
+		}
+		prerequisite = {
+			focus = WHW_white_citadel
+		}
+		x = 47
+		y = 17
+
+	}
+	focus = {
+		id = WHW_snowborn_nationalism
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_cryopolitical_alliance
+		}
+		prerequisite = {
+			focus = WHW_icy_sovereigns
+		}
+		x = 45
+		y = 17
+
+	}
+	focus = {
+		id = WHW_frozen_electorate
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_permafrost_party
+		}
+		prerequisite = {
+			focus = WHW_snowborn_nationalism
+		}
+		x = 46
+		y = 18
+
+	}
+	focus = {
+		id = WHW_pale_conservatism
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_manifesto
+		}
+		x = 34
+		y = 15
+
+	}
+	focus = {
+		id = WHW_winds_of_change
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_pale_conservatism
+		}
+		x = 36
+		y = 16
+
+	}
+	focus = {
+		id = WHW_icy_legislators
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_pale_conservatism
+		}
+		x = 32
+		y = 16
+
+	}
+	focus = {
+		id = WHW_political_chill
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_winds_of_change
+		}
+		x = 36
+		y = 17
+
+	}
+	focus = {
+		id = WHW_snowflake_senate
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_icy_legislators
+		}
+		x = 32
+		y = 17
+
+	}
+	focus = {
+		id = WHW_arctic_constitution
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_political_tundra
+		}
+		x = 20
+		y = 17
+
+	}
+	focus = {
+		id = WHW_glacial_republic
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_political_chill
+		}
+		prerequisite = {
+			focus = WHW_snowflake_senate
+		}
+		x = 34
+		y = 18
+
+	}
+	focus = {
+		id = WHW_crown_of_cold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_arctic_constitution
+		}
+		x = 22
+		y = 18
+
+	}
+	focus = {
+		id = WHW_shards_of_political_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_arctic_constitution
+		}
+		x = 18
+		y = 18
+
+	}
+	focus = {
+		id = WHW_brittle_sovereignty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_crown_of_cold
+		}
+		prerequisite = {
+			focus = WHW_shards_of_political_ice
+		}
+		x = 20
+		y = 19
+
+	}
+	focus = {
+		id = WHW_crystalline_state
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_glacial_republic
+		}
+		x = 34
+		y = 19
+
+	}
+	focus = {
+		id = WHW_frigid_republic
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WHW_frozen_electorate
+		}
+		x = 46
+		y = 19
+
+	}
+}

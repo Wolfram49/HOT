@@ -17,13 +17,33 @@ is_men = {
 		OR = {
 			original_tag = NRT
 			original_tag = RIL
+			original_tag = WHW
+			original_tag = NSW
+			original_tag = VAL
+			original_tag = WSL
+			original_tag = STL
+			original_tag = DOR
+			original_tag = IRI
+			original_tag = REA
+			original_tag = CRL 
+			original_tag = WIL
 		}
 	}
 }
 
 is_men_init = {
 	OR = {
-		original_tag = NRT
-		original_tag = RIL
+			original_tag = NRT
+			original_tag = RIL
+			original_tag = WHW
+			original_tag = NSW
+			original_tag = VAL
+			original_tag = WSL
+			original_tag = STL
+			original_tag = DOR
+			original_tag = IRI
+			original_tag = REA
+			original_tag = CRL
+			original_tag = WIL
 	}
 }

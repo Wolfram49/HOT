@@ -1,0 +1,99 @@
+ideas = {
+    country = {
+        whw_dead_army = {
+			picture = GFX_idea_whw_dead_army
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+
+			}
+		}
+		whw_ice_terror = {
+			picture = GFX_idea_whw_ice_terror
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+	
+			}
+			rule = {
+
+			}
+		}
+		whw_night_king = {
+			picture = GFX_idea_whw_night_king
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+
+			}
+		}
+		whw_perpetual_threat = {
+			picture = GFX_idea_whw_perpetual_threat
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+
+			}
+		}
+		whw_absolute_cold = {
+			picture = GFX_idea_whw_absolute_cold
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+
+			}
+		}
+    }
+}

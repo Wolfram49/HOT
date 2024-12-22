@@ -7,7 +7,7 @@ ideologies = {
 
 			}
 
-			wildlings = {
+			unity_tribes = {
 
 			}
 
@@ -15,7 +15,7 @@ ideologies = {
 
 			}
 
-			nights_watch = {
+			mormont_house = {
 
 			}
 		}
@@ -58,10 +58,6 @@ ideologies = {
 			}
 
 			lannister_house = {
-
-			}
-
-			crownlands = {
 
 			}
 

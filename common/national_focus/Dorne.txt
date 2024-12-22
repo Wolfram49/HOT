@@ -1,0 +1,1658 @@
+focus_tree = {
+	id = Dorne
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DOR
+		}
+	}
+    continuous_focus_position = { x = 3400 y = 1200 }
+	default = no
+	focus = {
+		id = DOR_vengeance_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = DOR_iron_fangs
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 44
+		y = 0
+
+	}
+	focus = {
+		id = DOR_winds_of_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 42
+		y = 0
+
+	}
+	focus = {
+		id = DOR_revenge_in_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 40
+		y = 0
+
+	}
+	focus = {
+		id = DOR_fire_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeance_of_the_sands
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = DOR_sons_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_of_the_desert
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = DOR_flames_of_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sons_of_the_sun
+		}
+		mutually_exclusive = {
+			focus = DOR_throne_of_the_dunes
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = DOR_sands_of_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_flames_of_dorne
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = DOR_guardians_of_the_scorch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_justice
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = DOR_blood_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_guardians_of_the_scorch
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = DOR_might_of_the_scorched_lands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_of_the_desert
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = DOR_throne_of_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sons_of_the_sun
+		}
+		mutually_exclusive = {
+			focus = DOR_flames_of_dorne
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = DOR_storms_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_throne_of_the_dunes
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = DOR_warriors_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_storms_of_the_desert
+			focus = DOR_sands_of_justice
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = DOR_fury_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_warriors_of_the_sun
+			focus = DOR_guardians_of_the_scorch
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = DOR_thorn_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_storms_of_the_desert
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = DOR_shield_of_the_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_thorn_of_the_sands
+			focus = DOR_warriors_of_the_sun
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = DOR_winds_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shield_of_the_dorne
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = DOR_masters_of_the_scorch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_of_the_desert
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = DOR_throne_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_masters_of_the_scorch
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = DOR_fury_in_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_throne_of_the_sun
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = DOR_shadows_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_masters_of_the_scorch
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = DOR_sons_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shadows_of_the_sands
+		}
+		mutually_exclusive = {
+			focus = DOR_defenders_of_the_sands
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = DOR_defenders_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shadows_of_the_sands
+		}
+		mutually_exclusive = {
+			focus = DOR_sons_of_the_dune
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = DOR_warrior_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_masters_of_the_scorch
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = DOR_keepers_of_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_warrior_of_the_sands
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = DOR_vengeful_winds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeance_of_the_sands
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = DOR_fury_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeful_winds
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = DOR_winds_of_the_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_warrior_of_the_sands
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = DOR_sands_of_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fury_in_the_dunes
+		}
+		prerequisite = {
+			focus = DOR_keepers_of_the_dunes
+		}
+		prerequisite = {
+			focus = DOR_winds_of_the_dorne
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = DOR_scorched_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_fury
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = DOR_dune_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_fury
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = DOR_defenders_of_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeful_winds
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = DOR_sands_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fury_of_the_desert
+		}
+		prerequisite = {
+			focus = DOR_defenders_of_the_dunes
+		}
+		mutually_exclusive = {
+			focus = DOR_riders_of_the_sun
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = DOR_scorched_fate
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeful_winds
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = DOR_riders_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_defenders_of_the_dunes
+		}
+		prerequisite = {
+			focus = DOR_scorched_fate
+		}
+		mutually_exclusive = {
+			focus = DOR_sands_of_honor
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = DOR_blood_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_riders_of_the_sun
+			focus = DOR_sands_of_honor
+		}
+		mutually_exclusive = {
+			focus = DOR_scorch_and_sun
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = DOR_masters_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_of_the_sun
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = DOR_shadow_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_masters_of_the_dune
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = DOR_sands_of_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_masters_of_the_dune
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = DOR_fangs_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shadow_of_the_sun
+		}
+		x = 24
+		y = 7
+
+	}
+	focus = {
+		id = DOR_rise_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeful_winds
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = DOR_sands_of_the_burning_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorched_fate
+		}
+		prerequisite = {
+			focus = DOR_rise_of_the_sands
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = DOR_banners_of_the_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeful_winds
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = DOR_iron_of_the_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rise_of_the_sands
+		}
+		prerequisite = {
+			focus = DOR_banners_of_the_dorne
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = DOR_scorch_and_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_iron_of_the_dorne
+			focus = DOR_sands_of_the_burning_sun
+		}
+		mutually_exclusive = {
+			focus = DOR_blood_of_the_sun
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = DOR_fire_and_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorch_and_sun
+			focus = DOR_blood_of_the_sun
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = DOR_riders_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorch_and_sun
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = DOR_fire_in_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_riders_of_the_dune
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = DOR_sands_of_the_lost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_riders_of_the_dune
+		}
+		x = 26
+		y = 6
+
+	}
+	focus = {
+		id = DOR_scorched_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_in_the_sands
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = DOR_keepers_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_iron_fangs
+		}
+		prerequisite = {
+			focus = DOR_winds_of_justice
+		}
+		prerequisite = {
+			focus = DOR_revenge_in_the_dunes
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = DOR_burning_wind_of_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_keepers_of_the_desert
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = DOR_blood_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_burning_wind_of_justice
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = DOR_winds_of_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_burning_wind_of_justice
+		}
+		mutually_exclusive = {
+			focus = DOR_sands_of_the_warrior
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = DOR_rise_of_the_scorched_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_winds_of_vengeance
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = DOR_sands_of_the_warrior
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_burning_wind_of_justice
+		}
+		mutually_exclusive = {
+			focus = DOR_winds_of_vengeance
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = DOR_fury_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_the_warrior
+			focus = DOR_winds_of_vengeance
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = DOR_rise_of_the_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fury_of_the_sun
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = DOR_burning_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rise_of_the_fury
+		}
+		x = 36
+		y = 7
+
+	}
+	focus = {
+		id = DOR_unbroken_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_the_warrior
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = DOR_ascension_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rise_of_the_fury
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = DOR_shadow_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_keepers_of_the_desert
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = DOR_blood_of_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shadow_of_the_sands
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = DOR_reign_of_the_scorched
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shadow_of_the_sands
+		}
+		x = 42
+		y = 3
+
+	}
+	focus = {
+		id = DOR_sands_of_lament
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_shadow_of_the_sands
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = DOR_rising_sun_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_lament
+		}
+		prerequisite = {
+			focus = DOR_reign_of_the_scorched
+		}
+		prerequisite = {
+			focus = DOR_blood_of_the_dunes
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = DOR_dunes_of_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rising_sun_of_the_dune
+		}
+		mutually_exclusive = {
+			focus = DOR_warriors_of_the_wind
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = DOR_desert_rulers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dunes_of_fury
+		}
+		x = 39
+		y = 6
+
+	}
+	focus = {
+		id = DOR_sands_of_retribution
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dunes_of_fury
+		}
+		x = 41
+		y = 6
+
+	}
+	focus = {
+		id = DOR_warriors_of_the_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rising_sun_of_the_dune
+		}
+		mutually_exclusive = {
+			focus = DOR_dunes_of_fury
+		}
+		x = 44
+		y = 5
+
+	}
+	focus = {
+		id = DOR_the_blood_of_scorch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_warriors_of_the_wind
+		}
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = DOR_scorch_of_ancients
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_warriors_of_the_wind
+		}
+		x = 45
+		y = 6
+
+	}
+	focus = {
+		id = DOR_legacy_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_the_blood_of_scorch
+		}
+		prerequisite = {
+			focus = DOR_scorch_of_ancients
+		}
+		x = 44
+		y = 7
+
+	}
+	focus = {
+		id = DOR_war_of_the_desert_queen
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_keepers_of_the_desert
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = DOR_lords_of_the_burning_winds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_war_of_the_desert_queen
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = DOR_sands_of_might
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_lords_of_the_burning_winds
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = DOR_scorch_of_ruthless_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_war_of_the_desert_queen
+		}
+		mutually_exclusive = {
+			focus = DOR_sands_of_desperation
+		}
+		x = 49
+		y = 3
+
+	}
+	focus = {
+		id = DOR_vengeful_flames
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorch_of_ruthless_war
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = DOR_sands_of_desperation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_war_of_the_desert_queen
+		}
+		mutually_exclusive = {
+			focus = DOR_scorch_of_ruthless_war
+		}
+		x = 51
+		y = 3
+
+	}
+	focus = {
+		id = DOR_fire_and_doom
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_desperation
+			focus = DOR_scorch_of_ruthless_war
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = DOR_the_scorch_of_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_and_doom
+		}
+		mutually_exclusive = {
+			focus = DOR_secrets_of_the_sands
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = DOR_secrets_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_and_doom
+		}
+		mutually_exclusive = {
+			focus = DOR_the_scorch_of_legacy
+		}
+		x = 51
+		y = 5
+
+	}
+	focus = {
+		id = DOR_dune_reapers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_secrets_of_the_sands
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = DOR_lords_of_the_scouring
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dune_reapers
+		}
+		x = 51
+		y = 7
+
+	}
+	focus = {
+		id = DOR_riders_of_the_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_desperation
+		}
+		x = 52
+		y = 4
+
+	}
+	focus = {
+		id = DOR_desert_revenge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fury_of_the_sands
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = DOR_iron_throne_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_of_the_desert
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = DOR_fire_and_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_fury
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = DOR_wrath_of_the_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dune_warriors
+		}
+		prerequisite = {
+			focus = DOR_fire_and_blood
+		}
+		mutually_exclusive = {
+			focus = DOR_keepers_of_the_sun
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = DOR_keepers_of_the_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorched_honor
+		}
+		prerequisite = {
+			focus = DOR_fire_and_blood
+		}
+		mutually_exclusive = {
+			focus = DOR_wrath_of_the_dorne
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = DOR_blood_and_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_wrath_of_the_dorne
+			focus = DOR_keepers_of_the_sun
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = DOR_dune_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_and_sands
+		}
+		mutually_exclusive = {
+			focus = DOR_sun_warriors
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = DOR_sun_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_and_sands
+		}
+		mutually_exclusive = {
+			focus = DOR_dune_justice
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = DOR_scorched_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fireborn_of_dorne
+			focus = DOR_dune_justice
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = DOR_fireborn_of_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_burning_sands
+		}
+		mutually_exclusive = {
+			focus = DOR_desert_realm
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = DOR_desert_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_burning_sands
+		}
+		mutually_exclusive = {
+			focus = DOR_fireborn_of_dorne
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = DOR_burning_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_wrath_of_the_dorne
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = DOR_steel_and_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_vengeful_sands
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = DOR_vengeful_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_keepers_of_the_sun
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = DOR_winds_of_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_steel_and_sands
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = DOR_burning_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_winds_of_war
+		}
+		mutually_exclusive = {
+			focus = DOR_scorched_revenge
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = DOR_scorched_revenge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_death
+		}
+		mutually_exclusive = {
+			focus = DOR_burning_dunes
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = DOR_fangs_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_death
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = DOR_fire_wolves_of_dorne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_death
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = DOR_iron_of_the_dunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_death
+		}
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = DOR_lords_of_the_scorch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_wolves_of_dorne
+		}
+		prerequisite = {
+			focus = DOR_iron_of_the_dunes
+		}
+		x = 6
+		y = 13
+
+	}
+	focus = {
+		id = DOR_sands_of_suffering
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fangs_of_the_desert
+		}
+		prerequisite = {
+			focus = DOR_fire_wolves_of_dorne
+		}
+		x = 8
+		y = 13
+
+	}
+	focus = {
+		id = DOR_blood_of_the_scorch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorched_revenge
+		}
+		prerequisite = {
+			focus = DOR_fangs_of_the_desert
+		}
+		x = 10
+		y = 13
+
+	}
+	focus = {
+		id = DOR_sun_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_suffering
+		}
+		prerequisite = {
+			focus = DOR_blood_of_the_scorch
+		}
+		prerequisite = {
+			focus = DOR_lords_of_the_scorch
+		}
+		x = 8
+		y = 14
+
+	}
+	focus = {
+		id = DOR_sands_of_death
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dune_legends
+		}
+		prerequisite = {
+			focus = DOR_lords_of_the_dune
+		}
+		prerequisite = {
+			focus = DOR_scorched_earth
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = DOR_dune_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_desert_vengeance
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = DOR_lords_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_desert_vengeance
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = DOR_scorched_earth
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_desert_vengeance
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = DOR_desert_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_keepers_of_the_sun
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = DOR_throne_of_scorched_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_vengeance
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = DOR_rising_of_the_desert
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fangs_of_the_sun
+		}
+		prerequisite = {
+			focus = DOR_throne_of_scorched_blood
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = DOR_desert_soul
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_the_lost
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = DOR_breath_of_the_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_desert_soul
+		}
+		prerequisite = {
+			focus = DOR_scorched_fury
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = DOR_sun_wrath
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_breath_of_the_sands
+			focus = DOR_rising_of_the_desert
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = DOR_dune_soldiers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sun_wrath
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = DOR_flames_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sun_wrath
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = DOR_blood_and_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dune_soldiers
+		}
+		prerequisite = {
+			focus = DOR_flames_of_the_dune
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = DOR_scorch_of_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_and_fire
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = DOR_guardians_of_the_dune
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_and_fire
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = DOR_iron_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorch_of_vengeance
+		}
+		prerequisite = {
+			focus = DOR_sands_of_marauders
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = {
+		id = DOR_dune_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_scorch_of_vengeance
+		}
+		prerequisite = {
+			focus = DOR_guardians_of_the_dune
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = DOR_winds_of_the_warrior
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rise_of_the_fury
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = DOR_scorched_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_rise_of_the_fury
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = DOR_iron_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_sands_of_retribution
+		}
+		prerequisite = {
+			focus = DOR_desert_rulers
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = DOR_fire_of_the_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_the_scorch_of_legacy
+		}
+		x = 49
+		y = 6
+
+	}
+	focus = {
+		id = DOR_keepers_of_the_burning_sands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_of_the_wind
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = DOR_sun_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_fire_of_the_wind
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = DOR_scorched_earth_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_dune_reapers
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = DOR_the_blood_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_lords_of_the_scouring
+			focus = DOR_sun_kings
+		}
+		x = 50
+		y = 8
+
+	}
+	focus = {
+		id = DOR_sands_of_marauders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = DOR_blood_and_fire
+		}
+		x = 27
+		y = 12
+
+	}
+}

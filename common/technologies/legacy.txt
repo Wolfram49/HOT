@@ -1,0 +1,1229 @@
+
+
+# Unused vanilla stuff that might cause errors if removed entirely
+technologies = {
+
+	railway_gun = {
+		enable_equipments = {
+			railway_gun_equipment_1
+		}
+
+		allow = { always = no}
+		research_cost = 1.5
+		start_year = 1936
+
+		categories = {
+			train_tech
+			artillery
+		}
+	}
+
+	armored_train = {
+		enable_equipments = {
+			train_equipment_3
+		}
+
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		path = {
+			leads_to_tech = railway_gun
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+
+		allow = { always = no}
+		research_cost = 1.5
+		start_year = 1936
+
+		categories = {
+			train_tech
+		}
+
+	}
+
+	improved_light_spaa = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3018
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	amphibious_tank = { #SchwimmPanzer II
+
+		enable_subunits = {
+			amphibious_armor
+		}
+
+		path = {
+			leads_to_tech = amphibious_tank_2
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		allow = { always = no}
+		research_cost = 2
+		start_year = 3022
+
+
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_tank_2 = { #tauchPanzer III
+
+		allow = { always = no}
+		research_cost = 2
+		start_year = 3024
+
+
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	advanced_light_spaa = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 2023
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	basic_medium_td = {
+
+		enable_subunits = {
+			medium_tank_destroyer_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3021
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	basic_medium_art = {
+
+		enable_subunits = {
+			medium_sp_artillery_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3021
+
+
+		categories = {
+			armor
+		}
+	}
+
+	basic_medium_spaa = {
+
+		enable_subunits = {
+			medium_sp_anti_air_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3021
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	improved_medium_td = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 2023
+
+		categories = {
+			armor
+		}
+	}
+
+	improved_medium_art = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 2023
+
+
+		categories = {
+			armor
+		}
+	}
+
+	improved_medium_spaa = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 2023
+
+
+		categories = {
+			armor
+		}
+	}
+
+	advanced_medium_td = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+
+		categories = {
+			armor
+		}
+	}
+
+	advanced_medium_art = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	advanced_medium_spaa = {
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	main_battle_tank = { #E-50
+		enable_subunits = {
+			modern_armor
+		}
+
+		allow = { always = no}
+		research_cost = 2.5
+		start_year = 3050
+
+		sub_technologies = {
+			modern_td
+			modern_art
+			modern_spaa
+		}
+
+
+
+		categories = {
+			armor
+			cat_heavy_cavalry
+		}
+	}
+
+	modern_td = {
+
+		enable_subunits = {
+			modern_tank_destroyer_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3027
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	modern_art = {
+
+		enable_subunits = {
+			modern_sp_artillery_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3027
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	modern_spaa = {
+
+		enable_subunits = {
+			modern_sp_anti_air_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3027
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	radio_detection = {
+
+		#
+
+		allow = { always = no}
+		allow_branch = { always = no }
+		research_cost = 1.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 24 y = 6 }
+		}
+
+
+
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
+
+	electronic_mechanical_engineering = {
+
+		# small boost to research speed
+		research_speed_factor = 0.03
+
+		path = {
+			leads_to_tech = radio
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mechanical_computing
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			ship_fire_control_system_0
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 1
+		start_year = 3018
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+
+		
+
+		categories = {
+			electronics
+		}
+	}
+
+	radio = {
+
+		# units with radios can more efficiently join combats when there is room
+		land_reinforce_rate = 0.05
+
+		path = {
+			leads_to_tech = radio_detection
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no}
+		allow_branch = { always = no }
+		research_cost = 1.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 2 }
+		}
+
+		#folder = {
+		#	name = support_folder
+		#	position = { x = 11 y = 9 } # x = 12 y = 0
+		#}
+
+
+
+		categories = {
+			electronics
+		}
+	}
+
+	mechanical_computing = {
+
+		# small boost to research speed
+		research_speed_factor = 0.04
+
+		path = {
+			leads_to_tech = computing_machine
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_fire_control_system
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no}
+		allow_branch = { always = no }
+		research_cost = 2.5
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 2 }
+		}
+
+
+
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
+
+	computing_machine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.05
+
+		path = {
+			leads_to_tech = improved_computing_machine
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_fire_control_system
+			research_cost_coeff = 1
+		}
+		allow = { always = no}
+		allow_branch = { always = no }
+		research_cost = 2.5
+		start_year = 3020
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 6 }
+		}
+
+		
+
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+	improved_computing_machine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = advanced_computing_machine
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_fire_control_system
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no}
+		allow_branch = { always = no }
+		research_cost = 2.5
+		start_year = 3022
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 10 }
+		}
+
+		
+
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+	advanced_computing_machine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+
+		allow = { always = no}
+		research_cost = 2.5
+		start_year = 3024
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 14 }
+		}
+
+		
+
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+	basic_fire_control_system = {
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		enable_equipment_modules = {
+			ship_fire_control_system_1
+		}
+
+		allow = { always = no}
+		research_cost = 1
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+
+
+		categories = {
+			electronics
+			computing_tech
+			naval_equipment
+		}
+	}
+
+	improved_fire_control_system = {
+
+		enable_equipment_modules = {
+			ship_fire_control_system_2
+		}
+
+		allow = { always = no}
+		research_cost = 1
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 8 }
+		}
+
+
+
+		categories = {
+			electronics
+			computing_tech
+			naval_equipment
+		}
+	}
+
+	advanced_fire_control_system = {
+
+		enable_equipment_modules = {
+			ship_fire_control_system_3
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		allow = { always = no}
+		research_cost = 1
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 12 }
+		}
+
+
+
+		categories = {
+			electronics
+			computing_tech
+			naval_equipment
+		}
+	}
+
+	lar_decryption_bonus_tech = {
+
+		allow = { always = no}
+		research_cost = 1.5 #Carrier Variant
+		start_year = 3018
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		decryption_power = 10
+
+
+		
+		################
+	}
+
+	super_heavy_td = {
+
+		enable_subunits = {
+			super_heavy_tank_destroyer_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_art = {
+
+
+		enable_subunits = {
+			super_heavy_sp_artillery_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_spaa = {
+
+		enable_subunits = {
+			super_heavy_sp_anti_air_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	advanced_heavy_td = {
+
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	advanced_heavy_art = {
+
+
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	advanced_heavy_spaa = {
+
+
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3025
+
+		
+
+		categories = {
+			armor
+		}
+	}
+
+	improved_heavy_td = {
+
+
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 2023
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	improved_heavy_art = {
+
+
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3023
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	improved_heavy_spaa = {
+
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3023
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	basic_heavy_td = {
+
+
+
+		enable_subunits = {
+			heavy_tank_destroyer_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3016
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	basic_heavy_art = {
+
+
+
+		enable_subunits = {
+			heavy_sp_artillery_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3016
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	basic_heavy_spaa = {
+
+
+		enable_subunits = {
+			heavy_sp_anti_air_brigade
+		}
+
+		allow = { always = no}
+		research_cost = 0.5
+		start_year = 3016
+
+
+
+		categories = {
+			armor
+		}
+	}
+
+	mountain_gun = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		artillery_brigade = {
+			mountain = {
+				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			}
+		}
+
+		anti_tank_brigade = {
+			mountain = {
+				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			}
+		}
+	}
+
+	early_battlecruiser = {
+
+
+
+		path = {
+			leads_to_tech = basic_battlecruiser
+			research_cost_coeff = 1
+		}
+
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 1.5
+
+		start_year = 3004
+
+		folder = {
+			name = naval_folder
+			position = {  x = -1 y = 1  }
+		}
+
+
+
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+
+	basic_battlecruiser = {
+
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = -1 y = 13  }
+		}
+
+
+
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+
+	early_battleship = {
+
+		enable_equipments = {
+			battleship_1
+		}
+
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 1.5
+		start_year = 3004
+
+		folder = {
+			name = naval_folder
+			position = {  x = 1 y = 1  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+
+	basic_battleship = {
+
+		enable_equipments = {
+			battleship_2
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = 4 y = 12  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+
+	heavy_battleship = {
+
+		enable_equipments = {
+			SH_battleship_1
+		}
+
+		path = {
+			leads_to_tech = heavy_battleship2
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = 3 y = 7  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			shbb_tech
+		}
+	}
+
+	heavy_battleship2 = {
+
+		enable_equipments = {
+			SH_battleship_2
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+
+		start_year = 3026
+
+		folder = {
+			name = naval_folder
+			position = {  x = 3 y = 19  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			shbb_tech
+		}
+	}
+
+	early_carrier = {
+
+		path = {
+			leads_to_tech = basic_carrier
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 1.5
+
+		start_year = 3004
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 1  }
+		}
+		
+
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	basic_carrier = {
+
+
+		path = {
+			leads_to_tech = improved_carrier
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 7  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	improved_carrier = {
+
+		path = {
+			leads_to_tech = advanced_carrier
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 13  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	advanced_carrier = {
+
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+
+		start_year = 3026
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 19  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	early_submarine = {
+
+		enable_equipments = {
+			submarine_1
+		}
+
+		path = {
+			leads_to_tech = basic_submarine
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 1.5
+
+		start_year = 3004
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 1  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	basic_submarine = {
+
+		enable_equipments = {
+			submarine_2
+		}
+
+		path = {
+			leads_to_tech = improved_submarine
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+		start_year = 3018
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 7  }
+		}
+		
+
+	
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	improved_submarine = {
+
+		enable_equipments = {
+			submarine_3
+		}
+
+		path = {
+			leads_to_tech = advanced_submarine
+			research_cost_coeff = 1
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+
+		start_year = 3022
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 13  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	advanced_submarine = {
+
+		enable_equipments = {
+			submarine_4
+		}
+
+		allow = { always = no }
+		allow_branch = { always = no }
+		research_cost = 2
+
+		start_year = 3026
+
+		folder = {
+			name = naval_folder
+			position = {  x = 0 y = 19  }
+		}
+		
+
+
+
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	torpedo_cruiser = {
+
+		enable_equipments = {
+			torpedo_cruiser
+		}
+
+		research_cost = 1
+		start_year = 3018
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+	}
+
+}

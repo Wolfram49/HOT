@@ -196,7 +196,7 @@ guiTypes = {
 			position = { x = 16 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CONTINUE"
-			buttonFont = "got_16header"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -238,7 +238,7 @@ guiTypes = {
 			position = { x = 16 y = 58 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_NEW"
-			buttonFont = "got_16header"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -248,7 +248,7 @@ guiTypes = {
 			position = {  x = 16 y = 98 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "MENU_BAR_LOAD"
-			buttonFont = "got_16header"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -268,7 +268,7 @@ guiTypes = {
 			position = { x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "BACK"
-			buttonFont = "got_16header"
+			buttonFont = "hoi_24header"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -297,7 +297,7 @@ guiTypes = {
 			name = "single_player_button"
 			position = { x = 15 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "got_16header"			
+			font = "hoi_24header"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
@@ -307,7 +307,7 @@ guiTypes = {
 			name = "multi_player_button"
 			position = { x = 325 y = 18}
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "got_16header"			
+			font = "hoi_24header"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -325,7 +325,7 @@ guiTypes = {
 			name ="version_label"
 			position = { x = 510 y = 125 }
 			textureFile = ""
-			font = "got_12header"
+			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
 			text = "ALPHA"	
 			format = centre
@@ -344,7 +344,7 @@ guiTypes = {
 			position = { x = 635 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
-			buttonFont = "got_16header"
+			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -393,14 +393,14 @@ guiTypes = {
 			position = { x = 485 y = 80 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
-			buttonFont = "got_16header"
+			buttonFont = "hoi_24header"
 		}
 
 		ButtonType = {
 			name = "exit_button"
 			position = { x = 945 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "got_16header"			
+			font = "hoi_24header"			
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
