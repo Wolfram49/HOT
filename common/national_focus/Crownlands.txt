@@ -1,0 +1,1625 @@
+focus_tree = {
+	id = Crownlands
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRL
+		}
+	}
+	continuous_focus_position = { x = 5100 y = 1400 }
+	default = no
+	focus = {
+		id = CRL_unite_the_free
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 55
+		y = 0
+
+	}
+	focus = {
+		id = CRL_storming_the_southern_reaches
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 90
+		y = 0
+
+	}
+	focus = {
+		id = CRL_voice_of_the_tribes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unite_the_free
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = CRL_blood_ties_and_frost_fealty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = CRL_wandering_warrior_kin
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_ties_and_frost_fealty
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = CRL_froststeel_forge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_ties_and_frost_fealty
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = CRL_drumbeats_of_freedom
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_ties_and_frost_fealty
+		}
+		mutually_exclusive = {
+			focus = CRL_honor_in_the_CRLd
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = CRL_honor_in_the_CRLd
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_ties_and_frost_fealty
+		}
+		mutually_exclusive = {
+			focus = CRL_drumbeats_of_freedom
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = CRL_mysteries_of_the_frost_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_honor_in_the_CRLd
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = CRL_seize_the_northern_lights
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_ties_and_frost_fealty
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = CRL_windborne_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_honor_in_the_CRLd
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = CRL_tides_of_ice_and_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_ties_and_frost_fealty
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = CRL_fangs_of_the_CRLd_beasts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_honor_in_the_CRLd
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = CRL_echoes_of_the_ancients
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = CRL_stand_as_one_tribe
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_echoes_of_the_ancients
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = CRL_guardians_of_the_frozen_frontier
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_stand_as_one_tribe
+		}
+		mutually_exclusive = {
+			focus = CRL_fury_of_the_northwind
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = CRL_fury_of_the_northwind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_stand_as_one_tribe
+		}
+		mutually_exclusive = {
+			focus = CRL_guardians_of_the_frozen_frontier
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = CRL_lorekeepers_of_the_free_folk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_guardians_of_the_frozen_frontier
+			focus = CRL_fury_of_the_northwind
+		}
+		mutually_exclusive = {
+			focus = CRL_bring_down_the_wall
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = CRL_call_of_the_untamed
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = CRL_last_fire_of_survival
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = CRL_winter_is_our_home
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_call_of_the_untamed
+		}
+		prerequisite = {
+			focus = CRL_last_fire_of_survival
+		}
+		prerequisite = {
+			focus = CRL_echoes_of_the_ancients
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = CRL_banish_the_white_walkers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = CRL_roots_in_the_permafrost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_last_fire_of_survival
+		}
+		prerequisite = {
+			focus = CRL_banish_the_white_walkers
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = CRL_gather_the_shattered
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_banish_the_white_walkers
+		}
+		prerequisite = {
+			focus = CRL_last_fire_of_survival
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = CRL_beyond_the_edge_of_the_world
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_roots_in_the_permafrost
+		}
+		prerequisite = {
+			focus = CRL_gather_the_shattered
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = CRL_power_of_the_bloodrunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_gather_the_shattered
+		}
+		prerequisite = {
+			focus = CRL_roots_in_the_permafrost
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = CRL_dance_of_the_stormborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_power_of_the_bloodrunes
+			focus = CRL_beyond_the_edge_of_the_world
+		}
+		mutually_exclusive = {
+			focus = CRL_shield_of_the_north
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = CRL_shield_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_beyond_the_edge_of_the_world
+			focus = CRL_power_of_the_bloodrunes
+		}
+		mutually_exclusive = {
+			focus = CRL_dance_of_the_stormborn
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = CRL_northern_expeditions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		mutually_exclusive = {
+			focus = CRL_secret_paths_beyond_the_wall
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = CRL_secret_paths_beyond_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voice_of_the_tribes
+		}
+		mutually_exclusive = {
+			focus = CRL_northern_expeditions
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = CRL_preparing_for_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_secret_paths_beyond_the_wall
+			focus = CRL_northern_expeditions
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = CRL_claim_the_giant’s_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_preparing_for_winter
+		}
+		mutually_exclusive = {
+			focus = CRL_free_folk_rising
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = CRL_free_folk_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_preparing_for_winter
+		}
+		mutually_exclusive = {
+			focus = CRL_claim_the_giant’s_legacy
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = CRL_tribal_blood_pact
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_free_folk_rising
+			focus = CRL_claim_the_giant’s_legacy
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = CRL_guardians_of_the_ancient_woods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_free_folk_rising
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = CRL_frozen_shields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_claim_the_giant’s_legacy
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = CRL_whispering_through_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_guardians_of_the_ancient_woods
+			focus = CRL_frozen_shields
+		}
+		x = 40
+		y = 6
+
+	}
+	focus = {
+		id = CRL_honor_the_old_gods
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_guardians_of_the_ancient_woods
+		}
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = CRL_wolf_brothers_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_frozen_shields
+		}
+		x = 38
+		y = 6
+
+	}
+	focus = {
+		id = CRL_paths_of_the_shadowed_vale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_honor_the_old_gods
+			focus = CRL_wolf_brothers_alliance
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = CRL_secrets_of_the_frostfangs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_paths_of_the_shadowed_vale
+		}
+		x = 40
+		y = 8
+
+	}
+	focus = {
+		id = CRL_bond_of_the_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_honor_the_old_gods
+		}
+		x = 42
+		y = 7
+
+	}
+	focus = {
+		id = CRL_mastery_of_the_CRLderness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unite_the_free
+		}
+		mutually_exclusive = {
+			focus = CRL_taming_the_mammoths
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = CRL_leaders_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unite_the_free
+		}
+		x = 55
+		y = 1
+
+	}
+	focus = {
+		id = CRL_warriors_of_the_frozen_wastes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_leaders_of_the_north
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = CRL_beyond_the_wall_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_leaders_of_the_north
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = CRL_secrets_of_ambushes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_warriors_of_the_frozen_wastes
+		}
+		prerequisite = {
+			focus = CRL_beyond_the_wall_unity
+		}
+		mutually_exclusive = {
+			focus = CRL_blood_and_ice
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = CRL_sustaining_on_scant_resources
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_secrets_of_ambushes
+		}
+		x = 51
+		y = 4
+
+	}
+	focus = {
+		id = CRL_break_the_chains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_leaders_of_the_north
+		}
+		x = 57
+		y = 2
+
+	}
+	focus = {
+		id = CRL_blood_and_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_break_the_chains
+		}
+		prerequisite = {
+			focus = CRL_beyond_the_wall_unity
+		}
+		mutually_exclusive = {
+			focus = CRL_secrets_of_ambushes
+		}
+		x = 57
+		y = 3
+
+	}
+	focus = {
+		id = CRL_battle_hardened_tribes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_and_ice
+			focus = CRL_secrets_of_ambushes
+		}
+		mutually_exclusive = {
+			focus = CRL_warhorns_of_the_free
+		}
+		x = 53
+		y = 4
+
+	}
+	focus = {
+		id = CRL_warhorns_of_the_free
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_and_ice
+			focus = CRL_secrets_of_ambushes
+		}
+		mutually_exclusive = {
+			focus = CRL_battle_hardened_tribes
+		}
+		x = 57
+		y = 4
+
+	}
+	focus = {
+		id = CRL_crafting_to_survive
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_battle_hardened_tribes
+			focus = CRL_warhorns_of_the_free
+		}
+		mutually_exclusive = {
+			focus = CRL_trade_with_the_crows
+		}
+		x = 57
+		y = 5
+
+	}
+	focus = {
+		id = CRL_trade_with_the_crows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_warhorns_of_the_free
+			focus = CRL_battle_hardened_tribes
+		}
+		mutually_exclusive = {
+			focus = CRL_crafting_to_survive
+		}
+		x = 53
+		y = 5
+
+	}
+	focus = {
+		id = CRL_legends_of_the_ancestors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_trade_with_the_crows
+			focus = CRL_crafting_to_survive
+		}
+		x = 57
+		y = 6
+
+	}
+	focus = {
+		id = CRL_songs_of_the_free_folk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_crafting_to_survive
+			focus = CRL_trade_with_the_crows
+		}
+		x = 55
+		y = 6
+
+	}
+	focus = {
+		id = CRL_taming_the_mammoths
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unite_the_free
+		}
+		mutually_exclusive = {
+			focus = CRL_mastery_of_the_CRLderness
+		}
+		x = 63
+		y = 7
+
+	}
+	focus = {
+		id = CRL_forge_the_frost_peace
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_taming_the_mammoths
+			focus = CRL_mastery_of_the_CRLderness
+		}
+		x = 57
+		y = 8
+
+	}
+	focus = {
+		id = CRL_hunting_and_gathering
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_blood_and_ice
+		}
+		x = 59
+		y = 4
+
+	}
+	focus = {
+		id = CRL_spirit_of_the_CRLds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_crafting_to_survive
+		}
+		x = 59
+		y = 6
+
+	}
+	focus = {
+		id = CRL_unyielding_spirit
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_storming_the_southern_reaches
+		}
+		x = 81
+		y = 1
+
+	}
+	focus = {
+		id = CRL_voices_of_the_untamed_land
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unyielding_spirit
+		}
+		x = 72
+		y = 2
+
+	}
+	focus = {
+		id = CRL_snowbound_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_voices_of_the_untamed_land
+		}
+		x = 71
+		y = 3
+
+	}
+	focus = {
+		id = CRL_binding_of_the_clanlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_snowbound_loyalty
+		}
+		x = 72
+		y = 4
+
+	}
+	focus = {
+		id = CRL_free_folk_congress
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_binding_of_the_clanlords
+		}
+		mutually_exclusive = {
+			focus = CRL_banners_in_the_wind
+		}
+		x = 73
+		y = 5
+
+	}
+	focus = {
+		id = CRL_banners_in_the_wind
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_binding_of_the_clanlords
+		}
+		mutually_exclusive = {
+			focus = CRL_free_folk_congress
+		}
+		x = 71
+		y = 5
+
+	}
+	focus = {
+		id = CRL_sentinel_of_the_ice_gates
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_free_folk_congress
+			focus = CRL_banners_in_the_wind
+		}
+		mutually_exclusive = {
+			focus = CRL_vengeance_from_the_north
+		}
+		x = 72
+		y = 6
+
+	}
+	focus = {
+		id = CRL_hunters_of_the_last_horizon
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unyielding_spirit
+		}
+		x = 78
+		y = 2
+
+	}
+	focus = {
+		id = CRL_rage_of_the_frostborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_hunters_of_the_last_horizon
+		}
+		prerequisite = {
+			focus = CRL_voices_of_the_untamed_land
+		}
+		x = 74
+		y = 3
+
+	}
+	focus = {
+		id = CRL_vengeance_from_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_rage_of_the_frostborn
+		}
+		mutually_exclusive = {
+			focus = CRL_sentinel_of_the_ice_gates
+			focus = CRL_reclaim_the_cold_vales
+		}
+		x = 74
+		y = 6
+
+	}
+	focus = {
+		id = CRL_sacred_runes_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_hunters_of_the_last_horizon
+		}
+		x = 78
+		y = 3
+
+	}
+	focus = {
+		id = CRL_songs_of_frost_and_freedom
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_sacred_runes_of_power
+		}
+		mutually_exclusive = {
+			focus = CRL_crafting_frostfire_blades
+		}
+		x = 76
+		y = 4
+
+	}
+	focus = {
+		id = CRL_crafting_frostfire_blades
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_sacred_runes_of_power
+		}
+		mutually_exclusive = {
+			focus = CRL_songs_of_frost_and_freedom
+			focus = CRL_path_to_the_ice_throne
+		}
+		x = 78
+		y = 4
+
+	}
+	focus = {
+		id = CRL_path_to_the_ice_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_sacred_runes_of_power
+		}
+		mutually_exclusive = {
+			focus = CRL_crafting_frostfire_blades
+		}
+		x = 80
+		y = 4
+
+	}
+	focus = {
+		id = CRL_last_guard_of_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_path_to_the_ice_throne
+			focus = CRL_crafting_frostfire_blades
+			focus = CRL_songs_of_frost_and_freedom
+		}
+		x = 78
+		y = 5
+
+	}
+	focus = {
+		id = CRL_reclaim_the_cold_vales
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_last_guard_of_the_wall
+		}
+		mutually_exclusive = {
+			focus = CRL_vengeance_from_the_north
+			focus = CRL_eternal_spirit_of_winter
+		}
+		x = 78
+		y = 6
+
+	}
+	focus = {
+		id = CRL_fury_of_the_mountain_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_hunters_of_the_last_horizon
+		}
+		x = 81
+		y = 3
+
+	}
+	focus = {
+		id = CRL_eternal_spirit_of_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_fury_of_the_mountain_clans
+		}
+		mutually_exclusive = {
+			focus = CRL_reclaim_the_cold_vales
+			focus = CRL_throne_of_ice_and_stone
+		}
+		x = 81
+		y = 6
+
+	}
+	focus = {
+		id = CRL_keepers_of_the_northern_heart
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unyielding_spirit
+		}
+		x = 83
+		y = 2
+
+	}
+	focus = {
+		id = CRL_bane_of_the_white_walkers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_keepers_of_the_northern_heart
+		}
+		x = 83
+		y = 3
+
+	}
+	focus = {
+		id = CRL_ancestral_frost_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_bane_of_the_white_walkers
+		}
+		x = 83
+		y = 4
+
+	}
+	focus = {
+		id = CRL_call_of_the_winter_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_ancestral_frost_legion
+		}
+		mutually_exclusive = {
+			focus = CRL_whispers_of_the_old_spirits
+		}
+		x = 82
+		y = 5
+
+	}
+	focus = {
+		id = CRL_whispers_of_the_old_spirits
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_ancestral_frost_legion
+		}
+		mutually_exclusive = {
+			focus = CRL_call_of_the_winter_wolves
+		}
+		x = 84
+		y = 5
+
+	}
+	focus = {
+		id = CRL_throne_of_ice_and_stone
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_whispers_of_the_old_spirits
+			focus = CRL_call_of_the_winter_wolves
+		}
+		mutually_exclusive = {
+			focus = CRL_eternal_spirit_of_winter
+		}
+		x = 83
+		y = 6
+
+	}
+	focus = {
+		id = CRL_keepers_of_the_hidden_paths
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_storming_the_southern_reaches
+		}
+		x = 90
+		y = 1
+
+	}
+	focus = {
+		id = CRL_blizzardborne_strength
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_keepers_of_the_hidden_paths
+		}
+		x = 89
+		y = 2
+
+	}
+	focus = {
+		id = CRL_whispers_of_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_keepers_of_the_hidden_paths
+		}
+		x = 91
+		y = 2
+
+	}
+	focus = {
+		id = CRL_unforgotten_oaths
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_whispers_of_the_long_night
+		}
+		prerequisite = {
+			focus = CRL_blizzardborne_strength
+		}
+		x = 90
+		y = 3
+
+	}
+	focus = {
+		id = CRL_courage_in_the_iceveil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unforgotten_oaths
+		}
+		x = 90
+		y = 4
+
+	}
+	focus = {
+		id = CRL_savage_resilience
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_courage_in_the_iceveil
+		}
+		x = 90
+		y = 5
+
+	}
+	focus = {
+		id = CRL_council_of_the_chieftains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_storming_the_southern_reaches
+		}
+		x = 102
+		y = 1
+
+	}
+	focus = {
+		id = CRL_forgotten_paths_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_council_of_the_chieftains
+		}
+		x = 101
+		y = 2
+
+	}
+	focus = {
+		id = CRL_flame_in_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_forgotten_paths_of_power
+		}
+		x = 99
+		y = 3
+
+	}
+	focus = {
+		id = CRL_watchers_beyond_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_forgotten_paths_of_power
+		}
+		x = 101
+		y = 3
+
+	}
+	focus = {
+		id = CRL_free_folk_in_exodus
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_watchers_beyond_the_wall
+		}
+		mutually_exclusive = {
+			focus = CRL_secrets_of_the_winterborn
+		}
+		x = 101
+		y = 4
+
+	}
+	focus = {
+		id = CRL_chants_of_ancestral_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_free_folk_in_exodus
+		}
+		mutually_exclusive = {
+			focus = CRL_seizing_the_frozen_future
+		}
+		x = 101
+		y = 6
+
+	}
+	focus = {
+		id = CRL_embers_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_council_of_the_chieftains
+		}
+		x = 103
+		y = 2
+
+	}
+	focus = {
+		id = CRL_unbroken_by_the_long_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_embers_in_the_snow
+		}
+		x = 103
+		y = 3
+
+	}
+	focus = {
+		id = CRL_secrets_of_the_winterborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_unbroken_by_the_long_night
+		}
+		mutually_exclusive = {
+			focus = CRL_free_folk_in_exodus
+		}
+		x = 103
+		y = 4
+
+	}
+	focus = {
+		id = CRL_winds_of_the_untamed_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_embers_in_the_snow
+		}
+		x = 105
+		y = 3
+
+	}
+	focus = {
+		id = CRL_march_of_the_mammoth_riders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_winds_of_the_untamed_realm
+		}
+		prerequisite = {
+			focus = CRL_unbroken_by_the_long_night
+		}
+		x = 105
+		y = 4
+
+	}
+	focus = {
+		id = CRL_wrath_of_the_snowbound_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_march_of_the_mammoth_riders
+		}
+		mutually_exclusive = {
+			focus = CRL_hunt_of_the_frostfangs
+		}
+		x = 104
+		y = 5
+
+	}
+	focus = {
+		id = CRL_last_bastion_of_the_free
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_secrets_of_the_winterborn
+		}
+		prerequisite = {
+			focus = CRL_wrath_of_the_snowbound_clans
+		}
+		mutually_exclusive = {
+			focus = CRL_frostforged_alliance
+		}
+		x = 103
+		y = 6
+
+	}
+	focus = {
+		id = CRL_hunt_of_the_frostfangs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_march_of_the_mammoth_riders
+		}
+		mutually_exclusive = {
+			focus = CRL_wrath_of_the_snowbound_clans
+		}
+		x = 106
+		y = 5
+
+	}
+	focus = {
+		id = CRL_frostforged_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_hunt_of_the_frostfangs
+			focus = CRL_wrath_of_the_snowbound_clans
+		}
+		mutually_exclusive = {
+			focus = CRL_echoes_of_the_icebound_heroes
+			focus = CRL_last_bastion_of_the_free
+		}
+		x = 105
+		y = 6
+
+	}
+	focus = {
+		id = CRL_stone_and_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_crafting_to_survive
+			focus = CRL_trade_with_the_crows
+		}
+		x = 53
+		y = 6
+
+	}
+	focus = {
+		id = CRL_tales_by_the_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_trade_with_the_crows
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = CRL_call_to_the_hunt
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_wolf_brothers_alliance
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = CRL_protectors_of_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_taming_the_mammoths
+			focus = CRL_mastery_of_the_CRLderness
+		}
+		x = 53
+		y = 8
+
+	}
+	focus = {
+		id = CRL_defiance_in_the_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_taming_the_mammoths
+			focus = CRL_mastery_of_the_CRLderness
+		}
+		x = 55
+		y = 8
+
+	}
+	focus = {
+		id = CRL_bring_down_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_fury_of_the_northwind
+			focus = CRL_guardians_of_the_frozen_frontier
+		}
+		mutually_exclusive = {
+			focus = CRL_lorekeepers_of_the_free_folk
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = CRL_harness_the_ice_dragon
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_lorekeepers_of_the_free_folk
+			focus = CRL_bring_down_the_wall
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = CRL_reclaim_the_lands_of_legend
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_harness_the_ice_dragon
+		}
+		mutually_exclusive = {
+			focus = CRL_frozen_fury_rising
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = CRL_frozen_fury_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_harness_the_ice_dragon
+		}
+		mutually_exclusive = {
+			focus = CRL_reclaim_the_lands_of_legend
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = CRL_defenders_of_the_last_hearth
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_drumbeats_of_freedom
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = CRL_sons_and_daughters_of_the_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_drumbeats_of_freedom
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = CRL_blight_on_the_lands_of_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_drumbeats_of_freedom
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = CRL_bloodlines_of_the_giants
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_flame_in_the_frost
+		}
+		prerequisite = {
+			focus = CRL_watchers_beyond_the_wall
+		}
+		x = 99
+		y = 4
+
+	}
+	focus = {
+		id = CRL_brothers_of_the_eternal_ice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_bloodlines_of_the_giants
+		}
+		mutually_exclusive = {
+			focus = CRL_fury_of_the_untamed_spirits
+		}
+		x = 98
+		y = 5
+
+	}
+	focus = {
+		id = CRL_fury_of_the_untamed_spirits
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_bloodlines_of_the_giants
+		}
+		mutually_exclusive = {
+			focus = CRL_brothers_of_the_eternal_ice
+		}
+		x = 100
+		y = 5
+
+	}
+	focus = {
+		id = CRL_seizing_the_frozen_future
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_fury_of_the_untamed_spirits
+			focus = CRL_brothers_of_the_eternal_ice
+		}
+		mutually_exclusive = {
+			focus = CRL_chants_of_ancestral_glory
+			focus = CRL_spirits_of_the_long_winter
+		}
+		x = 99
+		y = 6
+
+	}
+	focus = {
+		id = CRL_spirits_of_the_long_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_fury_of_the_untamed_spirits
+			focus = CRL_brothers_of_the_eternal_ice
+		}
+		mutually_exclusive = {
+			focus = CRL_seizing_the_frozen_future
+		}
+		x = 97
+		y = 6
+
+	}
+	focus = {
+		id = CRL_echoes_of_the_icebound_heroes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_hunt_of_the_frostfangs
+			focus = CRL_wrath_of_the_snowbound_clans
+		}
+		mutually_exclusive = {
+			focus = CRL_frostforged_alliance
+		}
+		x = 107
+		y = 6
+
+	}
+	focus = {
+		id = CRL_council_of_the_iceborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_taming_the_mammoths
+		}
+		mutually_exclusive = {
+			focus = CRL_seize_the_northwind_power
+		}
+		x = 67
+		y = 9
+
+	}
+	focus = {
+		id = CRL_seize_the_northwind_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_taming_the_mammoths
+		}
+		mutually_exclusive = {
+			focus = CRL_council_of_the_iceborn
+		}
+		x = 60
+		y = 9
+
+	}
+	focus = {
+		id = CRL_beyond_the_edge_of_night
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_mastery_of_the_CRLderness
+		}
+		mutually_exclusive = {
+			focus = CRL_guardians_of_the_frozen_veil
+		}
+		x = 51
+		y = 9
+
+	}
+	focus = {
+		id = CRL_guardians_of_the_frozen_veil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = CRL_mastery_of_the_CRLderness
+		}
+		mutually_exclusive = {
+			focus = CRL_beyond_the_edge_of_night
+		}
+		x = 44
+		y = 9
+
+	}
+}
