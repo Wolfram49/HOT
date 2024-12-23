@@ -1,0 +1,1235 @@
+focus_tree = {
+	id = Stormlands
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = STL
+		}
+	}
+    continuous_focus_position = { x = 2600 y = 1800 }
+	default = no
+	focus = {
+		id = STL_thunder_of_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 29
+		y = 0
+
+	}
+	focus = {
+		id = STL_wrath_of_the_skies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_of_the_storm
+		}
+		mutually_exclusive = {
+			focus = STL_lightning_legion
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = STL_vengeance_in_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_wrath_of_the_skies
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = STL_stormlords_rise
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_vengeance_in_the_tempest
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = STL_winds_of_thunder
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_stormlords_rise
+		}
+		mutually_exclusive = {
+			focus = STL_battle_in_the_tempest
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = STL_fury_of_the_hurricane
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_wrath_of_the_skies
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = STL_tempest_unleashed
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_fury_of_the_hurricane
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = STL_battle_in_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_unleashed
+			focus = STL_stormlords_rise
+		}
+		mutually_exclusive = {
+			focus = STL_winds_of_thunder
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = STL_forged_in_lightning
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_battle_in_the_tempest
+			focus = STL_winds_of_thunder
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = STL_thunder_ascends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_forged_in_lightning
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = STL_lightning_born_rulers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_ascends
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = STL_forged_by_storms
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_born_rulers
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = STL_thunder_and_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_forged_by_storms
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = STL_tempest_sentinel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_born_rulers
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = STL_iron_and_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_forged_in_lightning
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = STL_blood_of_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_fury_of_the_hurricane
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = STL_lightning_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_of_the_storm
+		}
+		mutually_exclusive = {
+			focus = STL_wrath_of_the_skies
+			focus = STL_riders_of_the_tempest
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = STL_fury_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_legion
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = STL_winds_of_retribution
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_fury_of_the_tempest
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = STL_guardians_of_the_thunder
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_fury_of_the_tempest
+		}
+		mutually_exclusive = {
+			focus = STL_lightning_strike
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = STL_throne_of_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_legion
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = STL_stormcallers_ascend
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_legion
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = STL_lightning_strike
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_stormcallers_ascend
+		}
+		mutually_exclusive = {
+			focus = STL_guardians_of_the_thunder
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = STL_thunderous_roar
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_strike
+			focus = STL_guardians_of_the_thunder
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = STL_tempest_rulers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_stormcallers_ascend
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = STL_stormborn_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_rulers
+		}
+		prerequisite = {
+			focus = STL_lightning_strike
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = STL_lightning_and_iron
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderous_roar
+			focus = STL_stormborn_legacy
+			focus = STL_winds_of_retribution
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = STL_tempest_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_iron
+			focus = STL_forged_in_lightning
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = STL_skies_of_thunder
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_legends
+		}
+		prerequisite = {
+			focus = STL_iron_and_tempest
+		}
+		x = 24
+		y = 7
+
+	}
+	focus = {
+		id = STL_blood_of_the_thunderlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_iron
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = STL_sky_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_blood_of_the_thunderlords
+		}
+		prerequisite = {
+			focus = STL_tempest_legends
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = STL_stormshard_rebellion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_iron
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = STL_thunderborn_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_stormshard_rebellion
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = STL_riders_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_of_the_storm
+		}
+		mutually_exclusive = {
+			focus = STL_lightning_legion
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = STL_thunder_and_wrath
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_riders_of_the_tempest
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = STL_lightning_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_and_wrath
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = STL_warriors_of_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_steel
+		}
+		mutually_exclusive = {
+			focus = STL_thunderous_fury
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = STL_winds_of_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_warriors_of_the_storm
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = STL_riders_of_the_hurricane
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_riders_of_the_tempest
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = STL_throne_in_the_stormclouds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_and_wrath
+		}
+		prerequisite = {
+			focus = STL_riders_of_the_hurricane
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = STL_thunderous_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_throne_in_the_stormclouds
+		}
+		mutually_exclusive = {
+			focus = STL_warriors_of_the_storm
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = STL_stormlords_eternal
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderous_fury
+			focus = STL_warriors_of_the_storm
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = STL_riders_of_the_thunder
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_winds_of_vengeance
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = STL_stormwatchers_rise
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_riders_of_the_thunder
+		}
+		x = 36
+		y = 7
+
+	}
+	focus = {
+		id = STL_throne_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_riders_of_the_thunder
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = STL_honor_of_the_sky_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_throne_of_the_tempest
+		}
+		x = 36
+		y = 9
+
+	}
+	focus = {
+		id = STL_wrath_of_the_high_skies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderous_fury
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = STL_hurricane_born
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_riders_of_the_hurricane
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = STL_lightning_banners
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_hurricane_born
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = STL_thunder_in_the_air
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_wrath_of_the_high_skies
+		}
+		x = 38
+		y = 6
+
+	}
+	focus = {
+		id = STL_winds_and_wrath
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_in_the_air
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = STL_fury_in_the_hurricane
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_in_the_air
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = STL_tides_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_fury_in_the_hurricane
+		}
+		prerequisite = {
+			focus = STL_winds_and_wrath
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = STL_lightning_struck_banners
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tides_of_the_tempest
+		}
+		mutually_exclusive = {
+			focus = STL_storm_in_the_soul
+		}
+		x = 38
+		y = 9
+
+	}
+	focus = {
+		id = STL_warriors_of_the_tempest_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_struck_banners
+		}
+		x = 37
+		y = 10
+
+	}
+	focus = {
+		id = STL_storm_in_the_soul
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tides_of_the_tempest
+		}
+		mutually_exclusive = {
+			focus = STL_lightning_struck_banners
+		}
+		x = 40
+		y = 9
+
+	}
+	focus = {
+		id = STL_storm_hearts_united
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_storm_in_the_soul
+			focus = STL_lightning_struck_banners
+		}
+		x = 39
+		y = 10
+
+	}
+	focus = {
+		id = STL_hurricane_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_iron
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = STL_fury_of_the_lightning
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_iron
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = STL_sky_ravagers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_fury_of_the_lightning
+		}
+		prerequisite = {
+			focus = STL_stormshard_rebellion
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = STL_rise_of_the_tempest_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderborn_victory
+		}
+		prerequisite = {
+			focus = STL_sky_ravagers
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = STL_hurricane_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_hurricane_legion
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = STL_fury_and_lightning
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_hurricane_legion
+		}
+		prerequisite = {
+			focus = STL_sky_warriors
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = STL_iron_in_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_sky_warriors
+		}
+		x = 26
+		y = 9
+
+	}
+	focus = {
+		id = STL_scorched_in_lightning
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_sky_warriors
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = STL_winds_of_the_stormlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_hurricane_honor
+		}
+		prerequisite = {
+			focus = STL_fury_and_lightning
+		}
+		x = 28
+		y = 9
+
+	}
+	focus = {
+		id = STL_battle_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_rise_of_the_tempest_lords
+		}
+		prerequisite = {
+			focus = STL_hurricane_honor
+		}
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = STL_thunderheart_vanguard
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_rise_of_the_tempest_lords
+		}
+		x = 32
+		y = 9
+
+	}
+	focus = {
+		id = STL_tempest_and_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderheart_vanguard
+		}
+		x = 32
+		y = 11
+
+	}
+	focus = {
+		id = STL_thunderking's_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderheart_vanguard
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
+		id = STL_stormlords_united
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunderheart_vanguard
+		}
+		prerequisite = {
+			focus = STL_battle_of_the_tempest
+		}
+		x = 31
+		y = 10
+
+	}
+	focus = {
+		id = STL_echoes_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_battle_of_the_tempest
+		}
+		prerequisite = {
+			focus = STL_winds_of_the_stormlands
+		}
+		x = 29
+		y = 10
+
+	}
+	focus = {
+		id = STL_lords_of_the_hurricane
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_iron_in_the_storm
+		}
+		mutually_exclusive = {
+			focus = STL_thunder_in_our_veins
+		}
+		x = 27
+		y = 10
+
+	}
+	focus = {
+		id = STL_thunder_in_our_veins
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_iron_in_the_storm
+		}
+		prerequisite = {
+			focus = STL_iron_in_the_stormclouds
+		}
+		mutually_exclusive = {
+			focus = STL_lightning_and_loyalty
+			focus = STL_lords_of_the_hurricane
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = STL_lightning_and_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_iron_in_the_stormclouds
+		}
+		mutually_exclusive = {
+			focus = STL_thunder_in_our_veins
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = STL_keepers_of_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lords_of_the_hurricane
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = STL_winds_of_the_highlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lords_of_the_hurricane
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = STL_stormborn_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_in_our_veins
+			focus = STL_lords_of_the_hurricane
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = STL_blood_in_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_loyalty
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = STL_tempest_warlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_lightning_and_loyalty
+		}
+		x = 21
+		y = 11
+
+	}
+	focus = {
+		id = STL_iron_in_the_stormclouds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_skies_of_thunder
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = STL_victory_in_the_hurricane
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_skies_of_thunder
+		}
+		prerequisite = {
+			focus = STL_thunder_in_the_heavens
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = STL_thunder_in_the_heavens
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_iron_and_tempest
+		}
+		prerequisite = {
+			focus = STL_thunder_ascends
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = STL_banners_in_the_lightning
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_sentinel
+		}
+		prerequisite = {
+			focus = STL_forged_by_storms
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = STL_storm_forged_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_and_fury
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = STL_legends_of_the_stormlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_rising_stormlords
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = STL_rising_stormlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_thunder_in_the_heavens
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = STL_tide_of_thunder
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_victory_in_the_hurricane
+		}
+		prerequisite = {
+			focus = STL_rising_stormlords
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = STL_sky_forged_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tide_of_thunder
+		}
+		prerequisite = {
+			focus = STL_legends_of_the_stormlands
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = STL_tempest_and_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_legends_of_the_stormlands
+		}
+		prerequisite = {
+			focus = STL_banners_in_the_lightning
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = STL_honor_in_the_hurricane
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_and_blood
+		}
+		prerequisite = {
+			focus = STL_storm_forged_alliance
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = STL_battleborn_of_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_storm_forged_alliance
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = STL_lightning_in_the_darkness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_riders_of_the_thunder
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = STL_tempest_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_throne_of_the_tempest
+		}
+		prerequisite = {
+			focus = STL_honor_of_the_sky_warriors
+		}
+		prerequisite = {
+			focus = STL_lightning_scars
+		}
+		x = 35
+		y = 10
+
+	}
+	focus = {
+		id = STL_lightning_scars
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_throne_of_the_tempest
+		}
+		x = 34
+		y = 9
+
+	}
+	focus = {
+		id = STL_stormclad_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_victory
+		}
+		mutually_exclusive = {
+			focus = STL_sons_of_the_tempest
+		}
+		x = 36
+		y = 11
+
+	}
+	focus = {
+		id = STL_sons_of_the_tempest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_tempest_victory
+		}
+		mutually_exclusive = {
+			focus = STL_stormclad_warriors
+		}
+		x = 34
+		y = 11
+
+	}
+	focus = {
+		id = STL_vengeance_of_the_sky
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_storm_in_the_soul
+		}
+		x = 41
+		y = 10
+
+	}
+	focus = {
+		id = STL_guardians_of_the_stormlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_storm_in_the_soul
+		}
+		x = 40
+		y = 11
+
+	}
+	focus = {
+		id = STL_lightningforged_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = STL_storm_hearts_united
+			focus = STL_lightning_struck_banners
+		}
+		x = 38
+		y = 11
+
+	}
+}
