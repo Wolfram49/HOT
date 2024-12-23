@@ -95,17 +95,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = REA_shield_of_the_reach
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = REA_heart_of_the_realm
-		}
-		x = 11
-		y = 1
-
-	}
-	focus = {
 		id = REA_grace_of_the_reach
 		icon = GFX_goal_unknown
 		cost = 0
@@ -120,13 +109,25 @@ focus_tree = {
 
 	}
 	focus = {
-		id = REA_garden_of_glory
+		id = REA_flourish_and_conquer
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_grace_of_the_reach
+			focus = REA_guardians_of_the_green
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = REA_shield_of_the_reach
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
 			focus = REA_heart_of_the_realm
 		}
-		x = 15
+		x = 11
 		y = 1
 
 	}
@@ -136,10 +137,45 @@ focus_tree = {
 		cost = 0
 		prerequisite = {
 			focus = REA_shield_of_the_reach
-			focus = REA_garden_of_glory
 		}
 		x = 12
 		y = 2
+
+	}
+	focus = {
+		id = REA_fields_of_battle
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_heart_of_the_realm
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = REA_bountiful_blades
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_fields_of_battle
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = REA_lords_of_the_meadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_bountiful_blades
+		}
+		prerequisite = {
+			focus = REA_fertile_legacies
+		}
+		x = 13
+		y = 3
 
 	}
 	focus = {
@@ -147,10 +183,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = REA_fertile_legacies
+			focus = REA_lords_of_the_meadows
 		}
 		prerequisite = {
-			focus = REA_winds_of_the_mander
+			focus = REA_grace_of_the_reach
 		}
 		x = 13
 		y = 5
@@ -254,8 +290,25 @@ focus_tree = {
 		prerequisite = {
 			focus = REA_honor_in_growth
 		}
+		prerequisite = {
+			focus = REA_roots_of_the_realm
+		}
 		x = 17
 		y = 6
+
+	}
+	focus = {
+		id = REA_thorns_and_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_vanguard_of_the_reach
+		}
+		prerequisite = {
+			focus = REA_bounty_of_the_fields
+		}
+		x = 16
+		y = 7
 
 	}
 	focus = {
@@ -278,6 +331,18 @@ focus_tree = {
 		}
 		x = 19
 		y = 6
+
+	}
+	focus = {
+		id = REA_guardians_of_the_flower_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_throne_of_flourishing_fields
+			focus = REA_vanguard_of_the_reach
+		}
+		x = 18
+		y = 7
 
 	}
 	focus = {
@@ -331,40 +396,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = REA_pride_of_the_reach
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = REA_unbroken_harvest
-		}
-		prerequisite = {
-			focus = REA_honor_in_growth
-		}
-		prerequisite = {
-			focus = REA_vanguard_of_the_reach
-		}
-		prerequisite = {
-			focus = REA_bounty_of_the_fields
-		}
-		x = 18
-		y = 8
-
-	}
-	focus = {
-		id = REA_sun_and_soil
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = REA_pride_of_the_reach
-		}
-		mutually_exclusive = {
-			focus = REA_knights_of_the_garden
-		}
-		x = 19
-		y = 9
-
-	}
-	focus = {
 		id = REA_golden_petals
 		icon = GFX_goal_unknown
 		cost = 0
@@ -376,6 +407,17 @@ focus_tree = {
 		}
 		x = 22
 		y = 4
+
+	}
+	focus = {
+		id = REA_scepter_of_the_reach
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_golden_petals
+		}
+		x = 22
+		y = 5
 
 	}
 	focus = {
@@ -424,6 +466,17 @@ focus_tree = {
 		}
 		x = 24
 		y = 5
+
+	}
+	focus = {
+		id = REA_blood_in_the_meadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_champions_of_the_flower
+		}
+		x = 23
+		y = 6
 
 	}
 	focus = {
@@ -528,6 +581,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = REA_rise_of_the_green_banners
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_throne_of_the_mander
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
 		id = REA_warriors_of_the_reach
 		icon = GFX_goal_unknown
 		cost = 0
@@ -546,17 +610,6 @@ focus_tree = {
 			focus = REA_warriors_of_the_reach
 		}
 		x = 29
-		y = 8
-
-	}
-	focus = {
-		id = REA_shields_of_the_garden
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = REA_warriors_of_the_reach
-		}
-		x = 23
 		y = 8
 
 	}
@@ -697,6 +750,43 @@ focus_tree = {
 
 	}
 	focus = {
+		id = REA_blooming_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_lords_of_the_blooms
+		}
+		x = 36
+		y = 6
+
+	}
+	focus = {
+		id = REA_roots_of_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_guardians_of_the_mander
+		}
+		mutually_exclusive = {
+			focus = REA_blossoms_in_the_battle
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = REA_guardians_of_abundance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_roots_of_glory
+			focus = REA_blossoms_in_the_battle
+		}
+		x = 36
+		y = 9
+
+	}
+	focus = {
 		id = REA_cultivating_victory
 		icon = GFX_goal_unknown
 		cost = 0
@@ -780,6 +870,45 @@ focus_tree = {
 
 	}
 	focus = {
+		id = REA_pride_of_the_reach
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_unbroken_harvest
+		}
+		prerequisite = {
+			focus = REA_thorns_and_honor
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = REA_sun_and_soil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_pride_of_the_reach
+		}
+		mutually_exclusive = {
+			focus = REA_knights_of_the_garden
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = REA_shields_of_the_garden
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_warriors_of_the_reach
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
 		id = REA_watchers_of_the_gardens
 		icon = GFX_goal_unknown
 		cost = 0
@@ -795,7 +924,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = REA_watchers_of_the_gardens
+			focus = REA_guardians_of_the_flower
 		}
 		x = 28
 		y = 10
@@ -864,10 +993,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = REA_guardians_of_the_flower
+			focus = REA_vine_and_steel
 		}
 		prerequisite = {
-			focus = REA_vine_and_steel
+			focus = REA_frost_and_flower
 		}
 		x = 26
 		y = 11
@@ -878,7 +1007,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = REA_watchers_of_the_gardens
+			focus = REA_guardians_of_the_flower
 		}
 		x = 24
 		y = 10
@@ -1136,20 +1265,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = REA_roots_of_glory
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = REA_guardians_of_the_mander
-		}
-		mutually_exclusive = {
-			focus = REA_blossoms_in_the_battle
-		}
-		x = 37
-		y = 8
-
-	}
-	focus = {
 		id = REA_pride_in_blossoms
 		icon = GFX_goal_unknown
 		cost = 0
@@ -1205,6 +1320,233 @@ focus_tree = {
 		}
 		x = 34
 		y = 12
+
+	}
+	focus = {
+		id = REA_garden_of_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_vine_and_steel
+		}
+		x = 28
+		y = 12
+
+	}
+	focus = {
+		id = REA_throne_of_fertility
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_frost_and_flower
+		}
+		x = 24
+		y = 12
+
+	}
+	focus = {
+		id = REA_swords_in_the_meadow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_strength_of_flower_and_steel
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = REA_roots_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_flourishing_warrior
+			focus = REA_fertility_of_the_fields
+		}
+		x = 32
+		y = 9
+
+	}
+	focus = {
+		id = REA_thorned_crown
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_green_fields_of_glory
+		}
+		prerequisite = {
+			focus = REA_ancient_winds_of_the_reach
+		}
+		x = 33
+		y = 13
+
+	}
+	focus = {
+		id = REA_flower_of_the_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_ancient_winds_of_the_reach
+		}
+		prerequisite = {
+			focus = REA_thorns_and_swords
+		}
+		x = 31
+		y = 13
+
+	}
+	focus = {
+		id = REA_grain_and_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_kingdom_of_the_bloom
+		}
+		x = 37
+		y = 15
+
+	}
+	focus = {
+		id = REA_harvest_of_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_champions_of_the_field
+		}
+		x = 35
+		y = 15
+
+	}
+	focus = {
+		id = REA_sentinel_of_the_fields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_frost_and_flower
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = REA_banners_of_the_greenland
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_vine_and_steel
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = REA_fields_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_garden_of_glory
+		}
+		x = 28
+		y = 13
+
+	}
+	focus = {
+		id = REA_battle_in_the_vines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_throne_of_fertility
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = REA_thorned_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_blooms_of_victory
+		}
+		x = 30
+		y = 18
+
+	}
+	focus = {
+		id = REA_rising_of_the_green_sun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_shield_of_fertility
+		}
+		x = 27
+		y = 18
+
+	}
+	focus = {
+		id = REA_champions_of_the_reach
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_shield_of_fertility
+		}
+		x = 25
+		y = 18
+
+	}
+	focus = {
+		id = REA_iron_in_the_garden
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_spring_of_glory
+		}
+		x = 22
+		y = 18
+
+	}
+	focus = {
+		id = REA_roots_of_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_spring_of_glory
+		}
+		x = 20
+		y = 18
+
+	}
+	focus = {
+		id = REA_blossoms_and_swords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_blooms_of_victory
+		}
+		x = 32
+		y = 18
+
+	}
+	focus = {
+		id = REA_throne_of_the_vine_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_defenders_of_the_green_lands
+		}
+		x = 28
+		y = 17
+
+	}
+	focus = {
+		id = REA_grain_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = REA_strength_of_the_mander
+		}
+		x = 24
+		y = 17
 
 	}
 }

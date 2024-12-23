@@ -7,13 +7,13 @@ focus_tree = {
 			tag = WSL
 		}
 	}
-	continuous_focus_position = { x = 1100 y = 1000 }
+	continuous_focus_position = { x = 1100 y = 1400 }
 	default = no
 	focus = {
 		id = WSL_light_of_the_west
 		icon = GFX_goal_unknown
 		cost = 0
-		x = 21
+		x = 18
 		y = 0
 
 	}
@@ -26,24 +26,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = WSL_sentinels_of_the_westerlands
-		icon = GFX_goal_unknown
-		cost = 0
-		mutually_exclusive = {
-			focus = WSL_heart_of_the_pride
-		}
-		x = 48
-		y = 1
-
-	}
-	focus = {
 		id = WSL_guardians_of_the_realm
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
 			focus = WSL_light_of_the_west
 		}
-		x = 12
+		x = 13
 		y = 1
 
 	}
@@ -54,8 +43,19 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_guardians_of_the_realm
 		}
-		x = 10
+		x = 9
 		y = 2
+
+	}
+	focus = {
+		id = WSL_guardians_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_noble_hearts
+		}
+		x = 8
+		y = 4
 
 	}
 	focus = {
@@ -65,8 +65,22 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_guardians_of_the_realm
 		}
-		x = 12
+		x = 11
 		y = 2
+
+	}
+	focus = {
+		id = WSL_march_of_the_golden_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_steadfast_in_stone
+		}
+		prerequisite = {
+			focus = WSL_noble_hearts
+		}
+		x = 10
+		y = 3
 
 	}
 	focus = {
@@ -79,7 +93,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_noble_hearts
 		}
-		x = 11
+		x = 10
 		y = 4
 
 	}
@@ -93,7 +107,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = WSL_victory_in_unity
 		}
-		x = 10
+		x = 9
 		y = 5
 
 	}
@@ -107,8 +121,78 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = WSL_shining_helm
 		}
-		x = 12
+		x = 11
 		y = 5
+
+	}
+	focus = {
+		id = WSL_fortress_of_iron_and_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_victory_in_unity
+			focus = WSL_shining_helm
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = WSL_banner_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_victory_in_unity
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = WSL_defenders_of_the_mountain_passes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shining_helm
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = WSL_legacy_of_the_silver_sword
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_banner_of_the_west
+		}
+		prerequisite = {
+			focus = WSL_defenders_of_the_mountain_passes
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = WSL_iron_and_gold
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_steadfast_in_stone
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = WSL_throne_of_the_hills
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_victory_in_unity
+		}
+		x = 12
+		y = 6
 
 	}
 	focus = {
@@ -142,6 +226,17 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
+
+	}
+	focus = {
+		id = WSL_glory_of_the_western_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_lion’s_proclamation
+		}
+		x = 13
+		y = 5
 
 	}
 	focus = {
@@ -209,6 +304,39 @@ focus_tree = {
 
 	}
 	focus = {
+		id = WSL_sentinel_of_the_cliffs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_duty_to_the_realm
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = WSL_ironhold_dominion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sons_of_the_west
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = WSL_golden_throne_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_duty_to_the_realm
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
 		id = WSL_bastion_of_honor
 		icon = GFX_goal_unknown
 		cost = 0
@@ -261,6 +389,28 @@ focus_tree = {
 		}
 		x = 20
 		y = 5
+
+	}
+	focus = {
+		id = WSL_honor_in_the_stone
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_wrath_of_the_lions
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = WSL_cliffside_sentinels
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_wrath_of_the_lions
+		}
+		x = 21
+		y = 6
 
 	}
 	focus = {
@@ -347,6 +497,18 @@ focus_tree = {
 
 	}
 	focus = {
+		id = WSL_might_of_the_hillkings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_strength_in_unity
+			focus = WSL_defenders_of_the_west
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
 		id = WSL_sword_of_the_west
 		icon = GFX_goal_unknown
 		cost = 0
@@ -361,20 +523,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = WSL_vow_of_the_west
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = WSL_sword_of_the_west
-		}
-		mutually_exclusive = {
-			focus = WSL_honor_bound
-		}
-		x = 21
-		y = 7
-
-	}
-	focus = {
 		id = WSL_honor_bound
 		icon = GFX_goal_unknown
 		cost = 0
@@ -385,6 +533,20 @@ focus_tree = {
 			focus = WSL_vow_of_the_west
 		}
 		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = WSL_vow_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_sword_of_the_west
+		}
+		mutually_exclusive = {
+			focus = WSL_honor_bound
+		}
+		x = 21
 		y = 7
 
 	}
@@ -472,32 +634,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = WSL_shield_of_the_westerlands
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = WSL_honor_bound
-		}
-		mutually_exclusive = {
-			focus = WSL_pillars_of_gold
-			focus = WSL_blood_of_the_west
-		}
-		x = 27
-		y = 8
-
-	}
-	focus = {
-		id = WSL_path_of_the_lions
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = WSL_shield_of_the_westerlands
-		}
-		x = 27
-		y = 9
-
-	}
-	focus = {
 		id = WSL_warrior_kings
 		icon = GFX_goal_unknown
 		cost = 0
@@ -534,6 +670,18 @@ focus_tree = {
 		}
 		x = 28
 		y = 5
+
+	}
+	focus = {
+		id = WSL_tower_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_forge_of_heroes
+			focus = WSL_blood_and_gold
+		}
+		x = 27
+		y = 6
 
 	}
 	focus = {
@@ -775,6 +923,31 @@ focus_tree = {
 
 	}
 	focus = {
+		id = WSL_iron_harvest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_legacy_of_steel
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = WSL_sentinels_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_unyielding_guardians
+		}
+		mutually_exclusive = {
+			focus = WSL_heart_of_the_pride
+		}
+		x = 48
+		y = 1
+
+	}
+	focus = {
 		id = WSL_pride_of_the_mountain
 		icon = GFX_goal_unknown
 		cost = 0
@@ -798,6 +971,29 @@ focus_tree = {
 		}
 		x = 43
 		y = 4
+
+	}
+	focus = {
+		id = WSL_golden_wardens
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_eternal_guardians
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = WSL_watchers_of_the_golden_pass
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_golden_wardens
+			focus = WSL_iron_harvest
+		}
+		x = 42
+		y = 6
 
 	}
 	focus = {
@@ -885,16 +1081,28 @@ focus_tree = {
 
 	}
 	focus = {
+		id = WSL_throne_and_mines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shieldbearers_of_the_realm
+			focus = WSL_iron_in_the_blood
+		}
+		x = 48
+		y = 6
+
+	}
+	focus = {
 		id = WSL_stalwart_defenders
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WSL_eternal_guardians
-			focus = WSL_legacy_of_steel
 			focus = WSL_iron_in_the_blood
+			focus = WSL_golden_wardens
 			focus = WSL_shieldbearers_of_the_realm
+			focus = WSL_iron_harvest
 		}
-		x = 44
+		x = 45
 		y = 6
 
 	}
@@ -908,7 +1116,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = WSL_path_to_glory
 		}
-		x = 43
+		x = 44
 		y = 7
 
 	}
@@ -922,19 +1130,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = WSL_glory_in_unity
 		}
-		x = 42
+		x = 43
 		y = 8
-
-	}
-	focus = {
-		id = WSL_defenders_of_the_crown
-		icon = GFX_goal_unknown
-		cost = 0
-		prerequisite = {
-			focus = WSL_golden_fortress
-		}
-		x = 41
-		y = 9
 
 	}
 	focus = {
@@ -947,7 +1144,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = WSL_honor_of_the_pride
 		}
-		x = 45
+		x = 46
 		y = 7
 
 	}
@@ -961,7 +1158,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = WSL_glory_in_unity
 		}
-		x = 46
+		x = 47
 		y = 8
 
 	}
@@ -973,6 +1170,43 @@ focus_tree = {
 			focus = WSL_lion’s_justice
 		}
 		x = 48
+		y = 9
+
+	}
+	focus = {
+		id = WSL_shield_of_the_westerlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_honor_bound
+		}
+		mutually_exclusive = {
+			focus = WSL_pillars_of_gold
+			focus = WSL_blood_of_the_west
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = WSL_path_of_the_lions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shield_of_the_westerlands
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = WSL_defenders_of_the_crown
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_golden_fortress
+		}
+		x = 42
 		y = 9
 
 	}
@@ -1229,8 +1463,9 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_crown_of_the_pride
 			focus = WSL_knights_of_the_west
-			focus = WSL_swords_of_the_realm
 			focus = WSL_might_of_the_mountains
+			focus = WSL_walls_of_the_lion’s_throne
+			focus = WSL_spear_of_the_west
 		}
 		x = 36
 		y = 11
@@ -1254,7 +1489,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_unyielding_will
 		}
-		x = 34
+		x = 33
 		y = 13
 
 	}
@@ -1285,10 +1520,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WSL_unyielding_will
+			focus = WSL_glory_in_battle
 		}
-		x = 37
-		y = 15
+		x = 36
+		y = 14
 
 	}
 	focus = {
@@ -1309,8 +1544,8 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_dominion_of_the_west
 		}
-		x = 36
-		y = 16
+		x = 35
+		y = 15
 
 	}
 	focus = {
@@ -1320,8 +1555,8 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_dominion_of_the_west
 		}
-		x = 38
-		y = 16
+		x = 37
+		y = 15
 
 	}
 	focus = {
@@ -1329,10 +1564,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
+			focus = WSL_foundations_of_the_throne
+		}
+		prerequisite = {
 			focus = WSL_shieldwall_of_the_pride
 		}
 		x = 36
-		y = 17
+		y = 16
 
 	}
 	focus = {
@@ -1342,7 +1580,7 @@ focus_tree = {
 		prerequisite = {
 			focus = WSL_path_of_honor
 		}
-		x = 39
+		x = 38
 		y = 14
 
 	}
@@ -1358,7 +1596,7 @@ focus_tree = {
 			focus = WSL_lion’s_justice
 			focus = WSL_golden_fortress
 		}
-		x = 44
+		x = 45
 		y = 8
 
 	}
@@ -1367,10 +1605,9 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WSL_glory_in_unity
 			focus = WSL_golden_fortress
 		}
-		x = 43
+		x = 44
 		y = 9
 
 	}
@@ -1390,11 +1627,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WSL_lion’s_justice
-			focus = WSL_glory_in_unity
-			focus = WSL_golden_fortress
+			focus = WSL_blades_of_the_realm
+			focus = WSL_defenders_of_the_crown
 		}
-		x = 44
+		x = 43
 		y = 10
 
 	}
@@ -1404,8 +1640,9 @@ focus_tree = {
 		cost = 0
 		prerequisite = {
 			focus = WSL_rising_roar
+			focus = WSL_guardians_of_the_peaks
 		}
-		x = 46
+		x = 47
 		y = 10
 
 	}
@@ -1418,6 +1655,128 @@ focus_tree = {
 		}
 		x = 50
 		y = 4
+
+	}
+	focus = {
+		id = WSL_lions_in_armor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_shining_helm
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = WSL_honorbound_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fortress_of_the_lion
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = WSL_roar_of_the_highlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_duty_to_the_realm
+			focus = WSL_fortress_of_the_lion
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = WSL_hammer_of_the_west
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_fortress_of_the_lion
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = WSL_walls_of_the_lion’s_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_glory_in_unity
+		}
+		x = 45
+		y = 10
+
+	}
+	focus = {
+		id = WSL_blood_of_the_western_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_spear_of_the_west
+		}
+		x = 46
+		y = 11
+
+	}
+	focus = {
+		id = WSL_armor_of_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_might_of_the_mountains
+		}
+		x = 44
+		y = 11
+
+	}
+	focus = {
+		id = WSL_fortified_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_path_of_honor
+		}
+		x = 39
+		y = 16
+
+	}
+	focus = {
+		id = WSL_lords_of_the_gilded_banners
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_roar_of_resolve
+		}
+		x = 33
+		y = 16
+
+	}
+	focus = {
+		id = WSL_warriors_of_the_iron_peaks 
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_roar_of_resolve
+		}
+		x = 32
+		y = 15
+
+	}
+	focus = {
+		id = WSL_lionhearted_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WSL_path_of_honor
+		}
+		x = 40
+		y = 15
 
 	}
 }
