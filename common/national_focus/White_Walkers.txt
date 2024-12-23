@@ -1154,6 +1154,7 @@ focus_tree = {
 		cost = 0
 		prerequisite = {
 			focus = WHW_soulforge_of_permafrost
+			focus = WHW_nightfall_harbingers
 		}
 		mutually_exclusive = {
 			focus = WHW_sovereignty_of_ice
@@ -1167,7 +1168,6 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_soulforge_of_permafrost
 			focus = WHW_the_night_king's_mark
 			focus = WHW_nightfall_harbingers
 		}
@@ -1184,8 +1184,8 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = WHW_the_night_king's_mark
 			focus = WHW_echoes_of_the_first_men
+			focus = WHW_the_night_king's_mark
 		}
 		mutually_exclusive = {
 			focus = WHW_sovereignty_of_ice

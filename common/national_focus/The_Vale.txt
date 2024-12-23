@@ -1,0 +1,1350 @@
+focus_tree = {
+	id = The_Vale
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VAL
+		}
+	}
+    continuous_focus_position = { x = 3300 y = 1800 }
+	default = no
+	focus = {
+		id = VAL_shield_of_the_eagle
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 37
+		y = 0
+
+	}
+	focus = {
+		id = VAL_sentinel_of_the_vale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_shield_of_the_eagle
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = VAL_path_of_the_eagle_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_sentinel_of_the_vale
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = VAL_blood_and_cliffs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_path_of_the_eagle_lords
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = VAL_march_of_the_eagle_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_and_cliffs
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = VAL_valiant_lords_of_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_and_cliffs
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = VAL_winds_of_the_eagle_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_and_cliffs
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = VAL_frost_and_cliffside_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_and_cliffs
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = VAL_watch_on_the_stony_heights
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_path_of_the_eagle_lords
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = VAL_skyward_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watch_on_the_stony_heights
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = VAL_talons_of_the_valiant
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watch_on_the_stony_heights
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = VAL_legacy_of_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watch_on_the_stony_heights
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = VAL_fortress_in_the_mist
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watch_on_the_stony_heights
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = VAL_bastion_of_the_skyborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_fortress_in_the_mist
+		}
+		prerequisite = {
+			focus = VAL_legacy_of_the_peaks
+		}
+		prerequisite = {
+			focus = VAL_talons_of_the_valiant
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = VAL_heirs_of_the_airy_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_bastion_of_the_skyborn
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = VAL_ironclad_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_heirs_of_the_airy_throne
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = VAL_throne_above_the_mortal_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_heirs_of_the_airy_throne
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = VAL_eaglewatch_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_above_the_mortal_realm
+		}
+		prerequisite = {
+			focus = VAL_ironclad_peaks
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = VAL_peaks_of_undaunted_courage
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_bastion_of_the_skyborn
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = VAL_eagles_of_eternity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watch_on_the_stony_heights
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = VAL_defenders_of_the_eastern_marches
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_bastion_of_the_skyborn
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = VAL_watchers_of_the_mountain_pass
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_shield_of_the_eagle
+		}
+		x = 33
+		y = 1
+
+	}
+	focus = {
+		id = VAL_honor_in_the_highlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_path_of_the_eagle_lords
+		}
+		mutually_exclusive = {
+			focus = VAL_banners_of_the_airy_throne
+		}
+		x = 36
+		y = 5
+
+	}
+	focus = {
+		id = VAL_throne_of_the_skies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_shield_of_the_eagle
+		}
+		x = 35
+		y = 1
+
+	}
+	focus = {
+		id = VAL_mountain_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_sentinel_of_the_vale
+		}
+		x = 49
+		y = 4
+
+	}
+	focus = {
+		id = VAL_banners_of_the_airy_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_throne
+		}
+		mutually_exclusive = {
+			focus = VAL_honor_in_the_highlands
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = VAL_pride_of_the_eagle_eyrie
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_honor_in_the_highlands
+			focus = VAL_banners_of_the_airy_throne
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = VAL_legacy_of_the_eagle_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_honor_in_the_highlands
+			focus = VAL_banners_of_the_airy_throne
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = VAL_fortress_in_the_clouds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_honor_in_the_highlands
+			focus = VAL_banners_of_the_airy_throne
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = VAL_guardians_of_the_airy_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_shield_of_the_eagle
+		}
+		x = 39
+		y = 1
+
+	}
+	focus = {
+		id = VAL_iron_in_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_honor_in_the_highlands
+			focus = VAL_banners_of_the_airy_throne
+		}
+		x = 39
+		y = 6
+
+	}
+	focus = {
+		id = VAL_cliffside_guardians
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_banners_of_the_airy_throne
+			focus = VAL_honor_in_the_highlands
+		}
+		x = 41
+		y = 6
+
+	}
+	focus = {
+		id = VAL_blood_of_the_high_pass
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_iron_in_the_peaks
+		}
+		prerequisite = {
+			focus = VAL_cliffside_guardians
+		}
+		x = 39
+		y = 7
+
+	}
+	focus = {
+		id = VAL_guardians_of_the_skyrealm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_cliffside_guardians
+		}
+		prerequisite = {
+			focus = VAL_iron_in_the_peaks
+		}
+		x = 41
+		y = 7
+
+	}
+	focus = {
+		id = VAL_heights_of_eternity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_of_the_high_pass
+		}
+		prerequisite = {
+			focus = VAL_guardians_of_the_skyrealm
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = VAL_throne_of_the_valiant
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_guardians_of_the_skyrealm
+		}
+		prerequisite = {
+			focus = VAL_blood_of_the_high_pass
+		}
+		x = 41
+		y = 8
+
+	}
+	focus = {
+		id = VAL_peaks_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_of_the_valiant
+		}
+		prerequisite = {
+			focus = VAL_heights_of_eternity
+		}
+		x = 40
+		y = 9
+
+	}
+	focus = {
+		id = VAL_eagle’s_roar
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_shield_of_the_eagle
+		}
+		x = 41
+		y = 1
+
+	}
+	focus = {
+		id = VAL_airy_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_throne
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = VAL_winds_of_the_high_king
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_airy_honor
+		}
+		x = 45
+		y = 6
+
+	}
+	focus = {
+		id = VAL_throne_in_the_mist
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_airy_honor
+		}
+		x = 47
+		y = 6
+
+	}
+	focus = {
+		id = VAL_skybound_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_in_the_mist
+		}
+		prerequisite = {
+			focus = VAL_winds_of_the_high_king
+		}
+		x = 45
+		y = 7
+
+	}
+	focus = {
+		id = VAL_banners_in_the_fog
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_winds_of_the_high_king
+		}
+		prerequisite = {
+			focus = VAL_throne_in_the_mist
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = VAL_crown_of_the_cliffs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_banners_in_the_fog
+		}
+		prerequisite = {
+			focus = VAL_skybound_watch
+		}
+		x = 46
+		y = 8
+
+	}
+	focus = {
+		id = VAL_eagle_lords_ascend
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_crown_of_the_cliffs
+		}
+		x = 45
+		y = 9
+
+	}
+	focus = {
+		id = VAL_legion_of_the_sky_bastion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_airy_honor
+		}
+		x = 49
+		y = 6
+
+	}
+	focus = {
+		id = VAL_iron_watch_of_the_vale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_legion_of_the_sky_bastion
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = VAL_glory_in_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_iron_watch_of_the_vale
+		}
+		x = 49
+		y = 8
+
+	}
+	focus = {
+		id = VAL_watchers_of_the_clouds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_crown_of_the_cliffs
+		}
+		prerequisite = {
+			focus = VAL_glory_in_the_peaks
+		}
+		x = 47
+		y = 9
+
+	}
+	focus = {
+		id = VAL_winds_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_glory_in_the_peaks
+		}
+		x = 49
+		y = 9
+
+	}
+	focus = {
+		id = VAL_iron_bastion_of_the_vale
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_airy_honor
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = VAL_highland_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_airy_honor
+		}
+		x = 53
+		y = 6
+
+	}
+	focus = {
+		id = VAL_crown_of_the_mountain_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_highland_warriors
+		}
+		prerequisite = {
+			focus = VAL_iron_bastion_of_the_vale
+		}
+		x = 51
+		y = 7
+
+	}
+	focus = {
+		id = VAL_peaks_and_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_highland_warriors
+		}
+		prerequisite = {
+			focus = VAL_iron_bastion_of_the_vale
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = VAL_blood_in_the_valleys
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_peaks_and_pride
+		}
+		prerequisite = {
+			focus = VAL_crown_of_the_mountain_lords
+		}
+		x = 52
+		y = 8
+
+	}
+	focus = {
+		id = VAL_eternal_sky_guard
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_in_the_valleys
+		}
+		prerequisite = {
+			focus = VAL_glory_in_the_peaks
+		}
+		x = 51
+		y = 9
+
+	}
+	focus = {
+		id = VAL_throne_of_the_high_eagles
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_in_the_valleys
+		}
+		x = 53
+		y = 9
+
+	}
+	focus = {
+		id = VAL_throne_above_the_stormclouds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_throne
+		}
+		x = 60
+		y = 5
+
+	}
+	focus = {
+		id = VAL_watchful_winds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_above_the_stormclouds
+		}
+		x = 57
+		y = 6
+
+	}
+	focus = {
+		id = VAL_eternal_eagle_watch
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watchful_winds
+		}
+		x = 55
+		y = 7
+
+	}
+	focus = {
+		id = VAL_throne_of_the_cloudbound_kings
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_above_the_stormclouds
+		}
+		x = 59
+		y = 6
+
+	}
+	focus = {
+		id = VAL_iron_and_sky
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_of_the_cloudbound_kings
+		}
+		prerequisite = {
+			focus = VAL_watchful_winds
+		}
+		mutually_exclusive = {
+			focus = VAL_mountain_sentinels
+		}
+		x = 57
+		y = 7
+
+	}
+	focus = {
+		id = VAL_mountain_sentinels
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_of_the_cloudbound_kings
+		}
+		prerequisite = {
+			focus = VAL_watchful_winds
+		}
+		mutually_exclusive = {
+			focus = VAL_iron_and_sky
+		}
+		x = 59
+		y = 7
+
+	}
+	focus = {
+		id = VAL_legacy_of_the_skyguard
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_sentinels
+			focus = VAL_iron_and_sky
+		}
+		x = 57
+		y = 8
+
+	}
+	focus = {
+		id = VAL_watchers_of_the_fogbound_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_iron_and_sky
+			focus = VAL_mountain_sentinels
+		}
+		mutually_exclusive = {
+			focus = VAL_windswept_throne
+		}
+		x = 59
+		y = 8
+
+	}
+	focus = {
+		id = VAL_crown_of_the_windy_cliffs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_above_the_stormclouds
+		}
+		x = 61
+		y = 6
+
+	}
+	focus = {
+		id = VAL_warriors_of_the_airy_halls
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_above_the_stormclouds
+		}
+		x = 63
+		y = 6
+
+	}
+	focus = {
+		id = VAL_eagle’s_call_to_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_crown_of_the_windy_cliffs
+		}
+		prerequisite = {
+			focus = VAL_warriors_of_the_airy_halls
+		}
+		mutually_exclusive = {
+			focus = VAL_banners_of_the_mountain_legion
+		}
+		x = 61
+		y = 7
+
+	}
+	focus = {
+		id = VAL_banners_of_the_mountain_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_warriors_of_the_airy_halls
+		}
+		prerequisite = {
+			focus = VAL_crown_of_the_windy_cliffs
+		}
+		mutually_exclusive = {
+			focus = VAL_eagle’s_call_to_war
+		}
+		x = 63
+		y = 7
+
+	}
+	focus = {
+		id = VAL_windswept_throne
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_banners_of_the_mountain_legion
+			focus = VAL_eagle’s_call_to_war
+		}
+		mutually_exclusive = {
+			focus = VAL_watchers_of_the_fogbound_peaks
+		}
+		x = 61
+		y = 8
+
+	}
+	focus = {
+		id = VAL_skyforge_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watchers_of_the_fogbound_peaks
+			focus = VAL_windswept_throne
+		}
+		x = 57
+		y = 9
+
+	}
+	focus = {
+		id = VAL_bastion_in_the_frosty_sky
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watchers_of_the_fogbound_peaks
+			focus = VAL_windswept_throne
+		}
+		x = 59
+		y = 9
+
+	}
+	focus = {
+		id = VAL_warriors_of_the_cliffborn_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_windswept_throne
+			focus = VAL_watchers_of_the_fogbound_peaks
+		}
+		x = 61
+		y = 9
+
+	}
+	focus = {
+		id = VAL_watchers_in_the_windy_shroud
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_bastion_in_the_frosty_sky
+			focus = VAL_warriors_of_the_cliffborn_realm
+		}
+		x = 58
+		y = 10
+
+	}
+	focus = {
+		id = VAL_iron_peaks_ascend
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_warriors_of_the_cliffborn_realm
+			focus = VAL_bastion_in_the_frosty_sky
+		}
+		x = 60
+		y = 10
+
+	}
+	focus = {
+		id = VAL_blood_of_the_valiant_eaglesunknown
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_warriors_of_the_cliffborn_realm
+			focus = VAL_bastion_in_the_frosty_sky
+		}
+		x = 62
+		y = 10
+
+	}
+	focus = {
+		id = VAL_valor_and_skyward_promise
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_banners_of_the_mountain_legion
+			focus = VAL_eagle’s_call_to_war
+		}
+		x = 63
+		y = 8
+
+	}
+	focus = {
+		id = VAL_eagles_of_the_cliffkeep
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_windswept_throne
+			focus = VAL_watchers_of_the_fogbound_peaks
+		}
+		x = 63
+		y = 9
+
+	}
+	focus = {
+		id = VAL_swords_in_the_clouds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_pride_of_the_eagle_eyrie
+		}
+		prerequisite = {
+			focus = VAL_legacy_of_the_eagle_kings
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = VAL_throne_above_the_valleys
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_swords_in_the_clouds
+		}
+		prerequisite = {
+			focus = VAL_watchers_in_the_veil
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = VAL_watchers_in_the_veil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_legacy_of_the_eagle_kings
+		}
+		prerequisite = {
+			focus = VAL_pride_of_the_eagle_eyrie
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = VAL_sentinels_of_the_windy_heights
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_watchers_in_the_veil
+		}
+		prerequisite = {
+			focus = VAL_swords_in_the_clouds
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = VAL_defenders_of_the_valley
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_sentinels_of_the_windy_heights
+		}
+		prerequisite = {
+			focus = VAL_throne_above_the_valleys
+		}
+		x = 34
+		y = 9
+
+	}
+	focus = {
+		id = VAL_fortress_of_the_eagle_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_bastion
+		}
+		prerequisite = {
+			focus = VAL_defenders_of_the_valley
+		}
+		x = 35
+		y = 10
+
+	}
+	focus = {
+		id = VAL_rise_of_the_airy_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_bastion
+		}
+		x = 37
+		y = 10
+
+	}
+	focus = {
+		id = VAL_eagle’s_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_mountain_bastion
+		}
+		prerequisite = {
+			focus = VAL_peaks_of_honor
+		}
+		x = 39
+		y = 10
+
+	}
+	focus = {
+		id = VAL_mountain_bastion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_cliffside_dominion
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = VAL_valiant_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_fortress_in_the_clouds
+		}
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = VAL_cliffside_dominion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_valiant_legion
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = VAL_wings_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_bastion_of_the_skyborn
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = VAL_skybound_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_bastion_of_the_skyborn
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = VAL_towers_of_the_skyward_valley
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_heirs_of_the_airy_throne
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = VAL_cliffside_sentience
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_ironclad_peaks
+		}
+		prerequisite = {
+			focus = VAL_towers_of_the_skyward_valley
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = VAL_roar_of_the_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_eaglewatch_legion
+		}
+		prerequisite = {
+			focus = VAL_cliffside_sentience
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = VAL_guardians_of_the_northern_spires
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_warriors_of_the_airy_halls
+		}
+		x = 65
+		y = 7
+
+	}
+	focus = {
+		id = VAL_peaks_of_the_honorbound_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_frost_and_cliffside_honor
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = VAL_cliffs_and_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_blood_and_cliffs
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = VAL_bastion_of_the_cliffborn_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_march_of_the_eagle_legion
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = VAL_eternal_watch_of_the_high_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_of_unyielding_peaks
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = VAL_skyward_bastion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_eagle’s_vigil
+		}
+		prerequisite = {
+			focus = VAL_eternal_watch_of_the_high_peaks
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = VAL_eagle’s_vigil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_throne_of_unyielding_peaks
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = VAL_throne_of_unyielding_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_cliffs_and_glory
+		}
+		prerequisite = {
+			focus = VAL_valiant_lords_of_the_peaks
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = VAL_glory_in_the_mountain_pass
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_winds_of_the_eagle_throne
+		}
+		prerequisite = {
+			focus = VAL_cliffs_and_glory
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = VAL_warriors_of_the_high_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_glory_in_the_mountain_pass
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = VAL_guardians_of_the_valiant_heights
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_sentinel_of_the_white_peaks
+		}
+		prerequisite = {
+			focus = VAL_warriors_of_the_high_realm
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = VAL_sentinel_of_the_white_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_glory_in_the_mountain_pass
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = VAL_windswept_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_guardians_of_the_valiant_heights
+		}
+		prerequisite = {
+			focus = VAL_skyward_bastion
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = VAL_keepers_of_the_frosted_valley
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_windswept_defenders
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = VAL_watchers_of_the_skybound_path
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = VAL_windswept_defenders
+		}
+		x = 12
+		y = 11
+
+	}
+}
