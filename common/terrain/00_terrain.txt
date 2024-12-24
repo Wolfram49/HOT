@@ -201,7 +201,37 @@ categories =  {
 		movement_cost = 1.0
 		is_water = yes
 		sound_type = sea
-	
+		
+		caravel = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
+		carrack = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
+		galley = {
+			units = {
+				attack = 0.1
+				movement = 0.1
+				defence = 0.1
+			}
+		}
+		longship = {
+			units = {
+				attack = 0.15
+				movement = 0.15
+				defence = 0.15
+			}
+		}
 
 		navy_visibility = -0.2
 		positioning = -0.15
@@ -214,6 +244,20 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 		
+		galley = {
+			units = {
+				attack = 0.15
+				movement = 0.15
+				defence = 0.15
+			}
+		}
+		longship = {
+			units = {
+				attack = 0.05
+				movement = 0.05
+				defence = 0.05
+			}
+		}
 		positioning = -0.05
 	}
 	
@@ -224,6 +268,20 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 		
+		longship = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+		}
+		galley = {
+			units = {
+				attack = -0.25
+				movement = -0.25
+				defence = -0.25
+			}
+		}
 	}
 }
 	
