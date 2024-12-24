@@ -7,6 +7,1376 @@ focus_tree = {
 			tag = WIL
 		}
 	}
-	continuous_focus_position = { x = 1 y = 1 }
+	continuous_focus_position = { x = 5800 y = 400 }
 	default = no
+	focus = {
+		id = WIL_call_of_the_frozen_north
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 33
+		y = 0
+
+	}
+	focus = {
+		id = WIL_throne_of_unbroken_wills
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = WIL_unbroken_spirits_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 51
+		y = 0
+
+	}
+	focus = {
+		id = WIL_banners_of_the_northbound_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_unbroken_wills
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = WIL_guardians_of_the_frostfall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_banners_of_the_northbound_clans
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = WIL_keepers_of_the_wild_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_banners_of_the_northbound_clans
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = WIL_honor_in_the_freezing_gales
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_keepers_of_the_wild_legacy
+		}
+		prerequisite = {
+			focus = WIL_guardians_of_the_frostfall
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = WIL_blood_and_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_call_of_the_frozen_north
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = WIL_fury_of_the_horned_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_and_frost
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = WIL_defenders_of_the_wild_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_and_frost
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = WIL_legends_of_the_frostlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_defenders_of_the_wild_realm
+		}
+		prerequisite = {
+			focus = WIL_fury_of_the_horned_lords
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = WIL_iron_in_the_tundra
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_unbroken_wills
+		}
+		mutually_exclusive = {
+			focus = WIL_blood_on_the_frozen_ground
+		}
+		x = 30
+		y = 8
+
+	}
+	focus = {
+		id = WIL_blood_on_the_frozen_ground
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_unbroken_wills
+		}
+		mutually_exclusive = {
+			focus = WIL_iron_in_the_tundra
+		}
+		x = 36
+		y = 8
+
+	}
+	focus = {
+		id = WIL_fire_and_ice_unite
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_iron_in_the_tundra
+			focus = WIL_blood_on_the_frozen_ground
+		}
+		x = 29
+		y = 9
+
+	}
+	focus = {
+		id = WIL_legends_of_the_snowfields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_fire_and_ice_unite
+		}
+		prerequisite = {
+			focus = WIL_keepers_of_the_wild_legacy
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
+		id = WIL_ironborn_in_the_white_wilds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_legends_of_the_snowfields
+		}
+		prerequisite = {
+			focus = WIL_honor_in_the_freezing_gales
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = WIL_keepers_of_the_ancient_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_ironborn_in_the_white_wilds
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = WIL_warriors_of_the_wild_horizon
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_keepers_of_the_ancient_fire
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = WIL_claws_in_the_whiteness
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_warriors_of_the_wild_horizon
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = WIL_defiance_in_the_icefields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_keepers_of_the_ancient_fire
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = {
+		id = WIL_sentinels_of_the_north’s_edge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_fire_and_ice_unite
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = WIL_howl_of_the_free_folk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_on_the_frozen_ground
+			focus = WIL_iron_in_the_tundra
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = WIL_throne_of_the_unbowed
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_howl_of_the_free_folk
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = WIL_hearts_of_the_free_folk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_call_of_the_frozen_north
+		}
+		x = 33
+		y = 1
+
+	}
+	focus = {
+		id = WIL_warriors_of_the_frozen_waste
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_hearts_of_the_free_folk
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = WIL_banners_in_the_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_warriors_of_the_frozen_waste
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = WIL_throne_of_the_iceborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_hearts_of_the_free_folk
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = WIL_sentinels_of_the_ice_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_the_iceborn
+		}
+		prerequisite = {
+			focus = WIL_warriors_of_the_frozen_waste
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = WIL_unyielding_spirits
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_sentinels_of_the_ice_wall
+		}
+		prerequisite = {
+			focus = WIL_banners_in_the_snow
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = WIL_winds_of_the_freeborn_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_the_iceborn
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = WIL_path_of_the_icebreaker
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winds_of_the_freeborn_clans
+		}
+		prerequisite = {
+			focus = WIL_sentinels_of_the_ice_wall
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = WIL_wolfblood_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_path_of_the_icebreaker
+		}
+		prerequisite = {
+			focus = WIL_unyielding_spirits
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = WIL_fury_in_the_white_winds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_on_the_frozen_ground
+			focus = WIL_iron_in_the_tundra
+		}
+		x = 35
+		y = 9
+
+	}
+	focus = {
+		id = WIL_keepers_of_the_old_songs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_on_the_frozen_ground
+			focus = WIL_iron_in_the_tundra
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = WIL_masters_of_the_frostborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_keepers_of_the_old_songs
+		}
+		x = 36
+		y = 10
+
+	}
+	focus = {
+		id = WIL_bastion_of_the_wildlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_masters_of_the_frostborn
+		}
+		x = 35
+		y = 11
+
+	}
+	focus = {
+		id = WIL_wrath_of_the_untamed
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_call_of_the_frozen_north
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = WIL_honor_of_the_unyielding_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wrath_of_the_untamed
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = WIL_frostbound_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_keepers_of_the_old_songs
+		}
+		x = 37
+		y = 11
+
+	}
+	focus = {
+		id = WIL_songs_of_the_free_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wrath_of_the_untamed
+		}
+		x = 39
+		y = 2
+
+	}
+	focus = {
+		id = WIL_keepers_of_the_giant’s_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_songs_of_the_free_north
+		}
+		prerequisite = {
+			focus = WIL_honor_of_the_unyielding_clans
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = WIL_eternal_warriors_of_the_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_unbroken_wills
+		}
+		x = 40
+		y = 8
+
+	}
+	focus = {
+		id = WIL_path_of_the_trueborn_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_eternal_warriors_of_the_winter
+		}
+		x = 39
+		y = 9
+
+	}
+	focus = {
+		id = WIL_winds_of_the_unbroken_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_path_of_the_trueborn_north
+		}
+		prerequisite = {
+			focus = WIL_keepers_of_the_old_songs
+		}
+		x = 38
+		y = 10
+
+	}
+	focus = {
+		id = WIL_throne_of_the_untamed_hearts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_eternal_warriors_of_the_winter
+		}
+		x = 41
+		y = 9
+
+	}
+	focus = {
+		id = WIL_roar_of_the_frost_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_the_untamed_hearts
+		}
+		prerequisite = {
+			focus = WIL_path_of_the_trueborn_north
+		}
+		x = 40
+		y = 10
+
+	}
+	focus = {
+		id = WIL_courage_in_the_icy_valleys
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winds_of_the_unbroken_clans
+		}
+		prerequisite = {
+			focus = WIL_roar_of_the_frost_clans
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = WIL_heirs_of_the_great_beyond
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_courage_in_the_icy_valleys
+		}
+		x = 41
+		y = 12
+
+	}
+	focus = {
+		id = WIL_throne_of_frost_and_fire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_heirs_of_the_great_beyond
+		}
+		x = 40
+		y = 13
+
+	}
+	focus = {
+		id = WIL_howl_of_the_windwalkers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_frost_and_fire
+		}
+		x = 39
+		y = 14
+
+	}
+	focus = {
+		id = WIL_glory_of_the_untamed_hearts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_howl_of_the_windwalkers
+		}
+		x = 40
+		y = 15
+
+	}
+	focus = {
+		id = WIL_blood_of_the_true_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_heirs_of_the_great_beyond
+		}
+		x = 42
+		y = 13
+
+	}
+	focus = {
+		id = WIL_frozen_chains_broken
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_of_the_true_north
+			focus = WIL_throne_of_frost_and_fire
+		}
+		x = 41
+		y = 14
+
+	}
+	focus = {
+		id = WIL_wrath_of_the_winterborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_of_the_true_north
+		}
+		x = 43
+		y = 14
+
+	}
+	focus = {
+		id = WIL_guardians_of_the_endless_waste
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wrath_of_the_winterborn
+		}
+		prerequisite = {
+			focus = WIL_frozen_chains_broken
+		}
+		x = 42
+		y = 15
+
+	}
+	focus = {
+		id = WIL_stormwalkers_ascend
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_guardians_of_the_endless_waste
+		}
+		prerequisite = {
+			focus = WIL_glory_of_the_untamed_hearts
+		}
+		x = 41
+		y = 16
+
+	}
+	focus = {
+		id = WIL_guardians_of_the_frost_heart
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_unbroken_spirits_of_the_north
+		}
+		x = 49
+		y = 1
+
+	}
+	focus = {
+		id = WIL_winterborn_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_guardians_of_the_frost_heart
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = WIL_throne_of_eternal_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winterborn_legends
+		}
+		mutually_exclusive = {
+			focus = WIL_voices_of_the_northern_fury
+		}
+		x = 47
+		y = 3
+
+	}
+	focus = {
+		id = WIL_watchers_of_the_glacial_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_eternal_winter
+		}
+		x = 47
+		y = 4
+
+	}
+	focus = {
+		id = WIL_courage_in_the_frostfire
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_guardians_of_the_frost_heart
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = WIL_voices_of_the_northern_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winterborn_legends
+		}
+		prerequisite = {
+			focus = WIL_courage_in_the_frostfire
+		}
+		mutually_exclusive = {
+			focus = WIL_throne_of_eternal_winter
+		}
+		x = 49
+		y = 3
+
+	}
+	focus = {
+		id = WIL_savage_pact_of_the_freeborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_voices_of_the_northern_fury
+		}
+		x = 49
+		y = 4
+
+	}
+	focus = {
+		id = WIL_honor_of_the_icebound_legions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_savage_pact_of_the_freeborn
+			focus = WIL_watchers_of_the_glacial_peaks
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = WIL_howl_of_the_untamed_pack
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_honor_of_the_icebound_legions
+		}
+		prerequisite = {
+			focus = WIL_watchers_of_the_glacial_peaks
+		}
+		mutually_exclusive = {
+			focus = WIL_shield_of_the_frozen_peaks
+		}
+		x = 46
+		y = 6
+
+	}
+	focus = {
+		id = WIL_spirits_of_the_northern_veil
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_howl_of_the_untamed_pack
+		}
+		x = 45
+		y = 7
+
+	}
+	focus = {
+		id = WIL_shield_of_the_frozen_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_honor_of_the_icebound_legions
+		}
+		prerequisite = {
+			focus = WIL_savage_pact_of_the_freeborn
+		}
+		mutually_exclusive = {
+			focus = WIL_howl_of_the_untamed_pack
+		}
+		x = 50
+		y = 6
+
+	}
+	focus = {
+		id = WIL_throne_of_snow_and_shadows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_shield_of_the_frozen_peaks
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = WIL_wrath_of_the_snow_wolves
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_snow_and_shadows
+		}
+		x = 49
+		y = 8
+
+	}
+	focus = {
+		id = WIL_songs_of_the_snowbound_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_unbroken_spirits_of_the_north
+		}
+		x = 51
+		y = 1
+
+	}
+	focus = {
+		id = WIL_march_of_the_unconquered_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_courage_in_the_frostfire
+		}
+		x = 51
+		y = 3
+
+	}
+	focus = {
+		id = WIL_defenders_of_the_snowclad_lands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_shield_of_the_frozen_peaks
+		}
+		x = 51
+		y = 7
+
+	}
+	focus = {
+		id = WIL_wildfire_in_the_white
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_defenders_of_the_snowclad_lands
+		}
+		x = 51
+		y = 8
+
+	}
+	focus = {
+		id = WIL_legends_of_the_frozen_heart
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wildfire_in_the_white
+		}
+		prerequisite = {
+			focus = WIL_wrath_of_the_snow_wolves
+		}
+		x = 50
+		y = 9
+
+	}
+	focus = {
+		id = WIL_banners_of_the_wild_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_songs_of_the_snowbound_clans
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = WIL_guardians_of_the_untouched_land
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_banners_of_the_wild_honor
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = WIL_frozen_wolf_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_march_of_the_unconquered_clans
+		}
+		prerequisite = {
+			focus = WIL_guardians_of_the_untouched_land
+		}
+		x = 52
+		y = 4
+
+	}
+	focus = {
+		id = WIL_honor_of_the_northbound_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_frozen_wolf_lords
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = WIL_blood_beyond_the_wall
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_unbroken_spirits_of_the_north
+		}
+		x = 54
+		y = 1
+
+	}
+	focus = {
+		id = WIL_ironwill_of_the_unforgiving_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_beyond_the_wall
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = WIL_throne_of_icy_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_ironwill_of_the_unforgiving_clans
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = WIL_wrath_of_the_mountain_free
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_icy_glory
+		}
+		prerequisite = {
+			focus = WIL_ironwill_of_the_unforgiving_clans
+		}
+		x = 55
+		y = 4
+
+	}
+	focus = {
+		id = WIL_defiance_of_the_white_wasteland
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wrath_of_the_mountain_free
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = WIL_path_of_the_ancient_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_defiance_of_the_white_wasteland
+		}
+		x = 55
+		y = 6
+
+	}
+	focus = {
+		id = WIL_march_of_the_snowborn
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wolfblood_legion
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = WIL_claws_of_the_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_blood_on_the_frozen_ground
+			focus = WIL_iron_in_the_tundra
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
+		id = WIL_wrath_of_the_untamed_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_the_unbowed
+		}
+		x = 31
+		y = 11
+
+	}
+	focus = {
+		id = WIL_watchers_of_the_tundra_edge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wrath_of_the_untamed_winter
+		}
+		prerequisite = {
+			focus = WIL_claws_of_the_north
+		}
+		prerequisite = {
+			focus = WIL_bastion_of_the_wildlands
+		}
+		x = 33
+		y = 12
+
+	}
+	focus = {
+		id = WIL_voices_of_the_ancient_forest
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_watchers_of_the_tundra_edge
+		}
+		x = 34
+		y = 13
+
+	}
+	focus = {
+		id = WIL_spirits_of_the_frozen_peaks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_watchers_of_the_tundra_edge
+		}
+		x = 32
+		y = 13
+
+	}
+	focus = {
+		id = WIL_honor_of_the_white_stags
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_voices_of_the_ancient_forest
+		}
+		prerequisite = {
+			focus = WIL_spirits_of_the_frozen_peaks
+		}
+		x = 33
+		y = 14
+
+	}
+	focus = {
+		id = WIL_blood_of_the_north’s_pride
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winds_of_the_unbroken_clans
+		}
+		prerequisite = {
+			focus = WIL_frostbound_legends
+		}
+		x = 38
+		y = 12
+
+	}
+	focus = {
+		id = WIL_savagery_in_the_storm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_legends_of_the_snowfields
+		}
+		prerequisite = {
+			focus = WIL_sentinels_of_the_north’s_edge
+		}
+		x = 28
+		y = 12
+
+	}
+	focus = {
+		id = WIL_winter’s_chosen
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_defiance_in_the_icefields
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = {
+		id = WIL_banners_of_the_eternal_snow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_defiance_in_the_icefields
+			focus = WIL_warriors_of_the_wild_horizon
+		}
+		x = 25
+		y = 14
+
+	}
+	focus = {
+		id = WIL_voice_of_the_unbound_winter
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winter’s_chosen
+		}
+		x = 26
+		y = 15
+
+	}
+	focus = {
+		id = WIL_frostwalkers_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_claws_in_the_whiteness
+		}
+		prerequisite = {
+			focus = WIL_banners_of_the_eternal_snow
+		}
+		x = 24
+		y = 15
+
+	}
+	focus = {
+		id = WIL_sentinels_of_the_glacial_edge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_voice_of_the_unbound_winter
+		}
+		prerequisite = {
+			focus = WIL_frostwalkers_legacy
+		}
+		x = 25
+		y = 16
+
+	}
+	focus = {
+		id = WIL_spirits_of_the_winter_trees
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_honor_of_the_white_stags
+		}
+		x = 31
+		y = 15
+
+	}
+	focus = {
+		id = WIL_path_of_the_unchained_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_honor_of_the_white_stags
+		}
+		x = 35
+		y = 15
+
+	}
+	focus = {
+		id = WIL_iron_in_the_white_winds
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_spirits_of_the_winter_trees
+		}
+		x = 30
+		y = 16
+
+	}
+	focus = {
+		id = WIL_roar_of_the_northern_legions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_spirits_of_the_winter_trees
+		}
+		x = 32
+		y = 16
+
+	}
+	focus = {
+		id = WIL_throne_of_frozen_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_path_of_the_unchained_clans
+		}
+		x = 34
+		y = 16
+
+	}
+	focus = {
+		id = WIL_wrath_of_the_old_ways
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_path_of_the_unchained_clans
+		}
+		x = 36
+		y = 16
+
+	}
+	focus = {
+		id = WIL_watchers_of_the_icy_void
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_throne_of_frozen_fury
+		}
+		prerequisite = {
+			focus = WIL_roar_of_the_northern_legions
+		}
+		x = 33
+		y = 17
+
+	}
+	focus = {
+		id = WIL_wolves_of_the_tundra
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_iron_in_the_white_winds
+		}
+		prerequisite = {
+			focus = WIL_roar_of_the_northern_legions
+		}
+		x = 31
+		y = 17
+
+	}
+	focus = {
+		id = WIL_firekeepers_of_the_white_north
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_watchers_of_the_icy_void
+		}
+		prerequisite = {
+			focus = WIL_wolves_of_the_tundra
+		}
+		prerequisite = {
+			focus = WIL_frostbanners_rising
+		}
+		x = 33
+		y = 18
+
+	}
+	focus = {
+		id = WIL_frostbanners_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_wrath_of_the_old_ways
+		}
+		prerequisite = {
+			focus = WIL_throne_of_frozen_fury
+		}
+		x = 35
+		y = 17
+
+	}
+	focus = {
+		id = WIL_courage_in_the_frostbite
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_howl_of_the_untamed_pack
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = WIL_unchained_bloodlines
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_courage_in_the_frostbite
+		}
+		x = 47
+		y = 8
+
+	}
+	focus = {
+		id = WIL_clans_of_the_untamed_frost
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_spirits_of_the_northern_veil
+		}
+		x = 45
+		y = 8
+
+	}
+	focus = {
+		id = WIL_winds_of_the_eternal_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_unchained_bloodlines
+		}
+		prerequisite = {
+			focus = WIL_clans_of_the_untamed_frost
+		}
+		x = 46
+		y = 9
+
+	}
+	focus = {
+		id = WIL_guardians_of_the_winterborn_lands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_legends_of_the_frozen_heart
+		}
+		x = 50
+		y = 10
+
+	}
+	focus = {
+		id = WIL_roar_of_the_glacial_legion
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = WIL_winds_of_the_eternal_clans
+		}
+		x = 46
+		y = 10
+
+	}
 }
