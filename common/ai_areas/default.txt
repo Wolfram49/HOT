@@ -1,0 +1,37 @@
+areas = {
+    far_north = {
+		strategic_regions = {
+			2
+			3
+        }
+	}
+	north = {
+		strategic_regions = {
+			4
+        }
+	}
+	western_reach = {
+		strategic_regions = {
+			10
+			9
+        }
+	}
+	eastern_rocks = {
+		strategic_regions = {
+			5
+			7
+			8
+        }
+	}
+	iron_isles = {
+		strategic_regions = {
+			6
+        }
+	}
+	south_lands = {
+		strategic_regions = {
+			11
+        }
+	}
+}
+

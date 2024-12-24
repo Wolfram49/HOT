@@ -1,7 +1,6 @@
 continents = {
 	far_north
 	north
-	middle_lands
 	western_reach
 	eastern_rocks
 	iron_isles
