@@ -6,17 +6,56 @@ strategic_region={
 	}
 	weather={
 		period={
-			between={ 0.0 30.11 }
-			temperature={ -50.0 -4.0 }
-			no_phenomenon=1.500
-			rain_light=0.250
-			rain_heavy=0.100
-			snow=1.000
-			blizzard=0.000
-			arctic_water=0.000
+			between={ 0.0 23.1 }
+			temperature={ -25.0 -10.0 }
+			no_phenomenon=1.000
+			rain_light=0.000
+			rain_heavy=0.000
+			snow=0.800
+			blizzard=0.150
+			arctic_water=1.000
 			mud=0.000
 			sandstorm=0.000
-			min_snow_level=1.000
+			min_snow_level=0.700
+		}
+		period={
+			between={ 23.1 27.4 }
+			temperature={ -20.0 5.0 }
+			no_phenomenon=1.000
+			rain_light=0.000
+			rain_heavy=0.000
+			snow=0.600
+			blizzard=0.000
+			arctic_water=0.800
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.500
+		}
+		period={
+			between={ 27.4 30.7 }
+			temperature={ -10.0 0.0 }
+			no_phenomenon=1.000
+			rain_light=0.050
+			rain_heavy=0.000
+			snow=0.300
+			blizzard=0.000
+			arctic_water=1.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.250
+		}
+		period={
+			between={ 0.8 30.11 }
+			temperature={ -15.0 -5.0 }
+			no_phenomenon=1.000
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			arctic_water=0.500
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.400
 		}
 	}
 }
