@@ -1,0 +1,1281 @@
+focus_tree = {
+	id = Riverlands
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RIL
+		}
+	}
+    continuous_focus_position = { x = 1800 y = 1000 }
+	default = no
+	focus = {
+		id = RIL_heart_of_the_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = RIL_pact_of_the_water_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		mutually_exclusive = {
+			focus = RIL_sentinels_of_the_rivers
+		}
+		x = 34
+		y = 0
+
+	}
+	focus = {
+		id = RIL_sentinels_of_the_rivers
+		icon = GFX_goal_unknown
+		cost = 0
+		mutually_exclusive = {
+			focus = RIL_pact_of_the_water_lords
+		}
+		x = 52
+		y = 0
+
+	}
+	focus = {
+		id = RIL_stormborn_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_heart_of_the_trident
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = RIL_currents_of_strength
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_stormborn_defenders
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = RIL_tales_of_the_trident_warriors
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_stormborn_defenders
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = RIL_tides_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tales_of_the_trident_warriors
+			focus = RIL_currents_of_strength
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = RIL_unite_the_riverlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_heart_of_the_trident
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = RIL_tides_of_resilience
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_unite_the_riverlords
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = RIL_legacy_of_riverrun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tides_of_resilience
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = RIL_fury_of_the_ford
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tides_of_resilience
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = RIL_banners_of_the_riverlords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fury_of_the_ford
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = RIL_wars_of_the_ford
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_banners_of_the_riverlords
+		}
+		prerequisite = {
+			focus = RIL_tides_of_honor
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = RIL_bridge_of_alliances
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tides_of_resilience
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = RIL_watchers_of_the_crossing
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bridge_of_alliances
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = RIL_alliance_with_the_river_clans
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_watchers_of_the_crossing
+			focus = RIL_banners_of_the_riverlords
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = RIL_fortify_the_red_fork
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_heart_of_the_trident
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = RIL_echoes_of_the_blackfish
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fortify_the_red_fork
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = RIL_oaths_by_the_water
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fortify_the_red_fork
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = RIL_guardians_of_the_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_oaths_by_the_water
+			focus = RIL_echoes_of_the_blackfish
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = RIL_shields_of_the_riverlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_banners_of_the_riverlords
+		}
+		prerequisite = {
+			focus = RIL_guardians_of_the_trident
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = RIL_strongholds_in_the_streams
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_pact_of_the_water_lords
+		}
+		mutually_exclusive = {
+			focus = RIL_roar_of_the_trident_legions
+		}
+		x = 30
+		y = 1
+
+	}
+	focus = {
+		id = RIL_lords_of_the_current
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_strongholds_in_the_streams
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = RIL_blood_on_the_rivers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_strongholds_in_the_streams
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = RIL_alliance_of_the_fords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_lords_of_the_current
+			focus = RIL_blood_on_the_rivers
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = RIL_swords_by_the_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_alliance_of_the_fords
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = RIL_fury_of_the_floating_banners
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_strongholds_in_the_streams
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = RIL_blood_and_water
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_blood_on_the_rivers
+			focus = RIL_fury_of_the_floating_banners
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = RIL_fortify_the_rivers_fury
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_blood_and_water
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = RIL_strength_of_the_riverlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fortify_the_rivers_fury
+		}
+		prerequisite = {
+			focus = RIL_swords_by_the_trident
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = RIL_call_of_the_trident_banner
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_strength_of_the_riverlands
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = RIL_defenders_of_the_rising_tide
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_call_of_the_trident_banner
+		}
+		x = 30
+		y = 8
+
+	}
+	focus = {
+		id = RIL_rivers_run_red
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_defenders_of_the_rising_tide
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = RIL_roar_of_the_trident_legions
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_pact_of_the_water_lords
+		}
+		mutually_exclusive = {
+			focus = RIL_strongholds_in_the_streams
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = RIL_iron_in_the_tides
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_roar_of_the_trident_legions
+			focus = RIL_strongholds_in_the_streams
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = RIL_whispers_of_the_river_songs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_iron_in_the_tides
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = RIL_vengeance_by_the_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_whispers_of_the_river_songs
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = RIL_watchers_of_the_bridge
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_iron_in_the_tides
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = RIL_unite_the_waterways
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_watchers_of_the_bridge
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = RIL_bastion_of_the_trident_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_unite_the_waterways
+			focus = RIL_vengeance_by_the_trident
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = RIL_tides_of_vengeance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bastion_of_the_trident_lords
+		}
+		mutually_exclusive = {
+			focus = RIL_rivers_of_unity
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = RIL_bridge_of_fortunes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_roar_of_the_trident_legions
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = RIL_rivers_of_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bastion_of_the_trident_lords
+		}
+		mutually_exclusive = {
+			focus = RIL_tides_of_vengeance
+		}
+		x = 36
+		y = 6
+
+	}
+	focus = {
+		id = RIL_guardians_of_the_waterways
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_roar_of_the_trident_legions
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = RIL_bastions_in_the_stream
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_guardians_of_the_waterways
+			focus = RIL_bridge_of_fortunes
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = RIL_twin_rivers_united
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bastions_in_the_stream
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = RIL_storms_across_the_fords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_roar_of_the_trident_legions
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = RIL_flows_of_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_storms_across_the_fords
+			focus = RIL_guardians_of_the_waterways
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = RIL_currents_of_resistance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_flows_of_honor
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = RIL_bridge_to_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_currents_of_resistance
+		}
+		prerequisite = {
+			focus = RIL_twin_rivers_united
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = RIL_shields_in_the_flood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bridge_to_victory
+		}
+		x = 39
+		y = 7
+
+	}
+	focus = {
+		id = RIL_currents_of_loyalty
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_sentinels_of_the_rivers
+		}
+		mutually_exclusive = {
+			focus = RIL_fortress_of_riverrun
+		}
+		x = 48
+		y = 1
+
+	}
+	focus = {
+		id = RIL_lords_of_the_water_fortress
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_currents_of_loyalty
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = RIL_watchers_of_the_red_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_lords_of_the_water_fortress
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = RIL_keepers_of_the_river_forts
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_watchers_of_the_red_trident
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = RIL_bridge_of_eternal_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_watchers_of_the_red_trident
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = RIL_defiance_in_the_tides
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_lords_of_the_water_fortress
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = RIL_iron_watch_on_the_rivers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_defiance_in_the_tides
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = RIL_storms_across_the_waterways
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_iron_watch_on_the_rivers
+			focus = RIL_bridge_of_eternal_honor
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = RIL_stronghold_on_the_twin_forks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_storms_across_the_waterways
+		}
+		x = 48
+		y = 6
+
+	}
+	focus = {
+		id = RIL_echoes_of_the_river_knights
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_storms_across_the_waterways
+		}
+		x = 50
+		y = 6
+
+	}
+	focus = {
+		id = RIL_bridge_to_the_future
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_echoes_of_the_river_knights
+			focus = RIL_stronghold_on_the_twin_forks
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = RIL_legends_of_the_trident_shores
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bridge_to_the_future
+		}
+		x = 50
+		y = 8
+
+	}
+	focus = {
+		id = RIL_fortress_of_riverrun
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_sentinels_of_the_rivers
+		}
+		mutually_exclusive = {
+			focus = RIL_currents_of_loyalty
+		}
+		x = 56
+		y = 1
+
+	}
+	focus = {
+		id = RIL_tides_turning_in_our_favor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fortress_of_riverrun
+			focus = RIL_currents_of_loyalty
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = RIL_bridge_of_fortified_unity
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tides_turning_in_our_favor
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = RIL_stand_tall_in_the_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bridge_of_fortified_unity
+		}
+		x = 52
+		y = 7
+
+	}
+	focus = {
+		id = RIL_tales_of_the_river_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_stand_tall_in_the_trident
+		}
+		x = 52
+		y = 9
+
+	}
+	focus = {
+		id = RIL_honor_in_the_twin_forks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fortress_of_riverrun
+		}
+		x = 56
+		y = 2
+
+	}
+	focus = {
+		id = RIL_rising_tides_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_honor_in_the_twin_forks
+		}
+		x = 54
+		y = 3
+
+	}
+	focus = {
+		id = RIL_flooded_fields_of_glory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_rising_tides_of_power
+		}
+		x = 54
+		y = 4
+
+	}
+	focus = {
+		id = RIL_vengeance_of_the_fords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_honor_in_the_twin_forks
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = RIL_oaths_forged_in_water
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_vengeance_of_the_fords
+		}
+		x = 56
+		y = 4
+
+	}
+	focus = {
+		id = RIL_tides_of_steel_and_blood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_oaths_forged_in_water
+			focus = RIL_flooded_fields_of_glory
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = RIL_tides_of_alliance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tides_of_steel_and_blood
+		}
+		x = 54
+		y = 6
+
+	}
+	focus = {
+		id = RIL_honor_across_the_currents
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tides_of_steel_and_blood
+		}
+		x = 56
+		y = 6
+
+	}
+	focus = {
+		id = RIL_wardens_of_the_riverlands
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_honor_across_the_currents
+			focus = RIL_tides_of_alliance
+		}
+		x = 55
+		y = 7
+
+	}
+	focus = {
+		id = RIL_flows_of_riverborn_strength
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_wardens_of_the_riverlands
+		}
+		x = 56
+		y = 8
+
+	}
+	focus = {
+		id = RIL_unbroken_currents
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_vengeance_of_the_fords
+		}
+		x = 58
+		y = 4
+
+	}
+	focus = {
+		id = RIL_fury_of_the_flooded_fields
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_unbroken_currents
+		}
+		x = 58
+		y = 5
+
+	}
+	focus = {
+		id = RIL_stand_tall_in_the_flood
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_legacy_of_riverrun
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = RIL_defenders_of_the_twin_forks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_stand_tall_in_the_flood
+			focus = RIL_banners_of_the_riverlords
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = RIL_wrath_of_the_river_knights
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_alliance_with_the_river_clans
+		}
+		prerequisite = {
+			focus = RIL_defenders_of_the_twin_forks
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = RIL_stormborn_river_defenders
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_rivers_of_unity
+			focus = RIL_tides_of_vengeance
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = RIL_tridents_united_in_steel
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_keepers_of_the_river_forts
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = RIL_sentinels_of_the_floodplains
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_tridents_united_in_steel
+		}
+		x = 45
+		y = 6
+
+	}
+	focus = {
+		id = RIL_pact_of_the_waterborne_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_sentinels_of_the_floodplains
+		}
+		x = 45
+		y = 7
+
+	}
+	focus = {
+		id = RIL_shores_of_eternal_victory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_fury_of_the_flooded_fields
+		}
+		x = 59
+		y = 6
+
+	}
+	focus = {
+		id = RIL_twin_forks_unyielding
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_shores_of_eternal_victory
+		}
+		x = 59
+		y = 7
+
+	}
+	focus = {
+		id = RIL_whispers_of_the_trident_legacy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_pact_of_the_waterborne_lords
+		}
+		x = 46
+		y = 8
+
+	}
+	focus = {
+		id = RIL_bloodied_waters_of_the_trident
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_twin_forks_unyielding
+		}
+		x = 58
+		y = 8
+
+	}
+	focus = {
+		id = RIL_unite_the_river_fortresses
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_banners_unbroken_by_the_tides
+		}
+		prerequisite = {
+			focus = RIL_whispers_of_the_trident_legacy
+		}
+		x = 47
+		y = 9
+
+	}
+	focus = {
+		id = RIL_defend_the_bridge_lords
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bloodied_waters_of_the_trident
+		}
+		prerequisite = {
+			focus = RIL_flows_of_riverborn_strength
+		}
+		x = 57
+		y = 9
+
+	}
+	focus = {
+		id = RIL_currents_of_battle
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_unite_the_river_fortresses
+			focus = RIL_swords_in_the_river_mist
+		}
+		mutually_exclusive = {
+			focus = RIL_trident_banner_rising
+		}
+		x = 48
+		y = 10
+
+	}
+	focus = {
+		id = RIL_trident_banner_rising
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_swords_in_the_river_mist
+			focus = RIL_unite_the_river_fortresses
+		}
+		mutually_exclusive = {
+			focus = RIL_currents_of_battle
+		}
+		x = 50
+		y = 10
+
+	}
+	focus = {
+		id = RIL_fords_of_resistance
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_defend_the_bridge_lords
+			focus = RIL_defenders_of_the_ebb_and_flow
+		}
+		mutually_exclusive = {
+			focus = RIL_fury_in_the_shallows
+		}
+		x = 56
+		y = 10
+
+	}
+	focus = {
+		id = RIL_fury_in_the_shallows
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_defenders_of_the_ebb_and_flow
+			focus = RIL_defend_the_bridge_lords
+		}
+		mutually_exclusive = {
+			focus = RIL_fords_of_resistance
+		}
+		x = 54
+		y = 10
+
+	}
+	focus = {
+		id = RIL_defenders_of_the_ebb_and_flow
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_flows_of_riverborn_strength
+		}
+		prerequisite = {
+			focus = RIL_iron_in_the_twin_currents
+		}
+		x = 55
+		y = 9
+
+	}
+	focus = {
+		id = RIL_swords_in_the_river_mist
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_legends_of_the_trident_shores
+		}
+		prerequisite = {
+			focus = RIL_banners_unbroken_by_the_tides
+		}
+		x = 49
+		y = 9
+
+	}
+	focus = {
+		id = RIL_banners_unbroken_by_the_tides
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_bridge_to_the_future
+		}
+		x = 48
+		y = 8
+
+	}
+	focus = {
+		id = RIL_iron_in_the_twin_currents
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_wardens_of_the_riverlands
+		}
+		x = 54
+		y = 8
+
+	}
+	focus = {
+		id = RIL_floodgates_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_shields_in_the_flood
+		}
+		x = 38
+		y = 8
+
+	}
+	focus = {
+		id = RIL_blood_of_the_trident_legends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_stormborn_river_defenders
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = RIL_currents_of_iron_and_honor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_stormborn_river_defenders
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = RIL_watchers_at_the_fork
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_floodgates_of_power
+		}
+		x = 37
+		y = 9
+
+	}
+	focus = {
+		id = RIL_pillars_of_the_trident_realm
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_watchers_at_the_fork
+		}
+		mutually_exclusive = {
+			focus = unknown
+		}
+		x = 35
+		y = 10
+
+	}
+	focus = {
+		id = unknown
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_rivers_run_red
+		}
+		mutually_exclusive = {
+			focus = RIL_pillars_of_the_trident_realm
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
+		id = RIL_bridge_of_the_blood_oath
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = RIL_blood_of_the_trident_legends
+			focus = RIL_currents_of_iron_and_honor
+		}
+		x = 34
+		y = 9
+
+	}
+}
