@@ -3,11 +3,29 @@
 
 lotr_apply_race_modifier = {
 	if = {
-		limit = { is_men = yes }
-		add_ideas = idea_race_men_modifier
+		limit = { is_andals = yes }
+		add_ideas = idea_race_andals_modifier
+	}
+	else_if = {
+		limit = { is_rhoynar = yes }
+		add_ideas = idea_race_rhoynar_modifier
 	}
 	else_if = {
 		limit = { is_other = yes }
 		add_ideas = idea_race_other_modifier
+	}
+	else_if = {
+		limit = { is_ironborn = yes }
+		add_ideas = idea_race_ironborn_modifier
+	}
+
+	else_if = {
+		limit = { is_first_people = yes }
+		add_ideas = idea_race_first_people_modifier
+	}
+
+	else_if = {
+		limit = { is_free_folk = yes }
+		add_ideas = idea_race_free_folk_modifier
 	}
 }

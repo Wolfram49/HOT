@@ -2,48 +2,100 @@ is_other = {
 	custom_trigger_tooltip = {
 		tooltip = "is Other"
 		OR = {
+			original_tag = WHW
 		}
 	}
 }
 
 is_other_init = {
 	OR = {
+		original_tag = WHW
 	}
 }
 
-is_men = {
+is_andals = {
 	custom_trigger_tooltip = {
-		tooltip = "is Men"
+		tooltip = "is Andals"
+		OR = {
+			original_tag = WSL
+			original_tag = REA
+			original_tag = VAL
+			original_tag = STL
+			original_tag = RIL
+			original_tag = CRL
+		}
+	}
+}
+
+is_andals_init = {
+	OR = {
+		original_tag = WSL
+		original_tag = REA
+		original_tag = VAL
+		original_tag = STL
+		original_tag = RIL
+		original_tag = CRL
+	}
+}
+
+is_rhoynar = {
+	custom_trigger_tooltip = {
+		tooltip = "is Rhoynar"
+		OR = {
+			original_tag = DOR
+		}
+	}
+}
+
+is_rhoynar_init = {
+	OR = {
+		original_tag = DOR
+	}
+}
+
+is_ironborn = {
+	custom_trigger_tooltip = {
+		tooltip = "is Ironborn"
+		OR = {
+			original_tag = IRI
+		}
+	}
+}
+
+is_ironborn_init = {
+	OR = {
+		original_tag = IRI
+	}
+}
+
+is_first_people = {
+	custom_trigger_tooltip = {
+		tooltip = "is First People"
 		OR = {
 			original_tag = NRT
-			original_tag = RIL
-			original_tag = WHW
 			original_tag = NSW
-			original_tag = VAL
-			original_tag = WSL
-			original_tag = STL
-			original_tag = DOR
-			original_tag = IRI
-			original_tag = REA
-			original_tag = CRL 
+		}
+	}
+}
+
+is_first_people_init = {
+	OR = {
+		original_tag = NRT
+		original_tag = NSW
+	}
+}
+
+is_free_folk = {
+	custom_trigger_tooltip = {
+		tooltip = "is Free Folk"
+		OR = {
 			original_tag = WIL
 		}
 	}
 }
 
-is_men_init = {
+is_free_folk_init = {
 	OR = {
-			original_tag = NRT
-			original_tag = RIL
-			original_tag = WHW
-			original_tag = NSW
-			original_tag = VAL
-			original_tag = WSL
-			original_tag = STL
-			original_tag = DOR
-			original_tag = IRI
-			original_tag = REA
-			original_tag = CRL
-			original_tag = WIL
+		original_tag = WIL
 	}
 }

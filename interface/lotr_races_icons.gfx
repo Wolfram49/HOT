@@ -2,13 +2,33 @@ spriteTypes = {
 
 
     SpriteType = {
-        name = "GFX_race_men"
-        texturefile = "gfx/interface/ideologies/race_icons/race_men.dds"
+        name = "GFX_race_andals"
+        texturefile = "gfx/interface/ideologies/race_icons/race_andals.dds"
     }
 
     SpriteType = {
         name = "GFX_race_other"
         texturefile = "gfx/interface/ideologies/race_icons/race_other.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_race_rhoynar"
+        texturefile = "gfx/interface/ideologies/race_icons/race_rhoynar.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_race_ironborn"
+        texturefile = "gfx/interface/ideologies/race_icons/race_ironborn.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_race_first_people"
+        texturefile = "gfx/interface/ideologies/race_icons/race_first_people.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_race_free_folk"
+        texturefile = "gfx/interface/ideologies/race_icons/race_free_folk.dds"
     }
 
 

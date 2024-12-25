@@ -8,9 +8,23 @@ ideas = {
 
 	hidden_ideas = {
 
-		idea_race_men_modifier = {
+		idea_race_andals_modifier = {
 			cancel = {
-			    NOT = { is_men = yes }
+			    NOT = { is_andals = yes }
+			}
+
+			on_remove = {
+                lotr_apply_race_modifier = yes
+            }
+
+			modifier = {
+				
+			}			
+		}
+
+		idea_race_rhoynar_modifier = {
+			cancel = {
+			    NOT = { is_rhoynar = yes }
 			}
 
 			on_remove = {
@@ -26,6 +40,47 @@ ideas = {
 		idea_race_other_modifier = {
 			cancel = {
 			    NOT = { is_other = yes }
+			}
+
+			on_remove = {
+                lotr_apply_race_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_race_ironborn_modifier = {
+			cancel = {
+			    NOT = { is_ironborn = yes }
+			}
+
+			on_remove = {
+                lotr_apply_race_modifier = yes
+            }
+
+			modifier = {
+
+			}			
+		}
+
+		idea_race_first_people_modifier = {
+			cancel = {
+			    NOT = { is_first_people = yes }
+			}
+
+			on_remove = {
+                lotr_apply_race_modifier = yes
+            }
+
+			modifier = {
+			}			
+		}
+
+		idea_race_free_folk_modifier = {
+			cancel = {
+			    NOT = { is_free_folk = yes }
 			}
 
 			on_remove = {

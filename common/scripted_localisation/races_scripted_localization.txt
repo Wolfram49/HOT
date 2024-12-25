@@ -9,9 +9,33 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			is_men = yes
+			is_andals = yes
 		}
-		localization_key = race_men
+		localization_key = race_andals
+	}
+	text = {
+		trigger = {
+			is_rhoynar = yes
+		}
+		localization_key = race_rhoynar
+	}
+	text = {
+		trigger = {
+			is_ironborn = yes
+		}
+		localization_key = race_ironborn
+	}
+	text = {
+		trigger = {
+			is_first_people = yes
+		}
+		localization_key = race_first_people
+	}
+	text = {
+		trigger = {
+			is_free_folk = yes
+		}
+		localization_key = race_free_folk
 	}
 }
 # ICON
@@ -20,9 +44,15 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			is_men = yes
+			is_andals = yes
 		}
-		localization_key = "GFX_race_men"
+		localization_key = "GFX_race_andals"
+	}
+		text = {
+		trigger = {
+			is_rhoynar = yes
+		}
+		localization_key = "GFX_race_rhoynar"
 	}
 	text = {
 		trigger = {
@@ -30,21 +60,63 @@ defined_text = {
 		}
 		localization_key = "GFX_race_other"
 	}
+	text = {
+		trigger = {
+			is_ironborn = yes
+		}
+		localization_key = "GFX_race_ironborn"
+	}
+	text = {
+		trigger = {
+			is_first_people = yes
+		}
+		localization_key = "GFX_race_first_people"
+	}
+	text = {
+		trigger = {
+			is_free_folk = yes
+		}
+		localization_key = "GFX_race_free_folk"
+	}
 }
 defined_text = {
 	name = GetCountryRaceModifier
 	
 	text = {
 		trigger = {
-			is_men = yes
+			is_andals = yes
 		}
-		localization_key = "race_men_modifier"
+		localization_key = "race_andals_modifier"
+	}
+		text = {
+		trigger = {
+			is_rhoynar = yes
+		}
+		localization_key = "race_rhoynar_modifier"
 	}
 	text = {
 		trigger = {
 			is_other = yes
 		}
 		localization_key = "race_other_modifier"
+	}
+	text = {
+		trigger = {
+			is_ironborn = yes
+		}
+		localization_key = "race_ironborn_modifier"
+	}
+	text = {
+		trigger = {
+			is_first_people = yes
+		}
+		localization_key = "race_first_people_modifier"
+	}
+	text = {
+		trigger = {
+			is_free_folk = yes
+		}
+		localization_key = "race_free_folk_modifier"
 	}
 }
 
