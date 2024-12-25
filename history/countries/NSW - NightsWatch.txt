@@ -19,11 +19,11 @@ if = {
 recruit_character = NSW_jeor_mormont#
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 }
 set_popularities = {
-	neutrality = 70
-	democratic = 30
+	neutrality = 30
+	democratic = 70
 	communism = 0
 	fascism = 0
 }

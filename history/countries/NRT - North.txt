@@ -19,11 +19,11 @@ if = {
 recruit_character = NRT_eddard_stark#
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 }
 set_popularities = {
-	neutrality = 55
-	democratic = 35
+	neutrality = 35
+	democratic = 55
 	communism = 10
 	fascism = 0
 }

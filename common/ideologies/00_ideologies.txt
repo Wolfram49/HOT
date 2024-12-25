@@ -11,33 +11,30 @@ ideologies = {
 
 			}
 
-			stark_house = {
-
-			}
-
-			mormont_house = {
-
-			}
-		}
-
-		dynamic_faction_names = {
-
 		}
 
 		color = { 93 173 226 }
 
 		rules = {
-
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
 		}
 
 
 
 		modifiers = {
-
-		}
-
-		faction_modifiers = {
-
+			political_power_gain = 0.15
+			justify_war_goal_time = -0.5
+			industrial_capacity_dockyard = -0.6
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
+			war_support_weekly = 0.02
+			industrial_capacity_factory = 0.1
 		}
 
 	}
@@ -45,6 +42,13 @@ ideologies = {
 	democratic = {
 
 		types = {
+			stark_house = {
+
+			}
+
+			mormont_house = {
+
+			}
 			tully_house = {
 
 			}
@@ -53,19 +57,14 @@ ideologies = {
 
 			}
 
-			baratheon_house = {
-
-			}
-
 			lannister_house = {
 
 			}
 
-			tyrell_house = {
+			greyjoy_house = {
 
 			}
-
-			greyjoy_house = {
+			baratheon_house = {
 
 			}
 		}
@@ -77,13 +76,26 @@ ideologies = {
 		color = { 255 215 0 }
 
 		rules = {
-
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
 		}
 
 
 
 		modifiers = {
-
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.05
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.15
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.02
+			research_speed_factor = 0.02
 		}
 
 		faction_modifiers = {
@@ -106,13 +118,27 @@ ideologies = {
 		color = { 231 76 60 }
 
 		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
 
 		}
 
 
 
 		modifiers = {
-
+			drift_defence_factor = 0.3
+			defensive_war_stability_factor = 0.1
+			offensive_war_stability_factor = 0.1
+			political_power_gain = 0.15
+			scientist_breakthrough_bonus_factor = 0.2
+			scientist_xp_gain_factor = 0.02
+			scientist_research_bonus_factor = 0.10
+			resistance_target = -0.4
+			starting_compliance = 0.2
 		}
 
 		faction_modifiers = {
@@ -125,8 +151,12 @@ ideologies = {
 		types = {
 			martell_house = {
 				
+		}
+			tyrell_house = {
+
 			}
 		}
+	
 
 		dynamic_faction_names = {
 
@@ -135,13 +165,25 @@ ideologies = {
 		color = { 243 156 18 }
 
 		rules = {
-
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = no
 		}
 
 
 
 		modifiers = {
-
+			trade_opinion_factor = 0.3
+			defensive_war_stability_factor = 0.15
+			party_popularity_stability_factor = 0.05
+			political_power_gain = 0.05
+			production_lack_of_resource_penalty_factor = -0.10
+			land_doctrine_cost_factor = -0.05
+			acclimatization_cold_climate_gain_factor = -1.0
 		}
 
 		faction_modifiers = {

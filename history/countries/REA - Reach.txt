@@ -18,11 +18,11 @@ if = {
 recruit_character = REA_mace_tyrell#
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 }
 set_popularities = {
 	neutrality = 20
-	democratic = 60
+	democratic = 15
 	communism = 5
-	fascism = 15
+	fascism = 60
 }
