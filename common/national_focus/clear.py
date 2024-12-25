@@ -1,28 +1,31 @@
+import os
 import re
 
-def increment_x_values(file_content, increment):
-    def replace_x(match):
-
-        current_value = int(match.group(1))
-
-        new_value = current_value + increment
-        return f"x = {new_value}"
-
-    updated_content = re.sub(r"x\s*=\s*(\d+)", replace_x, file_content)
-    return updated_content
+def add_owner_after_provinces(directory, owner="WST"):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".txt"):
+                file_path = os.path.join(root, file)
+                with open(file_path, "r+", encoding="utf-8") as f:
+                    content = f.read()
 
 
-input_file = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/common/national_focus/Wildlings.txt"
-output_file = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/common/national_focus/Wildlings_updated.txt"
+                    provinces_pattern = r"(provinces=\{\s*[\s\S]*?\})"
+                    if "owner" not in content and re.search(provinces_pattern, content):
 
-increment_amount = 20
+                        updated_content = re.sub(
+                            provinces_pattern,
+                            lambda m: m.group(0) + f"\n\n    history = {{\n\t\towner = {owner}\n\t}}",
+                            content
+                        )
 
-with open(input_file, "r", encoding="utf-8") as file:
-    content = file.read()
+                        f.seek(0)
+                        f.write(updated_content)
+                        f.truncate()
+                        print(f"Added owner to: {file_path}")
+                    else:
+                        print(f"No changes made to: {file_path}")
 
-updated_content = increment_x_values(content, increment_amount)
 
-with open(output_file, "w", encoding="utf-8") as file:
-    file.write(updated_content)
-
-print(f"Updated content with incremented x values has been saved to {output_file}.")
+directory_path = "C:/Users/vabab/Documents/Paradox Interactive/Hearts of Iron IV/mod/GOT/history/states"
+add_owner_after_provinces(directory_path)

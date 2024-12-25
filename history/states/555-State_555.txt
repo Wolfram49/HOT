@@ -4,6 +4,10 @@ state={
 	provinces={
 		92 743 865 944 1042 1834 1940 2038 2151 2503 2797 2812 2848 3154 3451 3881 4180 4229 4327 5230 6955 6956 7012 7024 7071 7096 7110 7120 7157 7158 7180 7187 7238 
 	}
+
+    history = {
+		owner = WST
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

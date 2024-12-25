@@ -8,6 +8,11 @@ NRT = {
 	color_ui = rgb { 162 161 159 }
 }
 
+WST = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
 NSW = {
 	color = rgb { 39 40 35 }
 	color_ui = rgb { 39 40 35 }

@@ -4,6 +4,10 @@ state={
 	provinces={
 		304 1236 1372 1702 2033 4691 6988 7081 7311 
 	}
+
+    history = {
+		owner = WST
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
