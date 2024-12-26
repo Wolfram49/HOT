@@ -4,6 +4,9 @@ state={
 	provinces={
 		5121 5140 6080 6089 6094 6101 6111 6113 
 	}
+	resources = {
+		chromium = 6
+	}
 	history = {
 		owner = NSW
         add_core_of = NSW

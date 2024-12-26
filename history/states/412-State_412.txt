@@ -4,6 +4,9 @@ state={
 	provinces={
 		505 1611 2040 2168 2170 3133 3501 3550 4698 4743 5652 6040 6053 6054 6055 6068 6098 
 	}
+	resources = {
+		oil = 10
+	}
 	history = {
 		owner = WIL
         add_core_of = WIL
