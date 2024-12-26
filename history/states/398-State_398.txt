@@ -4,6 +4,9 @@ state={
 	provinces={
 		136 1332 1336 1343 2036 2421 2873 2890 3049 3258 3617 3940 4123 5672 5970 5975 5985 5986 5996 6009 
 	}
+	resources = {
+		chromium = 24
+	}
 	history = {
 		owner = WIL
         add_core_of = WIL
