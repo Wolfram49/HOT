@@ -4,6 +4,9 @@ state={
 	provinces={
 		702 909 1508 1667 2177 2275 2281 2293 3248 3696 4024 4912 5260 5554 6473 6476 6491 6505 6531 6540 
 	}
+	resources = {
+		tungsten = 3
+	}
 	history = {
 		owner = NRT
         add_core_of = NRT

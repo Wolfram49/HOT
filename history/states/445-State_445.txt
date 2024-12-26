@@ -4,6 +4,10 @@ state={
 	provinces={
 		41 726 890 1374 2826 2851 3650 4635 5511 6237 6271 6274 6277 6284 6285 6290 6300 6313 
 	}
+	resources = {
+		chromium = 21
+		rubber = 14
+	}
 	history = {
 		owner = NRT
         add_core_of = NRT
