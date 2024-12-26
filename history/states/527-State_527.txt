@@ -4,6 +4,9 @@ state={
 	provinces={
 		2187 2841 3086 4030 4077 4796 4913 5376 6839 6858 6875 6884 6907 6918 6961 6965 6970 6975 6984 7005 7036 7044 
 	}
+	resources = {
+		tungsten = 3
+	}
 	history = {
 		owner = RIL
         add_core_of = RIL
