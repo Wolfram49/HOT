@@ -4,6 +4,9 @@ state={
 	provinces={
 		9788 
 	}
+	resources = {
+		oil = 1
+	}
 	history = {
 		owner = IRI
         add_core_of = IRI
