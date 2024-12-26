@@ -4,6 +4,11 @@ state={
 	provinces={
 		945 2028 2830 2965 3878 4614 4770 5079 5208 5289 7293 7305 7309 7315 7316 7364 7380 7411 7416 
 	}
+	resources = {
+		chromium = 4
+		oil = 6
+		rubber = 2
+	}
 	history = {
 		owner = CRL
         add_core_of = CRL

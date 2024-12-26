@@ -4,6 +4,10 @@ state={
 	provinces={
 		1741 4308 5211 5495 7736 7764 7770 7775 7786 7811 7840 7843 7860 
 	}
+	resources = {
+		chromium = 8
+		rubber = 5
+	}
 	history = {
 		owner = CRL
         add_core_of = CRL
