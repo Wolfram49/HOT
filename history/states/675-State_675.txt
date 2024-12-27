@@ -4,6 +4,12 @@ state={
 	provinces={
 		1199 1991 2477 3226 4014 4140 4313 8097 
 	}
+	resources = {
+		oil = 6
+		steel = 2
+		tungsten = 2
+		rubber = 2
+	}
 	history = {
 		victory_points = {
 			8097 10

@@ -4,6 +4,11 @@ state={
 	provinces={
 		66 2009 2067 2336 2393 2483 2593 2752 4374 4401 4838 5104 5523 8163 8165 8208 8261 8354 
 	}
+	resources = {
+		oil = 8
+		tungsten = 4
+		rubber = 4
+	}
 	history = {
 		owner = REA
         add_core_of = REA

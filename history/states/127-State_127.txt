@@ -4,6 +4,9 @@ state={
 	provinces={
 		8088 
 	}
+	resources = {
+		chromium = 1
+	}
 	history = {
 		victory_points = {
 			8088 5

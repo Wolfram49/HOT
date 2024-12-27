@@ -4,6 +4,10 @@ state={
 	provinces={
 		3511 3614 3695 5112 7681 7810 
 	}
+	resources = {
+		oil = 4
+		chromium = 8
+	}
 	history = {
 		owner = REA
         add_core_of = REA
