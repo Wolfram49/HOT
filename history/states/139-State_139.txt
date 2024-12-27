@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = STL
         add_core_of = STL
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

@@ -10,6 +10,9 @@ state={
 	history = {
 		owner = NSW
         add_core_of = NSW
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

@@ -22,6 +22,9 @@ state={
 	}
 		owner = NRT
         add_core_of = NRT
+		buildings = {
+			infrastructure = 4
+		}
 	}
 
 	buildings_max_level_factor=1.000

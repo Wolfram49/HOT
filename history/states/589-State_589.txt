@@ -19,6 +19,9 @@ state={
 		}
 		owner = WSL
         add_core_of = WSL
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

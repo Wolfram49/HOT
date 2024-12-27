@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = STL
 		add_core_of = STL
+		buildings = {
+
+		}
 	}
 	impassable = yes
 	buildings_max_level_factor=0.000

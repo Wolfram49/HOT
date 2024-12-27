@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = VAL
 		add_core_of = VAL
+		buildings = {
+
+		}
 	}
 	impassable = yes
 	buildings_max_level_factor=0.000
