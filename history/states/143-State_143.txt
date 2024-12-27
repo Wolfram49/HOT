@@ -4,6 +4,9 @@ state={
 	provinces={
 		5568 8388 
 	}
+	resources = {
+		oil = 2
+	}
 	history = {
 		owner = STL
         add_core_of = STL

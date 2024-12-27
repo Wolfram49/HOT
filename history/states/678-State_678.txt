@@ -2,12 +2,9 @@ state={
 	id=678
 	name="STATE_678"
 	provinces={
-		144 1528 2256 3604 4665 8085 8212 8231 8250 8270 8275 8276 8277 
+		144 3604 4665 8212 8231 8250 8270 8275 8276 8277 
 	}
 	history = {
-		victory_points = {
-			2256 10
-		}
 		owner = STL
         add_core_of = STL
 	}
