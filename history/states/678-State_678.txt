@@ -4,6 +4,9 @@ state={
 	provinces={
 		144 3604 4665 8212 8231 8250 8270 8275 8276 8277 
 	}
+	resources = {
+		aluminium = 2
+	}
 	history = {
 		owner = STL
         add_core_of = STL
