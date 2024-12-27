@@ -4,6 +4,10 @@ state={
 	provinces={
 		4239 7787 7803 7825 
 	}
+	resources = {
+		oil = 4
+		tungsten = 1
+	}
 	history = {
 		owner = WSL
         add_core_of = WSL

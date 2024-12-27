@@ -4,6 +4,10 @@ state={
 	provinces={
 		943 1221 2175 2517 3602 4318 4472 4720 4760 4856 7748 7768 7789 
 	}
+	resources = {
+		chromium = 3
+		rubber = 1
+	}
 	history = {
 		owner = WSL
         add_core_of = WSL
