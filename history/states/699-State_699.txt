@@ -4,6 +4,10 @@ state={
 	provinces={
 		402 1619 2258 5032 8346 8356 8427 8481 8529 8535 8572 8584 
 	}
+	resources = {
+		oil = 2
+		steel = 1
+	}
 	history = {
 		owner = DOR
         add_core_of = DOR
