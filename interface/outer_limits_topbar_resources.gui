@@ -1,0 +1,251 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resource_toggle_container"
+			
+		buttonType ={
+			name ="outer_limits_topbar_resource_toggle_button"
+			position = { x =325 y=10 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_division_designer_button"
+			buttonText = outer_limits_topbar_resource_toggle_button_text
+			pdx_tooltip = outer_limits_topbar_resource_toggle_button_tt
+			buttonFont = "hoi_18mbs"
+		}
+	}
+
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resources_oil_container"
+		size = { width = 100% height = 100% }
+		position = { x = 1100 y = 4 }
+
+		containerWindowType = {
+			name = "oil"
+			size = { width=72 height=30 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+			clipping = no
+			position = { x = 0 y = 0 }
+			orientation = UPPER_LEFT
+
+			iconType = {
+				name = "oil_icon"
+				position = { x = 3 y = 2 }
+				orientation = "UPPER_LEFT"
+				spriteType = "GFX_resources_strip"
+				frame = 1
+				alwaystransparent = yes
+			}
+		
+			instantTextBoxType = {
+				name = "oil_value"
+				position = { x = 30 y = 5 }
+				text = "[OL_tbr_text_oil]"
+				font = "hoi_18mbs"
+				maxWidth = 50
+				maxHeight = 24
+				format = left
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resources_aluminium_container"
+		size = { width = 100% height = 100% }
+		position = { x = 1172 y = 4 }
+
+		containerWindowType = {
+			name = "aluminium"
+			size = { width=72 height=30 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+			clipping = no
+			position = { x = 0 y = 0 }
+			orientation = UPPER_LEFT
+
+			iconType = {
+				name = "aluminium_icon"
+				position = { x = 3 y = 2 }
+				orientation = "UPPER_LEFT"
+				spriteType = "GFX_resources_strip"
+				frame = 2
+				alwaystransparent = yes
+			}
+		
+			instantTextBoxType = {
+				name = "aluminium_value"
+				position = { x = 30 y = 5 }
+				text = "[OL_tbr_text_aluminium]"
+				font = "hoi_18mbs"
+				maxWidth = 50
+				maxHeight = 24
+				format = left
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resources_rubber_container"
+		size = { width = 100% height = 100% }
+		position = { x = 1244 y = 4 }
+
+		containerWindowType = {
+			name = "rubber"
+			size = { width=72 height=30 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+			clipping = no
+			position = { x = 0 y = 0 }
+			orientation = UPPER_LEFT
+
+			iconType = {
+				name = "rubber_icon"
+				position = { x = 3 y = 2 }
+				orientation = "UPPER_LEFT"
+				spriteType = "GFX_resources_strip"
+				frame = 3
+				alwaystransparent = yes
+			}
+		
+			instantTextBoxType = {
+				name = "rubber_value"
+				position = { x = 30 y = 5 }
+				text = "[OL_tbr_text_rubber]"
+				font = "hoi_18mbs"
+				maxWidth = 50
+				maxHeight = 24
+				format = left
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resources_tungsten_container"
+		size = { width = 100% height = 100% }
+		position = { x = 1316 y = 4 }
+
+		containerWindowType = {
+			name = "tungsten"
+			size = { width=72 height=30 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+			clipping = no
+			position = { x = 0 y = 0 }
+			orientation = UPPER_LEFT
+
+			iconType = {
+				name = "tungsten_icon"
+				position = { x = 3 y = 2 }
+				orientation = "UPPER_LEFT"
+				spriteType = "GFX_resources_strip"
+				frame = 4
+				alwaystransparent = yes
+			}
+		
+			instantTextBoxType = {
+				name = "tungsten_value"
+				position = { x = 30 y = 5 }
+				text = "[OL_tbr_text_tungsten]"
+				font = "hoi_18mbs"
+				maxWidth = 50
+				maxHeight = 24
+				format = left
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resources_steel_container"
+		size = { width = 100% height = 100% }
+		position = { x = 1388 y = 4 }
+
+		containerWindowType = {
+			name = "steel"
+			size = { width=72 height=30 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+			clipping = no
+			position = { x = 0 y = 0 }
+			orientation = UPPER_LEFT
+
+			iconType = {
+				name = "steel_icon"
+				position = { x = 3 y = 2 }
+				orientation = "UPPER_LEFT"
+				spriteType = "GFX_resources_strip"
+				frame = 5
+				alwaystransparent = yes
+			}
+		
+			instantTextBoxType = {
+				name = "steel_value"
+				position = { x = 30 y = 5 }
+				text = "[OL_tbr_text_steel]"
+				font = "hoi_18mbs"
+				maxWidth = 50
+				maxHeight = 24
+				format = left
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "outer_limits_topbar_resources_chromium_container"
+		size = { width = 100% height = 100% }
+		position = { x = 1460 y = 4 }
+
+		containerWindowType = {
+			name = "chromium"
+			size = { width=72 height=30 }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_mini_tooltip"
+			}
+			clipping = no
+			position = { x = 0 y = 0 }
+			orientation = UPPER_LEFT
+
+			iconType = {
+				name = "chromium_icon"
+				position = { x = 3 y = 2 }
+				orientation = "UPPER_LEFT"
+				spriteType = "GFX_resources_strip"
+				frame = 6
+				alwaystransparent = yes
+			}
+		
+			instantTextBoxType = {
+				name = "chromium_value"
+				position = { x = 30 y = 5 }
+				text = "[OL_tbr_text_chromium]"
+				font = "hoi_18mbs"
+				maxWidth = 50
+				maxHeight = 24
+				format = left
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+}

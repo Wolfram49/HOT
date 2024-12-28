@@ -1,0 +1,12 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+
+			#log mod active
+			set_global_flag = Outer_Limits_TBR_active
+			log = "Outer Limits Topbar Resources active, updated for 1.15.1"
+
+		}
+	}
+}

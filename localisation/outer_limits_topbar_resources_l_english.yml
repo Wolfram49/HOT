@@ -1,0 +1,36 @@
+﻿l_english:
+
+ outer_limits_topbar_resource_toggle_button_text: "[outer_limits_topbar_resource_toggle_button_text]"
+ outer_limits_topbar_resource_toggle_button_text_enabled: "Enabled"
+ outer_limits_topbar_resource_toggle_button_text_deficit: "Deficit / Import"
+ outer_limits_topbar_resource_toggle_button_text_disabled: "Disabled"
+
+ outer_limits_topbar_resource_toggle_button_tt: "[outer_limits_topbar_resource_toggle_button_tt]"
+ outer_limits_topbar_resource_toggle_button_tt_enabled: "Topbar Resources always visible"
+ outer_limits_topbar_resource_toggle_button_tt_deficit: "Topbar Resources only visible if Resource Deficit or Resource Import"
+ outer_limits_topbar_resource_toggle_button_tt_disabled: "Topbar Resources always hidden"
+
+ OL_tbr_text_oil_red: "[?resource@oil|0R]"
+ OL_tbr_text_oil_yellow: "[?resource@oil|0Y]"
+ OL_tbr_text_oil_black: "[?resource@oil|0]"
+
+ OL_tbr_text_aluminium_red: "[?resource@aluminium|0R]"
+ OL_tbr_text_aluminium_yellow: "[?resource@aluminium|0Y]"
+ OL_tbr_text_aluminium_black: "[?resource@aluminium|0]"
+
+ OL_tbr_text_rubber_red: "[?resource@rubber|0R]"
+ OL_tbr_text_rubber_yellow: "[?resource@rubber|0Y]"
+ OL_tbr_text_rubber_black: "[?resource@rubber|0]"
+
+ OL_tbr_text_tungsten_red: "[?resource@tungsten|0R]"
+ OL_tbr_text_tungsten_yellow: "[?resource@tungsten|0Y]"
+ OL_tbr_text_tungsten_black: "[?resource@tungsten|0]"
+
+ OL_tbr_text_steel_red: "[?resource@steel|0R]"
+ OL_tbr_text_steel_yellow: "[?resource@steel|0Y]"
+ OL_tbr_text_steel_black: "[?resource@steel|0]"
+
+ OL_tbr_text_chromium_red: "[?resource@chromium|0R]"
+ OL_tbr_text_chromium_yellow: "[?resource@chromium|0Y]"
+ OL_tbr_text_chromium_black: "[?resource@chromium|0]"
+

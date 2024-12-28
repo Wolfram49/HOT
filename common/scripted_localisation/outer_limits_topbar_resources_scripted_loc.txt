@@ -1,0 +1,200 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = {
+	name = outer_limits_topbar_resource_toggle_button_text
+	text = {
+		trigger = {
+			ROOT = { has_country_flag = OL_tbr_enabled }
+		}
+		localization_key = outer_limits_topbar_resource_toggle_button_text_enabled
+	}
+	text = {
+		trigger = {
+			ROOT = { has_country_flag = OL_tbr_deficit }
+		}
+		localization_key = outer_limits_topbar_resource_toggle_button_text_deficit
+	}
+	text = {
+		trigger = {
+			ROOT = { has_country_flag = OL_tbr_disabled }
+		}
+		localization_key = outer_limits_topbar_resource_toggle_button_text_disabled
+	}
+	text = {
+		localization_key = outer_limits_topbar_resource_toggle_button_text_enabled
+	}
+}
+
+defined_text = {
+	name = outer_limits_topbar_resource_toggle_button_tt
+	text = {
+		trigger = {
+			ROOT = { has_country_flag = OL_tbr_enabled }
+		}
+		localization_key = outer_limits_topbar_resource_toggle_button_tt_enabled
+	}
+	text = {
+		trigger = {
+			ROOT = { has_country_flag = OL_tbr_deficit }
+		}
+		localization_key = outer_limits_topbar_resource_toggle_button_tt_deficit
+	}
+	text = {
+		trigger = {
+			ROOT = { has_country_flag = OL_tbr_disabled }
+		}
+		localization_key = outer_limits_topbar_resource_toggle_button_tt_disabled
+	}
+	text = {
+		localization_key = outer_limits_topbar_resource_toggle_button_tt_enabled
+	}
+}
+
+
+
+defined_text = {
+	name = OL_tbr_text_oil
+	text = {
+		trigger = {
+			ROOT = {
+				fuel_ratio < 0.5
+			}
+		}
+		localization_key = OL_tbr_text_oil_red
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource_imported@oil > 0 }
+			}
+		}
+		localization_key = OL_tbr_text_oil_yellow
+	}
+	text = {
+		localization_key = OL_tbr_text_oil_black
+	}
+}
+
+defined_text = {
+	name = OL_tbr_text_aluminium
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource@aluminium < 0 }
+			}
+		}
+		localization_key = OL_tbr_text_aluminium_red
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource_imported@aluminium > 0 }
+			}
+		}
+		localization_key = OL_tbr_text_aluminium_yellow
+	}
+	text = {
+		localization_key = OL_tbr_text_aluminium_black
+	}
+}
+
+defined_text = {
+	name = OL_tbr_text_rubber
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource@rubber < 0 }
+			}
+		}
+		localization_key = OL_tbr_text_rubber_red
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource_imported@rubber > 0 }
+			}
+		}
+		localization_key = OL_tbr_text_rubber_yellow
+	}
+	text = {
+		localization_key = OL_tbr_text_rubber_black
+	}
+}
+
+defined_text = {
+	name = OL_tbr_text_tungsten
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource@tungsten < 0 }
+			}
+		}
+		localization_key = OL_tbr_text_tungsten_red
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource_imported@tungsten > 0 }
+			}
+		}
+		localization_key = OL_tbr_text_tungsten_yellow
+	}
+	text = {
+		localization_key = OL_tbr_text_tungsten_black
+	}
+}
+
+defined_text = {
+	name = OL_tbr_text_steel
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource@steel < 0 }
+			}
+		}
+		localization_key = OL_tbr_text_steel_red
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource_imported@steel > 0 }
+			}
+		}
+		localization_key = OL_tbr_text_steel_yellow
+	}
+	text = {
+		localization_key = OL_tbr_text_steel_black
+	}
+}
+
+defined_text = {
+	name = OL_tbr_text_chromium
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource@chromium < 0 }
+			}
+		}
+		localization_key = OL_tbr_text_chromium_red
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				check_variable = { resource_imported@chromium > 0 }
+			}
+		}
+		localization_key = OL_tbr_text_chromium_yellow
+	}
+	text = {
+		localization_key = OL_tbr_text_chromium_black
+	}
+}
+

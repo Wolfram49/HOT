@@ -1,0 +1,268 @@
+scripted_gui = {
+
+	outer_limits_topbar_resource_toggle_container = {
+		window_name = "outer_limits_topbar_resource_toggle_container"
+		context_type = player_context
+		parent_window_token = trade_tab
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+			outer_limits_topbar_resource_toggle_button_click = {
+				# if enabled set to deficit
+				if = {
+					limit = {
+						has_country_flag = OL_tbr_enabled
+					}
+					clr_country_flag = OL_tbr_enabled
+					set_country_flag = OL_tbr_deficit
+				}
+				# if deficit set to disabled
+				else_if = {
+					limit = {
+						has_country_flag = OL_tbr_deficit
+					}
+					clr_country_flag = OL_tbr_deficit
+					set_country_flag = OL_tbr_disabled
+				}
+				# if disabled set to enabled
+				else_if = {
+					limit = {
+						has_country_flag = OL_tbr_disabled
+					}
+					clr_country_flag = OL_tbr_disabled
+					set_country_flag = OL_tbr_enabled
+				}
+				# fallback / gamestart
+				else = {
+					set_country_flag = OL_tbr_deficit
+				}
+			}
+		}
+	}
+
+	outer_limits_topbar_resources_oil_container = {
+		window_name = "outer_limits_topbar_resources_oil_container"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			# enabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_enabled
+				}
+				always = yes
+			}
+			# deficit / import
+			else_if = {
+				limit = {
+					has_country_flag = OL_tbr_deficit
+				}
+				OR = {
+					fuel_ratio < 0.5
+					check_variable = { resource_imported@oil > 0 }
+				}
+			}
+			# disabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_disabled
+				}
+				always = no
+			}
+			# fallback / gamestart
+			else = {
+				always = yes
+			}
+		}
+	}
+
+	outer_limits_topbar_resources_aluminium_container = {
+		window_name = "outer_limits_topbar_resources_aluminium_container"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			# enabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_enabled
+				}
+				always = yes
+			}
+			# deficit / import
+			else_if = {
+				limit = {
+					has_country_flag = OL_tbr_deficit
+				}
+				OR = {
+					check_variable = { resource@aluminium < 0 }
+					check_variable = { resource_imported@aluminium > 0 }
+				}
+			}
+			# disabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_disabled
+				}
+				always = no
+			}
+			# fallback / gamestart
+			else = {
+				always = yes
+			}
+		}
+	}
+
+	outer_limits_topbar_resources_rubber_container = {
+		window_name = "outer_limits_topbar_resources_rubber_container"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			# enabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_enabled
+				}
+				always = yes
+			}
+			# deficit / import
+			else_if = {
+				limit = {
+					has_country_flag = OL_tbr_deficit
+				}
+				OR = {
+					check_variable = { resource@rubber < 0 }
+					check_variable = { resource_imported@rubber > 0 }
+				}
+			}
+			# disabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_disabled
+				}
+				always = no
+			}
+			# fallback / gamestart
+			else = {
+				always = yes
+			}
+		}
+	}
+
+	outer_limits_topbar_resources_tungsten_container = {
+		window_name = "outer_limits_topbar_resources_tungsten_container"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			# enabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_enabled
+				}
+				always = yes
+			}
+			# deficit / import
+			else_if = {
+				limit = {
+					has_country_flag = OL_tbr_deficit
+				}
+				OR = {
+					check_variable = { resource@tungsten < 0 }
+					check_variable = { resource_imported@tungsten > 0 }
+				}
+			}
+			# disabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_disabled
+				}
+				always = no
+			}
+			# fallback / gamestart
+			else = {
+				always = yes
+			}
+		}
+	}
+
+	outer_limits_topbar_resources_steel_container = {
+		window_name = "outer_limits_topbar_resources_steel_container"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			# enabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_enabled
+				}
+				always = yes
+			}
+			# deficit / import
+			else_if = {
+				limit = {
+					has_country_flag = OL_tbr_deficit
+				}
+				OR = {
+					check_variable = { resource@steel < 0 }
+					check_variable = { resource_imported@steel > 0 }
+				}
+			}
+			# disabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_disabled
+				}
+				always = no
+			}
+			# fallback / gamestart
+			else = {
+				always = yes
+			}
+		}
+	}
+
+	outer_limits_topbar_resources_chromium_container = {
+		window_name = "outer_limits_topbar_resources_chromium_container"
+		context_type = player_context
+		parent_window_token = top_bar
+
+		visible = {
+			# enabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_enabled
+				}
+				always = yes
+			}
+			# deficit / import
+			else_if = {
+				limit = {
+					has_country_flag = OL_tbr_deficit
+				}
+				OR = {
+					check_variable = { resource@chromium < 0 }
+					check_variable = { resource_imported@chromium > 0 }
+				}
+			}
+			# disabled
+			if = {
+				limit = {
+					has_country_flag = OL_tbr_disabled
+				}
+				always = no
+			}
+			# fallback / gamestart
+			else = {
+				always = yes
+			}
+		}
+	}
+
+}
