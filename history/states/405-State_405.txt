@@ -16,6 +16,8 @@ state={
 		owner = WIL
         add_core_of = WIL
 		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
 			infrastructure = 1
 		}
 	}
