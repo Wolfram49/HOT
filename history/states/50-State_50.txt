@@ -11,6 +11,7 @@ state={
 		owner = VAL
         add_core_of = VAL
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 3
 		}
 	}
