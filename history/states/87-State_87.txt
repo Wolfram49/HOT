@@ -15,10 +15,12 @@ state={
 		owner = IRI
         add_core_of = IRI
 		buildings = {
+			industrial_complex = 2
+			dockyard = 2
 			infrastructure = 3
 		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = town
+        state_category = tiny_island
 }
