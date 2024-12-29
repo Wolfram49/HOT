@@ -14,6 +14,7 @@ state={
 		owner = REA
         add_core_of = REA
 		buildings = {
+			dockyard = 1
 			infrastructure = 3
 		}
 	}
