@@ -12,6 +12,7 @@ state={
 		owner = DOR
         add_core_of = DOR
 		buildings = {
+			industrial_complex = 2
 			infrastructure = 2
 		}
 	}
