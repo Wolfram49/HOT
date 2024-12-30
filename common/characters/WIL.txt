@@ -44,4 +44,77 @@ characters = {
 			}
 		}
 	}
+	WIL_tormund_hc={
+		name="Tormund"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_tormund"
+				small="GFX_portrait_WIL_tormund_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WIL_tormund_hc
+			slot = treasurer
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_orell_hc={
+		name="Orell"
+		portraits={
+			army={
+				small="GFX_portrait_WIL_orell_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_orell_hc
+			slot = spymaster
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_craster={
+		name="Craster"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_craster"
+				small="GFX_portrait_WIL_craster_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_craster
+			slot = political_advisor
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

@@ -8,8 +8,28 @@ spriteTypes = {
 		texturefile = "gfx/leaders/WIL/portrait_WIL_mans_rayder.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_WIL_craster"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_craster.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_craster_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_craster_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_tormund"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_tormund.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_WIL_mans_rayder_small"
 		texturefile = "gfx/leaders/WIL/small/portrait_WIL_mans_rayder_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_tormund_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_tormund_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_orell_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_orell_small.dds"
 	}
 	SpriteType = {
 		name = "GFX_portrait_NSW_jeor_mormont"

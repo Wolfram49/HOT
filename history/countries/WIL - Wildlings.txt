@@ -17,6 +17,9 @@ if = {
 
 recruit_character = WIL_mans_rayder#
 recruit_character = WIL_mans_rayder_hc#
+recruit_character = WIL_tormund_hc#
+recruit_character = WIL_orell_hc#
+recruit_character = WIL_craster#
 
 set_politics = {
 	ruling_party = neutrality
