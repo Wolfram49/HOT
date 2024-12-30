@@ -12,4 +12,36 @@ characters = {
 			id=-1
 		}
 	}
+	WIL_mans_rayder_hc={
+		name="Mans Rayder"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_mans_rayder"
+				small="GFX_portrait_WIL_mans_rayder_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WIL_mans_rayder_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/WIL/portrait_WIL_mans_rayder.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_WIL_mans_rayder_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_mans_rayder_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_NSW_jeor_mormont"
 		texturefile = "gfx/leaders/NSW/portrait_NSW_jeor_mormont.dds"
 	}
