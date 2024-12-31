@@ -19,7 +19,15 @@ recruit_character = WIL_mans_rayder#
 recruit_character = WIL_mans_rayder_hc#
 recruit_character = WIL_tormund_hc#
 recruit_character = WIL_orell_hc#
+recruit_character = WIL_ice_trail_hc#
 recruit_character = WIL_craster#
+recruit_character = WIL_garn#
+recruit_character = WIL_torn#
+recruit_character = WIL_styr#
+recruit_character = WIL_loboda#
+recruit_character = WIL_bone_lord#
+recruit_character = WIL_wicht#
+recruit_character = WIL_ygritte#
 
 set_politics = {
 	ruling_party = neutrality

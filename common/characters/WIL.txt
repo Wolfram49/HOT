@@ -96,6 +96,26 @@ characters = {
 			}
 		}
 	}
+	WIL_ice_trail_hc={
+		name="Ice Trail"
+		portraits={
+			army={
+				small="GFX_portrait_WIL_ice_trail_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_ice_trail_hc
+			slot = spymaster
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 	WIL_craster={
 		name="Craster"
 		portraits={
@@ -107,6 +127,151 @@ characters = {
 		advisor = {
 			idea_token = WIL_craster
 			slot = political_advisor
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_torn={
+		name="Torn"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_torn"
+				small="GFX_portrait_WIL_torn_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_torn
+			slot = navy_chief
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_garn={
+		name="Garn"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_garn"
+				small="GFX_portrait_WIL_garn_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_garn
+			slot = cavalry_chief
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_styr={
+		name="Styr"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_styr"
+				small="GFX_portrait_WIL_styr_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_styr
+			slot = theorist
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_loboda={
+		name="Loboda"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_loboda"
+				small="GFX_portrait_WIL_loboda_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_loboda
+			slot = theorist
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_bone_lord={
+		name="Bone Lord"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_bone_lord"
+				small="GFX_portrait_WIL_bone_lord_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_bone_lord
+			slot = army_chief
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_wicht={
+		name="Wicht"
+		portraits={
+			army={
+				small="GFX_portrait_WIL_wicht_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_wicht
+			slot = high_command
+			cost = 150
+			traits = { }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_ygritte={
+		name="Ygritte"
+		portraits={
+			army={
+				small="GFX_portrait_WIL_ygritte_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_ygritte
+			slot = high_command
 			cost = 150
 			traits = { }
 			available = {

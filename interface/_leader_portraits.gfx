@@ -16,6 +16,66 @@ spriteTypes = {
 		texturefile = "gfx/leaders/WIL/small/portrait_WIL_craster_small.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_WIL_torn"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_torn.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_torn_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_torn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_styr"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_styr.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_styr_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_styr_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_loboda"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_loboda.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_loboda_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_loboda_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_ygritte_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_ygritte_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_bone_lord"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_bone_lord.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_bone_lord_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_bone_lord_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_wicht_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_wicht_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WIL_hrold_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_hrold_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WIL_osha_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_osha_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WIL_wun_wun_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_wun_wun_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WIL_morag_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_morag_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_ice_trail_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_ice_trail_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_WIL_tormund"
 		texturefile = "gfx/leaders/WIL/portrait_WIL_tormund.dds"
 	}
@@ -70,5 +130,13 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_portrait_IRI_balon_greyjoy"
 		texturefile = "gfx/leaders/IRI/portrait_IRI_balon_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_garn"
+		texturefile = "gfx/leaders/WIL/portrait_WIL_garn.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WIL_garn_small"
+		texturefile = "gfx/leaders/WIL/small/portrait_WIL_garn_small.dds"
 	}
 }
