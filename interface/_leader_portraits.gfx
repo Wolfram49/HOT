@@ -128,6 +128,110 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NSW/portrait_NSW_jeor_mormont.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_NSW_jeor_mormont_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_jeor_mormont_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_alliser_thorne"
+		texturefile = "gfx/leaders/NSW/portrait_NSW_alliser_thorne.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_alliser_thorne_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_alliser_thorne_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_benjen_stark_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_benjen_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NSW_othell_yarwyck_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_othell_yarwyck_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_olly_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_olly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_grenn_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_grenn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_janos_slynt_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_janos_slynt_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_rast_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_rast_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_locke_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_locke_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_karl_tanner_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_karl_tanner_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_qhorin_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_qhorin_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_will_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_will_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_waymar_royce_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_waymar_royce_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_gared_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_gared_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_stonesnake_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_stonesnake_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_yoren_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_yoren_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_sam_tarly_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_sam_tarly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_pypar_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_pypar_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NSW_bowen_marsh_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_bowen_marsh_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NSW_denys_mallister_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_denys_mallister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_eddison_tollett"
+		texturefile = "gfx/leaders/NSW/portrait_NSW_eddison_tollett.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_eddison_tollett_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_eddison_tollett_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NSW_aemon_targaryen_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_aemon_targaryen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_jon_snow"
+		texturefile = "gfx/leaders/NSW/portrait_NSW_jon_snow.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NSW_jon_snow_small"
+		texturefile = "gfx/leaders/NSW/small/portrait_NSW_jon_snow_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_NRT_eddard_stark"
 		texturefile = "gfx/leaders/NRT/portrait_NRT_eddard_stark.dds"
 	}

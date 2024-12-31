@@ -12,4 +12,434 @@ characters = {
 			id=-1
 		}
 	}
+	NSW_jeor_mormont_hc={
+		name="Jeor Mormont"
+		portraits={
+			army={
+				large="GFX_portrait_NSW_jeor_mormont"
+				small="GFX_portrait_NSW_jeor_mormont_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NSW_jeor_mormont_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_jon_snow={
+		name="Jon Snow"
+		portraits={
+			army={
+				large="GFX_portrait_NSW_jon_snow"
+				small="GFX_portrait_NSW_jon_snow_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NSW_jon_snow
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_eddison_tollett={
+		name="Eddison Tollett"
+		portraits={
+			army={
+				large="GFX_portrait_NSW_eddison_tollett"
+				small="GFX_portrait_NSW_eddison_tollett_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NSW_eddison_tollett
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_alliser_thorne={
+		name="Alliser Thorne"
+		portraits={
+			army={
+				large="GFX_portrait_NSW_alliser_thorne"
+				small="GFX_portrait_NSW_alliser_thorne_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NSW_alliser_thorne
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_benjen_stark={
+		name="Benjen Stark"
+		portraits={
+			army={
+				large="GFX_portrait_NSW_benjen_stark"
+				small="GFX_portrait_NSW_benjen_stark_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_benjen_stark
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_gared={
+		name="Gared"
+		portraits={
+			army={
+				large="GFX_portrait_NSW_gared"
+				small="GFX_portrait_NSW_gared_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_gared
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_olly={
+		name="Olly"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_olly_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_olly
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_will={
+		name="Will"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_will_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_will
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_sam_tarly={
+		name="Sam Tarly"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_sam_tarly_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_sam_tarly
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_pypar={
+		name="Pypar"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_pypar_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_pypar
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_karl_tanner={
+		name="Karl Tanner"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_karl_tanner_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_karl_tanner
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_qhorin={
+		name="Qhorin"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_qhorin_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_qhorin
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_waymar_royce={
+		name="Waymar Royce"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_waymar_royce_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_waymar_royce
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_grenn={
+		name="Grenn"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_grenn_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_grenn
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_yoren={
+		name="Yoren"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_yoren_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_yoren
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_janos_slynt={
+		name="Janos Slynt"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_janos_slynt_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_janos_slynt
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_rast={
+		name="Rast"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_rast_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_rast
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_stonesnake={
+		name="Stonesnake"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_stonesnake_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_stonesnake
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NSW_locke={
+		name="Locke"
+		portraits={
+			army={
+				small="GFX_portrait_NSW_locke_small"
+			}
+		}
+		advisor = {
+			idea_token = NSW_locke
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

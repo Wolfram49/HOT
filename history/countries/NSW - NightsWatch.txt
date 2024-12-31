@@ -17,6 +17,25 @@ if = {
 }
 
 recruit_character = NSW_jeor_mormont#
+recruit_character = NSW_jeor_mormont_hc#
+recruit_character = NSW_jon_snow#
+recruit_character = NSW_eddison_tollett#
+recruit_character = NSW_alliser_thorne#
+recruit_character = NSW_benjen_stark#
+recruit_character = NSW_olly#
+recruit_character = NSW_sam_tarly#
+recruit_character = NSW_pypar#
+recruit_character = NSW_grenn#
+recruit_character = NSW_janos_slynt#
+recruit_character = NSW_rast#
+recruit_character = NSW_locke#
+recruit_character = NSW_karl_tanner#
+recruit_character = NSW_qhorin#
+recruit_character = NSW_will#
+recruit_character = NSW_waymar_royce#
+recruit_character = NSW_gared#
+recruit_character = NSW_stonesnake#
+recruit_character = NSW_yoren#
 
 set_politics = {
 	ruling_party = democratic

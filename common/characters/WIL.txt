@@ -181,7 +181,7 @@ characters = {
 			idea_token = WIL_torn
 			slot = navy_chief
 			cost = 150
-			traits = { chariot_cavalry_expert }
+			traits = { naval_battle_expert }
 			available = {
 				always = yes
 			}
@@ -202,7 +202,7 @@ characters = {
 			idea_token = WIL_garn
 			slot = cavalry_chief
 			cost = 150
-			traits = { naval_battle_expert }
+			traits = { chariot_cavalry_expert }
 			available = {
 				always = yes
 			}
