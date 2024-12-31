@@ -35,7 +35,7 @@ characters = {
 			idea_token = WIL_mans_rayder_hc
 			slot = chief_advisor
 			cost = 150
-			traits = { }
+			traits = { superiority_preacher }
 			available = {
 				always = yes
 			}
@@ -67,7 +67,7 @@ characters = {
 			idea_token = WIL_tormund_hc
 			slot = treasurer
 			cost = 150
-			traits = { }
+			traits = { investment_gambler }
 			available = {
 				always = yes
 			}
@@ -87,7 +87,7 @@ characters = {
 			idea_token = WIL_orell_hc
 			slot = spymaster
 			cost = 150
-			traits = { }
+			traits = { enthusiastic_torturer }
 			available = {
 				always = yes
 			}
@@ -107,7 +107,7 @@ characters = {
 			idea_token = WIL_ice_trail_hc
 			slot = spymaster
 			cost = 150
-			traits = { }
+			traits = { enthusiastic_torturer }
 			available = {
 				always = yes
 			}
@@ -128,7 +128,7 @@ characters = {
 			idea_token = WIL_craster
 			slot = political_advisor
 			cost = 150
-			traits = { }
+			traits = { inexperienced_organizer }
 			available = {
 				always = yes
 			}
@@ -149,7 +149,7 @@ characters = {
 			idea_token = WIL_torn
 			slot = navy_chief
 			cost = 150
-			traits = { }
+			traits = { chariot_cavalry_expert }
 			available = {
 				always = yes
 			}
@@ -170,7 +170,7 @@ characters = {
 			idea_token = WIL_garn
 			slot = cavalry_chief
 			cost = 150
-			traits = { }
+			traits = { naval_battle_expert }
 			available = {
 				always = yes
 			}
@@ -191,7 +191,7 @@ characters = {
 			idea_token = WIL_styr
 			slot = theorist
 			cost = 150
-			traits = { }
+			traits = { trench_enthusiast }
 			available = {
 				always = yes
 			}
@@ -212,7 +212,7 @@ characters = {
 			idea_token = WIL_loboda
 			slot = theorist
 			cost = 150
-			traits = { }
+			traits = { trench_enthusiast }
 			available = {
 				always = yes
 			}
@@ -233,7 +233,7 @@ characters = {
 			idea_token = WIL_bone_lord
 			slot = army_chief
 			cost = 150
-			traits = { }
+			traits = { winter_assailant }
 			available = {
 				always = yes
 			}
@@ -253,7 +253,7 @@ characters = {
 			idea_token = WIL_wicht
 			slot = high_command
 			cost = 150
-			traits = { }
+			traits = { siege_expert }
 			available = {
 				always = yes
 			}
@@ -273,7 +273,7 @@ characters = {
 			idea_token = WIL_ygritte
 			slot = high_command
 			cost = 150
-			traits = { }
+			traits = { siege_expert }
 			available = {
 				always = yes
 			}
