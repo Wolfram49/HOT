@@ -28,6 +28,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+	gilly_idea_wil = {
+
+			picture = portrait_WIL_gilly_small
+
+			allowed = {
+				OR = {
+					original_tag = WIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -78,6 +105,48 @@ ideas = {
         designer = yes
         wun_wun_idea_wil = {
 			picture = portrait_WIL_wun_wun_small
+
+			allowed = {
+				OR = {
+					original_tag = WIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		dongo_idea_wil = {
+			picture = portrait_WIL_dongo_small
+
+			allowed = {
+				OR = {
+					original_tag = WIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		tun_doh_idea_wil = {
+			picture = portrait_WIL_tun_doh_small
 
 			allowed = {
 				OR = {

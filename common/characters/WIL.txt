@@ -76,6 +76,38 @@ characters = {
 			}
 		}
 	}
+	WIL_wallen={
+		name="Wallen"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_wallen"
+				small="GFX_portrait_WIL_wallen_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WIL_wallen
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 	WIL_orell_hc={
 		name="Orell"
 		portraits={
@@ -242,6 +274,27 @@ characters = {
 			}
 		}
 	}
+	WIL_stiv={
+		name="Stiv"
+		portraits={
+			army={
+				large="GFX_portrait_WIL_stiv"
+				small="GFX_portrait_WIL_stiv_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_stiv
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 	WIL_wicht={
 		name="Wicht"
 		portraits={
@@ -271,6 +324,26 @@ characters = {
 		}
 		advisor = {
 			idea_token = WIL_ygritte
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WIL_karsi={
+		name="Karsi"
+		portraits={
+			army={
+				small="GFX_portrait_WIL_karsi_small"
+			}
+		}
+		advisor = {
+			idea_token = WIL_karsi
 			slot = high_command
 			cost = 150
 			traits = { siege_expert }

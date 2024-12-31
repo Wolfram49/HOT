@@ -28,6 +28,9 @@ recruit_character = WIL_loboda#
 recruit_character = WIL_bone_lord#
 recruit_character = WIL_wicht#
 recruit_character = WIL_ygritte#
+recruit_character = WIL_karsi#
+recruit_character = WIL_stiv#
+recruit_character = WIL_wallen#
 
 set_politics = {
 	ruling_party = neutrality
