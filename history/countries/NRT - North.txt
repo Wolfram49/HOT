@@ -17,6 +17,34 @@ if = {
 }
 
 recruit_character = NRT_eddard_stark#
+recruit_character = NRT_eddard_stark_hc#
+recruit_character = NRT_roose_bolton#
+recruit_character = NRT_rickard_karstark#
+recruit_character = NRT_lyanna_mormont#
+recruit_character = NRT_wyman_manderly#
+recruit_character = NRT_arrya_stark#
+recruit_character = NRT_brandon_stark#
+recruit_character = NRT_catelyn_stark#
+recruit_character = NRT_cley_cerwyn#
+recruit_character = NRT_galbart_glover#
+recruit_character = NRT_harald_karstark#
+recruit_character = NRT_howland_reed#
+recruit_character = NRT_jon_snow#
+recruit_character = NRT_jon_umber_jr#
+recruit_character = NRT_jon_umber#
+recruit_character = NRT_jory_cassel#
+recruit_character = NRT_myranda#
+recruit_character = NRT_old_nan#
+recruit_character = NRT_ramsey_bolton#
+recruit_character = NRT_rickon_stark#
+recruit_character = NRT_robb_stark#
+recruit_character = NRT_rodrik_cassel#
+recruit_character = NRT_robett_glover#
+recruit_character = NRT_steelshanks#
+recruit_character = NRT_sansa_stark#
+recruit_character = NRT_theon_greyjoy#
+recruit_character = NRT_torrhen_karstark#
+recruit_character = NRT_walda_bolton#
 
 set_politics = {
 	ruling_party = democratic

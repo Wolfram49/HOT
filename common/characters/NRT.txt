@@ -12,4 +12,660 @@ characters = {
 			id=-1
 		}
 	}
+	NRT_eddard_stark_hc={
+		name="Eddard Stark"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_eddard_stark"
+				small="GFX_portrait_NRT_eddard_stark_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_eddard_stark_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_roose_bolton={
+		name="Roose Bolton"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_roose_bolton"
+				small="GFX_portrait_NRT_roose_bolton_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_roose_bolton
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_rickard_karstark={
+		name="Rickard Karstark"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_rickard_karstark"
+				small="GFX_portrait_NRT_rickard_karstark_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_rickard_karstark
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_lyanna_mormont={
+		name="Lyanna Mormont"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_lyanna_mormont"
+				small="GFX_portrait_NRT_lyanna_mormont_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_lyanna_mormont
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_wyman_manderly={
+		name="Wyman Manderly"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_wyman_manderly_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_wyman_manderly
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_sansa_stark={
+		name="Sansa Stark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_sansa_stark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_sansa_stark
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_rickon_stark={
+		name="Rickon Stark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_rickon_stark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_rickon_stark
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_cley_cerwyn={
+		name="Cley Cerwyn"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_cley_cerwyn_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_cley_cerwyn
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_myranda={
+		name="Myranda"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_myranda_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_myranda
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_galbart_glover={
+		name="Galbart Glover"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_galbart_glover_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_galbart_glover
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_arrya_stark={
+		name="Arrya Stark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_arrya_stark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_arrya_stark
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_brandon_stark={
+		name="Brandon Stark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_brandon_stark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_brandon_stark
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_catelyn_stark={
+		name="Catelyn Stark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_catelyn_stark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_catelyn_stark
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_walda_bolton={
+		name="Walda Bolton"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_walda_bolton_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_walda_bolton
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_old_nan={
+		name="Old Nan"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_old_nan_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_old_nan
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_harald_karstark={
+		name="Harald Karstark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_harald_karstark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_harald_karstark
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_ramsey_bolton={
+		name="Ramsey Bolton"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_ramsey_bolton"
+				small="GFX_portrait_NRT_ramsey_bolton_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_ramsey_bolton
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_robb_stark ={
+		name="Robb Stark"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_robb_stark"
+				small="GFX_portrait_NRT_robb_stark_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_robb_stark
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_theon_greyjoy ={
+		name="Theon Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_theon_greyjoy"
+				small="GFX_portrait_NRT_theon_greyjoy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_theon_greyjoy
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_howland_reed={
+		name="Howland Reed"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_howland_reed_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_howland_reed
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_rodrik_cassel={
+		name="Rodrik Cassel"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_rodrik_cassel_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_rodrik_cassel
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_torrhen_karstark={
+		name="Torrhen Karstark"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_torrhen_karstark_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_torrhen_karstark
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_robett_glover={
+		name="Robett Glover"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_robett_glover_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_robett_glover
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_steelshanks={
+		name="Steelshanks"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_steelshanks_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_steelshanks
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_jon_snow={
+		name="Jon Snow"
+		portraits={
+			army={
+				large="GFX_portrait_NRT_jon_snow"
+				small="GFX_portrait_NRT_jon_snow_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = NRT_jon_snow
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_jon_umber_jr={
+		name="Jon Umber Junior"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_jon_umber_jr_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_jon_umber_jr
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_jon_umber={
+		name="Jon Umber"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_jon_umber_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_jon_umber
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	NRT_jory_cassel={
+		name="Jory Cassel"
+		portraits={
+			army={
+				small="GFX_portrait_NRT_jory_cassel_small"
+			}
+		}
+		advisor = {
+			idea_token = NRT_jory_cassel
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

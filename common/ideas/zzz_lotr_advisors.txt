@@ -82,6 +82,60 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+	luwin_idea_nrt = {
+
+			picture = portrait_NRT_luwin_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
+	mordane_idea_nrt = {
+
+			picture = portrait_NRT_mordane_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -169,6 +223,69 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		wolkan_idea_nrt = {
+			picture = portrait_NRT_wolkan_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		alys_karstark_idea_nrt = {
+			picture = portrait_NRT_alys_karstark_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		meera_reed_idea_nrt = {
+			picture = portrait_NRT_meera_reed_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -241,6 +358,48 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = NSW
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		hodor_idea_nrt = {
+			picture = portrait_NRT_hodor_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		jojen_reed_idea_nrt = {
+			picture = portrait_NRT_jojen_reed_small
+
+			allowed = {
+				OR = {
+					original_tag = NRT
 				}
 			}
 

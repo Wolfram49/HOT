@@ -236,6 +236,174 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NRT/portrait_NRT_eddard_stark.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_NRT_eddard_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_eddard_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_roose_bolton"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_roose_bolton.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_roose_bolton_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_roose_bolton_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_rickard_karstark"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_rickard_karstark.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_rickard_karstark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_rickard_karstark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_lyanna_mormont"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_lyanna_mormont.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_lyanna_mormont_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_lyanna_mormont_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_jon_snow"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_jon_snow.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_jon_snow_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_jon_snow_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_ramsey_bolton"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_ramsey_bolton.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_ramsey_bolton_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_ramsey_bolton_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_robb_stark"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_robb_stark.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_robb_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_robb_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_theon_greyjoy"
+		texturefile = "gfx/leaders/NRT/portrait_NRT_theon_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_theon_greyjoy_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_theon_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_torrhen_karstark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_torrhen_karstark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_walda_bolton_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_walda_bolton_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_rodrik_cassel_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_rodrik_cassel_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_robett_glover_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_robett_glover_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_steelshanks_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_steelshanks_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_sansa_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_sansa_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_rickon_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_rickon_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_jon_umber_jr_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_jon_umber_jr_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_jon_umber_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_jon_umber_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_jory_cassel_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_jory_cassel_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_wyman_manderly_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_wyman_manderly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_luwin_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_luwin_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_meera_reed_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_meera_reed_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_mordane_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_mordane_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_myranda_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_myranda_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_old_nan_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_old_nan_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_arrya_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_arrya_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_brandon_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_brandon_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_catelyn_stark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_catelyn_stark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_cley_cerwyn_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_cley_cerwyn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_galbart_glover_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_galbart_glover_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_hodor_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_hodor_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_wolkan_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_wolkan_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_alys_karstark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_alys_karstark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_harald_karstark_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_harald_karstark_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_NRT_howland_reed_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_howland_reed_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_NRT_jojen_reed_small"
+		texturefile = "gfx/leaders/NRT/small/portrait_NRT_jojen_reed_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_RIL_hoster_tully"
 		texturefile = "gfx/leaders/RIL/portrait_RIL_hoster_tully.dds"
 	}
