@@ -163,6 +163,60 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		melara_hetherspoon_idea_wsl = {
+
+			picture = portrait_WSL_melara_hetherspoon_small
+
+			allowed = {
+				OR = {
+					original_tag = WSL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
+		leo_lefford_idea_wsl = {
+
+			picture = portrait_WSL_leo_lefford_small
+
+			allowed = {
+				OR = {
+					original_tag = WSL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -355,6 +409,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		lancel_lannister_idea_wsl = {
+			picture = portrait_WSL_lancel_lannister_small
+
+			allowed = {
+				OR = {
+					original_tag = WSL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		weasel_idea_wsl = {
+			picture = portrait_WSL_weasel_small
+
+			allowed = {
+				OR = {
+					original_tag = WSL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -490,6 +586,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = IRI
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		tyrion_lannister_idea_wsl = {
+			picture = portrait_WSL_tyrion_lannister_small
+
+			allowed = {
+				OR = {
+					original_tag = WSL
 				}
 			}
 

@@ -420,6 +420,122 @@ spriteTypes = {
 		texturefile = "gfx/leaders/WSL/portrait_WSL_tywin_lannister.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_WSL_tywin_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_tywin_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_cersei_lannister"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_cersei_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_cersei_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_cersei_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_tickler"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_tickler.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_tickler_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_tickler_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_bronn_blackwater"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_bronn_blackwater.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_bronn_blackwater_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_bronn_blackwater_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_tyrion_lannister"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_tyrion_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_jaime_lannister"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_jaime_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_kevan_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_kevan_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_martyn_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_martyn_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_willem_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_willem_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_alton_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_alton_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_joanna_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_joanna_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_reginald_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_reginald_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_gregor_clegane_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_gregor_clegane_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_sandor_clegane_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_sandor_clegane_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WSL_lancel_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_lancel_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WSL_weasel_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_weasel_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WSL_leo_lefford_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_leo_lefford_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WSL_melara_hetherspoon_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_melara_hetherspoon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_kevan_lannister"
+		texturefile = "gfx/leaders/WSL/portrait_WSL_kevan_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_jaime_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_jaime_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_polliver_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_polliver_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_amory_lorch_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_amory_lorch_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_podrick_payne_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_podrick_payne_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WSL_tyrion_lannister_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_tyrion_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_harys_swyft_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_harys_swyft_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WSL_addam_marbrand_small"
+		texturefile = "gfx/leaders/WSL/small/portrait_WSL_addam_marbrand_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_DOR_doran_martell"
 		texturefile = "gfx/leaders/DOR/portrait_DOR_doran_martell.dds"
 	}

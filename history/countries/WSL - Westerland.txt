@@ -16,6 +16,25 @@ if = {
 }
 
 recruit_character = WSL_tywin_lannister#
+recruit_character = WSL_tywin_lannister_hc#
+recruit_character = WSL_cersei_lannister#
+recruit_character = WSL_tyrion_lannister#
+recruit_character = WSL_jaime_lannister#
+recruit_character = WSL_kevan_lannister#
+recruit_character = WSL_martyn_lannister#
+recruit_character = WSL_willem_lannister#
+recruit_character = WSL_alton_lannister#
+recruit_character = WSL_joanna_lannister#
+recruit_character = WSL_reginald_lannister#
+recruit_character = WSL_gregor_clegane#
+recruit_character = WSL_sandor_clegane#
+recruit_character = WSL_tickler#
+recruit_character = WSL_harys_swyft#
+recruit_character = WSL_addam_marbrand#
+recruit_character = WSL_polliver#
+recruit_character = WSL_amory_lorch#
+recruit_character = WSL_podrick_payne#
+recruit_character = WSL_bronn_blackwater#
 
 set_politics = {
 	ruling_party = democratic

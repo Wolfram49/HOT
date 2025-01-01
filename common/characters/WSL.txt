@@ -12,4 +12,434 @@ characters = {
 			id=-1
 		}
 	}
+	WSL_tywin_lannister_hc={
+		name="Tywin Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_tywin_lannister"
+				small="GFX_portrait_WSL_tywin_lannister_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WSL_tywin_lannister_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_cersei_lannister={
+		name="Cersei Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_cersei_lannister"
+				small="GFX_portrait_WSL_cersei_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_cersei_lannister
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_podrick_payne={
+		name="Podrick Payne"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_podrick_payne_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_podrick_payne
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_tyrion_lannister={
+		name="Tyrion Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_tyrion_lannister"
+				small="GFX_portrait_WSL_tyrion_lannister_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_jaime_lannister={
+		name="Jaime Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_jaime_lannister"
+				small="GFX_portrait_WSL_jaime_lannister_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WSL_jaime_lannister
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_bronn_blackwater={
+		name="Bronn Blackwater"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_bronn_blackwater"
+				small="GFX_portrait_WSL_bronn_blackwater_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WSL_bronn_blackwater
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_kevan_lannister={
+		name="Kevan Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_kevan_lannister"
+				small="GFX_portrait_WSL_kevan_lannister_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WSL_kevan_lannister
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_addam_marbrand={
+		name="Addam Marbrand"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_addam_marbrand_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_addam_marbrand
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_gregor_clegane={
+		name="Gregor Clegane"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_gregor_clegane_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_gregor_clegane
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_polliver={
+		name="Polliver"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_polliver_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_polliver
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_martyn_lannister={
+		name="Martyn Lannister"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_martyn_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_martyn_lannister
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_willem_lannister={
+		name="Willem Lannister"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_willem_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_willem_lannister
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_alton_lannister={
+		name="Alton Lannister"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_alton_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_alton_lannister
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_harys_swyft={
+		name="Harys Swyft"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_harys_swyft_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_harys_swyft
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_joanna_lannister={
+		name="Joanna Lannister"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_joanna_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_joanna_lannister
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_reginald_lannister={
+		name="Reginald Lannister"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_reginald_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_reginald_lannister
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_amory_lorch={
+		name="Amory Lorch"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_amory_lorch_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_amory_lorch
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_sandor_clegane={
+		name="Sandor Clegane"
+		portraits={
+			army={
+				small="GFX_portrait_WSL_sandor_clegane_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_sandor_clegane
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WSL_tickler={
+		name="Tickler"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_tickler"
+				small="GFX_portrait_WSL_tickler_small"
+			}
+		}
+		advisor = {
+			idea_token = WSL_tickler
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }
