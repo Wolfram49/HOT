@@ -488,11 +488,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/IRI/small/portrait_IRI_black_lorren_small.dds"
 	}
 	SpriteType = {
-		name = "GFX_portrait_IRI_rodrik_greyjoy"
-		texturefile = "gfx/leaders/IRI/portrait_IRI_rodrik_greyjoy.dds"
-	}
-	SpriteType = {
-		name = "GFX_portrait_IRI_rodrik_greyjoy_small"
+		name = "GFX_idea_portrait_IRI_rodrik_greyjoy_small"
 		texturefile = "gfx/leaders/IRI/small/portrait_IRI_rodrik_greyjoy_small.dds"
 	}
 	SpriteType = {
@@ -508,7 +504,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/IRI/small/portrait_IRI_urrigon_small.dds"
 	}
 	SpriteType = {
-		name = "GFX_portrait_IRI_vickon_greyjoy_small"
+		name = "GFX_idea_portrait_IRI_vickon_greyjoy_small"
 		texturefile = "gfx/leaders/IRI/small/portrait_IRI_vickon_greyjoy_small.dds"
 	}
 	SpriteType = {

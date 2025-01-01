@@ -76,38 +76,6 @@ characters = {
 			}
 		}
 	}
-	IRI_rodrik_greyjoy={
-		name="Rodrik Greyjoy"
-		portraits={
-			army={
-				large="GFX_portrait_IRI_rodrik_greyjoy"
-				small="GFX_portrait_IRI_rodrik_greyjoy_small"
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=3
-			attack_skill=3
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=2
-			visible = {
-				always = yes
-			}
-		}
-		advisor = {
-			idea_token = IRI_rodrik_greyjoy
-			slot = navy_chief
-			cost = 150
-			traits = { naval_battle_expert }
-			available = {
-				always = yes
-			}
-			visible = {
-				always = yes
-			}
-		}
-	}
 	IRI_urrigon={
 		name="Urrigon"
 		portraits={
@@ -255,27 +223,6 @@ characters = {
 		}
 		advisor = {
 			idea_token = IRI_black_lorren
-			slot = political_advisor
-			cost = 150
-			traits = { inexperienced_organizer }
-			available = {
-				always = yes
-			}
-			visible = {
-				always = yes
-			}
-		}
-	}
-	IRI_vickon_greyjoy={
-		name="Vickon Greyjoy"
-		portraits={
-			army={
-				large="GFX_portrait_IRI_vickon_greyjoy"
-				small="GFX_portrait_IRI_vickon_greyjoy_small"
-			}
-		}
-		advisor = {
-			idea_token = IRI_vickon_greyjoy
 			slot = political_advisor
 			cost = 150
 			traits = { inexperienced_organizer }

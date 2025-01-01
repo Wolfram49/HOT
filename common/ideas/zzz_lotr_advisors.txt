@@ -313,6 +313,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		rodrik_greyjoy_idea_iri = {
+			picture = portrait_IRI_rodrik_greyjoy_small
+
+			allowed = {
+				OR = {
+					original_tag = IRI
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		vickon_greyjoy_idea_iri = {
+			picture = portrait_IRI_vickon_greyjoy_small
+
+			allowed = {
+				OR = {
+					original_tag = IRI
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes

@@ -27,9 +27,7 @@ recruit_character = IRI_ralf_kenning#
 recruit_character = IRI_adrack_humble#
 recruit_character = IRI_alannys_harlow#
 recruit_character = IRI_maron_greyjoy#
-recruit_character = IRI_rodrik_greyjoy#
 recruit_character = IRI_urrigon#
-recruit_character = IRI_vickon_greyjoy#
 
 set_politics = {
 	ruling_party = democratic
