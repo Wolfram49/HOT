@@ -22,6 +22,11 @@ recruit_character = CRL_joffrey_baratheon#
 recruit_character = CRL_tommen_baratheon#
 recruit_character = CRL_myrcella_baratheon#
 
+set_autonomy = {
+    target = DRG
+    autonomous_state = autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = democratic
 }
