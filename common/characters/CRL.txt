@@ -75,9 +75,9 @@ characters = {
 		}
 		advisor = {
 			idea_token = CRL_tommen_baratheon
-			slot = political_advisor
+			slot = chief_advisor
 			cost = 150
-			traits = { inexperienced_organizer }
+			traits = { superiority_preacher }
 			available = {
 				always = yes
 			}
@@ -107,6 +107,87 @@ characters = {
 			}
 		}
 	}
+	CRL_tyrion_lannister_pa={
+		name="Tyrion Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_tyrion_lannister"
+				small="GFX_portrait_CRL_tyrion_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_tyrion_lannister_pa
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_tywin_lannister={
+		name="Tywin Lannister"
+		portraits={
+			army={
+				small="GFX_portrait_CRL_tywin_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_tywin_lannister
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_high_sparrow={
+		name="High Sparrow"
+		portraits={
+			army={
+				small="GFX_portrait_CRL_high_sparrow_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_high_sparrow
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_ilyn_payne={
+		name="Ilyn Payne"
+		portraits={
+			army={
+				small="GFX_portrait_CRL_ilyn_payne_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_ilyn_payne
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 	CRL_margaery_tyrell={
 		name="Margaery Tyrell"
 		portraits={
@@ -120,6 +201,280 @@ characters = {
 			slot = treasurer
 			cost = 150
 			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_cersei_lannister={
+		name="Cersei Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_cersei_lannister"
+				small="GFX_portrait_CRL_cersei_lannister_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_cersei_lannister
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_varys={
+		name="Varys"
+		portraits={
+			army={
+				small="GFX_portrait_CRL_varys_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_varys
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_littlefinger={
+		name="Littlefinger"
+		portraits={
+			army={
+				small="GFX_portrait_CRL_littlefinger_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_littlefinger
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_jaime_lannister={
+		name="Jaime Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_jaime_lannister"
+				small="GFX_portrait_CRL_jaime_lannister_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_jaime_lannister
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_sandor_clegane={
+		name="Sandor Clegane"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_sandor_clegane"
+				small="GFX_portrait_WSL_sandor_clegane_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_sandor_clegane
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_gregor_clegane={
+		name="Gregor Clegane"
+		portraits={
+			army={
+				large="GFX_portrait_WSL_gregor_clegane"
+				small="GFX_portrait_WSL_gregor_clegane_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_gregor_clegane
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_bronn_blackwater={
+		name="Bronn Blackwater"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_bronn_blackwater"
+				small="GFX_portrait_CRL_bronn_blackwater_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_bronn_blackwater
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_bronn_blackwater_navy={
+		name="Bronn Blackwater"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_bronn_blackwater"
+				small="GFX_portrait_CRL_bronn_blackwater_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_bronn_blackwater_navy
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_tyrion_lannister_hc={
+		name="Tyrion Lannister"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_tyrion_lannister"
+				small="GFX_portrait_CRL_tyrion_lannister_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_tyrion_lannister_hc
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_barristan_selmy={
+		name="Barristan Selmy"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_barristan_selmy"
+				small="GFX_portrait_CRL_barristan_selmy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_barristan_selmy
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
 			available = {
 				always = yes
 			}

@@ -199,9 +199,9 @@ characters = {
 		}
 		advisor = {
 			idea_token = DRG_beric_dondarrion
-			slot = high_command
+			slot = cavalry_chief
 			cost = 150
-			traits = { siege_expert }
+			traits = { chariot_cavalry_expert }
 			available = {
 				always = yes
 			}

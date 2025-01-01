@@ -244,6 +244,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		pycelle_idea_crl = {
+
+			picture = portrait_CRL_pycelle_small
+
+			allowed = {
+				OR = {
+					original_tag = CRL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -541,6 +568,27 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		dontos_hollard_idea_crl = {
+			picture = portrait_CRL_dontos_hollard_small
+
+			allowed = {
+				OR = {
+					original_tag = CRL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -718,6 +766,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = DRG
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		qyburn_idea_crl = {
+			picture = portrait_CRL_qyburn_small
+
+			allowed = {
+				OR = {
+					original_tag = CRL
 				}
 			}
 

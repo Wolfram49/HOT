@@ -572,8 +572,76 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CRL/small/portrait_CRL_tommen_baratheon_small.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_CRL_jaime_lannister"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_jaime_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_jaime_lannister_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_jaime_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_barristan_selmy"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_barristan_selmy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_barristan_selmy_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_barristan_selmy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_bronn_blackwater"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_bronn_blackwater.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_bronn_blackwater_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_bronn_blackwater_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_tyrion_lannister"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_tyrion_lannister.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_tyrion_lannister_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_tyrion_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_high_sparrow_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_high_sparrow_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_CRL_margaery_tyrell_small"
 		texturefile = "gfx/leaders/CRL/small/portrait_CRL_margaery_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_CRL_pycelle_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_pycelle_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_varys_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_varys_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_littlefinger_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_littlefinger_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_cersei_lannister_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_cersei_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_tywin_lannister_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_tywin_lannister_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_ilyn_payne_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_ilyn_payne_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_CRL_dontos_hollard_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_dontos_hollard_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_CRL_qyburn_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_qyburn_small.dds"
 	}
 	SpriteType = {
 		name = "GFX_portrait_STL_renly_baratheon"
