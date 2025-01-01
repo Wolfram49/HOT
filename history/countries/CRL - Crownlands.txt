@@ -16,6 +16,11 @@ if = {
 }
 
 recruit_character = CRL_robert_baratheon#
+recruit_character = CRL_robert_baratheon_hc#
+recruit_character = CRL_margaery_tyrell#
+recruit_character = CRL_joffrey_baratheon#
+recruit_character = CRL_tommen_baratheon#
+recruit_character = CRL_myrcella_baratheon#
 
 set_politics = {
 	ruling_party = democratic

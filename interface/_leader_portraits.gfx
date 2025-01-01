@@ -544,6 +544,34 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CRL/portrait_CRL_robert_baratheon.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_CRL_robert_baratheon_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_robert_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_myrcella_baratheon_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_myrcella_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_joffrey_baratheon"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_joffrey_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_joffrey_baratheon_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_joffrey_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_tommen_baratheon"
+		texturefile = "gfx/leaders/CRL/portrait_CRL_tommen_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_tommen_baratheon_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_tommen_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CRL_margaery_tyrell_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_margaery_tyrell_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_STL_renly_baratheon"
 		texturefile = "gfx/leaders/STL/portrait_STL_renly_baratheon.dds"
 	}

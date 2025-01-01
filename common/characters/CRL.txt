@@ -12,4 +12,120 @@ characters = {
 			id=-1
 		}
 	}
+	CRL_robert_baratheon_hc={
+		name="Robert Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_robert_baratheon"
+				small="GFX_portrait_CRL_robert_baratheon_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = CRL_robert_baratheon_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_joffrey_baratheon={
+		name="Joffrey Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_joffrey_baratheon"
+				small="GFX_portrait_CRL_joffrey_baratheon_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_joffrey_baratheon
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_tommen_baratheon={
+		name="Tommen Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_tommen_baratheon"
+				small="GFX_portrait_CRL_tommen_baratheon_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_tommen_baratheon
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_myrcella_baratheon={
+		name="Myrcella Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_myrcella_baratheon"
+				small="GFX_portrait_CRL_myrcella_baratheon_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_myrcella_baratheon
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	CRL_margaery_tyrell={
+		name="Margaery Tyrell"
+		portraits={
+			army={
+				large="GFX_portrait_CRL_margaery_tyrell"
+				small="GFX_portrait_CRL_margaery_tyrell_small"
+			}
+		}
+		advisor = {
+			idea_token = CRL_margaery_tyrell
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }
