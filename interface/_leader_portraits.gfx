@@ -436,6 +436,106 @@ spriteTypes = {
 		texturefile = "gfx/leaders/IRI/portrait_IRI_balon_greyjoy.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_IRI_balon_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_balon_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_euron_greyjoy"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_euron_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_euron_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_euron_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_aeron_greyjoy"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_aeron_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_aeron_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_aeron_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_yara_greyjoy"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_yara_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_yara_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_yara_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_theon_greyjoy"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_theon_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_theon_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_theon_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_dagmer_cleftjaw"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_dagmer_cleftjaw.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_dagmer_cleftjaw_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_dagmer_cleftjaw_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_black_lorren"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_black_lorren.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_black_lorren_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_black_lorren_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_rodrik_greyjoy"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_rodrik_greyjoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_rodrik_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_rodrik_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_ralf_kenning"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_ralf_kenning.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_ralf_kenning_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_ralf_kenning_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_urrigon_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_urrigon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_vickon_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_vickon_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_IRI_victorian_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_victorian_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_IRI_dagon_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_dagon_greyjoy_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_adrack_humble"
+		texturefile = "gfx/leaders/IRI/portrait_IRI_adrack_humble.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_adrack_humble_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_adrack_humble_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_alannys_harlow_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_alannys_harlow_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_IRI_maron_greyjoy_small"
+		texturefile = "gfx/leaders/IRI/small/portrait_IRI_maron_greyjoy_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_WIL_garn"
 		texturefile = "gfx/leaders/WIL/portrait_WIL_garn.dds"
 	}

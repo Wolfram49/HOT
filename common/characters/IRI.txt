@@ -12,4 +12,363 @@ characters = {
 			id=-1
 		}
 	}
+	IRI_balon_greyjoy_hc={
+		name="Balon Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_balon_greyjoy"
+				small="GFX_portrait_IRI_balon_greyjoy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = IRI_balon_greyjoy_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_euron_greyjoy={
+		name="Euron Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_euron_greyjoy"
+				small="GFX_portrait_IRI_euron_greyjoy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = IRI_euron_greyjoy
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_rodrik_greyjoy={
+		name="Rodrik Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_rodrik_greyjoy"
+				small="GFX_portrait_IRI_rodrik_greyjoy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = IRI_rodrik_greyjoy
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_urrigon={
+		name="Urrigon"
+		portraits={
+			army={
+				small="GFX_portrait_IRI_urrigon_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_Urrigon
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_aeron_greyjoy={
+		name="Aeron Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_aeron_greyjoy"
+				small="GFX_portrait_IRI_aeron_greyjoy_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_aeron_greyjoy
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_yara_greyjoy={
+		name="Yara Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_yara_greyjoy"
+				small="GFX_portrait_IRI_yara_greyjoy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = IRI_yara_greyjoy
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_theon_greyjoy={
+		name="Theon Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_theon_greyjoy"
+				small="GFX_portrait_IRI_theon_greyjoy_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = IRI_theon_greyjoy
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_dagmer_cleftjaw={
+		name="Dagmer Cleftjaw"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_dagmer_cleftjaw"
+				small="GFX_portrait_IRI_dagmer_cleftjaw_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = IRI_dagmer_cleftjaw
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_black_lorren={
+		name="Black Lorren"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_black_lorren"
+				small="GFX_portrait_IRI_black_lorren_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_black_lorren
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_vickon_greyjoy={
+		name="Vickon Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_vickon_greyjoy"
+				small="GFX_portrait_IRI_vickon_greyjoy_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_vickon_greyjoy
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_ralf_kenning={
+		name="Ralf Kenning"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_ralf_kenning"
+				small="GFX_portrait_IRI_ralf_kenning_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_ralf_kenning
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_adrack_humble={
+		name="Adrack Humble"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_adrack_humble"
+				small="GFX_portrait_IRI_adrack_humble_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_adrack_humble
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_alannys_harlow={
+		name="Alannys Harlow"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_alannys_harlow"
+				small="GFX_portrait_IRI_alannys_harlow_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_alannys_harlow
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	IRI_maron_greyjoy={
+		name="Maron Greyjoy"
+		portraits={
+			army={
+				large="GFX_portrait_IRI_maron_greyjoy"
+				small="GFX_portrait_IRI_maron_greyjoy_small"
+			}
+		}
+		advisor = {
+			idea_token = IRI_maron_greyjoy
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }
