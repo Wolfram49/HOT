@@ -217,6 +217,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		cressen_idea_drg = {
+
+			picture = portrait_DRG_cressen_small
+
+			allowed = {
+				OR = {
+					original_tag = DRG
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -451,6 +478,69 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		shireen_baratheon_idea_drg = {
+			picture = portrait_DRG_shireen_baratheon_small
+
+			allowed = {
+				OR = {
+					original_tag = DRG
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		gendry_baratheon_idea_crl = {
+			picture = portrait_CRL_gendry_baratheon_small
+
+			allowed = {
+				OR = {
+					original_tag = CRL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		mellisandre_rs_idea_drg = {
+			picture = portrait_DRG_mellisandre_small
+
+			allowed = {
+				OR = {
+					original_tag = DRG
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -607,6 +697,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = WSL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		mellisandre_arc_idea_drg = {
+			picture = portrait_DRG_mellisandre_small
+
+			allowed = {
+				OR = {
+					original_tag = DRG
 				}
 			}
 

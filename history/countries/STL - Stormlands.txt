@@ -16,6 +16,7 @@ if = {
 }
 
 recruit_character = STL_renly_baratheon#
+recruit_character = STL_renly_baratheon_hc#
 
 set_politics = {
 	ruling_party = democratic

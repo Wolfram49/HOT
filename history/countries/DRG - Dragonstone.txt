@@ -17,6 +17,16 @@ if = {
 
 recruit_character = DRG_stannis_baratheon#
 recruit_character = DRG_stannis_baratheon_hc#
+recruit_character = DRG_selyse_baratheon#
+recruit_character = DRG_davos_seaworth#
+recruit_character = DRG_matthos_seaworth#
+recruit_character = DRG_salladhor_saan#
+recruit_character = DRG_imry_florent#
+recruit_character = DRG_axell_florent#
+recruit_character = DRG_beric_dondarrion#
+recruit_character = DRG_mellisandre_spy#
+recruit_character = DRG_mellisandre_pa#
+recruit_character = DRG_stannis_baratheon_ac#
 
 set_politics = {
 	ruling_party = democratic

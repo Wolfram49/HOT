@@ -544,6 +544,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CRL/portrait_CRL_robert_baratheon.dds"
 	}
 	SpriteType = {
+		name = "GFX_idea_portrait_CRL_gendry_baratheon_small"
+		texturefile = "gfx/leaders/CRL/small/portrait_CRL_gendry_baratheon_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_CRL_robert_baratheon_small"
 		texturefile = "gfx/leaders/CRL/small/portrait_CRL_robert_baratheon_small.dds"
 	}
@@ -574,6 +578,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_portrait_STL_renly_baratheon"
 		texturefile = "gfx/leaders/STL/portrait_STL_renly_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_renly_baratheon_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_renly_baratheon_small.dds"
 	}
 	SpriteType = {
 		name = "GFX_portrait_IRI_balon_greyjoy"
@@ -690,5 +698,73 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_portrait_DRG_stannis_baratheon_small"
 		texturefile = "gfx/leaders/DRG/small/portrait_DRG_stannis_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_davos_seaworth"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_davos_seaworth.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_davos_seaworth_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_davos_seaworth_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_matthos_seaworth"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_matthos_seaworth.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_matthos_seaworth_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_matthos_seaworth_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_selyse_baratheon_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_selyse_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DRG_shireen_baratheon_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_shireen_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_salladhor_saan"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_salladhor_saan.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_salladhor_saan_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_salladhor_saan_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_imry_florent"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_imry_florent.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_imry_florent_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_imry_florent_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_axell_florent"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_axell_florent.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_axell_florent_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_axell_florent_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DRG_cressen_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_cressen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_beric_dondarrion"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_beric_dondarrion.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_beric_dondarrion_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_beric_dondarrion_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_mellisandre_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_mellisandre_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DRG_mellisandre_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_mellisandre_small.dds"
 	}
 }

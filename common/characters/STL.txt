@@ -12,4 +12,36 @@ characters = {
 			id=-1
 		}
 	}
+	STL_renly_baratheon_hc={
+		name="Renly Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_STL_renly_baratheon"
+				small="GFX_portrait_STL_renly_baratheon_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = STL_renly_baratheon_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }
