@@ -683,4 +683,12 @@ spriteTypes = {
 		name = "GFX_portrait_WIL_garn_small"
 		texturefile = "gfx/leaders/WIL/small/portrait_WIL_garn_small.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_stannis_baratheon"
+		texturefile = "gfx/leaders/DRG/portrait_DRG_stannis_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DRG_stannis_baratheon_small"
+		texturefile = "gfx/leaders/DRG/small/portrait_DRG_stannis_baratheon_small.dds"
+	}
 }

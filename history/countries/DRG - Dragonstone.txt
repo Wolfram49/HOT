@@ -1,0 +1,29 @@
+capital = 110
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "DRG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "DRG_1936_nsb"
+}
+
+recruit_character = DRG_stannis_baratheon#
+recruit_character = DRG_stannis_baratheon_hc#
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	neutrality = 5
+	democratic = 65
+	communism = 5
+	fascism = 25
+}

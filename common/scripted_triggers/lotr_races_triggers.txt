@@ -23,6 +23,7 @@ is_andals = {
 			original_tag = STL
 			original_tag = RIL
 			original_tag = CRL
+			original_tag = DRG
 		}
 	}
 }
@@ -35,6 +36,7 @@ is_andals_init = {
 		original_tag = STL
 		original_tag = RIL
 		original_tag = CRL
+		original_tag = DRG
 	}
 }
 

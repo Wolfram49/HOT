@@ -13,8 +13,9 @@ state={
 		victory_points = {
 			2280 10
 		}
-		owner = CRL
-        add_core_of = CRL
+		owner = DRG
+        add_core_of = DRG
+		add_core_of = CRL
 		buildings = {
 			industrial_complex = 1
 			dockyard = 1

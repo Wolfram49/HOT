@@ -1,0 +1,47 @@
+characters = {
+    DRG_stannis_baratheon = {
+		name= DRG_stannis_baratheon
+		portraits = {
+			civilian = {
+				large = GFX_portrait_DRG_stannis_baratheon
+			}
+		}
+		country_leader={
+			ideology = baratheon_house
+			traits={  }
+			id=-1
+		}
+	}
+    DRG_stannis_baratheon_hc={
+		name="Stannis Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_DRG_stannis_baratheon"
+				small="GFX_portrait_DRG_stannis_baratheon_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DRG_stannis_baratheon_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+}
