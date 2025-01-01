@@ -84,22 +84,11 @@ characters = {
 				small="GFX_portrait_WIL_wallen_small"
 			}
 		}
-		corps_commander={
-			traits={ }
-			skill=3
-			attack_skill=3
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=2
-			visible = {
-				always = yes
-			}
-		}
 		advisor = {
 			idea_token = WIL_wallen
-			slot = treasurer
+			slot = political_advisor
 			cost = 150
-			traits = { investment_gambler }
+			traits = { inexperienced_organizer }
 			available = {
 				always = yes
 			}
