@@ -17,6 +17,16 @@ if = {
 
 recruit_character = STL_renly_baratheon#
 recruit_character = STL_renly_baratheon_hc#
+recruit_character = STL_selwyn_tarth#
+recruit_character = STL_brienne_tarth#
+recruit_character = STL_endrew_tarth#
+recruit_character = STL_steffon_baratheon#
+recruit_character = STL_ormund_baratheon#
+recruit_character = STL_gendry_baratheon#
+recruit_character = STL_calvin_dondarrion#
+recruit_character = STL_jon_connington#
+recruit_character = STL_harrin_smithe#
+recruit_character = STL_renly_baratheon_theorist#
 
 set_politics = {
 	ruling_party = democratic

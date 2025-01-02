@@ -44,4 +44,264 @@ characters = {
 			}
 		}
 	}
+	STL_selwyn_tarth={
+		name="Selwyn Tarth"
+		portraits={
+			army={
+				small="GFX_portrait_STL_selwyn_tarth_small"
+			}
+		}
+		advisor = {
+			idea_token = STL_selwyn_tarth
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_brienne_tarth={
+		name="Brienne Tarth"
+		portraits={
+			army={
+				large="GFX_portrait_STL_brienne_tarth"
+				small="GFX_portrait_STL_brienne_tarth_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = STL_brienne_tarth
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_endrew_tarth={
+		name="Endrew Tarth"
+		portraits={
+			army={
+				large="GFX_portrait_STL_endrew_tarth"
+				small="GFX_portrait_STL_endrew_tarth_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = STL_endrew_tarth
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_calvin_dondarrion={
+		name="Calvin Dondarrion"
+		portraits={
+			army={
+				large="GFX_portrait_STL_calvin_dondarrion"
+				small="GFX_portrait_STL_calvin_dondarrion_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = STL_calvin_dondarrion
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_steffon_baratheon={
+		name="Steffon Baratheon"
+		portraits={
+			army={
+				large="GFX_portrait_STL_steffon_baratheon"
+				small="GFX_portrait_STL_steffon_baratheon_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = STL_steffon_baratheon
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_ormund_baratheon={
+		name="Ormund Baratheon"
+		portraits={
+			army={
+				small="GFX_portrait_STL_ormund_baratheon_small"
+			}
+		}
+		advisor = {
+			idea_token = STL_ormund_baratheon
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_gendry_baratheon={
+		name="Gendry Baratheon"
+		portraits={
+			army={
+				small="GFX_portrait_STL_gendry_baratheon_small"
+			}
+		}
+		advisor = {
+			idea_token = STL_gendry_baratheon
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_jon_connington={
+		name="Jon Connington"
+		portraits={
+			army={
+				small="GFX_portrait_STL_jon_connington_small"
+			}
+		}
+		advisor = {
+			idea_token = STL_jon_connington
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_harrin_smithe={
+		name="Harrin Smithe"
+		portraits={
+			army={
+				large="GFX_portrait_STL_harrin_smithe"
+				small="GFX_portrait_STL_harrin_smithe_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = STL_harrin_smithe
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	STL_renly_baratheon_theorist={
+		name="Renly Baratheon"
+		portraits={
+			army={
+				small="GFX_portrait_STL_renly_baratheon_theorist_small"
+			}
+		}
+		advisor = {
+			idea_token = STL_renly_baratheon_theorist
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

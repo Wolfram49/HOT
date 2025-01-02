@@ -325,6 +325,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		septa_unella_idea_stl = {
+
+			picture = portrait_STL_septa_unella_small
+
+			allowed = {
+				OR = {
+					original_tag = STL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -727,6 +754,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		jocelyn_baratheon_idea_stl = {
+			picture = portrait_STL_jocelyn_baratheon_small
+
+			allowed = {
+				OR = {
+					original_tag = STL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		larinna_harrigon_idea_stl = {
+			picture = portrait_STL_larinna_harrigon_small
+
+			allowed = {
+				OR = {
+					original_tag = STL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -967,6 +1036,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = VAL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		criston_penrose_idea_stl = {
+			picture = portrait_STL_criston_penrose_small
+
+			allowed = {
+				OR = {
+					original_tag = STL
 				}
 			}
 

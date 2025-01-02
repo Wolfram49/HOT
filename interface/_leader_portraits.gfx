@@ -820,6 +820,82 @@ spriteTypes = {
 		texturefile = "gfx/leaders/STL/small/portrait_STL_renly_baratheon_small.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_STL_renly_baratheon_theorist_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_renly_baratheon_theorist_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_steffon_baratheon"
+		texturefile = "gfx/leaders/STL/portrait_STL_steffon_baratheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_steffon_baratheon_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_steffon_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_harrin_smithe"
+		texturefile = "gfx/leaders/STL/portrait_STL_harrin_smithe.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_harrin_smithe_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_harrin_smithe_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_STL_jocelyn_baratheon_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_jocelyn_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_STL_larinna_harrigon_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_larinna_harrigon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_STL_criston_penrose_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_criston_penrose_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_jon_connington_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_jon_connington_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_calvin_dondarrion"
+		texturefile = "gfx/leaders/STL/portrait_STL_calvin_dondarrion.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_calvin_dondarrion_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_calvin_dondarrion_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_ormund_baratheon_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_ormund_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_gendry_baratheon_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_gendry_baratheon_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_brienne_tarth"
+		texturefile = "gfx/leaders/STL/portrait_STL_brienne_tarth.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_brienne_tarth_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_brienne_tarth_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_endrew_tarth"
+		texturefile = "gfx/leaders/STL/portrait_STL_endrew_tarth.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_endrew_tarth_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_endrew_tarth_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_STL_selwyn_tarth_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_selwyn_tarth_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_STL_septa_unella_small"
+		texturefile = "gfx/leaders/STL/small/portrait_STL_septa_unella_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_IRI_balon_greyjoy"
 		texturefile = "gfx/leaders/IRI/portrait_IRI_balon_greyjoy.dds"
 	}
