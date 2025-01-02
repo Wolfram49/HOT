@@ -1,15 +1,316 @@
 characters = {
-	RIL_hoster_tully = {
-		name= RIL_hoster_tully
+	RIL_brynden_tully = {
+		name="Bryndern Tully"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_RIL_hoster_tully
+				large = GFX_portrait_RIL_brynden_tully
 			}
 		}
 		country_leader={
 			ideology = tully_house
 			traits={  }
 			id=-1
+		}
+	}
+	RIL_walder_frey = {
+		name="Walder Frey"
+		portraits = {
+			civilian = {
+				large="GFX_portrait_RIL_walder_frey"
+				small="GFX_portrait_RIL_walder_frey_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_walder_frey
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_stevron_frey={
+		name="Stevron Frey"
+		portraits={
+			army={
+				small="GFX_portrait_RIL_stevron_frey_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_stevron_frey
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_ryger_rivers={
+		name="Ryger Rivers"
+		portraits={
+			army={
+				small="GFX_portrait_RIL_ryger_rivers_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_ryger_rivers
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_merry_frey={
+		name="Merry Frey"
+		portraits={
+			army={
+				small="GFX_portrait_RIL_merry_frey_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_merry_frey
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_lothar_frey={
+		name="Lothar Frey"
+		portraits={
+			army={
+				small="GFX_portrait_RIL_lothar_frey_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_lothar_frey
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_brynden_tully_hc={
+		name="Brynden Tully"
+		portraits={
+			army={
+				large="GFX_portrait_RIL_brynden_tully"
+				small="GFX_portrait_RIL_brynden_tully_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = RIL_brynden_tully_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_edmure_tully={
+		name="Edmure Tully"
+		portraits={
+			army={
+				large="GFX_portrait_RIL_edmure_tully"
+				small="GFX_portrait_RIL_edmure_tully_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = RIL_edmure_tully
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_roslin_tully={
+		name="Roslin Tully"
+		portraits={
+			army={
+				small="GFX_portrait_RIL_roslin_tully_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_roslin_tully
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_jonos_bracken={
+		name="Jonos Bracken"
+		portraits={
+			army={
+				large="GFX_portrait_RIL_jonos_bracken"
+				small="GFX_portrait_RIL_jonos_bracken_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = RIL_jonos_bracken
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_walder_rivers={
+		name="Walder Rivers"
+		portraits={
+			army={
+				large="GFX_portrait_RIL_walder_rivers"
+				small="GFX_portrait_RIL_walder_rivers_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = RIL_walder_rivers
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_olyver_frey={
+		name="Olyver Frey"
+		portraits={
+			army={
+				small="GFX_portrait_RIL_olyver_frey_small"
+			}
+		}
+		advisor = {
+			idea_token = RIL_olyver_frey
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	RIL_waldron_frey={
+		name="Waldron Frey"
+		portraits={
+			army={
+				large="GFX_portrait_RIL_waldron_frey"
+				small="GFX_portrait_RIL_waldron_frey_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = RIL_waldron_frey
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
 		}
 	}
 }

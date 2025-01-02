@@ -404,8 +404,92 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NRT/small/portrait_NRT_jojen_reed_small.dds"
 	}
 	SpriteType = {
-		name = "GFX_portrait_RIL_hoster_tully"
-		texturefile = "gfx/leaders/RIL/portrait_RIL_hoster_tully.dds"
+		name = "GFX_portrait_RIL_brynden_tully"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_brynden_tully.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_brynden_tully_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_brynden_tully_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_edmure_tully"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_edmure_tully.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_edmure_tully_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_edmure_tully_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_jonos_bracken"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_jonos_bracken.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_jonos_bracken_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_jonos_bracken_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_waldron_frey"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_waldron_frey.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_waldron_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_waldron_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_olyver_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_olyver_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_walder_rivers"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_walder_rivers.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_walder_rivers_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_walder_rivers_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_RIL_shirei_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_shirei_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_RIL_arwaya_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_arwaya_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_RIL_joyeuse_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_joyeuse_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_RIL_kitty_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_kitty_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_merry_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_merry_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_stevron_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_stevron_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_ryger_rivers_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_ryger_rivers_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_lothar_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_lothar_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_walder_frey"
+		texturefile = "gfx/leaders/RIL/portrait_RIL_walder_frey.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_walder_frey_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_walder_frey_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_RIL_roslin_tully_small"
+		texturefile = "gfx/leaders/RIL/small/portrait_RIL_roslin_tully_small.dds"
 	}
 	SpriteType = {
 		name = "GFX_portrait_VAL_robin_arryn"

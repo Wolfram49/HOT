@@ -15,7 +15,19 @@ if = {
 	set_oob = "RIL_1936_nsb"
 }
 
-recruit_character = RIL_hoster_tully#
+recruit_character = RIL_brynden_tully#
+recruit_character = RIL_edmure_tully#
+recruit_character = RIL_roslin_tully#
+recruit_character = RIL_brynden_tully_hc#
+recruit_character = RIL_jonos_bracken#
+recruit_character = RIL_walder_frey#
+recruit_character = RIL_stevron_frey#
+recruit_character = RIL_ryger_rivers#
+recruit_character = RIL_lothar_frey#
+recruit_character = RIL_walder_rivers#
+recruit_character = RIL_olyver_frey#
+recruit_character = RIL_waldron_frey#
+recruit_character = RIL_merry_frey#
 
 set_politics = {
 	ruling_party = democratic

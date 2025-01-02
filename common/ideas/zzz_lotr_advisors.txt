@@ -271,6 +271,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		joyeuse_frey_idea_ril = {
+
+			picture = portrait_RIL_joyeuse_frey_small
+
+			allowed = {
+				OR = {
+					original_tag = RIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -589,6 +616,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		shirei_frey_idea_ril = {
+			picture = portrait_RIL_shirei_frey_small
+
+			allowed = {
+				OR = {
+					original_tag = RIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		arwaya_frey_idea_ril = {
+			picture = portrait_RIL_arwaya_frey_small
+
+			allowed = {
+				OR = {
+					original_tag = RIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -787,6 +856,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = CRL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		kitty_frey_idea_ril = {
+			picture = portrait_RIL_kitty_frey_small
+
+			allowed = {
+				OR = {
+					original_tag = RIL
 				}
 			}
 
