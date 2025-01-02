@@ -496,6 +496,90 @@ spriteTypes = {
 		texturefile = "gfx/leaders/VAL/portrait_VAL_robin_arryn.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_VAL_robin_arryn_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_robin_arryn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_donnel_waynwood"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_donnel_waynwood.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_donnel_waynwood_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_donnel_waynwood_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_VAL_timett_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_timett_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_VAL_chella_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_chella_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_shagga"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_shagga.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_shagga_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_shagga_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_vance_corbray_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_vance_corbray_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_VAL_vance_corbray_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_vance_corbray_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_vardis_egen"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_vardis_egen.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_vardis_egen_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_vardis_egen_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_hugh_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_hugh_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_mord_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_mord_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_mord"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_mord.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_harold_arryn_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_harold_arryn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_anya_waynwood_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_anya_waynwood_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_VAL_anya_waynwood_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_anya_waynwood_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_yohn_royce"
+		texturefile = "gfx/leaders/VAL/portrait_VAL_yohn_royce.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_yohn_royce_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_yohn_royce_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_lysa_arryn_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_lysa_arryn_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_VAL_littlefinger_small"
+		texturefile = "gfx/leaders/VAL/small/portrait_VAL_littlefinger_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_REA_mace_tyrell"
 		texturefile = "gfx/leaders/REA/portrait_REA_mace_tyrell.dds"
 	}

@@ -16,6 +16,18 @@ if = {
 }
 
 recruit_character = VAL_robin_arryn#
+recruit_character = VAL_robin_arryn_hc#
+recruit_character = VAL_lysa_arryn#
+recruit_character = VAL_littlefinger#
+recruit_character = VAL_yohn_royce#
+recruit_character = VAL_anya_waynwood#
+recruit_character = VAL_vardis_egen#
+recruit_character = VAL_hugh#
+recruit_character = VAL_mord#
+recruit_character = VAL_donnel_waynwood#
+recruit_character = VAL_vance_corbray#
+recruit_character = VAL_shagga#
+recruit_character = VAL_harold_arryn#
 
 set_politics = {
 	ruling_party = democratic

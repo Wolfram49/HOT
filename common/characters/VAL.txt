@@ -12,4 +12,305 @@ characters = {
 			id=-1
 		}
 	}
+	VAL_robin_arryn_hc={
+		name="Robin Arryn"
+		portraits={
+			army={
+				large="GFX_portrait_VAL_robin_arryn"
+				small="GFX_portrait_VAL_robin_arryn_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_robin_arryn_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_lysa_arryn={
+		name="Lysa Arryn"
+		portraits={
+			army={
+				small="GFX_portrait_VAL_lysa_arryn_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_lysa_arryn
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_littlefinger={
+		name="Littlefinger"
+		portraits={
+			army={
+				small="GFX_portrait_VAL_littlefinger_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_littlefinger
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_yohn_royce={
+		name="Yohne Royce"
+		portraits={
+			army={
+				large="GFX_portrait_VAL_yohn_royce"
+				small="GFX_portrait_VAL_yohn_royce_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = VAL_yohn_royce
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_anya_waynwood={
+		name="Anya Waynwood"
+		portraits={
+			army={
+				small="GFX_portrait_VAL_anya_waynwood_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_anya_waynwood
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_harold_arryn={
+		name="Harold Arryn"
+		portraits={
+			army={
+				small="GFX_portrait_VAL_harold_arryn_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_harold_arryn
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_vance_corbray={
+		name="Vance Corbray"
+		portraits={
+			army={
+				small="GFX_portrait_VAL_vance_corbray_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_vance_corbray
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_vardis_egen={
+		name="Vardis Egen"
+		portraits={
+			army={
+				large="GFX_portrait_VAL_vardis_egen"
+				small="GFX_portrait_VAL_vardis_egen_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = VAL_vardis_egen
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_hugh={
+		name="Ser Hugh"
+		portraits={
+			army={
+				small="GFX_portrait_VAL_hugh_small"
+			}
+		}
+		advisor = {
+			idea_token = VAL_hugh
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_mord={
+		name="Mord"
+		portraits={
+			army={
+				large="GFX_portrait_VAL_mord"
+				small="GFX_portrait_VAL_mord_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = VAL_mord
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_donnel_waynwood={
+		name="Donnel Waynwood"
+		portraits={
+			army={
+				large="GFX_portrait_VAL_donnel_waynwood"
+				small="GFX_portrait_VAL_donnel_waynwood_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = VAL_donnel_waynwood
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	VAL_shagga={
+		name="Shagga, Son of Dolf "
+		portraits={
+			army={
+				large="GFX_portrait_VAL_shagga"
+				small="GFX_portrait_VAL_shagga_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = VAL_shagga
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

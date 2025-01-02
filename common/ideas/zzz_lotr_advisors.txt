@@ -298,6 +298,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		anya_waynwod_idea_val = {
+
+			picture = portrait_VAL_anya_waynwood_small
+
+			allowed = {
+				OR = {
+					original_tag = VAL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -658,6 +685,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		chella_idea_val = {
+			picture = portrait_VAL_chella_small
+
+			allowed = {
+				OR = {
+					original_tag = VAL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		vance_corbray_idea_val = {
+			picture = portrait_VAL_vance_corbray_small
+
+			allowed = {
+				OR = {
+					original_tag = VAL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -877,6 +946,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = RIL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		timett_idea_val = {
+			picture = portrait_VAL_timett_small
+
+			allowed = {
+				OR = {
+					original_tag = VAL
 				}
 			}
 
