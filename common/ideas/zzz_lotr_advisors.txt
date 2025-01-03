@@ -352,6 +352,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		percival_idea_rea = {
+
+			picture = portrait_REA_percival_small
+
+			allowed = {
+				OR = {
+					original_tag = REA
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -796,6 +823,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		melessa_tarly_idea_rea = {
+			picture = portrait_REA_melessa_tarly_small
+
+			allowed = {
+				OR = {
+					original_tag = REA
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		samwell_tarly_idea_rea = {
+			picture = portrait_REA_samwell_tarly_small
+
+			allowed = {
+				OR = {
+					original_tag = REA
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -1057,6 +1126,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = STL
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		talla_tarly_idea_rea = {
+			picture = portrait_REA_talla_tarly_small
+
+			allowed = {
+				OR = {
+					original_tag = REA
 				}
 			}
 

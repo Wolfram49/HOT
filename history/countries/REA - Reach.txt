@@ -16,6 +16,17 @@ if = {
 }
 
 recruit_character = REA_mace_tyrell#
+recruit_character = REA_mace_tyrell_hc#
+recruit_character = REA_olenna_tyrell#
+recruit_character = REA_margaery_tyrell#
+recruit_character = REA_loras_tyrell#
+recruit_character = REA_luthor_tyrell#
+recruit_character = REA_randyll_tarly#
+recruit_character = REA_dickon_tarly#
+recruit_character = REA_balian_tyrell#
+recruit_character = REA_leo_tyrell#
+recruit_character = REA_lucifer_tyrell#
+recruit_character = REA_darron_tarly#
 
 set_politics = {
 	ruling_party = fascism

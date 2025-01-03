@@ -584,6 +584,90 @@ spriteTypes = {
 		texturefile = "gfx/leaders/REA/portrait_REA_mace_tyrell.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_REA_mace_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_mace_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_olenna_tyrell"
+		texturefile = "gfx/leaders/REA/portrait_REA_olenna_tyrell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_olenna_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_olenna_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_margaery_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_margaery_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_loras_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_loras_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_luthor_tyrell"
+		texturefile = "gfx/leaders/REA/portrait_REA_luthor_tyrell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_luthor_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_luthor_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_leo_tyrell"
+		texturefile = "gfx/leaders/REA/portrait_REA_leo_tyrell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_leo_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_leo_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_randyll_tarly"
+		texturefile = "gfx/leaders/REA/portrait_REA_randyll_tarly.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_randyll_tarly_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_randyll_tarly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_lucifer_tyrell"
+		texturefile = "gfx/leaders/REA/portrait_REA_lucifer_tyrell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_lucifer_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_lucifer_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_darron_tarly_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_darron_tarly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_REA_percival_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_percival_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_dickon_tarly"
+		texturefile = "gfx/leaders/REA/portrait_REA_dickon_tarly.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_dickon_tarly_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_dickon_tarly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_REA_balian_tyrell_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_balian_tyrell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_REA_talla_tarly_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_talla_tarly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_REA_melessa_tarly_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_melessa_tarly_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_REA_samwell_tarly_small"
+		texturefile = "gfx/leaders/REA/small/portrait_REA_samwell_tarly_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_WSL_tywin_lannister"
 		texturefile = "gfx/leaders/WSL/portrait_WSL_tywin_lannister.dds"
 	}

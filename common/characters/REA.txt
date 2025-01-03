@@ -12,4 +12,297 @@ characters = {
 			id=-1
 		}
 	}
+	REA_mace_tyrell_hc={
+		name="Mace Tyrrel"
+		portraits={
+			army={
+				large="GFX_portrait_REA_mace_tyrell"
+				small="GFX_portrait_REA_mace_tyrell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = REA_mace_tyrell_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_olenna_tyrell={
+		name="Olenna Tyrell"
+		portraits={
+			army={
+				large="GFX_portrait_REA_olenna_tyrell"
+				small="GFX_portrait_REA_olenna_tyrell_small"
+			}
+		}
+		advisor = {
+			idea_token = REA_olenna_tyrell
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_margaery_tyrell={
+		name="Margaery Tyrell"
+		portraits={
+			army={
+				small="GFX_portrait_REA_margaery_tyrell_small"
+			}
+		}
+		advisor = {
+			idea_token = REA_margaery_tyrell
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_loras_tyrell={
+		name="Loras Tyrell"
+		portraits={
+			army={
+				small="GFX_portrait_REA_loras_tyrell_small"
+			}
+		}
+		advisor = {
+			idea_token = REA_loras_tyrell
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_luthor_tyrell={
+		name="Luthor Tyrell"
+		portraits={
+			army={
+				large="GFX_portrait_REA_luthor_tyrell"
+				small="GFX_portrait_REA_luthor_tyrell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = REA_luthor_tyrell
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_randyll_tarly={
+		name="Randyll Tarly"
+		portraits={
+			army={
+				large="GFX_portrait_REA_randyll_tarly"
+				small="GFX_portrait_REA_randyll_tarly_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = REA_randyll_tarly
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_dickon_tarly={
+		name="Dickon Tarly"
+		portraits={
+			army={
+				large="GFX_portrait_REA_dickon_tarly"
+				small="GFX_portrait_REA_dickon_tarly_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = REA_dickon_tarly
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_balian_tyrell={
+		name="Balian Tyrell"
+		portraits={
+			army={
+				small="GFX_portrait_REA_balian_tyrell_small"
+			}
+		}
+		advisor = {
+			idea_token = REA_balian_tyrell
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_leo_tyrell={
+		name="Leo Tyrell"
+		portraits={
+			army={
+				large="GFX_portrait_REA_leo_tyrell"
+				small="GFX_portrait_REA_leo_tyrell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = REA_leo_tyrell
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_lucifer_tyrell={
+		name="Lucifer Tyrell"
+		portraits={
+			army={
+				large="GFX_portrait_REA_lucifer_tyrell"
+				small="GFX_portrait_REA_lucifer_tyrell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = REA_lucifer_tyrell
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	REA_darron_tarly={
+		name="Darron Tarly"
+		portraits={
+			army={
+				small="GFX_portrait_REA_darron_tarly_small"
+			}
+		}
+		advisor = {
+			idea_token = REA_darron_tarly
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }
