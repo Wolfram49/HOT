@@ -792,6 +792,86 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DOR/portrait_DOR_doran_martell.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_DOR_doran_martell_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_doran_martell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_obara_sand"
+		texturefile = "gfx/leaders/DOR/portrait_DOR_obara_sand.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_obara_sand_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_obara_sand_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_maron_martell"
+		texturefile = "gfx/leaders/DOR/portrait_DOR_maron_martell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_maron_martell_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_maron_martell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_anthor_dayne_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_anthor_dayne_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_arthur_dayne_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_arthur_dayne_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DOR_ariyana_dayne_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_ariyana_dayne_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DOR_arwyn_martell_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_arwyn_martell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_arwyn_martell_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_arwyn_martell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DOR_voren_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_voren_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_DOR_tyene_sand_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_tyene_sand_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_nymeria_sand"
+		texturefile = "gfx/leaders/DOR/portrait_DOR_nymeria_sand.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_nymeria_sand_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_nymeria_sand_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_areo_hotah"
+		texturefile = "gfx/leaders/DOR/portrait_DOR_areo_hotah.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_areo_hotah_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_areo_hotah_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_ellaria_sand_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_ellaria_sand_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_oberyn_martell"
+		texturefile = "gfx/leaders/DOR/portrait_DOR_oberyn_martell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_oberyn_martell_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_oberyn_martell_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DOR_trystane_martell_small"
+		texturefile = "gfx/leaders/DOR/small/portrait_DOR_trystane_martell_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_CRL_robert_baratheon"
 		texturefile = "gfx/leaders/CRL/portrait_CRL_robert_baratheon.dds"
 	}

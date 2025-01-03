@@ -12,4 +12,297 @@ characters = {
 			id=-1
 		}
 	}
+	DOR_doran_martell_hc={
+		name="Doran Martell"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_doran_martell"
+				small="GFX_portrait_DOR_doran_martell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DOR_doran_martell_hc
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_trystane_martell={
+		name="Trystane Martell"
+		portraits={
+			army={
+				small="GFX_portrait_DOR_trystane_martell_small"
+			}
+		}
+		advisor = {
+			idea_token = DOR_trystane_martell
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_arwyn_martell_pa={
+		name="Arwyn Martell"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_arwyn_martell"
+				small="GFX_portrait_DOR_arwyn_martell_small"
+			}
+		}
+		advisor = {
+			idea_token = DOR_arwyn_martell
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_oberyn_martell={
+		name="Oberyn Martell"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_oberyn_martell"
+				small="GFX_portrait_DOR_oberyn_martell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DOR_oberyn_martell
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_ellaria_sand={
+		name="Ellaria Sand"
+		portraits={
+			army={
+				small="GFX_portrait_DOR_ellaria_sand_small"
+			}
+		}
+		advisor = {
+			idea_token = DOR_ellaria_sand
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_areo_hotah={
+		name="Areo Hotah"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_areo_hotah"
+				small="GFX_portrait_DOR_areo_hotah_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DOR_areo_hotah
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_nymeria_sand={
+		name="Nymeria Sand"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_nymeria_sand"
+				small="GFX_portrait_DOR_nymeria_sand_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DOR_nymeria_sand
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_anthor_dayne={
+		name="Anthor Dayne"
+		portraits={
+			army={
+				small="GFX_portrait_DOR_anthor_dayne_small"
+			}
+		}
+		advisor = {
+			idea_token = DOR_anthor_dayne
+			slot = spymaster
+			cost = 150
+			traits = { enthusiastic_torturer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_arthur_dayne={
+		name="Arthur Dayne"
+		portraits={
+			army={
+				small="GFX_portrait_DOR_arthur_dayne_small"
+			}
+		}
+		advisor = {
+			idea_token = DOR_arthur_dayne
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_maron_martell={
+		name="Maron Martell"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_maron_martell"
+				small="GFX_portrait_DOR_maron_martell_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DOR_maron_martell
+			slot = navy_chief
+			cost = 150
+			traits = { naval_battle_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	DOR_obara_sand={
+		name="Obara Sand"
+		portraits={
+			army={
+				large="GFX_portrait_DOR_obara_sand"
+				small="GFX_portrait_DOR_obara_sand_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = DOR_obara_sand
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

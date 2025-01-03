@@ -16,6 +16,17 @@ if = {
 }
 
 recruit_character = DOR_doran_martell#
+recruit_character = DOR_doran_martell_hc#
+recruit_character = DOR_trystane_martell#
+recruit_character = DOR_oberyn_martell#
+recruit_character = DOR_ellaria_sand#
+recruit_character = DOR_arwyn_martell_pa#
+recruit_character = DOR_areo_hotah#
+recruit_character = DOR_obara_sand#
+recruit_character = DOR_nymeria_sand#
+recruit_character = DOR_anthor_dayne#
+recruit_character = DOR_arthur_dayne#
+recruit_character = DOR_maron_martell#
 
 set_politics = {
 	ruling_party = fascism

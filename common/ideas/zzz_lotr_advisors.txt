@@ -379,6 +379,33 @@ ideas = {
 
 			traits = { wizard_genius }
 		}
+		voren_idea_dor = {
+
+			picture = portrait_DOR_voren_small
+
+			allowed = {
+				OR = {
+					original_tag = DOR
+				}
+			}
+
+			ai_will_do = {
+            	factor = 0
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			modifier = {
+			}
+
+			on_add = {
+			}
+			on_remove = {
+			}
+
+			traits = { wizard_genius }
+		}
     }
     research_advisor = {
         designer = yes
@@ -865,6 +892,48 @@ ideas = {
 
 			traits = { explosives_specialist  }
 		}
+		tyene_sand_idea_dor = {
+			picture = portrait_DOR_tyene_sand_small
+
+			allowed = {
+				OR = {
+					original_tag = DOR
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
+		ariyana_dayn_idea_dor = {
+			picture = portrait_DOR_ariyana_dayne_small
+
+			allowed = {
+				OR = {
+					original_tag = DOR
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { explosives_specialist  }
+		}
     }
     architect = {
         designer = yes
@@ -1147,6 +1216,27 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = REA
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
+		arwyn_martell_idea_dor = {
+			picture = portrait_DOR_arwyn_martell_small
+
+			allowed = {
+				OR = {
+					original_tag = DOR
 				}
 			}
 
