@@ -12,4 +12,247 @@ characters = {
 			id=-1
 		}
 	}
+	WHW_king_of_night_hc={
+		name="King of Night"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_king_of_night"
+				small="GFX_portrait_WHW_king_of_night_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WHW_king_of_night
+			slot = chief_advisor
+			cost = 150
+			traits = { superiority_preacher }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_king_of_night_ac={
+		name="King of Night"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_king_of_night"
+				small="GFX_portrait_WHW_king_of_night_small"
+			}
+		}
+		advisor = {
+			idea_token = WHW_king_of_night_ac
+			slot = army_chief
+			cost = 150
+			traits = { winter_assailant }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_hardhome={
+		name="White Walker Hardhome"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_whw_hardhome"
+				small="GFX_portrait_WHW_whw_hardhome_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_hardhome
+			slot = treasurer
+			cost = 150
+			traits = { investment_gambler }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_oathkeeper={
+		name="White Walker Oathkeeper"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_whw_oathkeeper"
+				small="GFX_portrait_WHW_whw_oathkeeper_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_oathkeeper
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_door={
+		name="White Walker The Door"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_whw_door"
+				small="GFX_portrait_WHW_whw_door_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_door
+			slot = political_advisor
+			cost = 150
+			traits = { inexperienced_organizer }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_cav={
+		name="White Walker Cavalry"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_whw_cav"
+				small="GFX_portrait_WHW_whw_cav_small"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				always = yes
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_cav
+			slot = cavalry_chief
+			cost = 150
+			traits = { chariot_cavalry_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_morghulis={
+		name="White Walker Morghulis"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_whw_morghulis"
+				small="GFX_portrait_WHW_whw_morghulis_small"
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_morghulis
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_winter={
+		name="White Walker Winter"
+		portraits={
+			army={
+				large="GFX_portrait_WHW_whw_winter"
+				small="GFX_portrait_WHW_whw_winter_small"
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_winter
+			slot = high_command
+			cost = 150
+			traits = { siege_expert }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
+	WHW_whw_theorist={
+		name="White Walker Theorist"
+		portraits={
+			army={
+				small="GFX_portrait_WHW_whw_theorist_small"
+			}
+		}
+		advisor = {
+			idea_token = WHW_whw_theorist
+			slot = theorist
+			cost = 150
+			traits = { trench_enthusiast }
+			available = {
+				always = yes
+			}
+			visible = {
+				always = yes
+			}
+		}
+	}
 }

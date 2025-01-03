@@ -1252,5 +1252,26 @@ ideas = {
 
 			traits = { rural_architect }
 		}
+		whw_architect_idea_whw = {
+			picture = portrait_WHW_whw_architect_small
+
+			allowed = {
+				OR = {
+					original_tag = WHW
+				}
+			}
+
+			ai_will_do = {
+            	factor = 1
+        	}
+
+			cost = 150
+			removal_cost = 10
+
+			research_bonus = {
+			}
+
+			traits = { rural_architect }
+		}
     }
 }

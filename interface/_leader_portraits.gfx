@@ -4,6 +4,66 @@ spriteTypes = {
 		texturefile = "gfx/leaders/WHW/portrait_WHW_king_of_night.dds"
 	}
 	SpriteType = {
+		name = "GFX_portrait_WHW_king_of_night_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_king_of_night_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_hardhome"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_whw_hardhome.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_hardhome_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_hardhome_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_oathkeeper"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_whw_oathkeeper.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_oathkeeper_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_oathkeeper_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_door"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_whw_door.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_door_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_door_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_cav"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_whw_cav.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_cav_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_cav_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_morghulis"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_whw_morghulis.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_morghulis_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_morghulis_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_winter"
+		texturefile = "gfx/leaders/WHW/portrait_WHW_whw_winter.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_winter_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_winter_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WHW_whw_theorist_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_theorist_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_portrait_WHW_whw_architect_small"
+		texturefile = "gfx/leaders/WHW/small/portrait_WHW_whw_architect_small.dds"
+	}
+	SpriteType = {
 		name = "GFX_portrait_WIL_mans_rayder"
 		texturefile = "gfx/leaders/WIL/portrait_WIL_mans_rayder.dds"
 	}

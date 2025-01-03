@@ -16,6 +16,15 @@ if = {
 }
 
 recruit_character = WHW_king_of_night#
+recruit_character = WHW_king_of_night_hc#
+recruit_character = WHW_king_of_night_ac#
+recruit_character = WHW_whw_hardhome#
+recruit_character = WHW_whw_oathkeeper#
+recruit_character = WHW_whw_door#
+recruit_character = WHW_whw_cav#
+recruit_character = WHW_whw_morghulis#
+recruit_character = WHW_whw_winter#
+recruit_character = WHW_whw_theorist#
 
 set_politics = {
 	ruling_party = neutrality
