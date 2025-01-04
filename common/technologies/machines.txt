@@ -27,7 +27,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = artillery_folder
@@ -62,7 +62,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3019
+		start_year = 300
 
 		folder = {
 			name = artillery_folder
@@ -100,7 +100,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = artillery_folder
@@ -137,7 +137,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3021
+		start_year = 302
 
 		folder = {
 			name = artillery_folder
@@ -174,7 +174,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3023
+		start_year = 304
 
 		folder = {
 			name = artillery_folder
@@ -202,7 +202,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = artillery_folder
@@ -242,7 +242,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 3019
+		start_year = 300
 
 		folder = {
 			name = artillery_folder
@@ -275,7 +275,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = artillery_folder
@@ -311,7 +311,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3021
+		start_year = 302
 
 		folder = {
 			name = artillery_folder
@@ -349,7 +349,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = artillery_folder
@@ -383,7 +383,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3023
+		start_year = 304
 
 		folder = {
 			name = artillery_folder
@@ -413,7 +413,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = artillery_folder
@@ -465,7 +465,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3016
+		start_year = 296
 
 		folder = {
 			name = artillery_folder
@@ -505,7 +505,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3019
+		start_year = 300
 
 		folder = {
 			name = artillery_folder
@@ -536,7 +536,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = artillery_folder
@@ -566,7 +566,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = artillery_folder
@@ -607,7 +607,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = artillery_folder
@@ -629,7 +629,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = artillery_folder
@@ -690,7 +690,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = artillery_folder
@@ -717,7 +717,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = artillery_folder
@@ -749,7 +749,7 @@ technologies = {
 		#}
 
 		research_cost = 2
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = artillery_folder
@@ -774,7 +774,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3023
+		start_year = 304
 
 		folder = {
 			name = artillery_folder
@@ -803,7 +803,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = artillery_folder
@@ -833,7 +833,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = artillery_folder

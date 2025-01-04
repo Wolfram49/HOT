@@ -1,7 +1,7 @@
 equipments = {
 
 	fighter_fellbeast_airframe = {
-		year = 3016
+		year = 297
 
 		#is_archetype = yes
 		archetype = archetype_generic_airframe
@@ -156,7 +156,7 @@ equipments = {
 
 	fighter_fellbeast_airframe_0 = {
 		abbreviation = "afs0"
-		year = 3020
+		year = 301
 
 		archetype = archetype_generic_airframe
 		parent = fighter_fellbeast_airframe

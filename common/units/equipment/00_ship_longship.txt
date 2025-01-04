@@ -113,7 +113,7 @@ equipments = {
 	}
 
 	longship_hull_0 = {
-		year = 3016
+		year = 297
 
 		archetype = longship_hull
 		priority = 2000
@@ -130,7 +130,7 @@ equipments = {
 	}
 
 	longship_hull_1 = {
-		year = 3018
+		year = 299
 
 		archetype = longship_hull
 		priority = 2000
@@ -184,7 +184,7 @@ equipments = {
 	}
 
 	longship_hull_2 = {
-		year = 3020
+		year = 301
 
 		archetype = longship_hull
 		priority = 2000

@@ -73,7 +73,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = air_techs_folder
@@ -99,7 +99,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1 #Carrier Variant
-		start_year = 3018
+		start_year = 299
 
 		categories = {
 			naval_air
@@ -121,7 +121,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -148,7 +148,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3022
+		start_year = 303
 
 		categories = {
 			naval_air
@@ -171,7 +171,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = air_techs_folder
@@ -198,7 +198,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3026
+		start_year = 307
 
 		categories = {
 			naval_air
@@ -225,7 +225,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3027
+		start_year = 308
 
 		folder = {
 			name = air_techs_folder
@@ -277,7 +277,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = air_techs_folder
@@ -305,7 +305,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3018
+		start_year = 299
 
 		categories = {
 			naval_air
@@ -326,7 +326,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = air_techs_folder
@@ -354,7 +354,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3022
+		start_year = 303
 
 		categories = {
 			naval_air
@@ -377,7 +377,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 8 }
@@ -404,7 +404,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3026
+		start_year = 307
 
 		categories = {
 			naval_air
@@ -427,7 +427,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 4 }
@@ -454,7 +454,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3018
+		start_year = 299
 
 		categories = {
 			naval_air
@@ -477,7 +477,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 6 }
@@ -504,7 +504,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3022
+		start_year = 303
 
 		categories = {
 			naval_air
@@ -525,7 +525,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -552,7 +552,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.0 #Carrier Variant
-		start_year = 3026
+		start_year = 307
 
 		categories = {
 			naval_air
@@ -612,7 +612,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 4 }
@@ -640,7 +640,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 6 }
@@ -668,7 +668,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 8 }
@@ -719,7 +719,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 6 }
@@ -747,7 +747,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = air_techs_folder
@@ -774,7 +774,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 6 }
@@ -802,7 +802,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 8 }
@@ -834,7 +834,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3027
+		start_year = 308
 
 		folder = {
 			name = air_techs_folder
@@ -887,7 +887,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -915,7 +915,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -943,7 +943,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
@@ -994,7 +994,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.5 #Carrier Variant
-		start_year = 3026
+		start_year = 307
 
 		# only from focus!!! #####
 		allow = {

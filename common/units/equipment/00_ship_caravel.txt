@@ -123,7 +123,7 @@ equipments = {
 	}
 
 	caravel_hull_0 = {
-		year = 3016
+		year = 297
 
 		archetype = caravel_hull
 		priority = 2000
@@ -140,7 +140,7 @@ equipments = {
 	}
 
 	caravel_hull_1 = {
-		year = 3018
+		year = 299
 
 		archetype = caravel_hull
 		priority = 2000
@@ -205,7 +205,7 @@ equipments = {
 	}
 
 	caravel_hull_2 = {
-		year = 3020
+		year = 301
 
 		archetype = caravel_hull
 		priority = 2000

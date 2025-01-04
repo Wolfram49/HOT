@@ -12,7 +12,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		land_night_attack = 0.1
 		naval_night_attack = 0.1
@@ -27,7 +27,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		encryption = 1
 		category_front_line = {
@@ -42,7 +42,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_equipment_modules = {
 			mithril_barding_module
@@ -59,7 +59,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_equipment_modules = {
 			mearas_breed_module
@@ -72,7 +72,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_equipment_modules = {
 			elk_breed_module
@@ -85,7 +85,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_equipment_modules = {
 			warg_breed_module
@@ -98,7 +98,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_equipment_modules = {
 			boar_breed_module
@@ -111,7 +111,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_equipment_modules = {
 			cav_weedpipe
@@ -125,7 +125,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		enable_building = {
 			building = rocket_site

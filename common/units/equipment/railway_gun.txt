@@ -39,7 +39,7 @@ equipments = {
 	}
 
 	siege_trebuchet_equipment_0 = {
-		year = 3020
+		year = 301
 
 		archetype = railway_gun_equipment
 		priority = 50

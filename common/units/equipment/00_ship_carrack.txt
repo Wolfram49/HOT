@@ -1,7 +1,7 @@
 equipments = {
 
 	carrack_hull = {
-		year = 3016
+		year = 297
 
 		can_be_produced = {
 			NOT = {
@@ -145,7 +145,7 @@ equipments = {
 	}
 
 	carrack_hull_0 = {
-		year = 3020
+		year = 301
 
 		archetype = carrack_hull
 		priority = 2000

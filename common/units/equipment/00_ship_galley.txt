@@ -1,7 +1,7 @@
 equipments = {
 
 	galley_hull = {
-		year = 3016
+		year = 297
 
 		can_be_produced = {
 			NOT = {
@@ -129,7 +129,7 @@ equipments = {
 	}
 
 	galley_hull_0 = {
-		year = 3016
+		year = 297
 
 		archetype = galley_hull
 		priority = 2000
@@ -146,7 +146,7 @@ equipments = {
 	}
 
 	galley_hull_1 = {
-		year = 3018
+		year = 299
 
 		archetype = galley_hull
 		priority = 2000
@@ -188,7 +188,7 @@ equipments = {
 	}
 
 	galley_hull_2 = {
-		year = 3020
+		year = 301
 
 		archetype = galley_hull
 		priority = 2000

@@ -50,7 +50,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3018
+		start_year = 299
 
 
 
@@ -76,7 +76,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 
 
@@ -90,7 +90,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2
-		start_year = 3024
+		start_year = 305
 
 
 
@@ -121,7 +121,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3021
+		start_year = 302
 
 
 
@@ -138,7 +138,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3021
+		start_year = 302
 
 
 		categories = {
@@ -154,7 +154,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3021
+		start_year = 302
 
 
 
@@ -202,7 +202,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 
 		categories = {
@@ -214,7 +214,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 
 
@@ -227,7 +227,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 
 
@@ -267,7 +267,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3027
+		start_year = 308
 
 
 
@@ -284,7 +284,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3027
+		start_year = 308
 
 
 
@@ -301,7 +301,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3027
+		start_year = 308
 
 		
 
@@ -352,7 +352,7 @@ technologies = {
 		allow = { always = no }
 		allow_branch = { always = no }
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
@@ -444,7 +444,7 @@ technologies = {
 		allow = { always = no}
 		allow_branch = { always = no }
 		research_cost = 2.5
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = electronics_folder
@@ -479,7 +479,7 @@ technologies = {
 		allow = { always = no}
 		allow_branch = { always = no }
 		research_cost = 2.5
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = electronics_folder
@@ -503,7 +503,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 2.5
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = electronics_folder
@@ -601,7 +601,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 1.5 #Carrier Variant
-		start_year = 3018
+		start_year = 299
 
 		# only from focus!!! #####
 		allow = {
@@ -622,7 +622,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 		
 
@@ -640,7 +640,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 		
 
@@ -657,7 +657,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 		
 
@@ -671,7 +671,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 		
 
@@ -686,7 +686,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 		
 
@@ -701,7 +701,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3025
+		start_year = 306
 
 		
 
@@ -731,7 +731,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3023
+		start_year = 304
 
 
 
@@ -745,7 +745,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3023
+		start_year = 304
 
 
 
@@ -764,7 +764,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3016
+		start_year = 296
 
 
 
@@ -783,7 +783,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3016
+		start_year = 296
 
 
 
@@ -801,7 +801,7 @@ technologies = {
 
 		allow = { always = no}
 		research_cost = 0.5
-		start_year = 3016
+		start_year = 296
 
 
 
@@ -868,7 +868,7 @@ technologies = {
 		allow_branch = { always = no }
 		research_cost = 2
 
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = naval_folder
@@ -918,7 +918,7 @@ technologies = {
 		allow = { always = no }
 		allow_branch = { always = no }
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = naval_folder
@@ -948,7 +948,7 @@ technologies = {
 		allow = { always = no }
 		allow_branch = { always = no }
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = naval_folder
@@ -974,7 +974,7 @@ technologies = {
 		allow_branch = { always = no }
 		research_cost = 2
 
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = naval_folder
@@ -1027,7 +1027,7 @@ technologies = {
 		allow = { always = no }
 		allow_branch = { always = no }
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = naval_folder
@@ -1054,7 +1054,7 @@ technologies = {
 		allow_branch = { always = no }
 		research_cost = 2
 
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = naval_folder
@@ -1077,7 +1077,7 @@ technologies = {
 		allow_branch = { always = no }
 		research_cost = 2
 
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = naval_folder
@@ -1138,7 +1138,7 @@ technologies = {
 		allow = { always = no }
 		allow_branch = { always = no }
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = naval_folder
@@ -1169,7 +1169,7 @@ technologies = {
 		allow_branch = { always = no }
 		research_cost = 2
 
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = naval_folder
@@ -1195,7 +1195,7 @@ technologies = {
 		allow_branch = { always = no }
 		research_cost = 2
 
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = naval_folder
@@ -1218,7 +1218,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 
 		# only from focus!!! #####
 		allow = {

@@ -21,7 +21,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3017
+		start_year = 298
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -38,7 +38,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.25
 
 		research_cost = 1.5
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 6 }
@@ -59,7 +59,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 2 }
@@ -80,7 +80,7 @@ technologies = {
 		allow_branch = { always = no }
 
 		research_cost = 1.5
-		start_year = 3020
+		start_year = 301
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -110,7 +110,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3020
+		start_year = 301
 
 		folder = {
 			name = industry_folder
@@ -134,7 +134,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = industry_folder
@@ -169,7 +169,7 @@ technologies = {
 
 
 		research_cost = 2
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = industry_folder
@@ -190,7 +190,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.2
 
 		research_cost = 2.5
-		start_year = 3026
+		start_year = 307
 
 		XOR = {
 			streamlined_line
@@ -215,7 +215,7 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.1
 
 		research_cost = 2.5
-		start_year = 3026
+		start_year = 307
 
 		XOR = {
 			flexible_line
@@ -247,7 +247,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3019
+		start_year = 300
 
 		folder = {
 			name = industry_folder
@@ -266,7 +266,7 @@ technologies = {
 		equipment_conversion_speed = 0.40
 
 		research_cost = 1.5
-		start_year = 3021
+		start_year = 302
 
 		allow = { always = no }
 		allow_branch = { always = no }
@@ -295,7 +295,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		categories = {
 			lotr_labour
@@ -319,7 +319,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3020
+		start_year = 301
 
 		categories = {
 			lotr_labour
@@ -343,7 +343,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3022
+		start_year = 303
 
 		categories = {
 			lotr_labour
@@ -367,7 +367,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3024
+		start_year = 305
 
 		categories = {
 			lotr_labour
@@ -391,7 +391,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3025
+		start_year = 306
 
 		categories = {
 			lotr_labour
@@ -453,7 +453,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3019
+		start_year = 300
 
 		folder = {
 			name = industry_folder
@@ -487,7 +487,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3021
+		start_year = 302
 
 		folder = {
 			name = industry_folder
@@ -519,7 +519,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3023
+		start_year = 304
 
 		folder = {
 			name = industry_folder
@@ -545,7 +545,7 @@ technologies = {
 		global_building_slots_factor = 0.20
 
 		research_cost = 2
-		start_year = 3025
+		start_year = 306
 
 		folder = {
 			name = industry_folder
@@ -575,7 +575,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = industry_folder
@@ -602,7 +602,7 @@ technologies = {
 		production_lack_of_resource_penalty_factor = -0.1
 
 		research_cost = 2
-		start_year = 3025
+		start_year = 306
 
 		folder = {
 			name = industry_folder
@@ -680,7 +680,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3019
+		start_year = 300
 
 		folder = {
 			name = industry_folder
@@ -715,7 +715,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3021
+		start_year = 302
 
 		folder = {
 			name = industry_folder
@@ -750,7 +750,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3023
+		start_year = 304
 
 		folder = {
 			name = industry_folder
@@ -781,7 +781,7 @@ technologies = {
 
 
 		research_cost = 2
-		start_year = 3025
+		start_year = 306
 
 		folder = {
 			name = industry_folder
@@ -809,7 +809,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = 5 }
@@ -832,7 +832,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 2 }
@@ -855,7 +855,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 6 }
@@ -877,7 +877,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2.5
-		start_year = 3024
+		start_year = 305
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 10 }
@@ -895,7 +895,7 @@ technologies = {
 		fuel_gain_factor_from_states = 0.2
 
 		research_cost = 2.5
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = industry_folder
 			position = { x = 3 y = 14 }
@@ -913,7 +913,7 @@ technologies = {
 		fuel_gain_factor_from_states = 0.2
 
 		research_cost = 2.5
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = industry_folder
 			position = { x = 8 y = 6 }
@@ -936,7 +936,7 @@ technologies = {
 		fuel_gain_factor_from_states = 0.2
 
 		research_cost = 2.5
-		start_year = 3023
+		start_year = 304
 		folder = {
 			name = industry_folder
 			position = { x = 8 y = 8 }
@@ -974,7 +974,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = 0 }
@@ -1003,7 +1003,7 @@ technologies = {
 			}
 		}
 
-		start_year = 3018
+		start_year = 299
 
 		path = {
 			leads_to_tech = improved_oil_processing
@@ -1060,7 +1060,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = industry_folder
@@ -1099,7 +1099,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = industry_folder
@@ -1129,7 +1129,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = industry_folder
@@ -1162,7 +1162,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		folder = {
 			name = industry_folder
@@ -1198,7 +1198,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3021
+		start_year = 302
 
 		folder = {
 			name = industry_folder
@@ -1238,7 +1238,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = industry_folder
@@ -1269,7 +1269,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = industry_folder
@@ -1309,7 +1309,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 		categories = {
 			lotr_labour
 			lotr_labour_construction
@@ -1332,7 +1332,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3018
+		start_year = 299
 
 		categories = {
 			lotr_labour
@@ -1356,7 +1356,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3020
+		start_year = 301
 
 		categories = {
 			lotr_labour
@@ -1376,7 +1376,7 @@ technologies = {
 		industry_repair_factor = 0.10
 
 		research_cost = 2
-		start_year = 3023
+		start_year = 304
 
 		categories = {
 			lotr_labour
@@ -1396,7 +1396,7 @@ technologies = {
 
 
 		research_cost = 2
-		start_year = 3025
+		start_year = 306
 
 		categories = {
 			lotr_labour

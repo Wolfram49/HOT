@@ -3,7 +3,7 @@
 equipments = {
 
 	infantry_equipment = {
-		year = 3016
+		year = 297
 
 		is_archetype = yes
 		picture = archetype_infantry_equipment
@@ -43,7 +43,7 @@ equipments = {
 
 	# Basic
 	infantry_equipment_0 = {
-		year = 3016
+		year = 297
 
 		archetype = infantry_equipment
 		active = yes
@@ -53,7 +53,7 @@ equipments = {
 
 	# Cheap 1
 	infantry_equipment_1 = {
-		year = 3018
+		year = 299
 
 		archetype = infantry_equipment
 		parent = infantry_equipment_0
@@ -82,7 +82,7 @@ equipments = {
 
 	# Expensive 1
 	infantry_equipment_2 = {
-		year = 3018
+		year = 299
 
 		archetype = infantry_equipment
 		parent = infantry_equipment_1
@@ -111,7 +111,7 @@ equipments = {
 
 	# Cheap 2
 	infantry_equipment_3 = {
-		year = 3020
+		year = 301
 
 		archetype = infantry_equipment
 		parent = infantry_equipment_2
@@ -140,7 +140,7 @@ equipments = {
 
 	# Expensive 2
 	infantry_equipment_4 = {
-		year = 3020
+		year = 301
 
 		archetype = infantry_equipment
 		parent = infantry_equipment_3

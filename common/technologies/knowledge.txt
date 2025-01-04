@@ -22,7 +22,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = electronics_folder
 			position = { x = 16 y = 0 }
@@ -51,7 +51,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = electronics_folder
 			position = { x = 12 y = 0 }
@@ -77,7 +77,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3020
+		start_year = 301
 		folder = {
 			name = electronics_folder
 			position = { x = 12 y = 4 }
@@ -108,7 +108,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3023
+		start_year = 304
 		folder = {
 			name = electronics_folder
 			position = { x = 12 y = 10 }
@@ -127,7 +127,7 @@ technologies = {
 		stability_weekly = 0.001
 
 		research_cost = 1
-		start_year = 3024
+		start_year = 305
 		folder = {
 			name = electronics_folder
 			position = { x = 12 y = 12 }
@@ -150,7 +150,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3024
+		start_year = 305
 		folder = {
 			name = electronics_folder
 			position = { x = 14 y = 12 }
@@ -173,7 +173,7 @@ technologies = {
 		naval_coordination = 0.25
 
 		research_cost = 1
-		start_year = 3020
+		start_year = 301
 		folder = {
 			name = electronics_folder
 			position = { x = 14 y = 4 }
@@ -199,7 +199,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = electronics_folder
 			position = { x = 16 y = 6 }
@@ -216,7 +216,7 @@ technologies = {
 		stability_weekly = 0.002
 
 		research_cost = 1
-		start_year = 3023
+		start_year = 304
 		folder = {
 			name = electronics_folder
 			position = { x = 16 y = 10 }
@@ -240,7 +240,7 @@ technologies = {
 		global_building_slots_factor = 0.1
 
 		research_cost = 1
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = electronics_folder
 			position = { x = 16 y = 16 }
@@ -261,7 +261,7 @@ technologies = {
 		resistance_activity = -0.15
 
 		research_cost = 1
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = electronics_folder
 			position = { x = 20 y = 6 }
@@ -315,7 +315,7 @@ technologies = {
 		stability_weekly = 0.002
 
 		research_cost = 1
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = electronics_folder
 			position = { x = 10 y = 16 }
@@ -349,7 +349,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = electronics_folder
 			position = { x = 5 y = 0 }
@@ -370,7 +370,7 @@ technologies = {
 		land_night_attack = 0.05
 
 		research_cost = 1
-		start_year = 3020
+		start_year = 301
 		folder = {
 			name = electronics_folder
 			position = { x = 10 y = 4 }
@@ -393,7 +393,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3024
+		start_year = 305
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 12 }
@@ -424,7 +424,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3019
+		start_year = 300
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 2 }
@@ -452,7 +452,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3020
+		start_year = 301
 		folder = {
 			name = electronics_folder
 			position = { x = 6 y = 4 }
@@ -480,7 +480,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3023
+		start_year = 304
 		folder = {
 			name = electronics_folder
 			position = { x = 6 y = 10 }
@@ -510,7 +510,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3024
+		start_year = 305
 		folder = {
 			name = electronics_folder
 			position = { x = 6 y = 12 }
@@ -531,7 +531,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3026
+		start_year = 307
 		folder = {
 			name = electronics_folder
 			position = { x = 6 y = 16 }
@@ -571,7 +571,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = electronics_folder
 			position = { x = 4 y = 6 }
@@ -606,7 +606,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3022
+		start_year = 303
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = 8 }
@@ -639,7 +639,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3019
+		start_year = 300
 		folder = {
 			name = electronics_folder
 			position = { x = 1 y = 2 }
@@ -665,7 +665,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = electronics_folder
@@ -691,7 +691,7 @@ technologies = {
 		allow = { always = no }
 		allow_branch = { always = no }
 
-		start_year = 3026
+		start_year = 307
 		research_cost = 2
 
 		folder = {
@@ -723,7 +723,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		start_year = 3021
+		start_year = 302
 		research_cost = 3
 
 		folder = {
@@ -747,7 +747,7 @@ technologies = {
 
 		nuclear_production = 1
 
-		start_year = 3023
+		start_year = 304
 		research_cost = 5
 
 		folder = {
@@ -780,7 +780,7 @@ technologies = {
 
 	nuclear_reactor = {
 
-		start_year = 3025
+		start_year = 306
 		research_cost = 5
 
 		show_effect_as_desc = yes
@@ -829,7 +829,7 @@ technologies = {
 		}
 
 		research_cost = 5
-		start_year = 3025
+		start_year = 306
 
 		path = {
 			leads_to_tech = rocket_engines
@@ -855,7 +855,7 @@ technologies = {
 		custom_modifier_tooltip = continuous_explosives_production_tt
 
 		research_cost = 9999
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = electronics_folder
@@ -891,7 +891,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = electronics_folder
 			position = { x = 22 y = 0 }
@@ -921,7 +921,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3021
+		start_year = 302
 		folder = {
 			name = electronics_folder
 			position = { x = 22 y = 6 }
@@ -950,7 +950,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3018
+		start_year = 299
 		folder = {
 			name = electronics_folder
 			position = { x = 26 y = 0 }
@@ -985,7 +985,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 3019
+		start_year = 300
 		folder = {
 			name = electronics_folder
 			position = { x = 24 y = 2 }
@@ -1006,7 +1006,7 @@ technologies = {
 		decryption = 1
 
 		research_cost = 1
-		start_year = 3022
+		start_year = 303
 
 		allow_branch = {
 			#NOT = { has_dlc = "La Resistance" }
@@ -1039,7 +1039,7 @@ technologies = {
 			#NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1
-		start_year = 3024
+		start_year = 305
 
 		folder = {
 			name = electronics_folder
@@ -1069,7 +1069,7 @@ technologies = {
 			#NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = electronics_folder
@@ -1096,7 +1096,7 @@ technologies = {
 			#NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1.5
-		start_year = 3022
+		start_year = 303
 
 		path = {
 			leads_to_tech = infiltrators_tech_2
@@ -1125,7 +1125,7 @@ technologies = {
 			#NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1.5
-		start_year = 3024
+		start_year = 305
 
 		path = {
 			leads_to_tech = infiltrators_tech_3
@@ -1156,7 +1156,7 @@ technologies = {
 			#NOT = { has_dlc = "La Resistance" }
 		}
 		research_cost = 1.5
-		start_year = 3026
+		start_year = 307
 
 		folder = {
 			name = electronics_folder
@@ -1190,7 +1190,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 3021
+		start_year = 302
 
 		folder = {
 			name = electronics_folder
@@ -1223,7 +1223,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 3023
+		start_year = 304
 
 		folder = {
 			name = electronics_folder
@@ -1248,7 +1248,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 
 		research_cost = 2.5
-		start_year = 3025
+		start_year = 306
 
 		folder = {
 			name = electronics_folder
@@ -1270,7 +1270,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 3022
+		start_year = 303
 
 		folder = {
 			name = electronics_folder
@@ -1298,7 +1298,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 3025
+		start_year = 306
 
 		folder = {
 			name = electronics_folder
@@ -1316,7 +1316,7 @@ technologies = {
 	centimetric_radar = {
 
 		research_cost = 2.5
-		start_year = 3024
+		start_year = 305
 
 		categories = {
 			lotr_knowledge
@@ -1328,7 +1328,7 @@ technologies = {
 	advanced_centimetric_radar = {
 
 		research_cost = 2.5
-		start_year = 3024
+		start_year = 305
 
 		categories = {
 			lotr_knowledge

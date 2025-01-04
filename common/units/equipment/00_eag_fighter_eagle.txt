@@ -158,7 +158,7 @@ equipments = {
 
 	fighter_eagle_airframe_0 = {
 		abbreviation = "afs0"
-		year = 3020
+		year = 301
 
 		archetype = archetype_generic_airframe
 		parent = fighter_eagle_airframe
