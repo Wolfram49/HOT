@@ -27,6 +27,9 @@ state={
 		owner = NSW
 		add_core_of = NSW
 		buildings = {
+			6060 = {
+				naval_base = 2
+			}
 			industrial_complex = 2
 			arms_factory = 2
 			infrastructure = 3
