@@ -16,6 +16,9 @@ state={
 		owner = IRI
         add_core_of = IRI
 		buildings = {
+			2524 = {
+				naval_base = 1
+			}
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
