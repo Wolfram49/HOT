@@ -14,6 +14,9 @@ state={
 		owner = NRT
         add_core_of = NRT
 		buildings = {
+			2539 = {
+				naval_base = 2
+			}
 			arms_factory = 2
 			industrial_complex = 2
 			infrastructure = 3
