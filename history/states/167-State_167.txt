@@ -23,6 +23,12 @@ state={
 		owner = REA
         add_core_of = REA
 		buildings = {
+			2548 = {
+				naval_base = 2
+			}
+			8982 = {
+				naval_base = 2
+			}
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
