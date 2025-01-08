@@ -18,6 +18,12 @@ state={
 		owner = STL
         add_core_of = STL
 		buildings = {
+			8022 = {
+				naval_base = 2
+			}
+			8041 = {
+				naval_base = 2
+			}
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1

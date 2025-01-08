@@ -14,6 +14,9 @@ state={
 		owner = DOR
         add_core_of = DOR
 		buildings = {
+			8488 = {
+				naval_base = 1
+			}
 			infrastructure = 3
 		}
 	}
