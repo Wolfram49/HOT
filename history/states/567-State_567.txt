@@ -19,6 +19,12 @@ state={
 		owner = RIL
         add_core_of = RIL
 		buildings = {
+			7196 = {
+				naval_base = 2
+			}
+			7325 = {
+				naval_base = 2
+			}
 			industrial_complex = 2
 			arms_factory = 1
 			infrastructure = 3
