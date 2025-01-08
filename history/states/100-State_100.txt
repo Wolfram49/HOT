@@ -21,6 +21,12 @@ state={
 		owner = CRL
         add_core_of = CRL
 		buildings = {
+			7179 = {
+				naval_base = 2
+			}
+			5215 = {
+				naval_base = 2
+			}
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1

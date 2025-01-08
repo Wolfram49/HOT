@@ -23,6 +23,12 @@ state={
 		owner = WSL
         add_core_of = WSL
 		buildings = {
+			1146 = {
+				naval_base = 4
+			}
+			7723 = {
+				naval_base = 2
+			}
 			industrial_complex = 4
 			arms_factory = 4
 			dockyard = 2
