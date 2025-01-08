@@ -22,6 +22,12 @@ state={
         add_core_of = DRG
 		add_core_of = CRL
 		buildings = {
+			5600 = {
+				naval_base = 4
+			}
+			7484 = {
+				naval_base = 2
+			}
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
