@@ -1,4 +1,319 @@
-instant_effect = {
+##### Division Templates #####
+division_template = {
+	name = "Wildling Division"
 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+units = {
+	division = {	
+		location = 5599
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 88
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3062
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 5417
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3533
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 4837
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 6051
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3677
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 4850
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3984
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 5599
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 88
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3062
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 5417
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3533
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 4837
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 6051
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3677
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 4850
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 3984
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 2790
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 1382
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 5977
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 2950
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 1127
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 1336
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 6
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 5976
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 469
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 2005
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 1036
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 5710
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 6018
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 4934
+		division_template = "Wildling Division"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = WIL
+		}
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = WIL
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = WIL
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = WIL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+     add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = WIL
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
 
 }

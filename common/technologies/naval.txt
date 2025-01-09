@@ -67,7 +67,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 3004
+		start_year = 298
 
 		folder = {
 			name = naval_folder
