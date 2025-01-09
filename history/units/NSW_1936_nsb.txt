@@ -1,4 +1,237 @@
-instant_effect = {
+##### Division Templates #####
+division_template = {
+	name = "Wall Guard"
 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "Night's Watch Recon"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 }
+        recon = { x = 1 y = 0 }	
+        engineer = { x = 2 y = 0 }	
+	}
+}
+
+units = {
+	division = {	
+		location = 6069
+		division_template = "Night's Watch Recon"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6069
+		division_template = "Night's Watch Recon"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 13266
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13267
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13265
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13264
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13263
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13262
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13261
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13260
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13259
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13258
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13257
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13256
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13255
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13254
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13253
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13252
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13251
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13250
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+units = {
+	division = {	
+		location = 13249
+		division_template = "Wall Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 0.5
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = WIL
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = WIL
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = WIL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = WIL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+     add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = WIL
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
 
 }
