@@ -578,6 +578,34 @@ units = {
 }
 units = {
 	division = {	
+		location = 6368
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6368
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6368
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6368
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
 		location = 6382
 		division_template = "Cavalry Division"
 		start_equipment_factor = 1.0 start_experience_factor = 1.0
