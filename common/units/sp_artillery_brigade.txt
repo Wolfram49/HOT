@@ -2,7 +2,7 @@ sub_units = {
 
 	medium_sp_artillery_brigade = {
 		abbreviation = "MAR"
-		sprite = heavy_cavalry
+		sprite = cavalry
 		map_icon_category = armored
 		priority = 1796
 		ai_priority = 100
@@ -206,7 +206,7 @@ sub_units = {
 
 	modern_sp_artillery_brigade = {
 		abbreviation = "OAR"
-		sprite = heavy_cavalry
+		sprite = cavalry
 		map_icon_category = armored
 		priority = 1796
 		ai_priority = 100
@@ -275,7 +275,7 @@ sub_units = {
 	# TEMP MODULAR ARMOR BELOW
 
 	#modular_archer_cavalry = {
-	#	sprite = light_cavalry
+	#	sprite = cavalry
 	#	map_icon_category = armored
 	#	priority = 1795
 	#	ai_priority = 0
@@ -337,7 +337,7 @@ sub_units = {
 #	#}
 #	#
 #	#modular_medium_sp_artillery_brigade = {
-#	#	sprite = heavy_cavalry
+#	#	sprite = cavalry
 #	#	map_icon_category = armored
 #	#	priority = 1796
 #	#	ai_priority = 0

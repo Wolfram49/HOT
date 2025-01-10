@@ -2,7 +2,7 @@ sub_units = {
 
 	light_cavalry = {
 		abbreviation = "LTK"
-		sprite = light_cavalry
+		sprite = cavalry
 		map_icon_category = armored
 		priority = 2501
 		ai_priority = 2000
@@ -73,7 +73,7 @@ sub_units = {
 
 	lancer_cavalry = {
 		abbreviation = "LTD"
-		sprite = "light_cavalry"
+		sprite = "cavalry"
 		map_icon_category = armored
 		priority = 1795
 		ai_priority = 100
@@ -215,7 +215,7 @@ sub_units = {
 
 	archer_cavalry = {
 		abbreviation = "LAR"
-		sprite = light_cavalry
+		sprite = cavalry
 		map_icon_category = armored
 		priority = 1795
 		ai_priority = 100
