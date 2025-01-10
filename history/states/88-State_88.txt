@@ -5,7 +5,7 @@ state={
 		2557 3618 6830 6849 6857 6880 6893 
 	}
 	resources = {
-		chromium = 6
+		chromium = 12
 		rubber = 3
 		oil = 4
 	}

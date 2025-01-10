@@ -650,7 +650,6 @@ instant_effect = {
 		equipment = {
 			type = convoy
 			creator = "USA"
-			version_name = "New Orleans Class"
 		} 
 		requested_factories = 9
 		progress = 0.10
