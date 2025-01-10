@@ -278,7 +278,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -291,7 +291,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -466,7 +466,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -479,7 +479,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3027"
+					text = "307"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -686,7 +686,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -699,7 +699,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1197,7 +1197,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1210,7 +1210,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1249,7 +1249,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1262,7 +1262,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1374,7 +1374,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1387,7 +1387,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1400,7 +1400,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3026"
+					text = "306"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -1413,7 +1413,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3028"
+					text = "308"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2402,7 +2402,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2415,7 +2415,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2428,7 +2428,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3026"
+					text = "306"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2467,7 +2467,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2480,7 +2480,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2493,7 +2493,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3026"
+					text = "306"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2735,7 +2735,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2748,7 +2748,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2761,7 +2761,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3026"
+					text = "306"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2800,7 +2800,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3022"
+					text = "302"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2813,7 +2813,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3024"
+					text = "304"
 					maxWidth = 130
 					maxHeight = 32
 					format = center
@@ -2826,7 +2826,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_20b"
 					borderSize = {x = 0 y = 4}
-					text = "3026"
+					text = "306"
 					maxWidth = 130
 					maxHeight = 32
 					format = center

@@ -1,4 +1,659 @@
-instant_effect = {
+##### Division Templates #####
+division_template = {
+	name = "Cavalry Division"
 
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+		light_cavalry = { x = 0 y = 1 }
+		light_cavalry = { x = 0 y = 2 }
+		light_cavalry = { x = 1 y = 0 }
+		light_cavalry = { x = 1 y = 1 }
+		light_cavalry = { x = 1 y = 2 }
+		light_cavalry = { x = 2 y = 0 }
+        light_cavalry = { x = 2 y = 1 }
+        light_cavalry = { x = 2 y = 2 }
+		light_cavalry = { x = 3 y = 0 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 
+        recon = { x = 1 y = 0 }	
+	}
+}
+division_template = {
+	name = "North Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 		
+	}
+}
+division_template = {
+	name = "Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = { 	
+	}
+}
+
+units = {
+	division = {	
+		location = 3379
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6087
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6047
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6032
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6213
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6213
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6227
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2423
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6432
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6432
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3822
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3547
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3547
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5678
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6503
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2539
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6545
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6545
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1116
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1869
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2539
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6427
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6311
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6311
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6294
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6204
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6204
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 91
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3399
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3134
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3134
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1217
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1217
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3269
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3269
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4733
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3910
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3910
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3910
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 228
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6320
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6320
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6195
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6179
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2107
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6140
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6140
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4310
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3160
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6251
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6251
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2191
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2191
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6449
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6449
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1393
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1393
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 885
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6576
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1564
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1564
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3906
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2204
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4096
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5384
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3886
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6654
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6637
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3084
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5024
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 297
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6337
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6337
+		division_template = "North Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6368
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6368
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6382
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 6382
+		division_template = "Cavalry Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = NRT
+		}
+		requested_factories = 15
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = light_cavalry_chassis_0
+			creator = NRT
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = NRT
+		}
+		requested_factories = 5
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = NRT
+		}
+		requested_factories = 6
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = NRT
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = NRT
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+			version_name = "New Orleans Class"
+		} 
+		requested_factories = 9
+		progress = 0.10
+	}
 
 }

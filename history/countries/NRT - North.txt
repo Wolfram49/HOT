@@ -46,6 +46,36 @@ recruit_character = NRT_theon_greyjoy#
 recruit_character = NRT_torrhen_karstark#
 recruit_character = NRT_walda_bolton#
 
+set_research_slots = 4
+
+set_technology = {
+	tech_recon = 1
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	tech_support = 1
+	merchant_ship = 1
+	trade_caravan = 1
+	horse_drawn_infantry = 1
+	metalworking = 1
+	basic_siege_tactics = 1
+	tech_engineers = 1
+	basic_cav = 1
+}
+
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 480
+}
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 50
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 420
+}
+
 set_politics = {
 	ruling_party = democratic
 }
