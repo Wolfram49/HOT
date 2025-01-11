@@ -37,7 +37,7 @@ recruit_character = NSW_gared#
 recruit_character = NSW_stonesnake#
 recruit_character = NSW_yoren#
 
-set_research_slots = 3
+set_research_slots = 4
 
 set_technology = {
 	tech_recon = 1
@@ -56,7 +56,7 @@ set_technology = {
 
 add_equipment_to_stockpile = {
 	type = convoy
-	amount = 200
+	amount = 180
 }
 add_equipment_to_stockpile = {
 	type = train_equipment_1
