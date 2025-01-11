@@ -36,6 +36,35 @@ recruit_character = CRL_tyrion_lannister_hc#
 recruit_character = CRL_sandor_clegane#
 recruit_character = CRL_gregor_clegane#
 
+set_research_slots = 4
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	tech_support = 1
+	merchant_ship = 1
+	trade_caravan = 1
+	horse_drawn_infantry = 1
+	metalworking = 1
+	basic_siege_tactics = 1
+	ballista_0 = 1
+	paratroopers = 1
+}
+
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 100
+}
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 10
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 60
+}
+
 set_autonomy = {
     target = DRG
     autonomous_state = autonomy_puppet

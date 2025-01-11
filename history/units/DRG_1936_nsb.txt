@@ -1,4 +1,206 @@
+##### Division Templates #####
+division_template = {
+	name = "Dragonstone Marines"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+        artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "Dragonstone Guard"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+        artillery = { x = 0 y = 0 }
+	}
+}
+units = {
+	division = {	
+		location = 5600
+		division_template = "Dragonstone Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5600
+		division_template = "Dragonstone Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2638
+		division_template = "Dragonstone Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7484
+		division_template = "Dragonstone Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2280
+		division_template = "Dragonstone Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2280
+		division_template = "Dragonstone Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2280
+		division_template = "Dragonstone Marines"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2280
+		division_template = "Dragonstone Marines"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2280
+		division_template = "Dragonstone Marines"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
 instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = DRG
+		}
+		requested_factories = 1
+		progress = 0.8
+		efficiency = 50
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+		} 
+		requested_factories = 2
+		progress = 0.80
+	}
+}
 
-
+units = {
+    fleet = {
+        name = "Dragonstone Battle Force"			
+		naval_base = 2280 
+		task_force = {
+            name = "Dragonstone Task Force 1"
+			location = 2280 	
+			ship = { definition = caravel equipment = { caravel_hull_0 = { amount = 1 owner = DRG } } }		
+            ship = { definition = caravel equipment = { caravel_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = caravel equipment = { caravel_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = caravel equipment = { caravel_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }					
+        }
+        task_force = {
+            name = "Dragonstone Task Force 2"
+			location = 7484 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }				
+        }
+        task_force = {
+            name = "Dragonstone Task Force 3"
+			location = 5600 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = DRG } } }					
+        }
+    }
 }

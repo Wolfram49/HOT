@@ -1,4 +1,299 @@
-instant_effect = {
+##### Division Templates #####
+division_template = {
+	name = "Crownlands Division"
 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 		
+	}
+}
+division_template = {
+	name = "Kings Guard"
+
+	regiments = {
+		heavy_infantry = { x = 0 y = 0 }
+		heavy_infantry = { x = 0 y = 1 }
+		heavy_infantry = { x = 0 y = 2 }
+		heavy_infantry = { x = 1 y = 0 }
+		heavy_infantry = { x = 1 y = 1 }
+		heavy_infantry = { x = 1 y = 2 }
+		heavy_infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+        artillery = { x = 0 y = 0 } 	
+	}
+}
+
+units = {
+	division = {	
+		location = 1223
+		division_template = "Kings Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1223
+		division_template = "Kings Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 1223
+		division_template = "Kings Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5091
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 856
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7424
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7424
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3249
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 3249
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7615
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5190
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5190
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4206
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4206
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7533
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7428
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7428
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4705
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7179
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7179
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5215
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 5215
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7252
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4162
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 4162
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 2899
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7610
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {	
+		location = 7610
+		division_template = "Crownlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = CRL
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = CRL
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = CRL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = CRL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = CRL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = CRL
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+		} 
+		requested_factories = 3
+		progress = 0.10
+	}
 
 }
