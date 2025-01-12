@@ -28,6 +28,8 @@ recruit_character = DRG_mellisandre_spy#
 recruit_character = DRG_mellisandre_pa#
 recruit_character = DRG_stannis_baratheon_ac#
 
+set_research_slots = 4
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

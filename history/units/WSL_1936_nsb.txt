@@ -1,4 +1,591 @@
+##### Division Templates #####
+division_template = {
+	name = "Westerland Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Clegane Guard"
+
+	regiments = {
+		heavy_infantry = { x = 0 y = 0 }
+		heavy_infantry = { x = 0 y = 1 }
+		heavy_infantry = { x = 0 y = 2 }
+		heavy_infantry = { x = 1 y = 0 }
+		heavy_infantry = { x = 1 y = 1 }
+		heavy_infantry = { x = 1 y = 2 }
+		heavy_infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+        artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Westerland Cavalry"
+
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+		light_cavalry = { x = 0 y = 1 }
+		light_cavalry = { x = 0 y = 2 }
+		light_cavalry = { x = 1 y = 0 }
+		light_cavalry = { x = 1 y = 1 }
+		light_cavalry = { x = 1 y = 2 }
+		light_cavalry = { x = 2 y = 0 }
+        light_cavalry = { x = 2 y = 1 }
+        light_cavalry = { x = 2 y = 2 }
+		light_cavalry = { x = 3 y = 0 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 
+        anti_tank = { x = 1 y = 0 }	
+
+	}
+}
 instant_effect = {
-
-
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = IRI
+		}
+		requested_factories = 9
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = IRI
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = light_cavalry_chassis_0
+			creator = WSL
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = WSL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = IRI
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = IRI
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = IRI
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+		} 
+		requested_factories = 2
+		progress = 0.80
+	}
+    add_equipment_production = {
+		equipment = {
+			type = galley_hull_0
+			creator = "WSL"
+		} 
+		requested_factories = 3
+		progress = 0.15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = longship_hull_0
+			creator = "WSL"
+		} 
+		requested_factories = 1
+		progress = 0.30
+	}
+}
+units = {
+	division = {
+		location = 5382
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7447
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7447
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4537
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4537
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5531
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4602
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4602
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7712
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7614
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3050
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3050
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7723
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7723
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1146
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1146
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7522
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7522
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7544
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7544
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2883
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3163
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3163
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1771
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7134
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7134
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7003
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7003
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7492
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3387
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3387
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7297
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7014
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7014
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 6939
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 6993
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2434
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7058
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7084
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2911
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7257
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7492
+		division_template = "Clegane Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7492
+		division_template = "Clegane Guard"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5356
+		division_template = "Westerland Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1563
+		division_template = "Westerland Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1826
+		division_template = "Westerland Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7813
+		division_template = "Westerland Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1598
+		division_template = "Westerland Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7545
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1512
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2939
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3693
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7713
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4646
+		division_template = "Westerland Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+    fleet = {
+        name = "Westerland Battle Force"			
+		naval_base = 3163 
+		task_force = {
+            name = "Westerland Task Force 1"
+			location = 3163 	
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = WSL } } }	
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = galley equipment = { galley_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }					
+        }
+        task_force = {
+            name = "Westerland Task Force 2"
+			location = 1146 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }			
+        }
+        task_force = {
+            name = "Westerland Task Force 3"
+			location = 7003 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }						
+        }
+        task_force = {
+            name = "Westerland Task Force 4"
+			location = 7544 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }					
+        }
+    }
 }
