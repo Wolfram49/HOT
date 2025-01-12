@@ -28,6 +28,37 @@ recruit_character = STL_jon_connington#
 recruit_character = STL_harrin_smithe#
 recruit_character = STL_renly_baratheon_theorist#
 
+set_research_slots = 4
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	tech_support = 1
+	merchant_ship = 1
+	trade_caravan = 1
+	horse_drawn_infantry = 1
+	metalworking = 1
+	paratroopers = 1
+	war_galley_0 = 1
+	longship_0 = 1
+	transport = 1
+	basic_cav = 1
+}
+
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 150
+}
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 30
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 60
+}
+
 set_politics = {
 	ruling_party = democratic
 }

@@ -1,4 +1,493 @@
+##### Division Templates #####
+division_template = {
+	name = "Stormlands Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Stormlands Cavalry"
+
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+		light_cavalry = { x = 0 y = 1 }
+		light_cavalry = { x = 0 y = 2 }
+		light_cavalry = { x = 1 y = 0 }
+		light_cavalry = { x = 1 y = 1 }
+		light_cavalry = { x = 1 y = 2 }
+		light_cavalry = { x = 2 y = 0 }
+        light_cavalry = { x = 2 y = 1 }
+        light_cavalry = { x = 2 y = 2 }
+		light_cavalry = { x = 3 y = 0 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 
+	}
+}
+units = {
+	division = {
+		location = 8022
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8022
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8041
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8041
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8028
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2273
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2273
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 117
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 117
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7885
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1830
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1830
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1830
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4427
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4427
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 971
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8093
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8093
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5468
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5468
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8150
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 233
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 233
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8126
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8316
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8316
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8149
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8149
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8232
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8232
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8244
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8244
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8203
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8203
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2242
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7994
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7994
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2256
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2256
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7977
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7977
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8388
+		division_template = "Stormlands Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8013
+		division_template = "Stormlands Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8013
+		division_template = "Stormlands Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8013
+		division_template = "Stormlands Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5444
+		division_template = "Stormlands Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5444
+		division_template = "Stormlands Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5444
+		division_template = "Stormlands Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+    fleet = {
+        name = "Stormlands Battle Force"			
+		naval_base = 1830 
+		task_force = {
+            name = "Stormlands Task Force 1"
+			location = 1830 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }				
+        }
+        task_force = {
+            name = "Stormlands Task Force 2"
+			location = 8093 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }					
+        }
+        task_force = {
+            name = "Stormlands Task Force 3"
+			location = 8022 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }					
+        }
+        task_force = {
+            name = "Stormlands Task Force 4"
+			location = 8316 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }					
+        }
+        task_force = {
+            name = "Stormlands Task Force 5"
+			location = 2273 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = STL } } }				
+        }
+    }
+}
 instant_effect = {
-
-
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = STL
+		}
+		requested_factories = 5
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = STL
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = light_cavalry_chassis_0
+			creator = STL
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = STL
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = STL
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = WSSTLL
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+		} 
+		requested_factories = 2
+		progress = 0.80
+	}
+    add_equipment_production = {
+		equipment = {
+			type = longship_hull_0
+			creator = "STL"
+		} 
+		requested_factories = 4
+		progress = 0.30
+	}
 }
