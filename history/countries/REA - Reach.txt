@@ -28,6 +28,39 @@ recruit_character = REA_leo_tyrell#
 recruit_character = REA_lucifer_tyrell#
 recruit_character = REA_darron_tarly#
 
+set_research_slots = 4
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	tech_support = 1
+	merchant_ship = 1
+	trade_caravan = 1
+	horse_drawn_infantry = 1
+	metalworking = 1
+	longship_0 = 1
+	transport = 1
+	basic_siege_tactics = 1
+	ballista_0 = 1
+	basic_cav = 1
+	library = 1
+	cartography = 1
+}
+
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 600
+}
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 100
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 1000
+}
+
 set_politics = {
 	ruling_party = fascism
 }

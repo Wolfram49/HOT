@@ -1,4 +1,788 @@
+##### Division Templates #####
+division_template = {
+	name = "Reach Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = { 	
+	}
+}
+division_template = {
+	name = "Reach Cavalry"
+
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+		light_cavalry = { x = 0 y = 1 }
+		light_cavalry = { x = 0 y = 2 }
+		light_cavalry = { x = 1 y = 0 }
+		light_cavalry = { x = 1 y = 1 }
+		light_cavalry = { x = 1 y = 2 }
+		light_cavalry = { x = 2 y = 0 }
+        light_cavalry = { x = 2 y = 1 }
+        light_cavalry = { x = 2 y = 2 }
+		light_cavalry = { x = 3 y = 0 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 
+        anti_tank = { x = 1 y = 0 }	
+
+	}
+}
 instant_effect = {
-
-
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = REA
+		}
+		requested_factories = 12
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = REA
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = light_cavalry_chassis_0
+			creator = REA
+		}
+		requested_factories = 6
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = REA
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = REA
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = REA
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = REA
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+		} 
+		requested_factories = 2
+		progress = 0.80
+	}
+    add_equipment_production = {
+		equipment = {
+			type = longship_hull_0
+			creator = "REA"
+		} 
+		requested_factories = 7
+		progress = 0.30
+	}
+}
+units = {
+	division = {
+		location = 8082
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8082
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8061
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8099
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8982
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8982
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2548
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2548
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8839
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8088
+		division_template = "Garrison"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8016
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8016
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4697
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7902
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 325
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 446
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 446
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2954
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2954
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8045
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8045
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3641
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3641
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8064
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8064
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8179
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8179
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8243
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8243
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8355
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5717
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3870
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4191
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4191
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8289
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8289
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4294
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4294
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8590
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8590
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5273
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5273
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4494
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4494
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8891
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7847
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 679
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 679
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8005
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 905
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8097
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8097
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8011
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3270
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3270
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4851
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4851
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7838
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8179
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7872
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7872
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1195
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2326
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1758
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1872
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8386
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4512
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1777
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8292
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2439
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8319
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 7838
+		division_template = "Reach Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5261
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5261
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5261
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5261
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3078
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3078
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3078
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3078
+		division_template = "Reach Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+    fleet = {
+        name = "Reach Battle Force"			
+		naval_base = 8590 
+		task_force = {
+            name = "Reach Task Force 1"
+			location = 8590 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }					
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+        }
+        task_force = {
+            name = "Reach Task Force 2"
+			location = 8982 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }		
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+        }
+        task_force = {
+            name = "Reach Task Force 3"
+			location = 4494 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }					
+        }
+        task_force = {
+            name = "Reach Task Force 4"
+			location = 8016 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }					
+        }
+        task_force = {
+            name = "Reach Task Force 5"
+			location = 8082 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }					
+        }
+        task_force = {
+            name = "Reach Task Force 6"
+			location = 8289 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }					
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+        }
+        task_force = {
+            name = "Reach Task Force 7"
+			location = 2548 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }					
+        }
+        task_force = {
+            name = "Reach Task Force 8"
+			location = 4294 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }				
+        }
+        task_force = {
+            name = "Reach Task Force 9"
+			location = 5273 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = REA } } }		
+        }
+    }
 }
