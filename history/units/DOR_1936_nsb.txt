@@ -1,4 +1,531 @@
+##### Division Templates #####
+division_template = {
+	name = "Dorne Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Dorne Cavalry"
+
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+		light_cavalry = { x = 0 y = 1 }
+		light_cavalry = { x = 0 y = 2 }
+		light_cavalry = { x = 1 y = 0 }
+		light_cavalry = { x = 1 y = 1 }
+		light_cavalry = { x = 1 y = 2 }
+		light_cavalry = { x = 2 y = 0 }
+        light_cavalry = { x = 2 y = 1 }
+        light_cavalry = { x = 2 y = 2 }
+		light_cavalry = { x = 3 y = 0 }
+	}
+	support = { 	
+		artillery = { x = 0 y = 0 } 
+	}
+}
+units = {
+	division = {
+		location = 8887
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8887
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3932
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4273
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8844
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8907
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8937
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8937
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4143
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4143
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8695
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5582
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5582
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1697
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 1697
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8954
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8954
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2908
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2908
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8488
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4226
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4226
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8356
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8346
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2258
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8395
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4526
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3483
+		division_template = "Dorne Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3483
+		division_template = "Dorne Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3483
+		division_template = "Dorne Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8838
+		division_template = "Dorne Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8838
+		division_template = "Dorne Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8838
+		division_template = "Dorne Cavalry"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8473
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5062
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5062
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8820
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5080
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 5080
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8455
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3238
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 3238
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 402
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 402
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 2905
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4359
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 4359
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8335
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8335
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+	division = {
+		location = 8331
+		division_template = "Dorne Division"
+		start_equipment_factor = 1.0 start_experience_factor = 1.0
+	}
+}
+units = {
+    fleet = {
+        name = "Dorne Battle Force"			
+		naval_base = 8887 
+		task_force = {
+            name = "Dorne Task Force 1"
+			location = 8887 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }				
+        }
+        task_force = {
+            name = "Dorne Task Force 2"
+			location = 8937 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }					
+        }
+        task_force = {
+            name = "Dorne Task Force 3"
+			location = 8954 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }					
+        }
+        task_force = {
+            name = "Dorne Task Force 4"
+			location = 4359 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }					
+        }
+        task_force = {
+            name = "Dorne Task Force 5"
+			location = 1697 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }				
+        }
+        task_force = {
+            name = "Dorne Task Force 6"
+			location = 8335 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }				
+        }
+        task_force = {
+            name = "Dorne Task Force 7"
+			location = 4143 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }				
+        }
+        task_force = {
+            name = "Dorne Task Force 8"
+			location = 4226 	
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }
+            ship = { definition = longship equipment = { longship_hull_0 = { amount = 1 owner = WSL } } }				
+        }
+    }
+}
 instant_effect = {
-
-
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = DOR
+		}
+		requested_factories = 9
+		progress = 0.1
+		efficiency = 24
+	}
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = DOR
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = light_cavalry_chassis_0
+			creator = DOR
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 20
+	}
+    add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = DOR
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 25
+	}
+    add_equipment_production = {
+		equipment = {
+			type = train_equipment_1
+			creator = DOR
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 15
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = DOR
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 120
+	}
+    add_equipment_production = {
+		equipment = {
+			type = convoy
+			creator = "USA"
+		} 
+		requested_factories = 2
+		progress = 0.80
+	}
+    add_equipment_production = {
+		equipment = {
+			type = longship_hull_0
+			creator = "DOR"
+		} 
+		requested_factories = 4
+		progress = 0.30
+	}
 }
