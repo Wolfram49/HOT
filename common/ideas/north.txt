@@ -1,0 +1,34 @@
+ideas = {
+    country = {
+        NRT_idea_1 = {
+            picture = FIN_lone_wolf        
+            modifier = {
+
+            }
+        }
+        NRT_idea_2 = {
+            picture = LIT_iron_wolf_bad_4        
+            modifier = {
+
+            }
+        }
+        NRT_idea_3 = {
+            picture = SOV_the_road_of_life        
+            modifier = {
+
+            }
+        }
+        NRT_idea_4 = {
+            picture = LIT_new_iron_wolf        
+            modifier = {
+
+            }
+        }
+        NRT_idea_5 = {
+            picture = tur_sectarian_troubles_kurdistan        
+            modifier = {
+
+            }
+        }
+    }
+}

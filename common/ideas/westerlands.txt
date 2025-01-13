@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        WSL_idea_1 = {
+            picture = BEL_european_crusade        
+            modifier = {
+
+            }
+        }
+        WSL_idea_2 = {
+            picture = SWE_the_lion_of_the_north        
+            modifier = {
+
+            }
+        }
+        WSL_idea_3 = {
+            picture = SPR_seize_the_gold_reserves        
+            modifier = {
+
+            }
+        }
+        WSL_idea_4 = {
+            picture = chi_wargaming_division        
+            modifier = {
+
+            }
+        }
+    }
+}

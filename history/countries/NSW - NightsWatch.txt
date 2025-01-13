@@ -54,6 +54,13 @@ set_technology = {
 	tech_engineers = 1
 }
 
+add_ideas = {
+	NSW_idea_1
+	NSW_idea_2
+	NSW_idea_3
+	NSW_idea_4
+}
+
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 180

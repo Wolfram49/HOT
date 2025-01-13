@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        IRI_idea_1 = {
+            picture = eng_steady_as_she_goes        
+            modifier = {
+
+            }
+        }
+        IRI_idea_2 = {
+            picture = eng_preparing_the_second_front        
+            modifier = {
+
+            }
+        }
+        IRI_idea_3 = {
+            picture = hol_prepare_the_inundation_lines        
+            modifier = {
+
+            }
+        }
+        IRI_idea_4 = {
+            picture = eng_service_overseas        
+            modifier = {
+
+            }
+        }
+    }
+}

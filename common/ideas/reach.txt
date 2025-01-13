@@ -1,0 +1,34 @@
+ideas = {
+    country = {
+        REA_idea_1 = {
+            picture = jap_supremacy_of_will        
+            modifier = {
+
+            }
+        }
+        REA_idea_2 = {
+            picture = jap_supremacy_of_technology        
+            modifier = {
+
+            }
+        }
+        REA_idea_3 = {
+            picture = jap_duplicate_research        
+            modifier = {
+
+            }
+        }
+        REA_idea_4 = {
+            picture = man_five_year_plan_industry        
+            modifier = {
+
+            }
+        }
+        REA_idea_5 = {
+            picture = generic_agrarian_reform        
+            modifier = {
+
+            }
+        }
+    }
+}

@@ -45,6 +45,13 @@ set_technology = {
 	basic_cav = 1
 }
 
+add_ideas = {
+	VAL_idea_1
+	VAL_idea_2
+	VAL_idea_3
+	VAL_idea_4
+}
+
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 340

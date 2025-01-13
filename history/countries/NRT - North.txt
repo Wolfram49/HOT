@@ -63,6 +63,14 @@ set_technology = {
 	basic_cav = 1
 }
 
+add_ideas = {
+	NRT_idea_1
+	NRT_idea_2
+	NRT_idea_3
+	NRT_idea_4
+	NRT_idea_5
+}
+
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 480

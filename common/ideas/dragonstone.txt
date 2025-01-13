@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        DRG_idea_1 = {
+            picture = NOR_sivog        
+            modifier = {
+
+            }
+        }
+        DRG_idea_2 = {
+            picture = CHL_armada_de_chile        
+            modifier = {
+
+            }
+        }
+        DRG_idea_3 = {
+            picture = bra_monarchist_uprising        
+            modifier = {
+
+            }
+        }
+        DRG_idea_4 = {
+            picture = BEL_fonderie_royale_de_canons_liege        
+            modifier = {
+
+            }
+        }
+    }
+}

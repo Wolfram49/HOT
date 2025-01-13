@@ -47,6 +47,12 @@ set_technology = {
 	transport = 1
 }
 
+add_ideas = {
+	IRI_idea_1
+	IRI_idea_2
+	IRI_idea_3
+	IRI_idea_4
+}
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 800

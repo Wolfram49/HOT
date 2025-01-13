@@ -42,6 +42,13 @@ set_technology = {
 	horse_drawn_infantry = 1
 }
 
+add_ideas = {
+	WIL_idea_1
+	WIL_idea_2
+	WIL_idea_3
+	WIL_idea_4
+}
+
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 100

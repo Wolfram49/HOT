@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        STL_idea_1 = {
+            picture = HUN_hungarian_monarchy_habsburg        
+            modifier = {
+
+            }
+        }
+        STL_idea_2 = {
+            picture = generic_production_bonus        
+            modifier = {
+
+            }
+        }
+        STL_idea_3 = {
+            picture = HUN_hungarian_life_movement_idea        
+            modifier = {
+
+            }
+        }
+        STL_idea_4 = {
+            picture = BEL_chasseurs_ardennais        
+            modifier = {
+
+            }
+        }
+    }
+}

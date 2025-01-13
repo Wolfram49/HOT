@@ -1,0 +1,8 @@
+WHW_modify_army_modifier = {
+	if = {
+		limit = { 
+			has_dynamic_modifier = { modifier = WHW_army_modifier }
+		}
+		custom_effect_tooltip = WHW_modify_army_modifier_tt
+	}
+}

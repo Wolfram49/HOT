@@ -1,4 +1,22 @@
 ideas = {
     country = {
+        WHW_idea_1 = {
+            picture = SOV_honest_serfdom_idea_ccp_sov_compatibility        
+            modifier = {
+
+            }
+        }
+        WHW_idea_2 = {
+            picture = ROM_the_sentinel_of_the_motherland_2        
+            modifier = {
+
+            }
+        }
+        WHW_idea_3 = {
+            picture = SWE_en_svensk_tiger        
+            modifier = {
+
+            }
+        }
     }
 }

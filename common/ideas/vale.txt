@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        VAL_idea_1 = {
+            picture = AUS_phonix_insurance_variant        
+            modifier = {
+
+            }
+        }
+        VAL_idea_2 = {
+            picture = CHL_fuerza_aerea_de_chile        
+            modifier = {
+
+            }
+        }
+        VAL_idea_3 = {
+            picture = generic_democratic_opposition        
+            modifier = {
+
+            }
+        }
+        VAL_idea_4 = {
+            picture = generic_spy_coup        
+            modifier = {
+
+            }
+        }
+    }
+}

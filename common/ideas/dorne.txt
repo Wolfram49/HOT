@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        DOR_idea_1 = {
+            picture = FRA_national_mobilization_focus        
+            modifier = {
+
+            }
+        }
+        DOR_idea_2 = {
+            picture = generic_victors_of_ww1        
+            modifier = {
+
+            }
+        }
+        DOR_idea_3 = {
+            picture = chi_war_of_resistance2        
+            modifier = {
+
+            }
+        }
+        DOR_idea_4 = {
+            picture = BEL_the_kings_surrender        
+            modifier = {
+
+            }
+        }
+    }
+}

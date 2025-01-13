@@ -48,6 +48,14 @@ set_technology = {
 	cartography = 1
 }
 
+add_ideas = {
+	REA_idea_1
+	REA_idea_2
+	REA_idea_3
+	REA_idea_4
+	REA_idea_5
+}
+
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 600

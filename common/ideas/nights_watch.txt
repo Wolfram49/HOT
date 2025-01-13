@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        NSW_idea_1 = {
+            picture = FRA_fortification_focus        
+            modifier = {
+
+            }
+        }
+        NSW_idea_2 = {
+            picture = vittoria_mutilata        
+            modifier = {
+
+            }
+        }
+        NSW_idea_3 = {
+            picture = ENG_the_war_to_end_all_wars        
+            modifier = {
+
+            }
+        }
+        NSW_idea_4 = {
+            picture = generic_disjointed_gov        
+            modifier = {
+
+            }
+        }
+    }
+}

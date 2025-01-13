@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        RIL_idea_1 = {
+            picture = ast_naval_auxiliary_patrol        
+            modifier = {
+
+            }
+        }
+        RIL_idea_2 = {
+            picture = saf_history_of_segregation        
+            modifier = {
+
+            }
+        }
+        RIL_idea_3 = {
+            picture = generic_purge        
+            modifier = {
+
+            }
+        }
+        RIL_idea_4 = {
+            picture = LAT_neopaganism_2        
+            modifier = {
+
+            }
+        }
+    }
+}

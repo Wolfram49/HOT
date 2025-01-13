@@ -1,0 +1,34 @@
+ideas = {
+    country = {
+        CRL_idea_1 = {
+            picture = AUS_habsburg_monarchy_restored        
+            modifier = {
+
+            }
+        }
+        CRL_idea_2 = {
+            picture = SOV_atomic_bomb_project        
+            modifier = {
+
+            }
+        }
+        CRL_idea_3 = {
+            picture = FIN_union_of_finnish_borthers_in_arms        
+            modifier = {
+
+            }
+        }
+        CRL_idea_4 = {
+            picture = FIN_finnish_army        
+            modifier = {
+
+            }
+        }
+        CRL_idea_5 = {
+            picture = FIN_maan_turva        
+            modifier = {
+
+            }
+        }
+    }
+}

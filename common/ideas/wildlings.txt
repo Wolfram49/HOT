@@ -1,5 +1,28 @@
 ideas = {
     country = {
+        WIL_idea_1 = {
+            picture = ITA_battaglie_per_la_nascite        
+            modifier = {
 
+            }
+        }
+        WIL_idea_2 = {
+            picture = SWE_neither_death_nor_dishonor        
+            modifier = {
+
+            }
+        }
+        WIL_idea_3 = {
+            picture = POL_disjointed_industry        
+            modifier = {
+
+            }
+        }
+        WIL_idea_4 = {
+            picture = MEX_politicised_army        
+            modifier = {
+
+            }
+        }
     }
 }

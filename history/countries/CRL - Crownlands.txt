@@ -52,6 +52,14 @@ set_technology = {
 	paratroopers = 1
 }
 
+add_ideas = {
+	CRL_idea_1
+	CRL_idea_2
+	CRL_idea_3
+	CRL_idea_4
+	CRL_idea_5
+}
+
 add_equipment_to_stockpile = {
 	type = convoy
 	amount = 100
