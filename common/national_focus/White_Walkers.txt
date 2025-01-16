@@ -11,7 +11,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = WHW_the_rise_of_ice
-		icon = GFX_goal_unknown
+		icon = GFX_SOV_organize_uprisings_in_the_country_ccp_2d_sov_compatibility
 		cost = 0
 		x = 31
 		y = 1
@@ -35,7 +35,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_frozen_trade_routes
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_ascension_of_himmler
 		cost = 0
 		x = 64
 		y = 9
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_coldforged_economy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_expand_ss_security_duties
 		cost = 0
 		x = 69
 		y = 9
@@ -51,7 +51,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_icy_mint_of_oblivion
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_glorify_party_rallies
 		cost = 0
 		x = 75
 		y = 9
@@ -637,7 +637,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_harvest_of_the_dead
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_philipp_holzmann
 		cost = 0
 		prerequisite = {
 			focus = WHW_frozen_trade_routes
@@ -648,7 +648,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_icy_tithe_of_war
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_expand_gestapo
 		cost = 0
 		prerequisite = {
 			focus = WHW_frozen_trade_routes
@@ -659,7 +659,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_the_frozen_silk_road
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_integration_of_puppet_economies
 		cost = 0
 		prerequisite = {
 			focus = WHW_icy_tithe_of_war
@@ -708,7 +708,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_economy_of_the_long_night
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_form_organization_todt
 		cost = 0
 		prerequisite = {
 			focus = WHW_icy_tithe_of_war
@@ -730,7 +730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_hoarfrost_labor_force
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_hegemony_of_the_ss
 		cost = 0
 		prerequisite = {
 			focus = WHW_coldforged_economy
@@ -741,7 +741,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_winterbound_smithies
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_optimize_reich_labour_service
 		cost = 0
 		prerequisite = {
 			focus = WHW_hoarfrost_labor_force
@@ -755,7 +755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_gold_of_the_ancient_north
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_rally_the_industrialists
 		cost = 0
 		prerequisite = {
 			focus = WHW_economy_of_the_long_night
@@ -769,7 +769,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_glacierborn_supply_chains
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_ascension_of_speer
 		cost = 0
 		prerequisite = {
 			focus = WHW_coldforged_economy
@@ -780,7 +780,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_wintery_harvest
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_propaganda_master
 		cost = 0
 		prerequisite = {
 			focus = WHW_glacierborn_supply_chains
@@ -858,7 +858,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_pale_forges_of_doom
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_ascension_of_goebbels
 		cost = 0
 		prerequisite = {
 			focus = WHW_icy_mint_of_oblivion
@@ -872,7 +872,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_war_for_the_frozen_treasures
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_reich_ministry_of_public_enlightenment
 		cost = 0
 		prerequisite = {
 			focus = WHW_icy_mint_of_oblivion
@@ -886,7 +886,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_industry_of_ice_and_bone
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_total_control_over_domestic_affairs
 		cost = 0
 		prerequisite = {
 			focus = WHW_war_for_the_frozen_treasures
@@ -900,7 +900,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_bitter_fruits_of_war
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_plenipotentiary_of_armaments
 		cost = 0
 		prerequisite = {
 			focus = WHW_wintery_harvest
@@ -914,7 +914,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_tribute_to_the_night_king
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_a_strong_successor
 		cost = 0
 		prerequisite = {
 			focus = WHW_industry_of_ice_and_bone
@@ -928,7 +928,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_snowbound_resources
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_loyalty_to_the_fuhrer
 		cost = 0
 		prerequisite = {
 			focus = WHW_industry_of_ice_and_bone
@@ -1139,7 +1139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = WHW_winter's_industrial_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_prioritize_the_four_year_plan
 		cost = 0
 		prerequisite = {
 			focus = WHW_harvest_of_the_dead
